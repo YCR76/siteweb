@@ -59,12 +59,6 @@ pageRef = "/le-club"
 weight = 10
 
 [[menus.main]]
-name = "L'actualité"
-parent = "Le club"
-url = "/l-actualite/"
-weight = 11
-
-[[menus.main]]
 name = "L'activité dériveur"
 parent = "Le club"
 pageRef = "/le-club/lactivite-deriveur"
@@ -81,12 +75,6 @@ name = "Tarifs"
 parent = "Le club"
 pageRef = "/le-club/tarifs"
 weight = 14
-
-[[menus.main]]
-name = "Base documentaire"
-parent = "Le club"
-pageRef = "/le-club/base-documentaire"
-weight = 15
 
 [[menus.main]]
 name = "Galerie"

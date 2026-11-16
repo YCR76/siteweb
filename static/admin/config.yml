@@ -77,10 +77,6 @@ collections:
         label: Tarifs (le club)
         name: tarifs
         fields: *pageFields
-      - file: content/le-club/base-documentaire.md
-        label: Base documentaire
-        name: base-documentaire
-        fields: *pageFields
       - file: content/le-club/don-club.md
         label: Don au club
         name: don-club
@@ -240,31 +236,6 @@ collections:
         name: body
         widget: markdown
         required: false
-
-  - name: documents
-    label: Base documentaire
-    folder: content/documents
-    create: true
-    slug: "{{slug}}"
-    sortable_fields: [date, title]
-    fields:
-      - label: Titre
-        name: title
-        widget: string
-      - label: Date
-        name: date
-        widget: datetime
-        format: YYYY-MM-DD HH:mm:ss
-        date_format: DD/MM/YYYY
-        time_format: HH:mm
-        required: false
-      - label: Résumé
-        name: summary
-        widget: string
-        required: false
-      - label: Liens vers les fichiers
-        name: body
-        widget: markdown
 
   - name: galerie
     label: Galerie de photos
