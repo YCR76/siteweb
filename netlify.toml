@@ -1,0 +1,21 @@
+# Paramètres de déploiement Netlify pour le site YCR76 (Hugo)
+
+[build]
+  command = "hugo --gc --minify"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.169.0"
+  HUGO_ENABLEGITINFO = "false"
+
+# Page d'administration du CMS : pas de cache (mise à jour immédiate)
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    Cache-Control = "no-store"
+
+# Accueil : autoriser les images optimisées Netlify
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"

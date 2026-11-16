@@ -1,0 +1,83 @@
+{{ define "main" }}
+<article class="page">
+  <h1>{{ .Title }}</h1>
+  {{ if .Content }}<div class="page-body">{{ .Content }}</div>{{ end }}
+</article>
+
+{{- $children := where .Pages "Params.excludeFromList" "!=" true }}
+
+{{ if eq .Type "evenement" }}
+  <div id="agenda-complet" class="agenda-complet"></div>
+  {{- $now := now -}}
+  {{- $past := slice -}}
+  {{- $upcoming := slice -}}
+  {{- range where .Pages "Params.excludeFromList" "!=" true }}
+    {{- $sortDate := .Date }}
+    {{- with .Params.startDate }}{{ $sortDate = time . }}{{ end }}
+    {{- with .Params.endDate }}{{ $sortDate = time . }}{{ end }}
+    {{- if $sortDate.After $now }}{{ $upcoming = $upcoming | append . }}{{ else }}{{ $past = $past | append . }}{{ end }}
+  {{- end }}
+  {{- with $upcoming }}
+  {{- $upcoming = sort . "Params.startDate" -}}
+  <section class="events-upcoming">
+    <h2>À venir</h2>
+    <ul class="event-list">
+      {{- range $upcoming }}
+      <li>
+        <span class="event-when">{{ .Params.startDate | default .Date | dateFormat "02/01/2006" }}{{ with .Params.endDate }} → {{ dateFormat "02/01/2006" . }}{{ end }}</span>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+  {{- with $past }}
+  {{- $past = sort . "Params.startDate" "desc" -}}
+  <details class="events-past">
+    <summary><h2>Événements passés</h2></summary>
+    <ul class="event-list">
+      {{- range $past }}
+      <li>
+        <span class="event-when">{{ .Params.startDate | default .Date | dateFormat "02/01/2006" }}{{ with .Params.endDate }} → {{ dateFormat "02/01/2006" . }}{{ end }}</span>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+      {{- end }}
+    </ul>
+  </details>
+  {{- end }}
+{{ else if eq .Type "nos-partenaires" }}
+<nav class="child-cards partners-grid">
+  {{- range $children }}
+  <a class="card partner-card" href="{{ .RelPermalink }}">
+    {{ with .Params.logo }}<img src="{{ . }}" alt="" loading="lazy">{{ end }}
+    <h3>{{ .Title }}</h3>
+    {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+  </a>
+  {{- end }}
+</nav>
+
+{{ else if eq .Type "actualites" }}
+<div class="news-list">
+  {{ range .Pages.ByDate.Reverse }}
+  <article class="news-item">
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p class="news-date">{{ .Date | time.Format ":date_long" }}</p>
+    {{ with .Params.summary }}<p class="summary">{{ . }}</p>{{ end }}
+  </article>
+  {{ end }}
+</div>
+
+{{ else }}
+  {{- $children := where .Pages "Params.excludeFromList" "!=" true }}
+  {{- if gt (len $children) 0 }}
+  <nav class="child-cards">
+    {{- range $children }}
+    <a class="card" href="{{ .RelPermalink }}">
+      <h3>{{ .Title }}</h3>
+      {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+    </a>
+    {{- end }}
+  </nav>
+  {{- end }}
+{{ end }}
+{{ end }}

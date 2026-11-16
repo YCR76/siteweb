@@ -1,0 +1,268 @@
+baseURL = "https://www.ycr76.fr/"
+title = "Yacht Club Rouen 76"
+locale = "fr-FR"
+defaultContentLanguage = "fr"
+copyright = "© Yacht Club Rouen 76 — Association loi du 1er juillet 1901"
+enableGitInfo = false
+enableRobotsTXT = true
+disableHugoGeneratorInject = true
+
+[pagination]
+pagerSize = 10
+
+# Sortie additionnelle : flux RSS classique + fichier iCal pour l'agenda
+[outputs]
+home = ["HTML", "RSS", "calendrier"]
+section = ["HTML", "RSS"]
+
+[outputFormats]
+[outputFormats.calendrier]
+mediaType = "text/calendar"
+isPlainText = true
+baseName = "calendrier"
+extension = "ics"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+codeFences = false
+
+[permalinks]
+# :filename = nom du fichier sans extension (dates incluses) : sûr, pas de collision
+# ni de caractère interdit ; les anciennes URLs Drupal restent accessibles via aliases.
+# sans permalink : /divers/x/, /documents/x/…
+actualites = "/l-actualite/:filename/"
+evenement = "/calendrier/:filename/"
+
+[params]
+description = "Yacht Club Rouen 76 — école de voile, compétition dériveur, base de plein air de Hénouville (Seine-Maritime)"
+# Coordonnées pied de page
+clubName = "Yacht Club Rouen 76"
+clubAddress = "1444 chaussée Bertrand — Base de Plein Air d'Hénouville — 76840 Hénouville"
+clubPhone = "+33235323404"
+clubPhoneLabel = "02 35 32 34 04"
+clubEmail = "contact@ycr76.fr"
+facebook = "https://www.facebook.com/Ycr76/"
+youtube = "https://www.youtube.com/@YCR76"
+# Widgets
+weathercloudUrl = "https://app.weathercloud.net/d9815420917?language=fr&units=nautical"
+weathercloudSticker = "https://app.weathercloud.net/device/sticker/9815420917?language=fr&units=nautical"
+
+# ---------------------------------------------------------------------------
+# Menus déroulants (labels en français, alias = anciennes URL Drupal pour le SEO)
+# ---------------------------------------------------------------------------
+# — Le club —
+[[menus.main]]
+name = "Le club"
+pageRef = "/le-club"
+weight = 10
+
+[[menus.main]]
+name = "L'actualité"
+parent = "Le club"
+url = "/l-actualite/"
+weight = 11
+
+[[menus.main]]
+name = "L'activité dériveur"
+parent = "Le club"
+pageRef = "/lactivite-deriveur"
+weight = 12
+
+[[menus.main]]
+name = "Organigramme"
+parent = "Le club"
+pageRef = "/organigramme"
+weight = 13
+
+[[menus.main]]
+name = "Tarifs"
+parent = "Le club"
+pageRef = "/tarifs"
+weight = 14
+
+[[menus.main]]
+name = "Base documentaire"
+parent = "Le club"
+pageRef = "/base-documentaire"
+weight = 15
+
+[[menus.main]]
+name = "Galerie"
+parent = "Le club"
+pageRef = "/galerie"
+weight = 16
+
+[[menus.main]]
+name = "Agenda"
+parent = "Le club"
+url = "/calendrier/"
+weight = 17
+
+[[menus.main]]
+name = "Don au club"
+parent = "Le club"
+pageRef = "/don-club"
+weight = 18
+
+[[menus.main]]
+name = "Licence FFVoile — adhésion en ligne"
+parent = "Le club"
+pageRef = "/licence-ffvoile-adhesion-ligne"
+weight = 19
+
+# — Stages —
+[[menus.main]]
+name = "Stages"
+pageRef = "/stages"
+weight = 20
+
+[[menus.main]]
+name = "Stage multisports"
+parent = "Stages"
+pageRef = "/stages/stage-multisports"
+weight = 21
+
+[[menus.main]]
+name = "Stage voile"
+parent = "Stages"
+pageRef = "/stages/stage-voile"
+weight = 22
+
+# — Base de plein air —
+[[menus.main]]
+name = "Base de plein air"
+pageRef = "/activites"
+weight = 30
+
+[[menus.main]]
+name = "L'hébergement"
+parent = "Base de plein air"
+pageRef = "/activites/hebergement"
+weight = 31
+
+[[menus.main]]
+name = "Scolaires"
+parent = "Base de plein air"
+pageRef = "/activites/scolaires"
+weight = 32
+
+[[menus.main]]
+name = "Tarifs centre de loisirs"
+parent = "Base de plein air"
+pageRef = "/activites/tarifs-centre-loisirs"
+weight = 33
+
+[[menus.main]]
+name = "Séance à la carte"
+parent = "Base de plein air"
+pageRef = "/activites/seances-carte"
+weight = 34
+
+[[menus.main]]
+name = "Journée d'entreprise"
+parent = "Base de plein air"
+pageRef = "/activites/journee-dentreprise"
+weight = 35
+
+[[menus.main]]
+name = "Savoir rouler à vélo"
+parent = "Base de plein air"
+pageRef = "/activites/savoir-rouler-velo"
+weight = 36
+
+# — Voile loisir —
+[[menus.main]]
+name = "Voile loisir"
+pageRef = "/voile-loisir"
+weight = 40
+
+[[menus.main]]
+name = "Voile adulte"
+parent = "Voile loisir"
+pageRef = "/voile-loisir/voile-adoadulte"
+weight = 41
+
+[[menus.main]]
+name = "Voile jeune"
+parent = "Voile loisir"
+pageRef = "/voile-loisir/voile-jeune"
+weight = 42
+
+[[menus.main]]
+name = "Balade à la voile"
+parent = "Voile loisir"
+pageRef = "/voile-loisir/balade-voile"
+weight = 43
+
+[[menus.main]]
+name = "Programme"
+parent = "Voile loisir"
+pageRef = "/voile-loisir/programme"
+weight = 44
+
+[[menus.main]]
+name = "Voile seniors"
+parent = "Voile loisir"
+pageRef = "/voile-loisir/voile-seniors"
+weight = 45
+
+# — Compétition —
+[[menus.main]]
+name = "Compétition"
+pageRef = "/competition"
+weight = 50
+
+[[menus.main]]
+name = "Agenda des régates"
+parent = "Compétition"
+pageRef = "/programme"
+weight = 51
+
+[[menus.main]]
+name = "Résultats des dernières régates"
+parent = "Compétition"
+pageRef = "/resultats"
+weight = 52
+
+[[menus.main]]
+name = "Pré-inscription aux régates"
+parent = "Compétition"
+pageRef = "/competition/pre-inscription-regate"
+weight = 53
+
+[[menus.main]]
+name = "Les classes"
+parent = "Compétition"
+pageRef = "/competition/les-classes"
+weight = 54
+
+[[menus.main]]
+name = "Les clubs"
+parent = "Compétition"
+pageRef = "/competition/les-clubs"
+weight = 55
+
+[[menus.main]]
+name = "Voile habitable"
+parent = "Compétition"
+pageRef = "/competition/voile-habitable"
+weight = 56
+
+# — Divers —
+[[menus.main]]
+name = "Partenaires"
+pageRef = "/nos-partenaires"
+weight = 60
+
+[[menus.main]]
+name = "Devenir partenaire"
+parent = "Partenaires"
+pageRef = "/nos-partenaires/devenir-partenaire"
+weight = 61
+
+[[menus.main]]
+name = "Contact"
+pageRef = "/contactez-nous"
+weight = 70

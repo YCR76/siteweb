@@ -1,0 +1,291 @@
+# Configuration du CMS (Sveltia) pour le site YCR76
+# Le directeur édite tout le contenu d'ici ; chaque publication crée un
+# commit GitHub, et Netlify reconstruit le site automatiquement.
+# Le dépôt GitHub sera complété lors de la mise en ligne (voir MODE D'EMPLOI).
+site_url: https://www.ycr76.fr
+logo_url: /images/logo.jpg
+
+backend:
+  name: github
+  repo: A_COMPLETER/utilisateur/nom-du-depot
+  branch: main
+
+media_folder: static/images/uploads
+public_path: /images/uploads
+
+locale: fr
+
+collections:
+  # Les ancres (^pageFields etc.) permettent de declarer les champs une seule fois.
+
+  - name: accueil
+    label: Accueil et rubriques principales
+    files:
+      - file: content/_index.md
+        label: Page d'accueil
+        name: accueil
+        fields: &rootPage
+          - label: Titre
+            name: title
+            widget: string
+          - label: Contenu
+            name: body
+            widget: markdown
+      - file: content/actualites/_index.md
+        label: Rubrique Actualité (présentation)
+        name: actualites-index
+        fields: *rootPage
+      - file: content/evenement/_index.md
+        label: Rubrique Agenda (présentation)
+        name: agenda-index
+        fields: *rootPage
+
+  - name: pages-principales
+    label: Pages du site (hors rubriques)
+    files:
+      - file: content/contactez-nous.md
+        label: Contactez-nous
+        name: contactez-nous
+        fields: &pageFields
+          - label: Titre
+            name: title
+            widget: string
+          - label: Résumé
+            name: summary
+            widget: string
+            required: false
+          - label: Contenu
+            name: body
+            widget: markdown
+      - file: content/actualites/_index.md
+        label: Rubrique Actualité (présentation)
+        name: actualites-index
+        fields: *pageFields
+      - file: content/evenement/_index.md
+        label: Rubrique Agenda (présentation)
+        name: agenda-index
+        fields: *pageFields
+      - file: content/lactivite-deriveur.md
+        label: L'activité dériveur
+        name: lactivite-deriveur
+        fields: *pageFields
+      - file: content/organigramme.md
+        label: Organigramme
+        name: organigramme
+        fields: *pageFields
+      - file: content/tarifs.md
+        label: Tarifs (le club)
+        name: tarifs
+        fields: *pageFields
+      - file: content/base-documentaire.md
+        label: Base documentaire
+        name: base-documentaire
+        fields: *pageFields
+      - file: content/don-club.md
+        label: Don au club
+        name: don-club
+        fields: *pageFields
+      - file: content/licence-ffvoile-adhesion-ligne.md
+        label: Licence FFVoile - adhésion en ligne
+        name: licence-ffvoile
+        fields: *pageFields
+      - file: content/resultats.md
+        label: Résultats des dernières régates
+        name: resultats
+        fields: *pageFields
+      - file: content/programme.md
+        label: Programme des régates
+        name: programme
+        fields: *pageFields
+      - file: content/activite-multi-sports.md
+        label: Activité multi-sports
+        name: activite-multi-sports
+        fields: *pageFields
+      - file: content/politique-confidentialite.md
+        label: Politique de confidentialité
+        name: politique-confidentialite
+        fields: *pageFields
+
+  - name: evenements
+    label: Agenda (événements)
+    folder: content/evenement
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: [startDate, title]
+    fields:
+      - label: Titre
+        name: title
+        widget: string
+      - label: Catégorie
+        name: categorie
+        widget: select
+        options: [Régate, Sortie club, Stage, Indisponibilité, Autre]
+        default: Régate
+      - label: Date de début
+        name: startDate
+        widget: datetime
+        format: YYYY-MM-DD
+        date_format: DD/MM/YYYY
+        time_format: false
+      - label: Toute la journée ?
+        name: allDay
+        widget: boolean
+        default: true
+      - label: Date de fin (optionnelle)
+        name: endDate
+        widget: datetime
+        format: YYYY-MM-DD
+        date_format: DD/MM/YYYY
+        time_format: false
+        required: false
+      - label: Autres dates (ex. manches supplémentaires)
+        name: autresDates
+        widget: list
+        required: false
+        field:
+          label: Date
+          name: date
+          widget: datetime
+          format: YYYY-MM-DD
+          date_format: DD/MM/YYYY
+          time_format: false
+      - label: Résumé
+        name: summary
+        widget: string
+        required: false
+      - label: Description
+        name: body
+        widget: markdown
+        required: false
+
+  - name: actualites
+    label: Actualités
+    folder: content/actualites
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: [date, title]
+    fields:
+      - label: Titre
+        name: title
+        widget: string
+      - label: Date
+        name: date
+        widget: datetime
+        format: YYYY-MM-DD HH:mm:ss
+        date_format: DD/MM/YYYY
+        time_format: HH:mm
+      - label: Catégorie (optionnelle)
+        name: categorie
+        widget: string
+        required: false
+      - label: Résumé
+        name: summary
+        widget: string
+        required: false
+      - label: Contenu
+        name: body
+        widget: markdown
+
+  - name: le-club
+    label: Rubrique Le club
+    folder: content/le-club
+    create: true
+    fields: *pageFields
+
+  - name: stages
+    label: Rubrique Stages
+    folder: content/stages
+    create: true
+    fields: *pageFields
+
+  - name: activites
+    label: Rubrique Base de plein air
+    folder: content/activites
+    create: true
+    fields: *pageFields
+
+  - name: voile-loisir
+    label: Rubrique Voile loisir
+    folder: content/voile-loisir
+    create: true
+    fields: *pageFields
+
+  - name: competition
+    label: Rubrique Compétition
+    folder: content/competition
+    create: true
+    fields: *pageFields
+
+  - name: partenaires
+    label: Partenaires
+    folder: content/nos-partenaires
+    create: true
+    fields:
+      - label: Titre
+        name: title
+        widget: string
+      - label: Logo
+        name: logo
+        widget: image
+        required: false
+      - label: Site internet
+        name: siteInternet
+        widget: string
+        required: false
+      - label: Résumé
+        name: summary
+        widget: string
+        required: false
+      - label: Description
+        name: body
+        widget: markdown
+        required: false
+
+  - name: documents
+    label: Base documentaire
+    folder: content/documents
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: [date, title]
+    fields:
+      - label: Titre
+        name: title
+        widget: string
+      - label: Date
+        name: date
+        widget: datetime
+        format: YYYY-MM-DD HH:mm:ss
+        date_format: DD/MM/YYYY
+        time_format: HH:mm
+        required: false
+      - label: Résumé
+        name: summary
+        widget: string
+        required: false
+      - label: Liens vers les fichiers
+        name: body
+        widget: markdown
+
+  - name: galerie
+    label: Galerie de photos
+    folder: content/galerie
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: Titre
+        name: title
+        widget: string
+      - label: Date
+        name: date
+        widget: datetime
+        format: YYYY-MM-DD
+        date_format: DD/MM/YYYY
+        time_format: false
+      - label: Présentation
+        name: summary
+        widget: string
+        required: false
+      - label: Contenu (texte + photos)
+        name: body
+        widget: markdown
+        required: false

@@ -1,0 +1,53 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="{{ "/" | relLangURL }}" aria-label="Accueil — {{ .Site.Title }}">
+      <img src="/images/logo.jpg" alt="" width="64" height="64">
+      <span class="brand-text">Yacht Club <strong>Rouen&nbsp;76</strong></span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="menu-principal">
+      <span class="menu-toggle-bar"></span><span class="menu-toggle-bar"></span><span class="menu-toggle-bar"></span>
+      <span class="sr-only">Menu</span>
+    </button>
+  </div>
+  <nav class="main-nav" id="menu-principal" aria-label="Menu principal">
+    <ul>
+      {{- range .Site.Menus.main }}
+      {{- if not .HasChildren }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{- else }}
+      <li class="has-submenu">
+        <a href="{{ .URL }}" aria-haspopup="true">{{ .Name }}</a>
+        <button class="submenu-toggle" aria-expanded="false" aria-label="Ouvrir le sous-menu {{ .Name }}">▾</button>
+        <ul class="submenu" hidden>
+          {{- range .Children }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{- end }}
+        </ul>
+      </li>
+      {{- end }}
+      {{- end }}
+    </ul>
+  </nav>
+</header>
+<script>
+  (function () {
+    var t = document.querySelector('.menu-toggle');
+    var nav = document.querySelector('.main-nav');
+    if (t && nav) {
+      t.addEventListener('click', function () {
+        var open = nav.classList.toggle('is-open');
+        t.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    }
+    document.querySelectorAll('.submenu-toggle').forEach(function (btn) {
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        var li = btn.closest('.has-submenu');
+        var list = li.querySelector('.submenu');
+        var open = li.classList.toggle('is-open');
+        if (list) list.hidden = !open;
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    });
+  })();
+</script>

@@ -1,0 +1,11 @@
+# Génération Hugo
+public/
+resources/
+
+# Import Drupal (staging)
+content-import/
+
+# Divers
+.hugo_build.lock
+.DS_Store
+Thumbs.db

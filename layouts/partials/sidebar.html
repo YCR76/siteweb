@@ -1,0 +1,16 @@
+{{ partial "sidebar-agenda.html" . }}
+<div class="sidebar-block" id="bloc-meteo">
+  <h2 class="sidebar-title">Météo</h2>
+  <a href="{{ site.Params.weathercloudUrl }}" target="_blank" rel="noopener">
+    <img src="{{ site.Params.weathercloudSticker }}" alt="Station météo du club — vent et conditions sur la Seine à Hénouville" loading="lazy">
+  </a>
+</div>
+
+<div class="sidebar-block" id="bloc-coordonnees">
+  <h2 class="sidebar-title">Coordonnées</h2>
+  <p><strong>{{ site.Params.clubName }}</strong><br>
+    {{ site.Params.clubAddress }}</p>
+  <p><a href="tel:{{ site.Params.clubPhone }}">{{ site.Params.clubPhoneLabel }}</a><br>
+    <a href="mailto:{{ site.Params.clubEmail }}">{{ site.Params.clubEmail }}</a></p>
+  <p><a class="btn" href="{{ "contactez-nous/" | relLangURL }}">Nous contacter</a></p>
+</div>

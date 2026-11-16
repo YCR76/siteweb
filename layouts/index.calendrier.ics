@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//YCR76//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Agenda Yacht Club Rouen 76
+X-WR-TIMEZONE:Europe/Paris
+{{- range where (site.RegularPages) "Type" "evenement" }}
+{{- $start := .Date }}
+{{- with .Params.startDate }}{{ $start = time . }}{{ end }}
+{{- $end := "" }}
+{{- with .Params.endDate }}{{ $end = (time .) }}{{ end }}
+BEGIN:VEVENT
+UID:{{ printf "ycr76-%s@www.ycr76.fr" .File.UniqueID }}
+SUMMARY:{{ .Title | replaceRE "[;\\\\]" "_" }}
+DTSTAMP:{{ now.UTC.Format "20060102T150405Z" }}
+{{- if .Params.allDay }}
+DTSTART;VALUE=DATE:{{ $start.Format "20060102" }}
+{{- if $end }}{{ $end = $end.AddDate 0 0 1 }}
+DTEND;VALUE=DATE:{{ $end.Format "20060102" }}
+{{- end }}{{- else }}
+DTSTART;TZID=Europe/Paris:{{ $start.Format "20060102T150405" }}
+{{- if $end }}
+DTEND;TZID=Europe/Paris:{{ $end.Format "20060102T150405" }}
+{{- end }}{{- end }}
+LOCATION:{{ with .Params.location }}{{ . }}{{ else }}Base de Plein Air d'Hénouville\, 1444 chaussée Bertrand\, 76840 Hénouville{{ end }}
+DESCRIPTION:{{ .Params.summary | default (delimit (split .Plain (printf "\n")) " ") | truncate 300 | plainify | replaceRE "[;\\\\]" "_" | replaceRE "[\r\n]+" " " }}
+URL:https://www.ycr76.fr{{ .RelPermalink }}
+END:VEVENT
+{{- end }}
+END:VCALENDAR

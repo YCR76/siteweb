@@ -1,0 +1,42 @@
+{{ define "main" }}
+<article class="page">
+  <h1>{{ .Title }}</h1>
+  {{ if .Content }}<div class="page-body">{{ .Content }}</div>{{ end }}
+</article>
+
+{{- $children := where .Pages "Params.excludeFromList" "!=" true }}
+
+{{ if eq .Section "nos-partenaires" }}
+<nav class="child-cards partners-grid">
+  {{- range $children }}
+  <a class="card partner-card" href="{{ .RelPermalink }}">
+    {{ with .Params.logo }}<img src="{{ . }}" alt="" loading="lazy">{{ end }}
+    <h3>{{ .Title }}</h3>
+    {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+  </a>
+  {{- end }}
+</nav>
+
+{{ else if eq .Section "actualites" }}
+<div class="news-list">
+  {{ range .Pages.ByDate.Reverse }}
+  <article class="news-item">
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p class="news-date">{{ .Date | time.Format ":date_long" }}</p>
+    {{ with .Params.summary }}<p class="summary">{{ . }}</p>{{ end }}
+  </article>
+  {{ end }}
+</div>
+{{ else }}
+  {{- if gt (len $children) 0 }}
+  <nav class="child-cards">
+    {{- range $children }}
+    <a class="card" href="{{ .RelPermalink }}">
+      <h3>{{ .Title }}</h3>
+      {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+    </a>
+    {{- end }}
+  </nav>
+  {{- end }}
+{{ end }}
+{{ end }}

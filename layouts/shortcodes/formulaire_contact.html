@@ -1,0 +1,22 @@
+{{- $action := .Get "action" | default "/merci-contact.html" }}
+<form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-champ" action="{{ $action }}" class="netlify-form">
+  <input type="hidden" name="form-name" value="contact">
+  <p class="sr-only"><label>Ne pas remplir si vous êtes humain : <input name="bot-champ"></label></p>
+  <label for="cf-nom">Nom *</label>
+  <input id="cf-nom" type="text" name="nom" required>
+  <label for="cf-email">Adresse e-mail *</label>
+  <input id="cf-email" type="email" name="email" required>
+  <label for="cf-tel">Téléphone</label>
+  <input id="cf-tel" type="tel" name="telephone">
+  <label for="cf-sujet">Sujet *</label>
+  <select id="cf-sujet" name="sujet" required>
+    <option value="École de voile / stages">École de voile / stages</option>
+    <option value="Régate / compétition">Régate / compétition</option>
+    <option value="Base de plein air / hébergement">Base de plein air / hébergement</option>
+    <option value="Partenariat">Partenariat</option>
+    <option value="Autre">Autre</option>
+  </select>
+  <label for="cf-message">Message *</label>
+  <textarea id="cf-message" name="message" rows="6" required></textarea>
+  <button type="submit" class="btn">Envoyer</button>
+</form>

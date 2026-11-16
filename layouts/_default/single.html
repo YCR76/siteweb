@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article class="page">
+  <h1>{{ .Title }}</h1>
+  {{ if .Content }}<div class="page-body">{{ .Content }}</div>{{ end }}
+  {{ if eq .Type "evenement" }}
+  {{- $start := .Date }}
+  {{- with .Params.startDate }}{{ $start = time . }}{{ end }}
+  <p class="event-date">
+    <strong>Dates :</strong>
+    {{ $start | time.Format ":date_long" }}{{ with .Params.endDate }} — {{ (time .) | time.Format ":date_long" }}{{ end }}
+  </p>
+  {{ end }}
+</article>
+{{ end }}

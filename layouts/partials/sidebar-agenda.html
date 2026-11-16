@@ -1,0 +1,20 @@
+<div class="sidebar-block" id="bloc-agenda">
+  <h2 class="sidebar-title">Calendrier</h2>
+  <div id="agenda-mini" class="agenda-mini"></div>
+  <p class="agenda-links">
+    <a href="{{ "calendrier/" | relLangURL }}">Agenda complet</a> ·
+    <a href="{{ "calendrier.ics" | relLangURL }}">Ajouter à mon calendrier (.ics)</a>
+  </p>
+  {{- $events := where (site.RegularPages) "Type" "evenement" }}
+  {{- $data := slice }}
+  {{- range $e := $events }}
+    {{- $start := $e.Date }}
+    {{- with $e.Params.startDate }}{{ $start = time . }}{{ end }}
+    {{- $item := dict "title" $e.Title "start" ($start.Format "2006-01-02T15:04:05") "allDay" ($e.Params.allDay) "url" $e.RelPermalink }}
+    {{- with $e.Params.endDate }}{{ $item = merge $item (dict "end" ((time .).Format "2006-01-02T15:04:05")) }}{{ end }}
+    {{- $data = $data | append $item }}
+  {{- end }}
+  <script>
+    window.waterwindEvents = {{ $data | jsonify }};
+  </script>
+</div>

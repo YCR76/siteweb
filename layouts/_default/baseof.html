@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }}{{ if and (ne .Kind "home") .Title }} — {{ .Site.Title }}{{ end }}</title>
+  {{ with .Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  {{ hugo.Generator }}
+  {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.css">
+  <link rel="icon" href="/images/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "l-actualite/index.xml" | relLangURL }}">
+  <link rel="alternate" type="text/calendar" title="Agenda des régates" href="{{ "calendrier.ics" | relLangURL }}">
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js" defer></script>
+</head>
+<body>
+  {{ partial "header.html" . }}
+  <div class="page-shell">
+    <main id="contenu" class="main-col">
+      {{ block "main" . }}{{ end }}
+    </main>
+    <aside class="sidebar" aria-label="Informations latérales">
+      {{ partial "sidebar.html" . }}
+    </aside>
+  </div>
+  {{ partial "footer.html" . }}
+</body>
+</html>

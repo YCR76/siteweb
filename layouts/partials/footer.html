@@ -1,0 +1,21 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <strong>{{ site.Params.clubName }}</strong><br>
+      {{ site.Params.clubAddress }}<br>
+      <a href="tel:{{ site.Params.clubPhone }}">{{ site.Params.clubPhoneLabel }}</a>
+    </div>
+    <div>
+      <a href="{{ "contactez-nous/" | relLangURL }}">Contact</a><br>
+      <a href="{{ "politique-confidentialite/" | relLangURL }}">Politique de confidentialité</a><br>
+      <a href="{{ "l-actualite/index.xml" | relLangURL }}">Flux RSS</a>
+    </div>
+    <div>
+      <a href="{{ site.Params.facebook }}" target="_blank" rel="noopener">Facebook</a><br>
+      <a href="{{ site.Params.youtube }}" target="_blank" rel="noopener">YouTube</a><br>
+      <a href="{{ "calendrier.ics" | relLangURL }}">Agenda (.ics)</a>
+    </div>
+  </div>
+  <p class="footer-legal">Association loi du 1<sup>er</sup> juillet 1901 — {{ site.Copyright }}</p>
+</footer>
+<script src="{{ (resources.Get "js/calendar.js" | minify).RelPermalink }}" defer></script>
