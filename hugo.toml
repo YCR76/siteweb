@@ -59,6 +59,12 @@ pageRef = "/le-club"
 weight = 10
 
 [[menus.main]]
+name = "L'actualité"
+parent = "Le club"
+url = "/l-actualite/"
+weight = 11
+
+[[menus.main]]
 name = "L'activité dériveur"
 parent = "Le club"
 pageRef = "/le-club/lactivite-deriveur"

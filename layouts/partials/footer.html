@@ -3,7 +3,8 @@
     <div>
       <strong>{{ site.Params.clubName }}</strong><br>
       {{ site.Params.clubAddress }}<br>
-      <a href="tel:{{ site.Params.clubPhone }}">{{ site.Params.clubPhoneLabel }}</a>
+      <a href="tel:{{ site.Params.clubPhone }}">{{ site.Params.clubPhoneLabel }}</a><br>
+      <a href="mailto:{{ site.Params.clubEmail }}">{{ site.Params.clubEmail }}</a></br>
     </div>
     <div>
       <a href="{{ "contactez-nous/" | relLangURL }}">Contact</a><br>
