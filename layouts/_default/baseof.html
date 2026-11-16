@@ -25,5 +25,13 @@
     </aside>
   </div>
   {{ partial "footer.html" . }}
+  {{- /* Widget Netlify Identity sur les pages publiques : traite les liens
+        d'invitation (#invite_token) et de récupération de mot de passe
+        (#recover_token) qui pointent vers la racine du site (plan gratuit
+        Netlify : gabarits d'e-mails non personnalisables). Inoffensif pour
+        les visiteurs : rien ne s'affiche sans jeton. */ -}}
+  {{ if ne .RelPermalink "/admin/" }}
+  <script src="https://cdn.jsdelivr.net/npm/netlify-identity-widget@1.2.1/build/netlify-identity-widget.js"></script>
+  {{ end }}
 </body>
 </html>
