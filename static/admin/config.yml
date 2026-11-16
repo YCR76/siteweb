@@ -7,7 +7,7 @@ logo_url: /images/logo.jpg
 
 backend:
   name: github
-  repo: A_COMPLETER/utilisateur/nom-du-depot
+  repo: tguenneguez/site
   branch: main
 
 media_folder: static/images/uploads
