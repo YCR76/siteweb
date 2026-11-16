@@ -21,7 +21,7 @@ tant le samedi que le dimanche... Nos épreuves sont ouvertes à tous,
 sans catégorie d'âge... Osez l'OpenSkiff !!!
 Vous retrouvez tous les renseignements et horaires nécessaires dans
 l'[AVIS
-DE COURSE](https://www.ycr76.fr/sites/default/files/24_ac_les_regates_du_printemps_a_henouville_-_06_et_07_avril_2024.pdf) et le formulaire de préinscription : [HelloAsso](https://www.helloasso.com/associations/ycr76-yacht-club-rouen-76/evenements/regates-06-et-07-avril)
+DE COURSE](/fichiers/24_ac_les_regates_du_printemps_a_henouville_-_06_et_07_avril_2024.pdf) et le formulaire de préinscription : [HelloAsso](https://www.helloasso.com/associations/ycr76-yacht-club-rouen-76/evenements/regates-06-et-07-avril)
 Essayez de faire un effort pour que vous soyez préinscrits selon le
 modèle prévu... ***Donc avant le jeudi 04
 avril*** ... Les coureurs du club ont
@@ -36,7 +36,7 @@ Antoine, coach sur l'épreuve, a déjà réservé l'hébergement pour ceux
 qui ont confirmé (***Trop Tard !***
 mais peut-être encore une solution possible si oubli...)
 [AVIS
-DE COURSE](https://www.ycr76.fr/sites/default/files/24_ac_ilca_cherbourg_avril.pdf). Chaque coureur doit se préinscrire lui-même ***avant le 07 avril.*** Le club
+DE COURSE](/fichiers/24_ac_ilca_cherbourg_avril.pdf). Chaque coureur doit se préinscrire lui-même ***avant le 07 avril.*** Le club
 règlera directement les droits d'inscription pour les coureurs
 inscrits dans le sondage-club à cette date.
 
@@ -59,7 +59,7 @@ Alexis est coach sur l'épreuve, nous allons essayer de trouver un
 hébergement à proximité pour les 2 nuits...  Je vous laisse ***jusqu'au 14 avril*** pour
 répondre au sondage avant de réserver le 15 ... **[SONDAGE CLUB](https://framadate.org/mrVGCJczSqpbyRSJ)**
 [AVIS
-DE COURSE](https://www.ycr76.fr/sites/default/files/24_ac_ilca_le_havre_avril.pdf)  Chaque coureur doit se préinscrire lui-même ***avant le 20 avril.*** Le club
+DE COURSE](/fichiers/24_ac_ilca_le_havre_avril.pdf)  Chaque coureur doit se préinscrire lui-même ***avant le 20 avril.*** Le club
 règlera directement les droits d'inscription pour les coureurs
 inscrits dans le sondage-club à cette date.
 
@@ -78,7 +78,7 @@ ils régatent... à terre, ils retrouvent logiquement leurs
 prérogatives pédagogiques notamment vis à vis des jeunes, mais dans
 un cadre purement bénévole !!!
 [AVIS
-DE COURSE](https://www.ycr76.fr/sites/default/files/24_ac_cdf_interseries_teignouse_cup_mai.pdf) Comme tous les championnats de France en dériveurs,
+DE COURSE](/fichiers/24_ac_cdf_interseries_teignouse_cup_mai.pdf) Comme tous les championnats de France en dériveurs,
 le club gère votre inscription comme le paiement des frais
 d'inscription.
 L'hébergement, toujours très compliqué sur la presqu’ile, a déjà été

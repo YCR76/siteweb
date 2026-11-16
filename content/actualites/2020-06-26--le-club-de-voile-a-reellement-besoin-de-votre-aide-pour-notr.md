@@ -28,10 +28,10 @@ Voici quelques idées pour nous aider :
 
 [![](cid:part7.5D6B3908.0C5BE82E@guenneguez.com) Re-Twitter](https://twitter.com/Ycr76/status/1274002276538101760)
 
-[![](cid:part9.2F3A5E43.41BC96AB@guenneguez.com)](https://www.ycr76.fr/sites/default/files/affiche_stages.pdf)[Coller l'affiche jointe chez vos commerçants](https://www.ycr76.fr/sites/default/files/affiche_stages.pdf) (si vous
+[![](cid:part9.2F3A5E43.41BC96AB@guenneguez.com)](/fichiers/affiche_stages.pdf)[Coller l'affiche jointe chez vos commerçants](/fichiers/affiche_stages.pdf) (si vous
 n'avez pas d'imprimante, des affiches sont disponibles au club)
 
-[![](cid:part12.3B92E608.23C96DED@guenneguez.com) Partager notre flyers joint](https://www.ycr76.fr/sites/default/files/liste_des_stages_et_activites_dete_2020.pdf)
+[![](cid:part12.3B92E608.23C96DED@guenneguez.com) Partager notre flyers joint](/fichiers/liste_des_stages_et_activites_dete_2020.pdf)
 
 Sachez enfin que les membres 2020  (adhésion + cotisation Club)
 bénéficient d'une réduction de 10% sur le tarif de l'ensemble

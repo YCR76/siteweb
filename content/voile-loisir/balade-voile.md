@@ -7,7 +7,7 @@ aliases:
 ---
 # Navigation à la voile en vallée de Seine
 
-![Goélette Mercator](https://www.ycr76.fr/sites/default/files/goelettes_small.jpg)
+![Goélette Mercator](/fichiers/goelettes_small.jpg)
 
 Depuis le cadre verdoyant de la Base de plein air d'Hénouville, vous embarquerez sur une goélette Mercator, voilier de 7 m 65 avec quatre voiles.
 
@@ -24,6 +24,6 @@ Selon la marée, vous naviguerez soit vers La Bouille, soit vers Duclair pour d�
 
 **Réservation obligatoire.** Programmation sur demande, sous réserve de disponibilité, uniquement du lundi au vendredi. Départs possibles à 10 h, 13 h 45 ou 16 h 15.
 
-[Télécharger la description détaillée (PDF)](https://www.ycr76.fr/sites/default/files/navigation-a-la-voile-en-vallee-de-seine.pdf)
+[Télécharger la description détaillée (PDF)](/fichiers/navigation-a-la-voile-en-vallee-de-seine.pdf)
 
-[![Balades et randonnées nautiques](https://www.ycr76.fr/sites/default/files/balades_et_randos_nautiques.jpg)](https://www.seine-maritime-tourisme.com/diffusio/fr/je-choisis/une-balade/randonnees-nautiques/henouville/navigation-a-la-voile-en-vallee-de-seine_TFOASCNOR076V51AX9H.php)
+[![Balades et randonnées nautiques](/fichiers/balades_et_randos_nautiques.jpg)](https://www.seine-maritime-tourisme.com/diffusio/fr/je-choisis/une-balade/randonnees-nautiques/henouville/navigation-a-la-voile-en-vallee-de-seine_TFOASCNOR076V51AX9H.php)

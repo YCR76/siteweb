@@ -42,7 +42,7 @@ d'abord prendre connaissance en fonction de votre choix de support
 de l'[AVIS DE COURSE](cid:part1.lGFcGS05.0YHtkCqH@ycr76.fr) [CdF EUROPE](cid:part1.lGFcGS05.0YHtkCqH@ycr76.fr) (CVBCM
 à Maubuisson)
 ou de l'[AVIS
-DE COURSE GPA ILCA](https://www.ycr76.fr/sites/default/files/23_ac_hourtin.pdf) (CVHM à Hourtin)
+DE COURSE GPA ILCA](/fichiers/23_ac_hourtin.pdf) (CVHM à Hourtin)
 
 puis remplir le [SONDAGE CLUB](https://framadate.org/mqjrvi8D1pD85LFS)  (support - déplacement
 collectif - hébergement collectif)  **nécessairement avant le 17 octobre**

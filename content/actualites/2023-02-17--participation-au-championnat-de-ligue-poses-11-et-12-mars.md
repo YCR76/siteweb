@@ -30,7 +30,7 @@ Merci à tous de vous inscrire dans le **[SONDAGE CLUB](https://framadate.org/xg
 avant cette date limite !
 
 Ensuite, il faudra que chacun lise l'[**AVIS
-DE COURSE**](https://www.ycr76.fr/sites/default/files/23_avis_de_course_-_chptligue_r1_deriveur_poses.pdf) et suive la procédure d'inscription à la
+DE COURSE**](/fichiers/23_avis_de_course_-_chptligue_r1_deriveur_poses.pdf) et suive la procédure d'inscription à la
 régate en finissant par **régler les frais d'inscription sur
 HelloAsso**.
 

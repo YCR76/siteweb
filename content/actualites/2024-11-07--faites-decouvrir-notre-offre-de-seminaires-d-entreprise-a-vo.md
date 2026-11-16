@@ -17,7 +17,7 @@ les avantages qu’il peut offrir pour leurs événements
 professionnels.
 
 [**Plaquette
-séminaire**](https://www.ycr76.fr/sites/default/files/seminaire.pdf?client=membre)
+séminaire**](/fichiers/seminaire.pdf)
 
 N'hésitez pas à nous contacter pour toute demande particulière ou
 pour réserver dès maintenant.

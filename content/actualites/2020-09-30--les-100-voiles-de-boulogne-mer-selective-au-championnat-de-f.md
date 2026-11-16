@@ -28,7 +28,7 @@ l'hébergement samedi !***
 [**PRE
 INSCRIPTION nécessaire possible jusqu'au 03 octobre**](http://francelaser.org/inscriptions/Formulaire?regate=224)  ***plus qu'URGENT, à faire absolument !***
 
-[**AVIS DE COURSE**](https://www.ycr76.fr/sites/default/files/20_ac_boulogne_laser.pdf)***à
+[**AVIS DE COURSE**](/fichiers/20_ac_boulogne_laser.pdf)***à
 lire !***
 
 Si tout le monde ou presque peut participer au championnat de

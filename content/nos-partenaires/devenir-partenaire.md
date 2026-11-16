@@ -31,6 +31,6 @@ aliases:
 
 Vous souhaitez devenir partenaire du club.
 
-Nous avons mis à votre disposition [un formulaire](https://www.ycr76.fr/sites/default/files/formulaire_don-mecenat.pdf).
+Nous avons mis à votre disposition [un formulaire](/fichiers/formulaire_don-mecenat.pdf).
 
 [N'hésitez pas à nous contacter](https://www.ycr76.fr/contactez-nous)

@@ -11,7 +11,7 @@ Tous nos moniteurs et éducateurs sportifs sont titulaires de qualifications req
 Par souci de simplification d’organisation, mais aussi de manière à limiter les coûts de ses prestations, la base de loisirs a choisi de proposer aux groupes type "centres de loisirs", des activités sous forme de forfaits.
 Dans le cas où nos forfaits ne correspondraient pas à vos attentes, contactez-nous !
 
-![](https://www.ycr76.fr/sites/default/files/efv.png#overlay-context=activites) ![](https://www.ycr76.fr/sites/default/files/logo_station_sports_nature.png#overlay-context=activites)
+![](/fichiers/efv.png) ![](/fichiers/logo_station_sports_nature.png)
 
 ### Le VTT
 

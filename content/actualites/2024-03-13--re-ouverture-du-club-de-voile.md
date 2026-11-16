@@ -21,7 +21,7 @@ VOUS !!!**
 
 Prenez note, nous nous retrouvons également pour régater
 ensemble... très prochainement !     [AVIS
-DE COURSE](https://www.ycr76.fr/sites/default/files/24_ac_les_regates_du_printemps_a_henouville_-_06_et_07_avril_2024.pdf)
+DE COURSE](/fichiers/24_ac_les_regates_du_printemps_a_henouville_-_06_et_07_avril_2024.pdf)
 
 ![](cid:part1.iZHkoKq7.607dyCui@ycr76.fr)
 

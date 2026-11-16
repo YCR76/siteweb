@@ -28,7 +28,7 @@ possibles que si nous avons vos soutiens !**
 **Les dons à notre club sont** **possibles
 directement en ligne via le site [helloasso](https://www.helloasso.com/associations/ycr76-yacht-club-rouen-76/formulaires/1)
 ou [en
-version papier](https://www.ycr76.fr/sites/default/files/formulaire_don-mecenat_0.pdf) .... et nécessairement avant le 31 décembre
+version papier](/fichiers/formulaire_don-mecenat_0.pdf) .... et nécessairement avant le 31 décembre
 pour bénéficier d'une déduction fiscale dès cette année !**
 
 Tous vos dons sont déductibles d’impôts à concurrence de 66 %

@@ -32,7 +32,7 @@ La séance de 2h sur une structure artificielle. Les cordes, les mousquetons, le
 
 Nous sommes en mesure de nous déplacer avec notre mur d'escalade SAE et de vous proposer une séance à domicile (journée ou demi-journée) Tarifs et disponibilités : nous consulter !
 
-![](https://www.ycr76.fr/sites/default/files/styles/thumbnail/public/1696006357850.jpg?itok=dxIN4ICj)
+![](/fichiers/1696006357850.jpg)
 
 ##
 

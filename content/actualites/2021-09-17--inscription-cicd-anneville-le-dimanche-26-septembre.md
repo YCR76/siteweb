@@ -11,7 +11,7 @@ Le dimanche 26 septembre a lieu l'épreuve de **C**hallenge
 **I**nter-**C**lubs **D**ériveurs prévue le **dimanche
 26 septembre sur le lac d'Anneville**.
 
-Vous trouverez l'avis de course en ligne sur [ac\_-\_cicd\_anneville.pdf](https://www.ycr76.fr/sites/default/files/ac_-_cicd_anneville.pdf)
+Vous trouverez l'avis de course en ligne sur [ac\_-\_cicd\_anneville.pdf](/fichiers/ac_-_cicd_anneville.pdf)
 
 ainsi que le lien pour vous préinscrire :   [LIEN
 DE PRE-INSCRIPTION](https://www.ycr76.fr/pre-inscription-regate?regate=355&type=Autre)  ***Les

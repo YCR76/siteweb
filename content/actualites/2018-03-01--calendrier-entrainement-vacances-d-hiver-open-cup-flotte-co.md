@@ -34,7 +34,7 @@ que possible, une fois votre équipage constitué.****Laser Vago** (en double) p
 **RS Feva** (en double)  réservé aux 8 - 15 ans
 
 [AVIS
-DE COURSE (avec feuille d'inscription)](https://www.ycr76.fr/sites/default/files/20180119_avis_de_course_3eme_open_cup_flotte_collective.pdf)
+DE COURSE (avec feuille d'inscription)](/fichiers/20180119_avis_de_course_3eme_open_cup_flotte_collective.pdf)
 
 [SONDAGE
 PARTICIPATION](https://doodle.com/poll/fbv7n3u8gew4px2u)

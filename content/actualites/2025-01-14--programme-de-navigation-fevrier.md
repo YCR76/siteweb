@@ -61,7 +61,7 @@ devez être titulaire de
 - liasse du dossier régatier mineur 2025 à jour, au plus tard
   le jour du départ (en piece jointe)
 - [Autorisation
-  parentale pour les mineurs](https://www.ycr76.fr/sites/default/files/autorisation_parentale_type_0.pdf)
+  parentale pour les mineurs](/fichiers/autorisation_parentale_type_0.pdf)
 
 Le chargement est prévu le samedi matin avant le départ du club**.**Horaires à définir en fonction des remorques de retour de
 Cherbourg la veille.

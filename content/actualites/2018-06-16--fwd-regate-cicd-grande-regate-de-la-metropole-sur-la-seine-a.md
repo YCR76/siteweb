@@ -42,7 +42,7 @@ avant le 18 juin
 A FAIRE AUPRÈS DU CLUB ORGANISATEUR](https://docs.google.com/forms/d/e/1FAIpQLSfKYqG-IkKGy41TufA2TXPpY-rzZ-W_vlBfbCPET_TZ9JnIlw/viewform)
 avant le 21 juin
 
-![](https://www.ycr76.fr/sites/default/files/mailhandler_temp/2018-affiche-Grande-r%C3%A9gate-M%C3%A9tropole-Rouen-Normandie-small.jpg)
+
 
 |  |  |
 | --- | --- |

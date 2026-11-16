@@ -34,7 +34,7 @@ weekend.
 Pour participer il faut :
 
 - Lire l'[**avis
-  de course**](https://www.ycr76.fr/sites/default/files/24_chptligue-r1-deriveur-poses-2024.pdf)
+  de course**](/fichiers/24_chptligue-r1-deriveur-poses-2024.pdf)
 - s'inscrire dans le [**sondage club**](https://framadate.org/WFYww4lwEGhA8Aan)
   ***avant le 13 mars***
 - s'inscrire sur le [**HelloAsso

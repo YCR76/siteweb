@@ -21,7 +21,7 @@ Je serai en charge du déplacement et je suivrai plus
 particulièrement les plus jeunes (notamment les Optimists et les
 Openskiff) tant sur la préparation à terre, que sur l'eau grâce à
 ma présence en bateau à moteur... [AVIS
-DE COURSE](https://www.ycr76.fr/sites/default/files/23_ac_-_cicd_vernon_0.pdf)
+DE COURSE](/fichiers/23_ac_-_cicd_vernon_0.pdf)
 
 Pour s'inscrire, il faut répondre nécessairement au [SONDAGE CLUB](https://framadate.org/mTfvExbFHN6tSIHN) **avant le 27 Septembre****ET** également remplir le [FORMULAIRE
 DU YC VERNON](https://www.helloasso.com/associations/yacht-club-de-vernon/evenements/regate-cicd-vernon-01-octobre-2023) qui nous accueille.

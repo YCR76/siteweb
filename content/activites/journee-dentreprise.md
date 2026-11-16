@@ -13,7 +13,7 @@ De plus, cette journée permettra de booster la motivation de vos équipes et d�
 
 Vous pourrez également profiter de ce moment pour définir de nouveaux objectifs communs ou pour communiquer sur des changements organisationnels au sein de l’entreprise, dans une ambiance plus conviviale et propice à l’échange.
 
-Cet accueil est proposé par notre équipe à partir 5 personnes et pour un coût de **125€** /Personne.![](https://www.ycr76.fr/sites/default/files/img_0236.jpg)
+Cet accueil est proposé par notre équipe à partir 5 personnes et pour un coût de **125€** /Personne.![](/fichiers/img_0236.jpg)
 
 ## Comment se passe une journée de cohésion d'entreprise chez nous ?
 

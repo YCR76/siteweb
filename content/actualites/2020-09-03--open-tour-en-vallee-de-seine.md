@@ -10,9 +10,9 @@ Nous en sommes tous désolé, et nous sommes tous conscients des préparations q
 
 Toutes les informations officielles de la régate, les résultats, les décisions d’arbitrage.
 
-![](https://www.ycr76.fr/sites/default/files/field/image/openskiff_poster_fr_opentour_2020-21_vallee-seine.jpg)
+![](/fichiers/field/image/openskiff_poster_fr_opentour_2020-21_vallee-seine.jpg)
 
-Le [protocole COVID disponible ici](https://www.ycr76.fr/sites/default/files/protocole_covid.pdf) s'appliquera durant toute la durée de l'épreuve.
+Le [protocole COVID disponible ici](/fichiers/protocole_covid.pdf) s'appliquera durant toute la durée de l'épreuve.
 
 ## INSCRIPTIONS
 
@@ -22,9 +22,9 @@ Liste des inscrits : <https://www.ycr76.fr/transfertmanuel/R_20201003_INS.HTM>
 
 ## INFOS COMITÉ DE COURSE
 
-[Avis de Course](https://www.ycr76.fr/sites/default/files/avis_de_course_open_tour_en_vallee_de_seine.pdf)
+[Avis de Course](/fichiers/avis_de_course_open_tour_en_vallee_de_seine.pdf)
 
-[Instructions de Course](https://www.ycr76.fr/sites/default/files/ic_open_tour_en_vallee_de_seine_2020.pdf) *publié le 28/09/2020 nouveau*
+[Instructions de Course](/fichiers/ic_open_tour_en_vallee_de_seine_2020.pdf) *publié le 28/09/2020 nouveau*
 
 Avenants :
 
@@ -47,8 +47,8 @@ Jour 2 (04 octobre) :
 
 Accès aux sites: **ATTENTION** : Les coureurs, les équipes et les parents visitent la région !!!  Voir la 4ème page de l'avis de course disponible plus haut ;-)
 
-[Modèle d'autorisation Parentale](https://www.ycr76.fr/sites/default/files/autorisation_parentale.pdf) a retourner par mail de préférence à [opentour2020@ycr76.fr](mailto:opentour2020@ycr76.fr)
+[Modèle d'autorisation Parentale](/fichiers/autorisation_parentale.pdf) a retourner par mail de préférence à [opentour2020@ycr76.fr](mailto:opentour2020@ycr76.fr)
 
 ## Partenaires de l'épreuve - dotations de lots
 
-![](https://www.ycr76.fr/sites/default/files/styles/thumbnail/public/logo_copyweb_rvb_-_a_utiliser.jpg?itok=zxuUSB7i)   ![](https://www.ycr76.fr/sites/default/files/styles/thumbnail/public/decathlon.png?itok=5oUev7k8)   ![](https://www.ycr76.fr/sites/default/files/styles/thumbnail/public/paris-voile.jpg?itok=YFl0ljZy)   ![](https://www.ycr76.fr/sites/default/files/maxicoffee-m.png)   ![](https://www.ycr76.fr/sites/default/files/field/image/tahe_outdoors.gif)   ![](https://www.ycr76.fr/sites/default/files/field/image/nenuphar-sailing.jpg)
+   ![](/fichiers/decathlon.png)   ![](/fichiers/paris-voile.jpg)      ![](/fichiers/field/image/tahe_outdoors.gif)   ![](/fichiers/field/image/nenuphar-sailing.jpg)

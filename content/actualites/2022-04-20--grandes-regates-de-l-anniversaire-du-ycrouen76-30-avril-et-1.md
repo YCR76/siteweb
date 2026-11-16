@@ -30,7 +30,7 @@ avec la participation de tous nos clubs voisins (Vernon, Anneville,
 Elbeuf, Varenne...).
 Rendez-vous à partir de 10h pour un briefing à 12h00 et un 1er
 départ à 13h - Détails dans l'[avis
-de course](https://www.ycr76.fr/sites/default/files/ac_cicd_henouville_2022.pdf)
+de course](/fichiers/ac_cicd_henouville_2022.pdf)
 **Inscriptions obligatoire**
 **avant le 28 avril   [PRE-INSCRIPTION](http://www.ycr76.fr/pre-inscription-regate)**
 

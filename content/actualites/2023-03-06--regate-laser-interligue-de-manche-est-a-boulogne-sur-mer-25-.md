@@ -27,7 +27,7 @@ l'aube et retour dimanche soir...
 
 - Suivre nécessairement la procédure de préinscription expliquée
   dans l' **[AVIS
-  DE COURSE](https://www.ycr76.fr/sites/default/files/23_ac_boulogne_ilca.pdf)** ***avant le 14 mars***
+  DE COURSE](/fichiers/23_ac_boulogne_ilca.pdf)** ***avant le 14 mars***
 
 **Infos tarifs** : Les frais d'inscription sont de 25€,
 ils seront pris en charge pour moitié par notre club pour les

@@ -43,15 +43,15 @@ D'autres stages (perfectionnement) seront organisés durant les vacances de Tous
 
 ### Détails techniques et administratifs :
 
-- **SAVOIR NAGER** - Fournir un certificat de natation au 1er jour du stage, ou à minima le [test d'aisance aquatique](http://www.ycr76.fr/sites/default/files/test_aisance_aquatique_2.pdf) rempli par un professionnel habilité
+- **SAVOIR NAGER** - Fournir un certificat de natation au 1er jour du stage, ou à minima le [test d'aisance aquatique](/fichiers/test_aisance_aquatique_2.pdf) rempli par un professionnel habilité
 - **QUESTIONNAIRE DE SANTE** - [Questionnaire](https://www.ffvoile.fr/ffv/web/services/medical/documents/Questionnaire_Sante_FFVoile_mineur.pdf) à remplir (ou fournir un certificat médical de non-contre-indication à la pratique des sports nautiques ou si réponse positive à l'une des questions posées du questionnaire)
-- **FICHE D'AUTORISATION LEGALE** - [Formulaire](http://www.ycr76.fr/sites/default/files/autorisations_legales.pdf) à remplir
+- **FICHE D'AUTORISATION LEGALE** - [Formulaire](/fichiers/autorisations_legales.pdf) à remplir
 - L’ensemble du matériel sportif est fourni par la structure, ( gilets de sauvetage…)
 - Les stagiaires apportent leurs équipement personnels pour l’ensemble des activités prévues durant le stage ainsi que le nécessaire pour prendre une douche sur place après l’activité sportive.
 - Pensez à vous équiper de tenues adaptées à la météo du jour (y compris les protections solaires)... Un coupe-vent de type K-Way est nécessaire... Le port d'une combinaison isothermique (shorty) est idéal, nous avons éventuellement quelques unités à prêter les jours les plus frais !
 
 ### N’hésitez pas à nous contacter pour tous renseignements supplémentaires.
 
-![](https://www.ycr76.fr/sites/default/files/3_openbic.jpg#overlay-context=stage-voile) ![](https://www.ycr76.fr/sites/default/files/image_opti_henouville.jpeg#overlay-context=stage-voile)
+![](/fichiers/3_openbic.jpg) ![](/fichiers/image_opti_henouville.jpeg)
 
 Pour une activité annuelle, vous aurez toutes les informations sur la [page dédiée à la voile jeune](https://www.ycr76.fr/voile-jeune).

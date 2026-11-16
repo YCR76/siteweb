@@ -25,7 +25,7 @@ participation financière ainsi qu'une **réservation obligatoire**
 novembre**... lien dans l'avis de course !     
 
 **[AVIS
-DE COURSE](https://www.ycr76.fr/sites/default/files/avis_de_course_poelee_normande.pdf)**
+DE COURSE](/fichiers/avis_de_course_poelee_normande.pdf)**
 
 Toute l'équipe reste à votre disposition notamment pour vous
 aider à créer des équipages, n'hésitez pas à nous appeler... et

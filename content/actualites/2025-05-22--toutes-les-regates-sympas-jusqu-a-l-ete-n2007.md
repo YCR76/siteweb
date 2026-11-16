@@ -16,7 +16,7 @@ commence dès ce weekend :
   Donatien... Rendez-vous au club à 14h pour un 1er départ à 15h15
 
 - **Dimanche 08 juin** - Régate [Raid
-  en Seine (5B) au YCVernon](https://www.ycr76.fr/sites/default/files/25_ac_-_8_juin_-_raid_en_seine_-_fete_du_club.pdf) - en fonction de vos
+  en Seine (5B) au YCVernon](/fichiers/25_ac_-_8_juin_-_raid_en_seine_-_fete_du_club.pdf) - en fonction de vos
   préinscriptions (4 pers minimum), nous organisons le déplacement
   : **[SONDAGE
   CLUB](https://framadate.org/BKqAUC7nW1nBRjOv)**  **à remplir

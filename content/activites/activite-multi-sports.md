@@ -10,7 +10,7 @@ Nous proposons une activité hebomadaire de septembre à juin (hors vacances sco
 Pour les 7 – 12 ans, de 9h30 à 11h30 le mercredi matin.
 Pour les adultes, le mardi de 15h à 17h30.
 
-![](http://www.ycr76.fr/sites/default/files/img_0665.jpg)![](http://www.ycr76.fr/sites/default/files/img_1166.jpg)![](http://www.ycr76.fr/sites/default/files/img_5719.jpg)
+![](/fichiers/img_0665.jpg)![](/fichiers/img_1166.jpg)![](/fichiers/img_5719.jpg)
 
 Notre association propose de s'initier et de pratiquer différents sports dans une structure affiliée "Fédération Française sportspourtous". Elle permet d’apprendre et de pratiquer :
 
@@ -28,7 +28,7 @@ Notre association propose de s'initier et de pratiquer différents sports dans u
 
 Afin de pouvoir participer aux activités nautiques proposés, il est nécessaire de savoir nager et donc, se munir d'un certificat de natation ou test d'aisance aquatique.
 
-![](https://www.ycr76.fr/sites/default/files/tir_a_larc.png)![](https://www.ycr76.fr/sites/default/files/golf_1.jpg)![](https://www.ycr76.fr/sites/default/files/mur_escalade.jpg)
+![](/fichiers/tir_a_larc.png)![](/fichiers/golf_1.jpg)![](/fichiers/mur_escalade.jpg)
 
 **La première séance est gratuite.**
 

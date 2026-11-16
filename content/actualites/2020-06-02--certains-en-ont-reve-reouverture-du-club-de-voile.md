@@ -17,10 +17,10 @@ Pour
 garantir l’accueil dans le respect de ces préconisations, **la
 pré-inscription en ligne à chaque séance est obligatoire**
 et vous devez signer et nous retourner [le
-formulaire de reprise](https://www.ycr76.fr/sites/default/files/formulaire_reprise_activite_covid19.pdf), idéalement par mail à [contact@ycr76.fr](mailto:contact@ycr76.fr).
+formulaire de reprise](/fichiers/formulaire_reprise_activite_covid19.pdf), idéalement par mail à [contact@ycr76.fr](mailto:contact@ycr76.fr).
 
 Lisez le [document
-attentivement](https://www.ycr76.fr/sites/default/files/covid19_gestesbarrieresclubs_phase2.pdf) !!!
+attentivement](/fichiers/covid19_gestesbarrieresclubs_phase2.pdf) !!!
 
 **Jusqu'à nouvel ordre** (ou levées de
 chacune de ces directives) **:**
@@ -56,7 +56,7 @@ chacune de ces directives) **:**
 
 - Pour ceux qui sont à jour de leur licence FFVoile 2020 et de
   leur cotisation au club ([bordereau
-  2020](https://www.ycr76.fr/sites/default/files/2020_bordereau_dadhesion.pdf))
+  2020](/fichiers/2020_bordereau_dadhesion.pdf))
 
 - Les séances des **samedis** (de 1 à 3 groupes décalés
   possibles)... Pour tous nos navigateurs autonomes, juste **collégiens et plus âgés**... pas

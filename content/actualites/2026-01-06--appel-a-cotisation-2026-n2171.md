@@ -29,7 +29,7 @@ administratives sont nécessaires et obligatoires)* 
 
 - En ligne avec le portail HelloAsso (le plus simple) <https://www.helloasso.com/associations/ycr76-yacht-club-rouen-76/adhesions/cotisation-membre-2026>
 - En téléchargeant **[le
-  bordereau 2026](https://www.ycr76.fr/sites/default/files/2026_bordereau_dadhesion_0.pdf)** (ou pièce jointe) et nous le
+  bordereau 2026](/fichiers/2026_bordereau_dadhesion_0.pdf)** (ou pièce jointe) et nous le
   transmettre avec un chèque au plus tard avant la 1ère journée de
   pratique d'activité sportive... samedi prochain entre 14h et
   17h, si vous venez partager la galette, par exemple...

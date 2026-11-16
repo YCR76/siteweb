@@ -67,7 +67,7 @@ championnat de France de cet été
 [**SONDAGE CLUB**](https://framadate.org/JPV6r8QKNsuQayrw) 
 **à remplir avant le 26 avril**
 lire l'[Avis
-de Course](https://www.ycr76.fr/sites/default/files/ac_championnat_de_france_interseries_2023.pdf)  ...C'est un championnat de France : Le club
+de Course](/fichiers/ac_championnat_de_france_interseries_2023.pdf)  ...C'est un championnat de France : Le club
 s'occupe de votre inscription en fonction de votre remplissage de
 sondage
 
@@ -78,7 +78,7 @@ participer aux OpenTour s'ils souhaitent se rappeler quelques
 souvenirs..!
 [**SONDAGE CLUB**](https://framadate.org/ZO1FCxGBmA8NdXpJ) 
 **à remplir avant le 26 avril**
-lire l'[Avis de Course](https://www.ycr76.fr/sites/default/files/ac-_open_tour_-ycc-_2023.pdf), Thomas s'occupera de
+lire l'[Avis de Course](/fichiers/ac-_open_tour_-ycc-_2023.pdf), Thomas s'occupera de
 préinscrire les jeunes en fonction du remplissage du sondage
 
 pour toutes questions à propos de ces régates

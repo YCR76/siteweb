@@ -5,14 +5,14 @@ categorie: "adherent"
 aliases:
   - /adherent-stages-base-plein-air
 ---
-![](https://www.ycr76.fr/sites/default/files/mailhandler_temp/einphjfpjhdcemnn.jpg)
+
 
 Bonjour,
 
 Nous proposons 3 stages différents pour les particuliers cet été.
 Vous trouverez toutes les informations nécessaire sur [facebook](https://www.facebook.com/Ycr76/posts/1734436309983661)
 ou sur [notre
-site](https://www.ycr76.fr/sites/default/files/stage_dete_2018.pdf).
+site](/fichiers/stage_dete_2018.pdf).
 
 D'autre sachez que vous êtes nos meilleurs ambassadeurs. Vous aimez
 très souvent nos publications sur les réseaux sociaux.

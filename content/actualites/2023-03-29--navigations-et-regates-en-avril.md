@@ -38,7 +38,7 @@ d'entrainement...
   ***à remplir avant le 04
   avril***
 - [**AVIS
-  DE COURSE**](https://www.ycr76.fr/sites/default/files/23ac-deminational-ilca2904.pdf)et
+  DE COURSE**](/fichiers/23ac-deminational-ilca2904.pdf)et
   procédure à suivre pour s'inscrire
 
 **Coté stages** :

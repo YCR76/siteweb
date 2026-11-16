@@ -45,7 +45,7 @@ ne souhaitent pas profiter du transport collectif
 
 Ce
 déplacement nécessite une licence FFVoile sportive et [une
-autorisation parentale](https://www.ycr76.fr/sites/default/files/autorisation_parentale_type_0.pdf)
+autorisation parentale](/fichiers/autorisation_parentale_type_0.pdf)
 
 Nous espérons vous voir
 nombreux pour cette belle régate !

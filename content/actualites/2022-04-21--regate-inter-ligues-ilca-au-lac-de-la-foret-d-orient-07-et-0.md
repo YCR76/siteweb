@@ -23,7 +23,7 @@ engagent...
 très très court : Pour **lundi 25 avril à
 midi**  : il est nécessaire de s'inscrire dans ce **[ZOUTCH](https://www.zoutch.com/u65trj4a4m8ybfq)**
 ... et de me renvoyer par mail la [feuille
-d'inscription remplie](https://www.ycr76.fr/sites/default/files/22-ac_cnavoile-ilca-7-8-mai-2022.pdf) (imprimez uniquement les pages 5 et 6)
+d'inscription remplie](/fichiers/22-ac_cnavoile-ilca-7-8-mai-2022.pdf) (imprimez uniquement les pages 5 et 6)
 
 Alexis
 

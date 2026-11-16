@@ -25,4 +25,4 @@ La structure est labellisée « École Française de Voile et Voile Loisir » : 
 
 Nous proposons aussi occasionnellement des stages d'une semaine durant les vacances. [Plus de renseignements sur notre page stage](https://www.ycr76.fr/stages).
 
-![](https://www.ycr76.fr/sites/default/files/promotionopenskiff.jpg)
+![](/fichiers/promotionopenskiff.jpg)

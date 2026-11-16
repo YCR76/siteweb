@@ -30,7 +30,7 @@ ici)](http://francelaser.org/inscriptions/Formulaire?regate=276)* remplir **avan
 Samedi 17 Février** au soir.
 
 4. Autorisation parentale pour les mineurs [(Modèle
-type ici)](https://www.ycr76.fr/sites/default/files/autorisation_parentale_type_0.pdf), vous pouvez désigner Alexis en tant que
+type ici)](/fichiers/autorisation_parentale_type_0.pdf), vous pouvez désigner Alexis en tant que
 responsable : Alexis AROUX 06.14.46.61.40
 
 5. Avis de course *[(cliquez

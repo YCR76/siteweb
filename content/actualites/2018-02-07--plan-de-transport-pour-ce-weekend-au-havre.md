@@ -17,7 +17,7 @@ transport.
 Merci de prendre contact avec moi selon vos disponibilités.** (par
 retour de mail, whatsApp ou sms au 0 614 46 614 0)
 
-![](https://www.ycr76.fr/sites/default/files/mailhandler_temp/Capture.JPG)
+
 
 **Samedi 10 février**
 Rendez-vous au club à 10h15  (vous aurez un pique-nique pour le

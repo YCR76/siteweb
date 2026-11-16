@@ -10,7 +10,7 @@ Bonjour à tous,
 Vous êtes invité à nous rejoindre pour le CICD "la poêlée
 Normande" qui se déroule au Y.C.Rouen 76 le dimanche 26
 Novembre. Vous trouverez l'[avis de course sur notre site
-internet](https://www.ycr76.fr/sites/default/files/avis_de_course_poelee_normande.pdf).
+internet](/fichiers/avis_de_course_poelee_normande.pdf).
 
 Cette régate est gratuite et propose un repas convivial à la
 suite des manches courues. Les accompagnateurs sont également

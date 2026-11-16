@@ -36,7 +36,7 @@ bénévoles...)  il est important que nous soyons bien représentés
 dès cette régate  !
 
 **[AVIS
-DE COURSE](https://www.ycr76.fr/sites/default/files/2022_ac_me_18_19_sept_1.pdf)** (à lire, bien sûr !)
+DE COURSE](/fichiers/2022_ac_me_18_19_sept_1.pdf)** (à lire, bien sûr !)
 
 [**SONDAGE CLUB A
 REMPLIR**](https://www.zoutch.com/u75gkwkqs8rggst) **(pour le 08

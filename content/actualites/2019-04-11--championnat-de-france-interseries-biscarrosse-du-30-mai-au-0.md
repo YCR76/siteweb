@@ -25,7 +25,7 @@ en soirée. (le jeudi est férié et le vendredi n'est pas scolarisé
 !)
 
 [Avis
-de course](https://www.ycr76.fr/sites/default/files/19_cdf_interseries_bisca_30mai-2_juin.pdf)
+de course](/fichiers/19_cdf_interseries_bisca_30mai-2_juin.pdf)
 Age minimum : être né en 2004 ou avant...
 Prise en charge club pour les membres actifs :  Transport si
 collectif, et au départ /retour au club + Inscription (-10 € de

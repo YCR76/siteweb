@@ -24,7 +24,7 @@ mars**
   frais d'inscription
 - **Régate
   comptant pour le Chalenge Inter-Clubs Dériveurs.** [AVIS
-  DE COURSE](https://www.ycr76.fr/sites/default/files/ac_cicd_30_mars_2025_-_poses.pdf)
+  DE COURSE](/fichiers/ac_cicd_30_mars_2025_-_poses.pdf)
 - **[SONDAGE](https://framadate.org/pwy8MkQqMAjfNtkS)** Merci
   de confirmer votre présence afin que Mathieu puisse optimiser
   l’organisation **avant le mardi

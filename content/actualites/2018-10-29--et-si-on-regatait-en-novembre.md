@@ -41,7 +41,7 @@ jours de régate.*
 [SONDAGE YCR](https://doodle.com/poll/4te92tgfv6wcseke)
                                                                    
 [AVIS
-DE COURSE & FICHIER DE PREINSCRITION](https://www.ycr76.fr/sites/default/files/18_ac_harengs_17-18_nov.pdf) (a remplir et
+DE COURSE & FICHIER DE PREINSCRITION](/fichiers/18_ac_harengs_17-18_nov.pdf) (a remplir et
 renvoyer individuellement par mail) **D.L
 sans supplément : 10 nov**
 

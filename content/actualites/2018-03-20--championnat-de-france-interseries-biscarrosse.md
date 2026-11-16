@@ -46,9 +46,7 @@ Nous reviendrons vers vous pour plus de précisions, **pour la
 2ème étape : les inscriptions que nous devrons clôturer pour le
 18 avril.**
 
-![Biscarrosse
 
-        2017](https://www.ycr76.fr/sites/default/files/mailhandler_temp/Equipe_r%C3%A9gate.jpg)
 
 Sportivement,
 

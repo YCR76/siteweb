@@ -16,7 +16,7 @@ régates organisées ce weekend**
 - **1ère
   régate  comptant pour le championnat de Normandie OpenSkiff** et
   sélection au championnat de France Minimes .[AVIS
-  DE COURSE](https://www.ycr76.fr/sites/default/files/25_ac_les_regates_du_printemps_a_henouville_-_26_et_27_avril_2025.pdf)
+  DE COURSE](/fichiers/25_ac_les_regates_du_printemps_a_henouville_-_26_et_27_avril_2025.pdf)
 - **[SONDAGE](https://framadate.org/c1q5gmwgCRwp473d)**Merci de confirmer votre présence afin que nous puissions
   optimiser l’organisation **jusqu'au
   mercredi 23 avril**
@@ -46,7 +46,7 @@ activités pendant toute l'après-midi.
 - **2ème
   régate comptant pour le championnat de Normandie OpenSkiff** et
   sélection au championnat de France Minimes .[AVIS
-  DE COURSE](https://www.ycr76.fr/sites/default/files/25_ac_les_regates_du_printemps_a_henouville_-_26_et_27_avril_2025.pdf)
+  DE COURSE](/fichiers/25_ac_les_regates_du_printemps_a_henouville_-_26_et_27_avril_2025.pdf)
 - **Régate
   IND en Gr5B toutes séries** (y compris pour les novices
   en régate)

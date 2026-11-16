@@ -87,7 +87,7 @@ son lot d'annulation de groupes "centres de loisirs" initialement
 prévus... nous osons donc nous diversifier sur des stages d'été
 pour les particuliers (voile, tir à l'arc, VTT...)... peut-être
 d'ailleurs une chance coté club...  MÊME SI C'EST TARDIF, MERCI DE
-NOUS AIDER A DIFFUSER LA LISTE DE TOUS NOS STAGES : <https://www.ycr76.fr/sites/default/files/liste_des_stages_et_activites_dete_2020.pdf>
+NOUS AIDER A DIFFUSER LA LISTE DE TOUS NOS STAGES : </fichiers/liste_des_stages_et_activites_dete_2020.pdf>
 
 Cordialement et sportivement,
 
