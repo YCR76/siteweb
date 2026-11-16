@@ -15,6 +15,6 @@
     {{- $data = $data | append $item }}
   {{- end }}
   <script>
-    window.waterwindEvents = {{ $data | jsonify }};
+    window.waterwindEvents = {{ $data | jsonify | safeJS }};
   </script>
 </div>

@@ -21,7 +21,7 @@
 
     if (typeof FullCalendar === "undefined") return;
 
-    if (mini && FullCalendar.DayGrid) {
+    if (mini) {
       new FullCalendar.Calendar(mini, {
         initialView: "dayGridMonth",
         height: "auto",

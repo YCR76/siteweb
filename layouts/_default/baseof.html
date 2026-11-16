@@ -8,11 +8,10 @@
   {{ hugo.Generator }}
   {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.css">
   <link rel="icon" href="/images/favicon.ico">
   <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "l-actualite/index.xml" | relLangURL }}">
   <link rel="alternate" type="text/calendar" title="Agenda des régates" href="{{ "calendrier.ics" | relLangURL }}">
-  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js" defer></script>
+  <script src="/vendor/fullcalendar.global.min.js" defer></script>
 </head>
 <body>
   {{ partial "header.html" . }}
@@ -31,7 +30,7 @@
         Netlify : gabarits d'e-mails non personnalisables). Inoffensif pour
         les visiteurs : rien ne s'affiche sans jeton. */ -}}
   {{ if ne .RelPermalink "/admin/" }}
-  <script src="https://cdn.jsdelivr.net/npm/netlify-identity-widget@1.2.1/build/netlify-identity-widget.js"></script>
+  <script src="/vendor/netlify-identity-widget.js"></script>
   {{ end }}
 </body>
 </html>
