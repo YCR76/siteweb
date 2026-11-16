@@ -7,7 +7,7 @@ logo_url: /images/logo.jpg
 
 backend:
   name: github
-  repo: tguenneguez/site
+  repo: YCR76/siteweb
   branch: main
 
 media_folder: static/images/uploads
