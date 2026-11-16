@@ -5,5 +5,25 @@ aliases:
   - voile-adoadulte
   - /voile-adoadulte
 ---
+![](/sites/default/files/deriveurs.jpg)
 
-<p style="text-align: center;"><img alt="" src="/sites/default/files/deriveurs.jpg" style="width: 300px; height: 66px;" /></p><h2>La voile pour les ados et les adultes (à partir de 12 ans)</h2><p>À partir de 12 ans &mdash; et bien plus encore &mdash;, venez pratiquer la voile sur dériveur (capacité à savoir nager requise) : <strong>initiation, perfectionnement et compétition</strong>.</p><h3>En bref</h3><ul><li><strong>Quand :</strong> tous les samedis après-midi de <strong>14h à 17h30</strong>, hors vacances scolaires.</li><li><strong>Calendrier :</strong> septembre, octobre et novembre, puis pause hivernale (sauf équipes de compétition) et reprise après les vacances de février jusqu&#39;à fin juin.</li><li><strong>Tarifs :</strong> adhésion + licence FFVoile adultes 77 &euro; / jeunes 38 &euro;, + cotisation annuelle 2026 de 240 &euro; (demie-cotisation à 120 &euro; pour finir l&#39;année) en cas d&#39;utilisation du matériel ou des services du club.</li></ul><p><strong>Séance test gratuite le samedi 12 septembre !</strong> Venez essayer avant de vous engager.</p><p><strong>Attention :</strong> notre club est susceptible de limiter le nombre de nouveaux pratiquants.<br /><a href="https://www.ycr76.fr/programme?field_section_tid_1=278">Programme des activités disponible ici.</a></p><p style="text-align: center;"><img alt="" src="/sites/default/files/20160611_184614.jpg" style="width: 333px; height: 200px;" /> <img alt="" src="/sites/default/files/dscf0056.jpg" style="width: 267px; height: 200px;" /></p><p>La structure est labellisée &laquo; École Française de Voile et Voile Loisir &raquo; : apprendre et pratiquer la voile sur dériveur en toute sécurité.</p><p style="text-align: center;"><img alt="" src="/sites/default/files/regate1.jpg" style="width: 316px; height: 200px;" /> <img alt="" src="/sites/default/files/seance_du_samedi.jpg" style="width: 267px; height: 200px;" /></p>
+## La voile pour les ados et les adultes (à partir de 12 ans)
+
+À partir de 12 ans — et bien plus encore —, venez pratiquer la voile sur dériveur (capacité à savoir nager requise) : **initiation, perfectionnement et compétition**.
+
+### En bref
+
+- **Quand :** tous les samedis après-midi de **14h à 17h30**, hors vacances scolaires.
+- **Calendrier :** septembre, octobre et novembre, puis pause hivernale (sauf équipes de compétition) et reprise après les vacances de février jusqu'à fin juin.
+- **Tarifs :** adhésion + licence FFVoile adultes 77 € / jeunes 38 €, + cotisation annuelle 2026 de 240 € (demie-cotisation à 120 € pour finir l'année) en cas d'utilisation du matériel ou des services du club.
+
+**Séance test gratuite le samedi 12 septembre !** Venez essayer avant de vous engager.
+
+**Attention :** notre club est susceptible de limiter le nombre de nouveaux pratiquants.
+[Programme des activités disponible ici.](https://www.ycr76.fr/programme?field_section_tid_1=278)
+
+![](/sites/default/files/20160611_184614.jpg) ![](/sites/default/files/dscf0056.jpg)
+
+La structure est labellisée « École Française de Voile et Voile Loisir » : apprendre et pratiquer la voile sur dériveur en toute sécurité.
+
+![](/sites/default/files/regate1.jpg) ![](/sites/default/files/seance_du_samedi.jpg)

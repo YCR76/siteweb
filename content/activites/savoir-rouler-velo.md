@@ -5,5 +5,92 @@ aliases:
   - savoir-rouler-velo
   - /savoir-rouler-velo
 ---
+# Savoir Rouler à Vélo
 
-<h1>Savoir Rouler à Vélo</h1><h2>Apprendre à rouler à vélo en toute autonomie et en toute sécurité</h2><p>Le <strong>Savoir Rouler à Vélo (SRAV)</strong> est un dispositif national qui permet aux enfants de 6 à 11 ans d&#39;acquérir les compétences nécessaires pour se déplacer à vélo de manière autonome et en toute sécurité.</p><p>Le <strong>Yacht Club Rouen 76</strong> propose des séances d&#39;initiation et de perfectionnement autour des trois blocs du programme <strong>Savoir Rouler à Vélo</strong>, adaptées à l&#39;âge et au niveau des enfants.</p><p>Notre objectif : donner aux enfants les bons réflexes, leur apprendre à maîtriser leur vélo et les préparer progressivement à circuler dans l&#39;espace public.</p><h2>Un parcours en 3 blocs</h2><h3>Bloc 1 &ndash; Savoir pédaler</h3><p>Le premier bloc permet à l&#39;enfant d&#39;acquérir ou de renforcer les fondamentaux de la pratique du vélo.</p><p>Au programme :</p><ul><li><p>Prendre en main son vélo et vérifier les équipements essentiels</p></li><li><p>Trouver son équilibre et maîtriser sa trajectoire</p></li><li><p>Démarrer, pédaler et s&#39;arrêter</p></li><li><p>Freiner efficacement</p></li><li><p>Changer de direction</p></li><li><p>Franchir de petits obstacles</p></li><li><p>Développer son aisance et sa confiance à vélo</p></li></ul><p>Cette étape permet à chaque enfant de progresser à son rythme et d&#39;acquérir les bases indispensables avant de passer à la circulation dans des espaces plus complexes.</p><h3>Bloc 2 &ndash; Savoir circuler</h3><p>Une fois les fondamentaux maîtrisés, les enfants apprennent à évoluer à vélo dans différents environnements.</p><p>Les séances permettent notamment de travailler :</p><ul><li><p>La maîtrise du vélo dans un espace partagé</p></li><li><p>Le respect des règles de circulation</p></li><li><p>La signalisation et les principaux panneaux</p></li><li><p>Les changements de direction</p></li><li><p>Les interactions avec les autres usagers</p></li><li><p>L&#39;anticipation des situations à risque</p></li><li><p>Le comportement à adopter pour circuler en sécurité</p></li></ul><p>Des exercices pratiques et des mises en situation permettent aux enfants de prendre progressivement leurs repères et de développer leur autonomie.</p><h3>Bloc 3 &ndash; Savoir rouler à vélo</h3><p>Le troisième bloc met les apprentissages en pratique lors d&#39;une <strong>sortie à vélo en situation réelle</strong>.</p><p>Les enfants sont amenés à circuler sur la voie publique, dans un environnement adapté, afin de mettre en œuvre les compétences acquises lors des deux premiers blocs.</p><p>Ils apprennent notamment à :</p><ul><li><p>Préparer leur déplacement</p></li><li><p>Identifier les dangers et anticiper les situations</p></li><li><p>Respecter les règles de circulation</p></li><li><p>Communiquer avec les autres usagers</p></li><li><p>Adapter leur comportement à l&#39;environnement</p></li><li><p>Circuler en groupe</p></li><li><p>Devenir progressivement autonomes dans leurs déplacements à vélo</p></li></ul><p>Cette étape constitue l&#39;aboutissement du parcours <strong>Savoir Rouler à Vélo</strong>.</p><h2>Une prestation adaptée aux écoles et aux collectivités</h2><p>Le Yacht Club Rouen 76 accompagne les <strong>écoles, collectivités, accueils de loisirs et structures jeunesse</strong> dans la mise en place d&#39;actions Savoir Rouler à Vélo.</p><p>Nous pouvons construire un programme adapté à votre public, à vos objectifs et aux infrastructures disponibles.</p><h3>Une approche pédagogique et ludique</h3><p>Nos séances privilégient la pratique et la mise en situation. Les enfants apprennent en faisant, à travers des exercices progressifs, des jeux et des parcours adaptés à leur niveau.</p><p>L&#39;objectif est de permettre à chacun de progresser dans un cadre <strong>sécurisé, bienveillant et ludique</strong>.</p><h2>Pourquoi choisir le Yacht Club Rouen 76 ?</h2><p>Notre expérience dans l&#39;encadrement des activités sportives et de pleine nature nous permet de proposer une approche pédagogique basée sur la pratique, la progression et l&#39;autonomie.</p><p>Nous adaptons les séances au niveau des participants afin que chaque enfant puisse progresser et prendre confiance.</p><p><strong>Du premier coup de pédale à la circulation en autonomie, nous accompagnons les enfants dans toutes les étapes de leur apprentissage.</strong></p><h2>Organisez votre cycle Savoir Rouler à Vélo</h2><p>Vous êtes une <strong>école, une commune, une structure jeunesse ou une collectivité</strong> et souhaitez mettre en place un programme Savoir Rouler à Vélo ?</p><p>Contactez le <strong>Yacht Club Rouen 76</strong> pour construire ensemble une prestation adaptée à vos besoins.</p><p><a href="https://www.ycr76.fr/contactez-nous"><strong>Demandez-nous un devis ou échangez avec notre équipe pour préparer votre projet.</strong></a></p>
+## Apprendre à rouler à vélo en toute autonomie et en toute sécurité
+
+Le **Savoir Rouler à Vélo (SRAV)** est un dispositif national qui permet aux enfants de 6 à 11 ans d'acquérir les compétences nécessaires pour se déplacer à vélo de manière autonome et en toute sécurité.
+
+Le **Yacht Club Rouen 76** propose des séances d'initiation et de perfectionnement autour des trois blocs du programme **Savoir Rouler à Vélo**, adaptées à l'âge et au niveau des enfants.
+
+Notre objectif : donner aux enfants les bons réflexes, leur apprendre à maîtriser leur vélo et les préparer progressivement à circuler dans l'espace public.
+
+## Un parcours en 3 blocs
+
+### Bloc 1 – Savoir pédaler
+
+Le premier bloc permet à l'enfant d'acquérir ou de renforcer les fondamentaux de la pratique du vélo.
+
+Au programme :
+
+- Prendre en main son vélo et vérifier les équipements essentiels
+- Trouver son équilibre et maîtriser sa trajectoire
+- Démarrer, pédaler et s'arrêter
+- Freiner efficacement
+- Changer de direction
+- Franchir de petits obstacles
+- Développer son aisance et sa confiance à vélo
+
+Cette étape permet à chaque enfant de progresser à son rythme et d'acquérir les bases indispensables avant de passer à la circulation dans des espaces plus complexes.
+
+### Bloc 2 – Savoir circuler
+
+Une fois les fondamentaux maîtrisés, les enfants apprennent à évoluer à vélo dans différents environnements.
+
+Les séances permettent notamment de travailler :
+
+- La maîtrise du vélo dans un espace partagé
+- Le respect des règles de circulation
+- La signalisation et les principaux panneaux
+- Les changements de direction
+- Les interactions avec les autres usagers
+- L'anticipation des situations à risque
+- Le comportement à adopter pour circuler en sécurité
+
+Des exercices pratiques et des mises en situation permettent aux enfants de prendre progressivement leurs repères et de développer leur autonomie.
+
+### Bloc 3 – Savoir rouler à vélo
+
+Le troisième bloc met les apprentissages en pratique lors d'une **sortie à vélo en situation réelle**.
+
+Les enfants sont amenés à circuler sur la voie publique, dans un environnement adapté, afin de mettre en œuvre les compétences acquises lors des deux premiers blocs.
+
+Ils apprennent notamment à :
+
+- Préparer leur déplacement
+- Identifier les dangers et anticiper les situations
+- Respecter les règles de circulation
+- Communiquer avec les autres usagers
+- Adapter leur comportement à l'environnement
+- Circuler en groupe
+- Devenir progressivement autonomes dans leurs déplacements à vélo
+
+Cette étape constitue l'aboutissement du parcours **Savoir Rouler à Vélo**.
+
+## Une prestation adaptée aux écoles et aux collectivités
+
+Le Yacht Club Rouen 76 accompagne les **écoles, collectivités, accueils de loisirs et structures jeunesse** dans la mise en place d'actions Savoir Rouler à Vélo.
+
+Nous pouvons construire un programme adapté à votre public, à vos objectifs et aux infrastructures disponibles.
+
+### Une approche pédagogique et ludique
+
+Nos séances privilégient la pratique et la mise en situation. Les enfants apprennent en faisant, à travers des exercices progressifs, des jeux et des parcours adaptés à leur niveau.
+
+L'objectif est de permettre à chacun de progresser dans un cadre **sécurisé, bienveillant et ludique**.
+
+## Pourquoi choisir le Yacht Club Rouen 76 ?
+
+Notre expérience dans l'encadrement des activités sportives et de pleine nature nous permet de proposer une approche pédagogique basée sur la pratique, la progression et l'autonomie.
+
+Nous adaptons les séances au niveau des participants afin que chaque enfant puisse progresser et prendre confiance.
+
+**Du premier coup de pédale à la circulation en autonomie, nous accompagnons les enfants dans toutes les étapes de leur apprentissage.**
+
+## Organisez votre cycle Savoir Rouler à Vélo
+
+Vous êtes une **école, une commune, une structure jeunesse ou une collectivité** et souhaitez mettre en place un programme Savoir Rouler à Vélo ?
+
+Contactez le **Yacht Club Rouen 76** pour construire ensemble une prestation adaptée à vos besoins.
+
+[**Demandez-nous un devis ou échangez avec notre équipe pour préparer votre projet.**](https://www.ycr76.fr/contactez-nous)

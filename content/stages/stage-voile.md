@@ -5,5 +5,53 @@ aliases:
   - stage-voile
   - /stage-voile
 ---
+### Stage de Voile (Découverte, initiation et perfectionnement)
 
-<div class="_39k5 _5s6c"><h3 class="_2cuy _50a1 _2vxa">Stage de Voile (Découverte, initiation et perfectionnement)</h3><p>Nos stages voile sont ouverts aux jeunes à partir de 6 ans (avec certificat de natation valide). Une activité voile est prévue (le support sera adapté à l&#39;age de l&#39;enfant).</p><h3><span style="font-size:18px"><strong><em>  <img alt="" src="https://www.ycr76.fr/sites/default/files/img_0998.jpg#overlay-context=stage-voile" style="width: 340px; height: 227px;" />      <img alt="" src="https://www.ycr76.fr/sites/default/files/img_5317_0.jpg#overlay-context=stage-voile" style="height: 227px; width: 340px;" />    </em></strong></span></h3><p>N&#39;hésitez pas à réserver vos stages <a href="https://www.helloasso.com/associations/ycr76-yacht-club-rouen-76/evenements/stage">en ligne</a> ou à nous contacter si vous ne trouver pas de stages aux dates qui vous intéressent car d&#39;autres stages sont succeptibles d&#39;être ouverts.  Vous pouvez aussi vous inscrire à notre <a href="https://dbccd031.sibforms.com/serve/MUIFAI9LZvfXCrPnFk1bMo5SiqhKxXUfeCqQaWLTPr0hTQtfpf-FZs1149r4Tp03BAy7j5xw5ohsQ5vChvWwlRglpNsUVTtkk5Ta58jlI7f1h_GSJKPGVIJR38eqD2WiVv43FEY1lyQ0Fxteux8Z2mSA0FQcTZaLBdfrKcRXVxhjDJXEmhYYGW09Dk0csnT81JqRle8ZuLuo1Y4Slg==">newsletter dédiée aux stages</a>.</p><h3>Tarifs :</h3><p><span style="color:#c0392b"><strong>Chaque stagiaire devra souscrire à une adhésion annuelle à l&#39;association</strong>.</span> L&#39;adhésion (une seule par année civile !) s&#39;élève à <span style="color:#16a085"><strong>38 &euro;</strong></span> pour les jeunes, elle comprend une licence à la FFVoile.</p><p>Le choix d&#39;un passeport Voile est desormais possible pour les jeunes ne participant qu&#39;aux seuls stages. Le Passeport Voile (avec adhésion) à <span style="color:#16a085"><strong>19,50 &euro;</strong></span> comprend également l&#39;assurance individuelle de la FFVoile.</p><p>S&#39;ajoute le coût du stage :</p><ul class="_5a_q _5yj1" dir="ltr"><li class="_2cuy _509q _2vxa">Stage uniquement sur les après-midis 5 jours     <strong><span style="color:#16a085">150 &euro;</span></strong></li><li class="_2cuy _509q _2vxa">Stage compétition voile, en internat (5 jours - transports, repas et nuitées compris)  <strong><span style="color:#16a085">350 &euro;</span></strong></li></ul><h3 class="_2cuy _50a1 _2vxa" style="text-align:center"><img alt="" src="/sites/default/files/img_0665.jpg" style="width:100px; height:133px" /><img alt="" src="/sites/default/files/img_1166.jpg" style="width:177px; height:133px" /><img alt="" src="/sites/default/files/img_5719.jpg" style="width:177px; height:133px" /></h3><h3><strong>Dates</strong></h3><p>[view:programme_new=stage=295]</p><p>Le stage organisé à Anneville-Ambourville. Un transfert est organisé depuis le club.</p><p>D&#39;autres stages (perfectionnement) seront organisés durant les vacances de Toussaint et février. Contactez-nous pour plus de renseignements.</p><h3 class="_2cuy _50a1 _2vxa">Programme :</h3><ul class="_5a_q _5yj1" dir="ltr"><li class="_2cuy _509q _2vxa">Nous accueillons nos stagiaires en début d&#39;après-midi 30 minutes avant le début du stage, à l&#39;issu de la séance, une permanence du personnel est active jusqu&#39;à 18h.</li><li class="_2cuy _509q _2vxa">Stage de voile &ndash; initiation ou perfectionnement - prévu tous les après-midis (possibilité de canoë-kayak en l&rsquo;absence de vent)</li><li class="_2cuy _509q _2vxa">Fin des activités pour <strong>17h30</strong>, petit goûter</li><li class="_2cuy _509q _2vxa">Récupération possible des stagiaires par leur famille jusqu&rsquo;à 18h.</li></ul><h3 class="_2cuy _50a1 _2vxa">Détails techniques et administratifs :</h3><ul class="_5a_q _5yj1" dir="ltr"><li><span style="color:#c0392b;"><strong>SAVOIR NAGER</strong></span> - Fournir un certificat de natation au 1er jour du stage, <span style="color:#c0392b;">ou à minima le <a href="http://www.ycr76.fr/sites/default/files/test_aisance_aquatique_2.pdf">test d&#39;aisance aquatique </a>rempli par un professionnel habilité </span></li><li><span style="color:#c0392b;"><strong>QUESTIONNAIRE DE SANTE</strong></span>  - <a href="https://www.ffvoile.fr/ffv/web/services/medical/documents/Questionnaire_Sante_FFVoile_mineur.pdf">Questionnaire</a> à remplir (ou fournir un certificat médical de non-contre-indication à la pratique des sports nautiques ou si réponse positive à l&#39;une des questions posées du questionnaire) <span style="color:#c0392b;"> </span></li><li class="_2cuy _509q _2vxa"><span style="color:#c0392b;"><strong>FICHE D&#39;AUTORISATION LEGALE</strong></span><span style="color:#000000"> - <a href="http://www.ycr76.fr/sites/default/files/autorisations_legales.pdf">Formulaire</a> à remplir</span></li><li class="_2cuy _509q _2vxa"><span style="color:#000000">L&rsquo;ensemble du matériel sportif est fourni par la structure, ( gilets de sauve</span>tage&hellip;)</li><li class="_2cuy _509q _2vxa">Les stagiaires apportent leurs équipement personnels pour l&rsquo;ensemble des activités prévues durant le stage ainsi que le nécessaire pour prendre une douche sur place après l&rsquo;activité sportive<strike>.</strike></li><li>Pensez à vous équiper de tenues adaptées à la météo du jour (y compris les protections solaires)... Un coupe-vent de type K-Way est nécessaire... Le port d&#39;une combinaison isothermique (shorty) est idéal, nous avons éventuellement quelques unités à prêter les jours les plus frais !</li></ul><h3 class="_2cuy _50a1 _2vxa">N&rsquo;hésitez pas à nous contacter pour tous renseignements supplémentaires.</h3><p><img alt="" src="https://www.ycr76.fr/sites/default/files/3_openbic.jpg#overlay-context=stage-voile" style="width: 340px; height: 255px;" />      <img alt="" src="https://www.ycr76.fr/sites/default/files/image_opti_henouville.jpeg#overlay-context=stage-voile" style="height: 255px; width: 340px;" /></p><p>Pour une activité annuelle, vous aurez toutes les informations sur la <a href="https://www.ycr76.fr/voile-jeune">page dédiée à la voile jeune</a>.</p></div>
+Nos stages voile sont ouverts aux jeunes à partir de 6 ans (avec certificat de natation valide). Une activité voile est prévue (le support sera adapté à l'age de l'enfant).
+
+###
+
+N'hésitez pas à réserver vos stages [en ligne](https://www.helloasso.com/associations/ycr76-yacht-club-rouen-76/evenements/stage) ou à nous contacter si vous ne trouver pas de stages aux dates qui vous intéressent car d'autres stages sont succeptibles d'être ouverts. Vous pouvez aussi vous inscrire à notre [newsletter dédiée aux stages](https://dbccd031.sibforms.com/serve/MUIFAI9LZvfXCrPnFk1bMo5SiqhKxXUfeCqQaWLTPr0hTQtfpf-FZs1149r4Tp03BAy7j5xw5ohsQ5vChvWwlRglpNsUVTtkk5Ta58jlI7f1h_GSJKPGVIJR38eqD2WiVv43FEY1lyQ0Fxteux8Z2mSA0FQcTZaLBdfrKcRXVxhjDJXEmhYYGW09Dk0csnT81JqRle8ZuLuo1Y4Slg==).
+
+### Tarifs :
+
+**Chaque stagiaire devra souscrire à une adhésion annuelle à l'association**. L'adhésion (une seule par année civile !) s'élève à **38 €** pour les jeunes, elle comprend une licence à la FFVoile.
+
+Le choix d'un passeport Voile est desormais possible pour les jeunes ne participant qu'aux seuls stages. Le Passeport Voile (avec adhésion) à **19,50 €** comprend également l'assurance individuelle de la FFVoile.
+
+S'ajoute le coût du stage :
+
+- Stage uniquement sur les après-midis 5 jours **150 €**
+- Stage compétition voile, en internat (5 jours - transports, repas et nuitées compris) **350 €**
+
+###
+
+### **Dates**
+
+[view:programme\_new=stage=295]
+
+Le stage organisé à Anneville-Ambourville. Un transfert est organisé depuis le club.
+
+D'autres stages (perfectionnement) seront organisés durant les vacances de Toussaint et février. Contactez-nous pour plus de renseignements.
+
+### Programme :
+
+- Nous accueillons nos stagiaires en début d'après-midi 30 minutes avant le début du stage, à l'issu de la séance, une permanence du personnel est active jusqu'à 18h.
+- Stage de voile – initiation ou perfectionnement - prévu tous les après-midis (possibilité de canoë-kayak en l’absence de vent)
+- Fin des activités pour **17h30**, petit goûter
+- Récupération possible des stagiaires par leur famille jusqu’à 18h.
+
+### Détails techniques et administratifs :
+
+- **SAVOIR NAGER** - Fournir un certificat de natation au 1er jour du stage, ou à minima le [test d'aisance aquatique](http://www.ycr76.fr/sites/default/files/test_aisance_aquatique_2.pdf) rempli par un professionnel habilité
+- **QUESTIONNAIRE DE SANTE** - [Questionnaire](https://www.ffvoile.fr/ffv/web/services/medical/documents/Questionnaire_Sante_FFVoile_mineur.pdf) à remplir (ou fournir un certificat médical de non-contre-indication à la pratique des sports nautiques ou si réponse positive à l'une des questions posées du questionnaire)
+- **FICHE D'AUTORISATION LEGALE** - [Formulaire](http://www.ycr76.fr/sites/default/files/autorisations_legales.pdf) à remplir
+- L’ensemble du matériel sportif est fourni par la structure, ( gilets de sauvetage…)
+- Les stagiaires apportent leurs équipement personnels pour l’ensemble des activités prévues durant le stage ainsi que le nécessaire pour prendre une douche sur place après l’activité sportive.
+- Pensez à vous équiper de tenues adaptées à la météo du jour (y compris les protections solaires)... Un coupe-vent de type K-Way est nécessaire... Le port d'une combinaison isothermique (shorty) est idéal, nous avons éventuellement quelques unités à prêter les jours les plus frais !
+
+### N’hésitez pas à nous contacter pour tous renseignements supplémentaires.
+
+![](https://www.ycr76.fr/sites/default/files/3_openbic.jpg#overlay-context=stage-voile) ![](https://www.ycr76.fr/sites/default/files/image_opti_henouville.jpeg#overlay-context=stage-voile)
+
+Pour une activité annuelle, vous aurez toutes les informations sur la [page dédiée à la voile jeune](https://www.ycr76.fr/voile-jeune).

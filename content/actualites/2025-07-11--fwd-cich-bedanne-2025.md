@@ -5,152 +5,54 @@ categorie: "habitable"
 aliases:
   - /habitable-fwd-cich-bedanne-2025
 ---
+Bonjour à tous,
 
-<!DOCTYPE html>
-<html>
-  <head>
-
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  </head>
-  <body>
-    <p>Bonjour à tous,</p>
-    <p>Vous trouverez ci-joint le nouveau règlement et le nouveau
-      calendrier du CICH 2025-2026 transmis par Jean-Paul RENE.</p>
-    <p>Mathieu pourra vous conseiller pour concrétiser vos projets
-      d'équipages
-    </p>
-    <div class="moz-signature">Sportivement,<br>
-      <br>
-      Alexis AROUX<br>
-      <i><font size="-2">Directeur de l'association Y.C.Rouen 76</font></i><br>
-      <br>
-      <table>
-        <tbody>
-          <tr>
-            <td><a href="http://www.ycr76.fr"><img
-src="http://www.ycr76.fr/sites/default/files/new-logo.png" alt="YCR 76"
-                  width="200" height="200"></a></td>
-            <td>
-              <p><span
-                  style="color: #000099; font-family: Eras Bold ITC;">BASE
-                  DE PLEIN AIR D’HENOUVILLE</span><br>
-                1444 chaussée Bertrand<big><strong><small><br>
-                      76840 Hénouville</small></strong></big></p>
-              
-              <table>
-                <tbody>
-                  <tr>
-                    <td><span style="font-family: Eras Bold ITC;">Tél :
-                        <a href="tel:0235323404">02.35.32.34.04</a></span></td>
-                    <td>     </td>
-                    <td><span style="font-family: Eras Bold ITC;">Fax :
-                        <a href="tel:0972324367">09.72.32.43.67</a></span></td>
-                  </tr>
-                  <tr>
-                    <td><span style="font-family: Eras Bold ITC;">Site :
-                        <span
-style="font-family: courier new,courier;
-				  font-size: small;"><strong><a href="http://www.ycr76.fr"
-                              class="moz-txt-link-freetext">http://www.ycr76.fr</a></strong></span></span><br>
-                      <span style="font-family: Eras Bold ITC;">Email :
-                        <span
-style="font-family: courier new,courier;
-				  font-size: small;"><strong><a href="mailto:contact@ycr76.fr"
-                              class="moz-txt-link-freetext">contact@ycr76.fr</a></strong></span></span></td>
-                    <td>     </td>
-                    <td> <br>
-                      <center><a href="https://g.page/Ycr76/review?rc"><img
-src="http://www.ycr76.fr/sites/default/files/avis.gif"
-alt="Publiez un
-        avis sur notre profil."
-title="Publiez un avis sur notre
-        profil." width="145" height="30" border="0"></a>
-                        <p><iframe
-src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FYcr76%2F&amp;width=156&amp;layout=button&amp;action=like&amp;size=large&amp;show_faces=false&amp;share=true&amp;height=65&amp;appId=288254454631997"
-                            width="156" height="65"
-                            style="border:none;overflow:hidden"
-                            scrolling="no" frameborder="0"
-                            allowtransparency="true"></iframe></p>
-                      </center>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="moz-forward-container"><br>
-      <br>
-      -------- Message transféré --------
-      <table cellpadding="0" cellspacing="0" border="0"
-        class="moz-email-headers-table">
-        <tbody>
-          <tr>
-            <th valign="BASELINE" align="RIGHT" nowrap="nowrap">Sujet :
-            </th>
-            <td>Re: CICH BEDANNE 2025</td>
-          </tr>
-          <tr>
-            <th valign="BASELINE" align="RIGHT" nowrap="nowrap">Date : </th>
-            <td>Fri, 11 Jul 2025 10:26:58 +0200</td>
-          </tr>
-          <tr>
-            <th valign="BASELINE" align="RIGHT" nowrap="nowrap">De : </th>
-            <td>Jean-Paul RENE <a class="moz-txt-link-rfc2396E" href="mailto:jp.rene76500@gmail.com">&lt;jp.rene76500@gmail.com&gt;</a></td>
-          </tr>
-          <tr>
-            <th valign="BASELINE" align="RIGHT" nowrap="nowrap">Pour : </th>
-            <td>'Jean Michel Mahieu' <a class="moz-txt-link-rfc2396E" href="mailto:jeanmm41@aol.com">&lt;jeanmm41@aol.com&gt;</a>, Labbey
-              Mathieu <a class="moz-txt-link-rfc2396E" href="mailto:labbeymathieu@orange.fr">&lt;labbeymathieu@orange.fr&gt;</a>, erwan MARECHAL
-              YCR <a class="moz-txt-link-rfc2396E" href="mailto:erwan.marechal76190@gmail.com">&lt;erwan.marechal76190@gmail.com&gt;</a>, RENE-BELLET
-              <a class="moz-txt-link-rfc2396E" href="mailto:drbtapissier@orange.fr">&lt;drbtapissier@orange.fr&gt;</a>, <a class="moz-txt-link-abbreviated" href="mailto:jf.r1@free.fr">jf.r1@free.fr</a>,
-              <a class="moz-txt-link-abbreviated" href="mailto:olivier@cigogne.net">olivier@cigogne.net</a>, Eric JOUSLIN
-              <a class="moz-txt-link-rfc2396E" href="mailto:eric.jouslin@yc-vernon.fr">&lt;eric.jouslin@yc-vernon.fr&gt;</a>, Thomas Lecrocq
-              <a class="moz-txt-link-rfc2396E" href="mailto:thomas.l@bedanne.com">&lt;thomas.l@bedanne.com&gt;</a>, <a class="moz-txt-link-abbreviated" href="mailto:fpetit75013@yahoo.fr">fpetit75013@yahoo.fr</a>,
-              'valeriquais' <a class="moz-txt-link-rfc2396E" href="mailto:contact@cnvaleriquais.fr">&lt;contact@cnvaleriquais.fr&gt;</a>, MATHIEU
-              PIERS <a class="moz-txt-link-rfc2396E" href="mailto:mathieu.piers@capavoile.fr">&lt;mathieu.piers@capavoile.fr&gt;</a>, 'David Vaudry'
-              <a class="moz-txt-link-rfc2396E" href="mailto:david_vaudryfr@yahoo.fr">&lt;david_vaudryfr@yahoo.fr&gt;</a>, 'CYC'
-              <a class="moz-txt-link-rfc2396E" href="mailto:cyc.secretariat@gmail.com">&lt;cyc.secretariat@gmail.com&gt;</a>, 'vernon président hugo
-              quintal' <a class="moz-txt-link-rfc2396E" href="mailto:hugo.quintal@yc-vernon.fr">&lt;hugo.quintal@yc-vernon.fr&gt;</a>, adeline
-              hartmann <a class="moz-txt-link-rfc2396E" href="mailto:adelinehartmann27@gmail.com">&lt;adelinehartmann27@gmail.com&gt;</a>, Adrien
-              Landel <a class="moz-txt-link-rfc2396E" href="mailto:adrien.landel@cdvoile27.fr">&lt;adrien.landel@cdvoile27.fr&gt;</a>, 'CYC'
-              <a class="moz-txt-link-rfc2396E" href="mailto:cyc.secretariat@gmail.com">&lt;cyc.secretariat@gmail.com&gt;</a>, Mireille AUBE
-              <a class="moz-txt-link-rfc2396E" href="mailto:mireille.aube2@orange.fr">&lt;mireille.aube2@orange.fr&gt;</a>, <a class="moz-txt-link-abbreviated" href="mailto:alexis.aroux@ycr76.fr">alexis.aroux@ycr76.fr</a>
-              <a class="moz-txt-link-rfc2396E" href="mailto:alexis.aroux@ycr76.fr">&lt;alexis.aroux@ycr76.fr&gt;</a>, Steve PICARD
-              <a class="moz-txt-link-rfc2396E" href="mailto:president@ycr76.fr">&lt;president@ycr76.fr&gt;</a></td>
-          </tr>
-          <tr>
-            <th valign="BASELINE" align="RIGHT" nowrap="nowrap">Copie
-              à : </th>
-            <td>THOMAS <a class="moz-txt-link-rfc2396E" href="mailto:thomas.k@bedanne.com">&lt;thomas.k@bedanne.com&gt;</a>, LAURENT
-              <a class="moz-txt-link-rfc2396E" href="mailto:laurentghf@bedanne.com">&lt;laurentghf@bedanne.com&gt;</a>, Boris Hanin
-              <a class="moz-txt-link-rfc2396E" href="mailto:boris@bedanne.com">&lt;boris@bedanne.com&gt;</a></td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-      <br>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <p>bonjour à tous</p>
-      <p>ci joint la dernière version du règlement du CICH 2025-2026, à
-        partager sans modération dans vos clubs<br>
-      </p>
-      <p>Mathieu va le mettre sur son site dès qu'il l'aura revu pour
-        que l'on puisse commencer à s'inscrire en ligne<br>
-      </p>
-      <p>Saint Valéry, ne tardez pas à publier votre avis de course avec
-        vos horaires pour que l'on soit nombreux sur cette première
-        étape. <br>
-      </p>
-      <p>à très bientôt sur nos plans d'eau</p>
-      <p>bonne journée</p>
-      <p>jean paul<br>
-      </p>
-      <div class="moz-signature">-- <br>
-        <img src="cid:part1.AdPJcLH9.pRQG8XeN@ycr76.fr" border="0"
-          class=""></div>
-    </div>
-  <div id="DAB4FAD8-2DD7-40BB-A1B8-4E2AA1F9FDF2"><br /><table style="border-top: 1px solid #D3D4DE;"><tr><td style="width: 55px; padding-top: 13px;"><a href="https://www.avast.com/sig-email?utm_medium=email&utm_source=link&utm_campaign=sig-email&utm_content=emailclient" target="_blank"><img src="https://s-install.avcdn.net/ipm/preview/icons/icon-envelope-tick-round-orange-animated-no-repeat-v1.gif" alt="" width="46" height="29" style="width: 46px; height: 29px;"/></a></td><td style="width: 470px; padding-top: 12px; color: #41424e; font-size: 13px; font-family: Arial, Helvetica, sans-serif; line-height: 18px;">Sans virus.<a href="https://www.avast.com/sig-email?utm_medium=email&utm_source=link&utm_campaign=sig-email&utm_content=emailclient" target="_blank" style="color: #4453ea;">www.avast.com</a></td></tr></table><a href="#DAB4FAD8-2DD7-40BB-A1B8-4E2AA1F9FDF2" width="1" height="1"> </a></div></body>
-</html>
+Vous trouverez ci-joint le nouveau règlement et le nouveau
+calendrier du CICH 2025-2026 transmis par Jean-Paul RENE.
+
+Mathieu pourra vous conseiller pour concrétiser vos projets
+d'équipages
+
+Sportivement,
+
+Alexis AROUX
+*Directeur de l'association Y.C.Rouen 76*
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [YCR 76](http://www.ycr76.fr) | BASE DE PLEIN AIR D’HENOUVILLE  1444 chaussée Bertrand **76840 Hénouville**   |  |  |  | | --- | --- | --- | | Tél : [02.35.32.34.04](tel:0235323404) |  | Fax : [09.72.32.43.67](tel:0972324367) | | Site : **<http://www.ycr76.fr>**  Email : **[contact@ycr76.fr](mailto:contact@ycr76.fr)** |  | [Publiez un          avis sur notre profil.](https://g.page/Ycr76/review?rc) | |
+
+-------- Message transféré --------
+
+|  |  |
+| --- | --- |
+| Sujet : | Re: CICH BEDANNE 2025 |
+| Date : | Fri, 11 Jul 2025 10:26:58 +0200 |
+| De : | Jean-Paul RENE [<jp.rene76500@gmail.com>](mailto:jp.rene76500@gmail.com) |
+| Pour : | 'Jean Michel Mahieu' [<jeanmm41@aol.com>](mailto:jeanmm41@aol.com), Labbey Mathieu [<labbeymathieu@orange.fr>](mailto:labbeymathieu@orange.fr), erwan MARECHAL YCR [<erwan.marechal76190@gmail.com>](mailto:erwan.marechal76190@gmail.com), RENE-BELLET [<drbtapissier@orange.fr>](mailto:drbtapissier@orange.fr), [jf.r1@free.fr](mailto:jf.r1@free.fr), [olivier@cigogne.net](mailto:olivier@cigogne.net), Eric JOUSLIN [<eric.jouslin@yc-vernon.fr>](mailto:eric.jouslin@yc-vernon.fr), Thomas Lecrocq [<thomas.l@bedanne.com>](mailto:thomas.l@bedanne.com), [fpetit75013@yahoo.fr](mailto:fpetit75013@yahoo.fr), 'valeriquais' [<contact@cnvaleriquais.fr>](mailto:contact@cnvaleriquais.fr), MATHIEU PIERS [<mathieu.piers@capavoile.fr>](mailto:mathieu.piers@capavoile.fr), 'David Vaudry' [<david\_vaudryfr@yahoo.fr>](mailto:david_vaudryfr@yahoo.fr), 'CYC' [<cyc.secretariat@gmail.com>](mailto:cyc.secretariat@gmail.com), 'vernon président hugo quintal' [<hugo.quintal@yc-vernon.fr>](mailto:hugo.quintal@yc-vernon.fr), adeline hartmann [<adelinehartmann27@gmail.com>](mailto:adelinehartmann27@gmail.com), Adrien Landel [<adrien.landel@cdvoile27.fr>](mailto:adrien.landel@cdvoile27.fr), 'CYC' [<cyc.secretariat@gmail.com>](mailto:cyc.secretariat@gmail.com), Mireille AUBE [<mireille.aube2@orange.fr>](mailto:mireille.aube2@orange.fr), [alexis.aroux@ycr76.fr](mailto:alexis.aroux@ycr76.fr) [<alexis.aroux@ycr76.fr>](mailto:alexis.aroux@ycr76.fr), Steve PICARD [<president@ycr76.fr>](mailto:president@ycr76.fr) |
+| Copie à : | THOMAS [<thomas.k@bedanne.com>](mailto:thomas.k@bedanne.com), LAURENT [<laurentghf@bedanne.com>](mailto:laurentghf@bedanne.com), Boris Hanin [<boris@bedanne.com>](mailto:boris@bedanne.com) |
+
+bonjour à tous
+
+ci joint la dernière version du règlement du CICH 2025-2026, à
+partager sans modération dans vos clubs
+
+Mathieu va le mettre sur son site dès qu'il l'aura revu pour
+que l'on puisse commencer à s'inscrire en ligne
+
+Saint Valéry, ne tardez pas à publier votre avis de course avec
+vos horaires pour que l'on soit nombreux sur cette première
+étape.
+
+à très bientôt sur nos plans d'eau
+
+bonne journée
+
+jean paul
+
+--
+![](cid:part1.AdPJcLH9.pRQG8XeN@ycr76.fr)
+
+|  |  |
+| --- | --- |
+|  | Sans virus.[www.avast.com](https://www.avast.com/sig-email?utm_medium=email&utm_source=link&utm_campaign=sig-email&utm_content=emailclient) |

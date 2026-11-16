@@ -5,5 +5,100 @@ aliases:
   - scolaires
   - /scolaires
 ---
+## D'une à 5 journées par séjour …
 
-<h2 align="center" style="font-weight: bold;"><font size="5">D&#39;une à 5 journées par séjour &hellip; </font></h2><h2 align="center" style="font-weight: bold;"><font size="5">avec ou sans nuitée en bungalows.</font></h2><h3><em><font size="3">Notre équipe d&#39;encadrement s&#39;implique avec vous sur des projets tels que :</font></em></h3><table border="0" cellpadding="1" cellspacing="1" style="width: 100%;"><tbody><tr><td style="vertical-align: middle;"><ul><li><font size="3">Découverte et pratique des sports de pleine nature </font></li><li><font size="3">Vie en collectivité - cohésion </font></li><li><font size="3">Respect de l&#39;environnement - développement durable </font></li><li><font size="3">Autonomie </font></li><li><font size="3">Insertion</font></li></ul></td><td style="vertical-align: middle; width: 50%; text-align: center;"><img alt="Base principale" src="/sites/default/files/base_principale_1.jpg" style="width: 200px; height: 136px; border-width: 0px; border-style: solid; margin-left: 0px; margin-right: 0px;" /></td></tr></tbody></table><h3><font size="5">L&rsquo;hébergement</font></h3><table border="0" cellpadding="1" cellspacing="1" style="width: 100%;"><tbody><tr><td style="vertical-align: middle; width: 50%;"><p>L&#39;accueil des scolaires en séjour pleine nature, se fait sur notre &quot;Base Principale&quot;. La salle lieu de vie, permet au groupe de se réunir et de se restaurer, la cheminée centrale confère au lieu un coté rustique et convivial.<br />Les stagiaires ont en marge des activités encadrées la responsabilité de tâche collectives à effectuer durant le séjour (entretien courant des locaux - vaisselle - préparation des repas...)</p></td><td style="text-align: center; vertical-align: middle; width: 50%;"><p><img alt="Bungalows" src="/sites/default/files/bungalows-couleur.jpg" style="width: 200px; height: 134px; border-width: 0px; border-style: solid; margin-left: 0px; margin-right: 0px;" /></p></td></tr></tbody></table><h4><u>Option ménage possible:</u></h4><table border="0" cellpadding="1" cellspacing="1" style="width: 100%;"><tbody><tr><td style="vertical-align: middle; width: 50%;"><p><font size="2"><font size="2">L&rsquo;association peut faire appel à du personnel salarié pour les tâches ménagères. Un forfait ménage de fin de séjour est possible pour chaque locaux :</font></font></p><ul><li><font size="2">Base principale, bungalows et sanitaires : <span style="font-weight: bold;">130 &euro;. </span></font></li><li><font size="2">Base principale :<span style="font-weight: bold;"> 95 &euro;.</span></font></li><li><font size="2">Base St Georges - Base Sud : <span style="font-weight: bold;">95 &euro;.</span></font></li></ul></td><td style="text-align: center; vertical-align: middle; width: 50%;"><font size="2"><img alt="Base principale" src="/sites/default/files/base_principale_3.jpg" style="width: 190px; height: 140px; border-width: 0px; border-style: solid; margin-left: 0px; margin-right: 0px;" /></font></td></tr></tbody></table><h3><font size="5">Les activités encadrées</font></h3><table border="0" cellpadding="1" cellspacing="1" style="width: 100%;"><tbody><tr><td style="vertical-align: middle; width: 50%;"><p><font size="2">En collaboration avec l&rsquo;équipe pédagogique de la base, vous programmerez les activités en séances, avec 8 à 12 élèves par cadre enseignant. <br />Une activité est possible pour chaque demi-journée, avec au choix :</font></p><ul><li><font size="2">Voile (catamarans, dériveurs, caravelles ou goélette) </font></li><li><font size="2">Canoë-kayak </font></li><li><font size="2">Golf (practice) </font></li><li><font size="2">Escalade (surface artificielle) </font></li><li><font size="2">Tir à l&#39;arc (pas de tir couvert) </font></li><li><font size="2">Course d&#39;orientation </font></li><li><font size="2">V.T.T.</font></li><li><font size="2">Randonnée &amp; Marche-nordique</font></li></ul><p><font size="2">Ces activités sont soumises à des normes de pratique et d&rsquo;encadrement, n&rsquo;hésitez pas à prendre contact avec nous pour la préparation de celle-ci. </font></p></td><td style="text-align: center; vertical-align: middle; width: 50%;"><p><img alt="Activités encadrées" src="/sites/default/files/activites_encadrees_0.jpg" style="width: 179px; height: 194px; border-width: 0px; border-style: solid; margin-left: 0px; margin-right: 0px;" /></p></td></tr></tbody></table><h3><font size="5">Les activités annexes</font></h3><table border="0" cellpadding="1" cellspacing="1" style="width: 100%;"><tbody><tr><td style="vertical-align: middle;"><p><font size="2">A votre disposition sur le site</font></p><ul><li><font size="2">1 court de tennis </font></li><li><font size="2">2 tables de tennis de table </font></li><li><font size="2">terrain de beach-Volley</font></li><li><font size="2">Pétanque </font></li><li><font size="2">Jeu d&rsquo;échec géant </font></li><li><font size="2">Badminton</font></li></ul></td><td style="text-align: center; vertical-align: middle; width: 50%;"><p><img alt="Echecs" src="/sites/default/files/echecs.jpg" style="border-width: 0px; border-style: solid; margin: 0px -1px;" /></p></td></tr></tbody></table><h3><font size="5">A proximité</font></h3><ul><li><font size="2">Tarif préférentiel pour le parcours acrobatique forestier de Saint Martin de Boscherville (prévoir une demi-journée) </font></li><li><font size="2">Possibilité d&rsquo;organisation de visite de l&rsquo;abbatiale de St Martin de Boscherville</font></li></ul><h4>Equipement individuel à la charge de l&rsquo;élève</h4><h3><a href="/sites/default/files/fiche-d-equipement.doc">Une fiche de l&#39;équipement individuel est disponible en cliquant ici </a></h3><h3><font size="5">Horaires</font></h3><p><font size="2">Le personnel de la base est à votre disposition du lundi au vendredi de 9h à 12h et de 14h à 18h. Toutefois, la grande souplesse de nos horaires facilite l&rsquo;organisation générale de votre stage. N&rsquo;hésitez pas à nous consulter. </font></p><h3><font size="5">Responsabilités</font></h3><p><font size="2"><em>La responsabilité globale du stage appartient au chef d&rsquo;établissement. Un enseignant, désigné par celui-ci comme responsable du stage, assurera le bon déroulement du séjour, en collaboration avec ses collègues, du directeur et du personnel de la base.<br />L&rsquo;établissement s&rsquo;engage par l&rsquo;intermédiaire de son encadrement, à faire respecter le règlement intérieur, et les consignes qui seront données aux stagiaires lors de leur accueil sur le site.</em></font></p><table border="0" cellpadding="1" cellspacing="1" style="width: 100%;"><tbody><tr><td style="text-align: center; vertical-align: middle;"><img alt="Kayak" src="/sites/default/files/kayak_5.png" style="width: 237px; height: 177px;" /></td><td style="text-align: center; vertical-align: middle;"><img alt="" src="https://www.ycr76.fr/sites/default/files/img_2354.jpg#overlay-context=scolaires" style="width: 237px; height: 178px;" /></td></tr></tbody></table><h3><font size="5">Détails d&#39;organisation</font></h3><h4><font size="4">Transports</font></h4><p><font size="2">Hénouville bénéficie du transport du réseau de la Métropole. Le transport des groupes issus de la Métropole sont pris en charge par la collectivité (gratuits)</font></p><p><font size="2">Au départ de Rouen, dans les possibilités existantes qui s&#39;offrent aux groupes pour rejoindre la Base de Plein Air d&#39;Hénouville :<br />La ligne régulière des cars réseau Astuce et NoMad est donc a privilégier. L&rsquo;arrêt &quot;Les sablons&quot; ne se trouve qu&rsquo;à un quart d&#39;heure à pied de la base (1400m). Attention : utilisez la ligne 530 &ndash; pour <strong>Hénouville-le-bas, arrêt Les Sablons</strong>.</font><br />Les groupes a très faible effectif peuvent aussi réserver et disposer du dispositif Fil&#39;or qui dépose les usagers au plus proche de notre structure.<br /><font size="2">L&rsquo;arrivée à pied sur la base contribuera à l&rsquo;esprit d&rsquo;espace et de pleine nature du site.</font></p><h4 style="font-weight: bold;"><font size="4">Repas</font></h4><p>Dans un souci de simplicité d&rsquo;organisation des repas, un nombre conséquent d&rsquo;établissements font appel à la restauration collective qui livre les repas sur site.</p><ul><li>Newrest Restauration - Tél. : 02 35 59 20 10</li><li>La Normande Restauration - Tél. : 02 77 23 20 00</li></ul><h4>Adhésion, Tarifs</h4><p>Chaque stagiaire accueilli doit nécessairement devenir adhérent de l&rsquo;association Y.C.Rouen 76 afin de profiter des prestations proposées (hébergement et/ou activités).<br />Adhésion individuelle et annuelle <strong>2027</strong> :<span style="font-weight: bold;"> 5,0</span><strong>0&euro;</strong></p><p><strong>Les collèges publics de Seine-Maritime peuvent bénéficier d&#39;une participation financière via le CRED76. </strong>La gestion du dossier de demande est à charge du collège.</p><p><strong>Notre tarification &quot;groupes scolaires&quot; est applicable à partir de 15 élèves minimum. </strong>En deçà de cet effectif, la tarification est basée sur nos séances à la carte et forfaits associés.</p><p>Le coût de la participation financière par élève, en complément de l&#39;adhésion individuelle, est de :</p><table align="center" border="5" cellspacing="5" prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><tbody><tr><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;" width="170"><div align="center">Durée du séjour</div></td><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;" width="149"><div align="center"><span style="font-weight: bold;">Par élève</span></div></td></tr><tr><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><div align="center">5 jours, 4 nuits</div></td><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><div align="center"><span style="color: #FF4D00;"><strong>166.60 &euro;</strong></span></div></td></tr><tr><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><div align="center">4 jours, 3 nuits</div></td><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><div align="center"><span style="color: #FF4D00;"><strong>139.20 &euro;</strong></span></div></td></tr><tr><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><div align="center">3 jours, 2 nuits</div></td><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><div align="center"><span style="color: #FF4D00;"><strong>107.00 &euro;</strong></span></div></td></tr><tr><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><div align="center">2 jours, 1 nuit</div></td><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><div align="center"><span style="color: #FF4D00;"><strong>71.20 &euro; </strong></span></div></td></tr><tr><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><div align="center">journée activité sans nuitée</div></td><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><div align="center"><span style="color: #FF4D00;"><strong>32.10 &euro; </strong></span></div></td></tr></tbody></table><p><br />Ce coût journalier par élève comprend : l&rsquo;hébergement et les frais relatifs aux activités de plein air effectuées et encadrées pour chaque demi-journée. </p><p><strong>Sont exclus : les repas et le transport,</strong> qui restent à la charge de l&rsquo;établissement, tant au niveau de leur mise en œuvre qu&rsquo;au niveau de leur règlement.</p>
+## avec ou sans nuitée en bungalows.
+
+### *Notre équipe d'encadrement s'implique avec vous sur des projets tels que :*
+
+|  |  |
+| --- | --- |
+| - Découverte et pratique des sports de pleine nature - Vie en collectivité - cohésion - Respect de l'environnement - développement durable - Autonomie - Insertion | Base principale |
+
+### L’hébergement
+
+|  |  |
+| --- | --- |
+| L'accueil des scolaires en séjour pleine nature, se fait sur notre "Base Principale". La salle lieu de vie, permet au groupe de se réunir et de se restaurer, la cheminée centrale confère au lieu un coté rustique et convivial. Les stagiaires ont en marge des activités encadrées la responsabilité de tâche collectives à effectuer durant le séjour (entretien courant des locaux - vaisselle - préparation des repas...) | Bungalows |
+
+#### Option ménage possible:
+
+|  |  |
+| --- | --- |
+| L’association peut faire appel à du personnel salarié pour les tâches ménagères. Un forfait ménage de fin de séjour est possible pour chaque locaux :   - Base principale, bungalows et sanitaires : 130 €. - Base principale : 95 €. - Base St Georges - Base Sud : 95 €. | Base principale |
+
+### Les activités encadrées
+
+|  |  |
+| --- | --- |
+| En collaboration avec l’équipe pédagogique de la base, vous programmerez les activités en séances, avec 8 à 12 élèves par cadre enseignant.  Une activité est possible pour chaque demi-journée, avec au choix :   - Voile (catamarans, dériveurs, caravelles ou goélette) - Canoë-kayak - Golf (practice) - Escalade (surface artificielle) - Tir à l'arc (pas de tir couvert) - Course d'orientation - V.T.T. - Randonnée & Marche-nordique   Ces activités sont soumises à des normes de pratique et d’encadrement, n’hésitez pas à prendre contact avec nous pour la préparation de celle-ci. | Activités encadrées |
+
+### Les activités annexes
+
+|  |  |
+| --- | --- |
+| A votre disposition sur le site   - 1 court de tennis - 2 tables de tennis de table - terrain de beach-Volley - Pétanque - Jeu d’échec géant - Badminton | Echecs |
+
+### A proximité
+
+- Tarif préférentiel pour le parcours acrobatique forestier de Saint Martin de Boscherville (prévoir une demi-journée)
+- Possibilité d’organisation de visite de l’abbatiale de St Martin de Boscherville
+
+#### Equipement individuel à la charge de l’élève
+
+### [Une fiche de l'équipement individuel est disponible en cliquant ici](/sites/default/files/fiche-d-equipement.doc)
+
+### Horaires
+
+Le personnel de la base est à votre disposition du lundi au vendredi de 9h à 12h et de 14h à 18h. Toutefois, la grande souplesse de nos horaires facilite l’organisation générale de votre stage. N’hésitez pas à nous consulter.
+
+### Responsabilités
+
+*La responsabilité globale du stage appartient au chef d’établissement. Un enseignant, désigné par celui-ci comme responsable du stage, assurera le bon déroulement du séjour, en collaboration avec ses collègues, du directeur et du personnel de la base.
+L’établissement s’engage par l’intermédiaire de son encadrement, à faire respecter le règlement intérieur, et les consignes qui seront données aux stagiaires lors de leur accueil sur le site.*
+
+|  |  |
+| --- | --- |
+| Kayak |  |
+
+### Détails d'organisation
+
+#### Transports
+
+Hénouville bénéficie du transport du réseau de la Métropole. Le transport des groupes issus de la Métropole sont pris en charge par la collectivité (gratuits)
+
+Au départ de Rouen, dans les possibilités existantes qui s'offrent aux groupes pour rejoindre la Base de Plein Air d'Hénouville :
+La ligne régulière des cars réseau Astuce et NoMad est donc a privilégier. L’arrêt "Les sablons" ne se trouve qu’à un quart d'heure à pied de la base (1400m). Attention : utilisez la ligne 530 – pour **Hénouville-le-bas, arrêt Les Sablons**.
+Les groupes a très faible effectif peuvent aussi réserver et disposer du dispositif Fil'or qui dépose les usagers au plus proche de notre structure.
+L’arrivée à pied sur la base contribuera à l’esprit d’espace et de pleine nature du site.
+
+#### Repas
+
+Dans un souci de simplicité d’organisation des repas, un nombre conséquent d’établissements font appel à la restauration collective qui livre les repas sur site.
+
+- Newrest Restauration - Tél. : 02 35 59 20 10
+- La Normande Restauration - Tél. : 02 77 23 20 00
+
+#### Adhésion, Tarifs
+
+Chaque stagiaire accueilli doit nécessairement devenir adhérent de l’association Y.C.Rouen 76 afin de profiter des prestations proposées (hébergement et/ou activités).
+Adhésion individuelle et annuelle **2027** : 5,0**0€**
+
+**Les collèges publics de Seine-Maritime peuvent bénéficier d'une participation financière via le CRED76.** La gestion du dossier de demande est à charge du collège.
+
+**Notre tarification "groupes scolaires" est applicable à partir de 15 élèves minimum.** En deçà de cet effectif, la tarification est basée sur nos séances à la carte et forfaits associés.
+
+Le coût de la participation financière par élève, en complément de l'adhésion individuelle, est de :
+
+|  |  |
+| --- | --- |
+| Durée du séjour | Par élève |
+| 5 jours, 4 nuits | **166.60 €** |
+| 4 jours, 3 nuits | **139.20 €** |
+| 3 jours, 2 nuits | **107.00 €** |
+| 2 jours, 1 nuit | **71.20 €** |
+| journée activité sans nuitée | **32.10 €** |
+
+Ce coût journalier par élève comprend : l’hébergement et les frais relatifs aux activités de plein air effectuées et encadrées pour chaque demi-journée.
+
+**Sont exclus : les repas et le transport,** qui restent à la charge de l’établissement, tant au niveau de leur mise en œuvre qu’au niveau de leur règlement.

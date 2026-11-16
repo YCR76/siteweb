@@ -5,6 +5,23 @@ categorie: "regate"
 aliases:
   - /regate-compte-rendu-reunion-coureur
 ---
+Bonjour à toutes et à tous,
 
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body style="word-wrap: break-word; -webkit-nbsp-mode: space; line-break: after-white-space;" class="">Bonjour à toutes et à tous,<div class=""><br class=""><div class=""><span class="Apple-tab-span" style="white-space: pre;">	</span>Je vous transmet en pièce jointe le compte rendu de <font color="#ff2600" class="" style="font-weight: bold;">la réunion coureur </font><font class="">du 6 </font>Janvier.  Il est important de tout lire pour être au fait des nouveautés 2018 !</div><div class="">J’ai essayé de le faire aussi concis que possible (pour mettre toute les chances de mon côté pour une lecture intégrale de votre part…).</div><div class="">Par conséquent si vous avez besoins de précision(s), en particulier sur les outils de suivi, n’hésitez pas.</div><div class=""><br class=""></div><div class=""><br class=""></div><div class=""><br class=""></div><div class=""><br class=""></div><div class=""><b class="" style="font-size: 14px;"><font color="#ff2600" class="">Rappel : Pour toutes celles et ceux qui naviguent avec un gilet de sauvetage perso, il est impératif (depuis cette année) de le faire vérifier par Alexis !</font></b></div><div class=""><br class=""></div><div class=""><br class=""></div><div class=""><br class=""></div><div class=""><u class=""><b class="">Liens utiles :</b></u></div><div class=""><u class=""><b class=""><br class=""></b></u></div><div class=""><a href="https://docs.google.com/spreadsheets/d/10hE9lPQJweeA20PEU15KhcFt5ZufurVBcmjdw8ZRP-Y/edit?usp=drive_web" class=""><i class="">Calendrier en ligne</i></a></div><div class=""><a href="https://www.ycr76.fr/" class=""><i class="">Site du club</i></a></div><div class=""><br class=""></div><div class=""><br class=""></div><div class=""><br class=""></div><div class="">Sportivement.<br class=""><br class="">Benoît Dijoux<br class=""><span class="" style="font-size: 11px;">Entraineur Y.C.Rouen 76</span></div><div class=""><br class=""></div><div class=""><br class=""></div><div class=""><br class=""></div><div class=""></div></div></body></html><html><body style="word-wrap: break-word; -webkit-nbsp-mode: space; line-break: after-white-space;"><head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii"></head><div class=""><div class=""></div></div></body></html><html><body style="word-wrap: break-word; -webkit-nbsp-mode: space; line-break: after-white-space;"><head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii"></head><div class=""><div class=""></div></div></body></html><html><body style="word-wrap: break-word; -webkit-nbsp-mode: space; line-break: after-white-space;"><head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii"></head><div class=""><div class=""></div><div class=""></div></div></body></html><html><body style="word-wrap: break-word; -webkit-nbsp-mode: space; line-break: after-white-space;"><head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii"></head><div class=""><div class=""></div></div></body></html><html><body style="word-wrap: break-word; -webkit-nbsp-mode: space; line-break: after-white-space;"><head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii"></head><div class=""><div class=""></div></div></body></html><html><head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii"></head><body style="word-wrap: break-word; -webkit-nbsp-mode: space; line-break: after-white-space;" class=""><div class=""><div class=""></div><div class=""><br class=""></div><div class=""><br class=""></div><div class=""><br class=""></div><div class=""><br class=""></div><div class=""><div class=""><br class=""></div><div class=""><br class=""></div></div></div>
-<br class=""></body></html>
+Je vous transmet en pièce jointe le compte rendu de la réunion coureur du 6 Janvier. Il est important de tout lire pour être au fait des nouveautés 2018 !
+
+J’ai essayé de le faire aussi concis que possible (pour mettre toute les chances de mon côté pour une lecture intégrale de votre part…).
+
+Par conséquent si vous avez besoins de précision(s), en particulier sur les outils de suivi, n’hésitez pas.
+
+**Rappel : Pour toutes celles et ceux qui naviguent avec un gilet de sauvetage perso, il est impératif (depuis cette année) de le faire vérifier par Alexis !**
+
+**Liens utiles :**
+
+[*Calendrier en ligne*](https://docs.google.com/spreadsheets/d/10hE9lPQJweeA20PEU15KhcFt5ZufurVBcmjdw8ZRP-Y/edit?usp=drive_web)
+
+[*Site du club*](https://www.ycr76.fr/)
+
+Sportivement.
+
+Benoît Dijoux
+Entraineur Y.C.Rouen 76

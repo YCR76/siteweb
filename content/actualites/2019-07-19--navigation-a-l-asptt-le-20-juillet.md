@@ -5,70 +5,18 @@ categorie: "membre"
 aliases:
   - /membre-navigation-lasptt-20-juillet
 ---
+Bonjour,
 
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  </head>
-  <body text="#000000" bgcolor="#FFFFFF">
-    <p>Bonjour,</p>
-    <p>Le club sera fermé demain, mais Jacques (ASPTT) accepte
-      d'accueillir les candidats à la navigation.</p>
-    <p>Vous souhaitant bonne réception </p>
-    <div class="moz-signature">
-      <div class="moz-signature">
-        <p> Cordialement
-          <br>
-          Thomas Guenneguez<br>
-          <i><font size="-2">Trésorier Y.C.Rouen 76</font></i><br>
-          <br>
-        </p>
-        <table>
-          <tbody>
-            <tr>
-              <td><a href="http://www.ycr76.fr"><img
-                    src="http://www.ycr76.fr/sites/default/files/new-logo.png"
-                    alt="YCR 76" width="200" height="200"></a></td>
-              <td>
-                <p><span style="color: #000099; font-family: Eras Bold
-                    ITC;">BASE DE PLEIN AIR D'HENOUVILLE</span><br>
-                  1444 chaussée Bertrand<big><strong><small><br>
-                        76840 Hénouville</small></strong></big></p>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td><span style="font-family: Eras Bold ITC;">Tél
-                          : <a href="tel:0235323404">02.35.32.34.04</a></span></td>
-                      <td><br>
-                      </td>
-                      <td><span style="font-family: Eras Bold ITC;">Fax
-                          : <a href="tel:0972324367">09.72.32.43.67</a></span></td>
-                    </tr>
-                    <tr>
-                      <td><span style="font-family: Eras Bold ITC;">Site
-                          : <span style="font-family: courier
-                            new,courier; font-size: small;"><strong><a
-                                href="http://www.ycr76.fr">http://www.ycr76.fr</a></strong></span></span><br>
-                        <span style="font-family: Eras Bold ITC;">Email
-                          : <span style="font-family: courier
-                            new,courier; font-size: small;"><strong><a
-                                href="mailto:contact@ycr76.fr">contact@ycr76.fr</a></strong></span></span></td>
-                      <td><br>
-                      </td>
-                      <td> <br>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="moz-forward-container">
-      <div id="DAB4FAD8-2DD7-40BB-A1B8-4E2AA1F9FDF2"><br>
-      </div>
-    </div>
-  </body>
-</html>
+Le club sera fermé demain, mais Jacques (ASPTT) accepte
+d'accueillir les candidats à la navigation.
+
+Vous souhaitant bonne réception
+
+Cordialement
+
+Thomas Guenneguez
+*Trésorier Y.C.Rouen 76*
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [YCR 76](http://www.ycr76.fr) | BASE DE PLEIN AIR D'HENOUVILLE  1444 chaussée Bertrand **76840 Hénouville**   |  |  |  | | --- | --- | --- | | Tél : [02.35.32.34.04](tel:0235323404) |  | Fax : [09.72.32.43.67](tel:0972324367) | | Site : **<http://www.ycr76.fr>**  Email : **[contact@ycr76.fr](mailto:contact@ycr76.fr)** |  |  | |

@@ -5,12 +5,48 @@ categorie: "membre"
 aliases:
   - /membre-participation-ycrouen-76-grande-pagaille-larmada-2022
 ---
+Bonjour à tous
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
- </head><body style="font-family: arial,helvetica,sans-serif; font-size: 13pt"><p>Bonjour &#224; tous</p><p>Objet&#160;: participation du club de voile &#224; la manifestation LA GRANDE PAGAILLE de L&#8217;ARMADA 2023</p><p>Le club de voile s&#8217;est inscrit pour participer &#224; cette manifestation qui se d&#233;roulera le 7 juin 2023 sur la Seine devant les quais de Rouen. 25 &#233;quipes devront concevoir et fabriquer un OFNI (objet flottant non identifi&#233;). Cette f&#234;te accueille un public important avant l&#8217;arriv&#233;e des bateaux le soir m&#234;me.</p><p>Je vous donne les consignes du comit&#233; d&#8217;organisation de La Grande Pagaille&#160;:</p><p>La fabrication des embarcations est laiss&#233;e &#224; l&#8217;imagination des participants &#224; condition qu&#39;elles flottent, et avec des mat&#233;riaux respectant l&#8217;environnement.</p><p>Le nombre de participants est limit&#233; &#224; 5 personnes par embarcation maximum.</p><p>Les embarcations devront &#234;tre con&#231;ues en privil&#233;giant les mat&#233;riaux recyclables. Chaque embarcation doit &#234;tre munie :</p><ul><li>D&#39;une r&#233;serve de flottaison (bidons)</li><li>D&#39;un bout de remorquage de 10 m&#232;tres (grosse corde)</li><li>D&#39;un bout de 20 m&#232;tres reli&#233; &#224; une bou&#233;e (corde simple), signalisation en cas de naufrage</li><li>Tous les bords tranchants doivent &#234;tre prot&#233;g&#233;s</li><li>Tous les modes propulsion sont accept&#233;s sauf tous moteurs thermiques</li><li>De 2 avirons au minimum m&#234;me si moteur &#233;lectrique</li><li>Le moteur ainsi que la batterie doivent &#234;tre fix&#233;s de fa&#231;on sure au bateau</li><li>Chaque embarcation doit &#234;tre munie de 4 points d&#39;ancrage aux extr&#233;mit&#233;s pour faciliter le grutage</li><li>&#192; la fin de la Parade, chaque &#233;quipe doit r&#233;cup&#233;rer son embarcation<br></li></ul><p><br></p><p>Nous faisons donc appel &#224; tous ceux parmi vous qui ont des id&#233;es d&#8217;embarcation, &#224; ceux qui veulent participer &#224; la construction de notre OFNI. <strong>Les jeunes qui souhaitent naviguer le jour de la manifestation devront obligatoirement avoir particip&#233; aux travaux de construction&#160;!</strong></p><p>Nous profiterons de la p&#233;riode hivernale pour travailler sur notre OFNI.</p><p>Nous vous donnons le lien pour&#160;:</p><ul><li>Donner vos id&#233;es</li><li>S&#8217;inscrire pour participer &#224; la conception de cette embarcation</li></ul><p><a href="https://framaforms.org/grande-pagaille-armada-1664304236">https://framaforms.org/grande-pagaille-armada-1664304236</a></p><p>Nous fixerons une r&#233;union pour d&#233;cider du th&#232;me de l&#8217;embarcation et d&#233;finir un projet de construction.</p><p>Yannick Bourhis se propose d&#8217;&#234;tre responsable de la r&#233;alisation des travaux.</p><p>Toutes vos id&#233;es et propositions seront &#233;tudi&#233;es ensemble, nous vous laissons &#224; vos r&#233;flexions et nous ne manquerons pas de vous contactez. A tr&#232;s bient&#244;t.</p><p><br></p><p>Brigitte SIMON et Thomas GUENNEGUEZ</p></body></html>
-
----------------------------------------------------------------------
+Objet : participation du club de voile à la manifestation LA GRANDE PAGAILLE de L’ARMADA 2023
+
+Le club de voile s’est inscrit pour participer à cette manifestation qui se déroulera le 7 juin 2023 sur la Seine devant les quais de Rouen. 25 équipes devront concevoir et fabriquer un OFNI (objet flottant non identifié). Cette fête accueille un public important avant l’arrivée des bateaux le soir même.
+
+Je vous donne les consignes du comité d’organisation de La Grande Pagaille :
+
+La fabrication des embarcations est laissée à l’imagination des participants à condition qu'elles flottent, et avec des matériaux respectant l’environnement.
+
+Le nombre de participants est limité à 5 personnes par embarcation maximum.
+
+Les embarcations devront être conçues en privilégiant les matériaux recyclables. Chaque embarcation doit être munie :
+
+- D'une réserve de flottaison (bidons)
+- D'un bout de remorquage de 10 mètres (grosse corde)
+- D'un bout de 20 mètres relié à une bouée (corde simple), signalisation en cas de naufrage
+- Tous les bords tranchants doivent être protégés
+- Tous les modes propulsion sont acceptés sauf tous moteurs thermiques
+- De 2 avirons au minimum même si moteur électrique
+- Le moteur ainsi que la batterie doivent être fixés de façon sure au bateau
+- Chaque embarcation doit être munie de 4 points d'ancrage aux extrémités pour faciliter le grutage
+- À la fin de la Parade, chaque équipe doit récupérer son embarcation
+
+Nous faisons donc appel à tous ceux parmi vous qui ont des idées d’embarcation, à ceux qui veulent participer à la construction de notre OFNI. **Les jeunes qui souhaitent naviguer le jour de la manifestation devront obligatoirement avoir participé aux travaux de construction !**
+
+Nous profiterons de la période hivernale pour travailler sur notre OFNI.
+
+Nous vous donnons le lien pour :
+
+- Donner vos idées
+- S’inscrire pour participer à la conception de cette embarcation
+
+<https://framaforms.org/grande-pagaille-armada-1664304236>
+
+Nous fixerons une réunion pour décider du thème de l’embarcation et définir un projet de construction.
+
+Yannick Bourhis se propose d’être responsable de la réalisation des travaux.
+
+Toutes vos idées et propositions seront étudiées ensemble, nous vous laissons à vos réflexions et nous ne manquerons pas de vous contactez. A très bientôt.
+
+Brigitte SIMON et Thomas GUENNEGUEZ
+
+---------------------------------------------------------------------
 Desinscription: envoyez un message a: membre-unsubscribe@ycr76.fr

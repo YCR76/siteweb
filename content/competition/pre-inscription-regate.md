@@ -3,7 +3,6 @@ title: Pré-inscription aux régates
 aliases:
   - /pre-inscription-regate
 ---
-
 <form name="pre-inscription" method="POST" action="/merci-pre-inscription.html" data-netlify="true" class="netlify-form">
   <input type="hidden" name="form-name" value="pre-inscription">
   <label for="f-nom">Nom</label>

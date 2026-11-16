@@ -5,5 +5,40 @@ aliases:
   - organigramme
   - /organigramme
 ---
+Information administrative
+[La fiche du YCR76 sur le site de la Fédération Française de Voile.](http://www.ffvoile.fr/ffv/web/carto/StructureDetail.asp?stcode=76033&annee=2009&struct=club&Retour=undefined)
 
-<p>Information administrative <br /><a href="http://www.ffvoile.fr/ffv/web/carto/StructureDetail.asp?stcode=76033&amp;annee=2009&amp;struct=club&amp;Retour=undefined" target="new">La fiche du YCR76 sur le site de la Fédération Française de Voile.</a></p><p>Composition du Bureau (AG du 15 mars 2024 et CA du 22 mars 2024)</p><table prevstyle="border: 1px dashed #AAAAAA; border-image: none; borderimage: none;" style="border: 1px dashed #AAAAAA; border-image: none; borderimage: none;"><tbody><tr><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;">Président :</td><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><a href="/users/steve" target="">Steve PICARD</a></td></tr><tr><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;">Président d&#39;Honneur :</td><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><a href="/users/patrice" target="">Patrice MADILLAC</a></td></tr><tr><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;">Secrétaire Générale :</td><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><a href="/users/brigitte" target="">Brigitte SIMON</a></td></tr><tr><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><p>Trésorier :</p></td><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><p><a href="/users/thomas" target="">Thomas GUENNEGUEZ</a></p></td></tr><tr><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;">Directeur :</td><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><a href="https://www.ycr76.fr/users/alexis">Alexis AROUX</a></td></tr><tr><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;">Coach Voile jeunes / Educateur sportif spécialisé sports pleine nature :</td><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><a href="https://www.ycr76.fr/users/soinardthomas1494">Thomas SOINARD</a></td></tr><tr><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;">Educatrice sportive spécialisée sports pleine nature :</td><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><a href="https://www.ycr76.fr/users/loreleimaris1061">Loreleï MARIS</a></td></tr><tr><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;">Coach Voile / Educateurs sportifs </td><td prevstyle="border: 1px dashed #AAAAAA; border-image: none;" style="border: 1px dashed #AAAAAA; border-image: none;"><p>Mathieu  LABBEY</p><p>Antoine LE BARBENCHON</p></td></tr></tbody></table><p>Nos Commissions, le responsable de chacunes d&rsquo;elles :<br />Les commissions proposent leurs divers projets au Conseil d&rsquo;Administration puis se chargent de développer et mettre en œuvre les projets adoptés.</p><p><strong>Commission sportive</strong> : correspondant : Alexis AROUX<br />Organisation des compétitions, choix du programme des jeunes coureurs, suivi du matériel de nos coureurs, organisation des entrainements et des stages.<br />Mise en place de la politique sportive du club.</p><p><strong>Commission Voile Loisir</strong> : correspondant : Thomas SOINARD<br />Nos navigations hors compétition au sein du club, le matériel spécifique à cet usage</p><p><strong>Commission Travaux et valorisation du site</strong> : Yannick BOURHIS<br />Gestion et développement de l&#39;ensemble de nos locaux, rénovation, mise aux normes et embellissement du site</p><p><strong>Commission Animation et Communication</strong> : <a href="/users/brigitte" target="">Brigitte SIMON</a><br />Gestion et développement de la vie extra-sportive de notre association</p><p><strong>Commission Plein Air et Sports de pleine nature</strong> : <a href="/users/alexis" target="">Alexis AROUX</a><br />Gestion et développement des activités commerciales de la Base de plein air d&rsquo;Hénouville</p><p><strong>Commission Finances et aides publiques</strong> : <a href="/users/thomas" target="">Thomas GUENNEGUEZ</a><br />Gestion financière de l&#39;association.</p>
+Composition du Bureau (AG du 15 mars 2024 et CA du 22 mars 2024)
+
+|  |  |
+| --- | --- |
+| Président : | [Steve PICARD](/users/steve) |
+| Président d'Honneur : | [Patrice MADILLAC](/users/patrice) |
+| Secrétaire Générale : | [Brigitte SIMON](/users/brigitte) |
+| Trésorier : | [Thomas GUENNEGUEZ](/users/thomas) |
+| Directeur : | [Alexis AROUX](https://www.ycr76.fr/users/alexis) |
+| Coach Voile jeunes / Educateur sportif spécialisé sports pleine nature : | [Thomas SOINARD](https://www.ycr76.fr/users/soinardthomas1494) |
+| Educatrice sportive spécialisée sports pleine nature : | [Loreleï MARIS](https://www.ycr76.fr/users/loreleimaris1061) |
+| Coach Voile / Educateurs sportifs | Mathieu LABBEY  Antoine LE BARBENCHON |
+
+Nos Commissions, le responsable de chacunes d’elles :
+Les commissions proposent leurs divers projets au Conseil d’Administration puis se chargent de développer et mettre en œuvre les projets adoptés.
+
+**Commission sportive** : correspondant : Alexis AROUX
+Organisation des compétitions, choix du programme des jeunes coureurs, suivi du matériel de nos coureurs, organisation des entrainements et des stages.
+Mise en place de la politique sportive du club.
+
+**Commission Voile Loisir** : correspondant : Thomas SOINARD
+Nos navigations hors compétition au sein du club, le matériel spécifique à cet usage
+
+**Commission Travaux et valorisation du site** : Yannick BOURHIS
+Gestion et développement de l'ensemble de nos locaux, rénovation, mise aux normes et embellissement du site
+
+**Commission Animation et Communication** : [Brigitte SIMON](/users/brigitte)
+Gestion et développement de la vie extra-sportive de notre association
+
+**Commission Plein Air et Sports de pleine nature** : [Alexis AROUX](/users/alexis)
+Gestion et développement des activités commerciales de la Base de plein air d’Hénouville
+
+**Commission Finances et aides publiques** : [Thomas GUENNEGUEZ](/users/thomas)
+Gestion financière de l'association.

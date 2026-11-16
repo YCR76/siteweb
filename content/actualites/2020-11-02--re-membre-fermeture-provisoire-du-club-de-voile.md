@@ -4,5 +4,43 @@ date: 2020-11-02 12:00:00
 aliases:
   - /re-membre-fermeture-provisoire-club-voile
 ---
+Bonjour,
 
-<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv=Content-Type content="text/html; charset=utf-8"><meta name=Generator content="Microsoft Word 15 (filtered medium)"><style></style></head><body lang=FR link=blue vlink=purple><div class=WordSection1><p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D;mso-fareast-language:EN-US'>Bonjour,<o:p></o:p></span></p><p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D;mso-fareast-language:EN-US'><o:p> </o:p></span></p><p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D;mso-fareast-language:EN-US'>Comme les chasseurs, demandons une dérogation pour le bien fait et contre les dégradations des bords de seine par le gibier d’eau …<o:p></o:p></span></p><p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D;mso-fareast-language:EN-US'>Par notre présence et nos activités sur les berges et sur l’eau, nous avons une action sur la faune…<o:p></o:p></span></p><p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D;mso-fareast-language:EN-US'>Tous à vos gilets et coupe-vent ORANGE !<o:p></o:p></span></p><p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D;mso-fareast-language:EN-US'><o:p> </o:p></span></p><p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D;mso-fareast-language:EN-US'>Bonne semaine à tous,<o:p></o:p></span></p><p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D;mso-fareast-language:EN-US'><o:p> </o:p></span></p><p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D;mso-fareast-language:EN-US'>Franck.<o:p></o:p></span></p><p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D;mso-fareast-language:EN-US'><o:p> </o:p></span></p><div><div style='border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=MsoNormal><b><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>De :</span></b><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'> Alexis Aroux YCRouen76 &lt;alexis.aroux@ycr76.fr&gt; <b>Envoyé :</b> samedi 31 octobre 2020 11:09<br><b>À :</b> membre@ycr76.fr; regate@ycr76.fr<br><b>Objet :</b> [membre] Fermeture provisoire du club de voile...<o:p></o:p></span></p></div></div><p class=MsoNormal><o:p> </o:p></p><p>Bonjour à tous, <o:p></o:p></p><p>Afin de répondre aux questions sur l'ouverture du club cet après-midi (notamment de la part de nos plus jeunes adhérents)...<o:p></o:p></p><p>J'ai le regret de vous annoncer que notre club de voile n'a pas été retenu dans la liste des Établissements Recevant du Public indispensables au fonctionnement de la nation !<o:p></o:p></p><p>Le club est donc fermé jusqu'à nouvel ordre, néanmoins, nous ne manquerons pas de revenir vers vous très rapidement, et en particulier pour vous proposer de participer ensemble au Vendée Globe sous les couleurs du club...<o:p></o:p></p><p>Prenez bien soin de vous.<o:p></o:p></p><div><p class=MsoNormal style='margin-bottom:12.0pt'>Sportivement,<br><br>Alexis AROUX<br><i><span style='font-size:7.5pt'>Directeur de l'association Y.C.Rouen 76</span></i><o:p></o:p></p><table class=MsoNormalTable border=0 cellpadding=0><tr><td style='padding:.75pt .75pt .75pt .75pt'><p class=MsoNormal><a href="http://www.ycr76.fr"><span style='text-decoration:none'><img border=0 width=200 height=200 style='width:2.0833in;height:2.0833in' id="_x0000_i1025" src="http://www.ycr76.fr/sites/default/files/new-logo.png" alt="YCR 76"></span></a><o:p></o:p></p></td><td style='padding:.75pt .75pt .75pt .75pt'><p><span style='font-family:"Eras Bold ITC",sans-serif;color:#000099'>BASE DE PLEIN AIR D’HENOUVILLE</span><br>1444 chaussée Bertrand<b><br><strong>76840 Hénouville</strong></b><o:p></o:p></p><p> <o:p></o:p></p><table class=MsoNormalTable border=0 cellpadding=0><tr><td style='padding:.75pt .75pt .75pt .75pt'><p class=MsoNormal><span style='font-family:"Eras Bold ITC",sans-serif'>Tél : <a href="tel:0235323404">02.35.32.34.04</a></span><o:p></o:p></p></td><td style='padding:.75pt .75pt .75pt .75pt'><p class=MsoNormal>     <o:p></o:p></p></td><td style='padding:.75pt .75pt .75pt .75pt'><p class=MsoNormal><span style='font-family:"Eras Bold ITC",sans-serif'>Fax : <a href="tel:0972324367">09.72.32.43.67</a></span><o:p></o:p></p></td></tr><tr><td style='padding:.75pt .75pt .75pt .75pt'><p class=MsoNormal><span style='font-family:"Eras Bold ITC",sans-serif'>Site : </span><strong><span style='font-family:"Courier New"'><a href="http://www.ycr76.fr">http://www.ycr76.fr</a></span></strong><br><span style='font-family:"Eras Bold ITC",sans-serif'>Email : </span><strong><span style='font-family:"Courier New"'><a href="mailto:contact@ycr76.fr">contact@ycr76.fr</a></span></strong><o:p></o:p></p></td><td style='padding:.75pt .75pt .75pt .75pt'><p class=MsoNormal>     <o:p></o:p></p></td><td style='padding:.75pt .75pt .75pt .75pt'><p class=MsoNormal><br><br><o:p></o:p></p></td></tr></table></td></tr></table></div><div id=DAB4FAD8-2DD7-40BB-A1B8-4E2AA1F9FDF2><p class=MsoNormal style='margin-bottom:12.0pt'><o:p> </o:p></p><div class=MsoNormal align=center style='text-align:center'><hr size=1 width="99%" noshade style='color:#909090' align=center></div><table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse'><tr><td style='padding:0cm 11.25pt 0cm 6.0pt'><p class=MsoNormal><a href="https://www.avast.com/antivirus"><span style='text-decoration:none'><img border=0 id="_x0000_i1027" src="http://static.avast.com/emails/avast-mail-stamp.png" alt="Avast logo"></span></a><o:p></o:p></p></td><td style='padding:.75pt .75pt .75pt .75pt'><p><span style='font-family:"Calibri",sans-serif;color:#3D4D5A'>L'absence de virus dans ce courrier électronique a été vérifiée par le logiciel antivirus Avast. <br><a href="https://www.avast.com/antivirus">www.avast.com</a> <o:p></o:p></span></p></td></tr></table><p class=MsoNormal><br><br><o:p></o:p></p></div></div></body></html>
+Comme les chasseurs, demandons une dérogation pour le bien fait et contre les dégradations des bords de seine par le gibier d’eau …
+
+Par notre présence et nos activités sur les berges et sur l’eau, nous avons une action sur la faune…
+
+Tous à vos gilets et coupe-vent ORANGE !
+
+Bonne semaine à tous,
+
+Franck.
+
+**De :** Alexis Aroux YCRouen76 <alexis.aroux@ycr76.fr> **Envoyé :** samedi 31 octobre 2020 11:09
+**À :** membre@ycr76.fr; regate@ycr76.fr
+**Objet :** [membre] Fermeture provisoire du club de voile...
+
+Bonjour à tous,
+
+Afin de répondre aux questions sur l'ouverture du club cet après-midi (notamment de la part de nos plus jeunes adhérents)...
+
+J'ai le regret de vous annoncer que notre club de voile n'a pas été retenu dans la liste des Établissements Recevant du Public indispensables au fonctionnement de la nation !
+
+Le club est donc fermé jusqu'à nouvel ordre, néanmoins, nous ne manquerons pas de revenir vers vous très rapidement, et en particulier pour vous proposer de participer ensemble au Vendée Globe sous les couleurs du club...
+
+Prenez bien soin de vous.
+
+Sportivement,
+
+Alexis AROUX
+*Directeur de l'association Y.C.Rouen 76*
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [YCR 76](http://www.ycr76.fr) | BASE DE PLEIN AIR D’HENOUVILLE 1444 chaussée Bertrand ****76840 Hénouville****     |  |  |  | | --- | --- | --- | | Tél : [02.35.32.34.04](tel:0235323404) |  | Fax : [09.72.32.43.67](tel:0972324367) | | Site : **<http://www.ycr76.fr>** Email : **[contact@ycr76.fr](mailto:contact@ycr76.fr)** |  |  | |
+
+---
+
+|  |  |
+| --- | --- |
+| [Avast logo](https://www.avast.com/antivirus) | L'absence de virus dans ce courrier électronique a été vérifiée par le logiciel antivirus Avast.  [www.avast.com](https://www.avast.com/antivirus) |

@@ -5,5 +5,14 @@ categorie: "regate"
 aliases:
   - /regate-regate-poule-pot-0
 ---
+Bonjour à tous,
 
-<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"></head><body dir="auto"><div>Bonjour à tous,</div><div>Merci de bien vérifier votre inscription au sondage pour "la Poule au pot" avec notamment le nombre de repas à réserver. </div><div>Remplir ou corriger si nécessaire !</div><div>Je transferts vos réservations au SNVV ce lundi en début de matinée.</div><div> <a href="https://doodle.com/poll/s6drhcw2i2d22qq2">https://doodle.com/poll/s6drhcw2i2d22qq2</a></div><div><br><br><div>Envoyé de mon iPhone</div></div></body></html>
+Merci de bien vérifier votre inscription au sondage pour "la Poule au pot" avec notamment le nombre de repas à réserver.
+
+Remplir ou corriger si nécessaire !
+
+Je transferts vos réservations au SNVV ce lundi en début de matinée.
+
+<https://doodle.com/poll/s6drhcw2i2d22qq2>
+
+Envoyé de mon iPhone

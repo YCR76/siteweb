@@ -3,8 +3,14 @@ title: "Contactez-nous"
 aliases:
   - /contactez-nous
 ---
+Coordonnées
 
-<p><span class="titre_vert">Coordonnées</span></p><h4 align="justify" class="txt">Y.C.Rouen 76<br /><br />1444 chaussée Bertrand<br />Base de plein air d&#39;Hénouville<br />76840 HENOUVILLE<br /><br />Tél. : 02 35 32 34 04</h4><blockquote dir="ltr" style="margin-right: 0px;"><blockquote dir="ltr" style="margin-right: 0px;"><blockquote dir="ltr" style="margin-right: 0px;"><h4 align="justify" class="txt">Hors saison, vous pouvez nous contacter du mardi au vendredi de 9h30 à 12h30...</h4><h4 align="justify" class="txt">En saison, vos appels téléphonique au secrétariat du club ont le plus de chance d&#39;aboutir : </h4><h4 align="justify" class="txt">du lundi au vendredi de 17h15 à 18h30, sinon...laissez-nous un message... ou choisissez l&#39;échange par mail : contact@ycr76.fr</h4><h4 align="justify" class="txt">  </h4></blockquote></blockquote></blockquote>
+#### Y.C.Rouen 76 1444 chaussée Bertrand Base de plein air d'Hénouville 76840 HENOUVILLE Tél. : 02 35 32 34 04
+
+> #### Hors saison, vous pouvez nous contacter du mardi au vendredi de 9h30 à 12h30...
+> #### En saison, vos appels téléphonique au secrétariat du club ont le plus de chance d'aboutir :
+> #### du lundi au vendredi de 17h15 à 18h30, sinon...laissez-nous un message... ou choisissez l'échange par mail : contact@ycr76.fr
+> ####
 
 <form name="contact" method="POST" action="/merci-contact.html" data-netlify="true" class="netlify-form">
   <input type="hidden" name="form-name" value="contact">

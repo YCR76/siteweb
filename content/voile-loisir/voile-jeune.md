@@ -5,5 +5,24 @@ aliases:
   - voile-jeune
   - /voile-jeune
 ---
+Votre enfant est en primaire et peut attester de sa capacité à savoir nager ? Nous proposons deux sessions de voile, **initiation et perfectionnement** : une à l'automne, une au printemps.
 
-<p>Votre enfant est en primaire et peut attester de sa capacité à savoir nager ? Nous proposons deux sessions de voile, <strong>initiation et perfectionnement</strong> : une à l&#39;automne, une au printemps.</p><h3>En bref</h3><ul><li><strong>Quand :</strong> les mercredis après-midi de <strong>14h à 17h30</strong>, hors vacances scolaires.</li><li><strong>Calendrier :</strong> septembre, octobre et novembre, puis 4 rendez-vous sportifs à terre en janvier et février, et reprise après les vacances de février jusqu&#39;à fin juin.</li><li><strong>Après :</strong> dès un niveau d&#39;autonomie atteint (ou à l&#39;entrée au collège), passage possible vers les séances ados/adultes du samedi après-midi.</li><li><strong>Tarifs :</strong> adhésion + licence FFVoile jeunes 38 &euro;, + cotisation annuelle 2026 de 240 &euro; (demie-cotisation à 120 &euro; à partir de septembre).</li></ul><p><strong>Séance test gratuite le mercredi 16 septembre !</strong> Venez essayer avant de vous engager.</p><p><strong>Inscrivez-vous vite :</strong> places limitées à 30 stagiaires !<br /><a href="https://www.ycr76.fr/programme?field_section_tid_1=277">Programme des activités disponible ici.</a></p><p><img alt="" src="/sites/default/files/montage1.jpg" style="width: 267px; height: 200px;" /> <img alt="" src="/sites/default/files/funboat_4.jpg" style="width: 300px; height: 200px;" /> <img alt="" src="/sites/default/files/open_bic_sur_la_seine.jpg" style="width: 267px; height: 200px;" /></p><p>La structure est labellisée &laquo; École Française de Voile et Voile Loisir &raquo; : apprendre et pratiquer la voile en toute sécurité. La liste des séances est <a href="https://www.ycr76.fr/programme?field_section_tid_1=All&amp;field_activit__tid=43&amp;field_grade_tid=All&amp;term_node_tid_depth=All">en ligne sur notre site</a>.</p><p>Nous proposons aussi occasionnellement des stages d&#39;une semaine durant les vacances. <a href="https://www.ycr76.fr/stages">Plus de renseignements sur notre page stage</a>.</p><p><img alt="" src="https://www.ycr76.fr/sites/default/files/promotionopenskiff.jpg" style="width: 500px; height: 294px;" /></p>
+### En bref
+
+- **Quand :** les mercredis après-midi de **14h à 17h30**, hors vacances scolaires.
+- **Calendrier :** septembre, octobre et novembre, puis 4 rendez-vous sportifs à terre en janvier et février, et reprise après les vacances de février jusqu'à fin juin.
+- **Après :** dès un niveau d'autonomie atteint (ou à l'entrée au collège), passage possible vers les séances ados/adultes du samedi après-midi.
+- **Tarifs :** adhésion + licence FFVoile jeunes 38 €, + cotisation annuelle 2026 de 240 € (demie-cotisation à 120 € à partir de septembre).
+
+**Séance test gratuite le mercredi 16 septembre !** Venez essayer avant de vous engager.
+
+**Inscrivez-vous vite :** places limitées à 30 stagiaires !
+[Programme des activités disponible ici.](https://www.ycr76.fr/programme?field_section_tid_1=277)
+
+![](/sites/default/files/montage1.jpg) ![](/sites/default/files/funboat_4.jpg) ![](/sites/default/files/open_bic_sur_la_seine.jpg)
+
+La structure est labellisée « École Française de Voile et Voile Loisir » : apprendre et pratiquer la voile en toute sécurité. La liste des séances est [en ligne sur notre site](https://www.ycr76.fr/programme?field_section_tid_1=All&field_activit__tid=43&field_grade_tid=All&term_node_tid_depth=All).
+
+Nous proposons aussi occasionnellement des stages d'une semaine durant les vacances. [Plus de renseignements sur notre page stage](https://www.ycr76.fr/stages).
+
+![](https://www.ycr76.fr/sites/default/files/promotionopenskiff.jpg)

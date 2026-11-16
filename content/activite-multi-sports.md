@@ -5,5 +5,39 @@ aliases:
   - activite-multi-sports
   - /activite-multi-sports
 ---
+Nous proposons une activité hebomadaire de septembre à juin (hors vacances scolaires).
 
-<p>Nous proposons une activité hebomadaire de septembre à juin (hors vacances scolaires).</p><p>Pour les 7 &ndash; 12 ans, de 9h30 à 11h30 le mercredi matin.<br />Pour les adultes, le mardi de 15h à 17h30.</p><p><span style="font-size:22px"><span style="font-family:&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif"><span style="font-style:normal"><span style="font-weight:bold"><span style="outline:0px"><span style="vertical-align:baseline"><span style="clear:both"><span style="color:#726f6f"><span style="font-variant-ligatures:normal"><span style="font-variant-caps:normal"><span style="letter-spacing:normal"><span style="orphans:2"><span style="text-transform:none"><span style="white-space:normal"><span style="widows:2"><span style="word-spacing:0px"><span style="background-color:#fcfcfc"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><img alt="" src="http://www.ycr76.fr/sites/default/files/img_0665.jpg" style="border:1px solid #cccccc; padding:6px; height:133px; max-width:97.4%; margin:0.5em 1em 0.5em 0px; width:100px" /><img alt="" src="http://www.ycr76.fr/sites/default/files/img_1166.jpg" style="border:1px solid #cccccc; padding:6px; height:133px; max-width:97.4%; margin:0.5em 1em 0.5em 0px; width:177px" /><img alt="" src="http://www.ycr76.fr/sites/default/files/img_5719.jpg" style="border:1px solid #cccccc; padding:6px; height:133px; max-width:97.4%; margin:0.5em 1em 0.5em 0px; width:177px" /></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p><p>Notre association propose de s&#39;initier et de pratiquer différents sports dans une structure affiliée &quot;Fédération Française sportspourtous&quot;. Elle permet d&rsquo;apprendre et de pratiquer :</p><ul><li>VTT,</li><li>Escalade,</li><li>Tir à l&#39;arc,</li><li>Kayak,</li><li>Voile,</li><li>Randonnée,</li><li>Marche nordique,</li><li>Course d&#39;orientation,</li><li>Paddle,</li><li>Beach-Volley,</li><li>Practice de golf</li></ul><p>Afin de pouvoir participer aux activités nautiques proposés, il est nécessaire de savoir nager et donc, se munir d&#39;un certificat de natation ou test d&#39;aisance aquatique.</p><p><span style="font-size:22px"><span style="font-family:&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif"><span style="font-style:normal"><span style="font-weight:bold"><span style="outline:0px"><span style="vertical-align:baseline"><span style="clear:both"><span style="color:#726f6f"><span style="font-variant-ligatures:normal"><span style="font-variant-caps:normal"><span style="letter-spacing:normal"><span style="orphans:2"><span style="text-transform:none"><span style="white-space:normal"><span style="widows:2"><span style="word-spacing:0px"><span style="background-color:#fcfcfc"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><img alt="" src="https://www.ycr76.fr/sites/default/files/tir_a_larc.png" style="border:1px solid #cccccc; padding:6px; height:133px; max-width:97.4%; margin:0.5em 1em 0.5em 0px; width:177px" /><img alt="" src="https://www.ycr76.fr/sites/default/files/golf_1.jpg" style="border: 1px solid rgb(204, 204, 204); padding: 6px; height: 133px; max-width: 97.4%; margin: 0.5em 1em 0.5em 0px; width: 100px;" /><img alt="" src="https://www.ycr76.fr/sites/default/files/mur_escalade.jpg" style="border: 1px solid rgb(204, 204, 204); padding: 6px; height: 133px; max-width: 97.4%; margin: 0.5em 1em 0.5em 0px; width: 100px;" /></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p><p><strong>La première séance est gratuite.</strong></p><p><a href="https://www.ycr76.fr/programme?field_section_tid_1=277">Programme des activitées disponible ici.</a></p><p><strong>Tarifs:</strong></p><p>Adhésion jeune 36 &euro; et cotisation de 210 &euro;.</p><p>Adhésion adultes 74 &euro; et cotisation de 210 &euro;.</p><p>Nous proposons aussi occasionnellement des stages d&#39;une semaine durant les vacances. <a href="https://www.ycr76.fr/stages">Plus de renseignement sur notre page stage</a>.</p>
+Pour les 7 – 12 ans, de 9h30 à 11h30 le mercredi matin.
+Pour les adultes, le mardi de 15h à 17h30.
+
+![](http://www.ycr76.fr/sites/default/files/img_0665.jpg)![](http://www.ycr76.fr/sites/default/files/img_1166.jpg)![](http://www.ycr76.fr/sites/default/files/img_5719.jpg)
+
+Notre association propose de s'initier et de pratiquer différents sports dans une structure affiliée "Fédération Française sportspourtous". Elle permet d’apprendre et de pratiquer :
+
+- VTT,
+- Escalade,
+- Tir à l'arc,
+- Kayak,
+- Voile,
+- Randonnée,
+- Marche nordique,
+- Course d'orientation,
+- Paddle,
+- Beach-Volley,
+- Practice de golf
+
+Afin de pouvoir participer aux activités nautiques proposés, il est nécessaire de savoir nager et donc, se munir d'un certificat de natation ou test d'aisance aquatique.
+
+![](https://www.ycr76.fr/sites/default/files/tir_a_larc.png)![](https://www.ycr76.fr/sites/default/files/golf_1.jpg)![](https://www.ycr76.fr/sites/default/files/mur_escalade.jpg)
+
+**La première séance est gratuite.**
+
+[Programme des activitées disponible ici.](https://www.ycr76.fr/programme?field_section_tid_1=277)
+
+**Tarifs:**
+
+Adhésion jeune 36 € et cotisation de 210 €.
+
+Adhésion adultes 74 € et cotisation de 210 €.
+
+Nous proposons aussi occasionnellement des stages d'une semaine durant les vacances. [Plus de renseignement sur notre page stage](https://www.ycr76.fr/stages).

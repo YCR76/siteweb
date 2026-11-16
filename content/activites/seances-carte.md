@@ -5,5 +5,63 @@ aliases:
   - seances-carte
   - /seances-carte
 ---
+# **Tarifs 2027**
 
-<h1><span style="color:#d35400;"><strong>Tarifs 2027</strong></span></h1><p><strong>Nos séances d&#39;activités sont proposées du lundi au vendredi, en période estivale, elles nécessitent une réservation préalable. Vous pouvez nous contacter directement au 02.35.32.34.04 ou par mail à contact@ycr76.fr</strong></p><h2>Séance de VTT : 156 &euro;</h2><p><i>à partir de 9 ans, tarif par tranche de 10 stagiaires</i><br />La séance de 2h : le VTT, le casque sont fournis... La séance est encadrée par un éducateur sportif qualifié.</p><p>Agrément &quot;Savoir Rouler A Vélo&quot;</p><p><br /><img alt="VTT en foret" src="/sites/default/files/vtt_foret.jpg" /><br /> </p><h2>Séance de voile : 160 &euro;</h2><p><i>Test d&#39;aisance aquatique (à minima) exigé pour chacun des stagiaires, tarif par tranche de 10 stagiaires</i><br />La séance de 2h : le bateau, le gilet de sauvetage sont fournis... La séance est encadrée par un éducateur sportif ou moniteur qualifié.</p><p><br /><img alt="Goelette" src="/sites/default/files/goelette_2_0.jpg" /><br /> </p><h2>Séance d&#39;escalade : 150 &euro; </h2><p><i>tarif par tranche de 10 stagiaires</i><br />La séance de 2h sur une structure artificielle. Les cordes, les mousquetons, le baudrier sont fournis... La séance est encadrée par un éducateur sportif qualifié.</p><p style="color: #FF003C;">Nous sommes en mesure de nous déplacer avec notre mur d&#39;escalade SAE et de vous proposer une séance à domicile (journée ou demi-journée)          Tarifs et disponibilités : nous consulter !</p><p style="color: #FF003C;"><img alt="" src="https://www.ycr76.fr/sites/default/files/styles/thumbnail/public/1696006357850.jpg?itok=dxIN4ICj" style="width: 200px; height: 267px;" typeof="foaf:Image" /></p><h2> </h2><h2>Séance de kayak : 160 &euro;</h2><p><i>Test d&#39;aisance aquatique (à minima) exigé pour chacun des stagiaires, tarif par tranche de 10 stagiaires</i><br />La séance de 2h : le bateau, le gilet de sauvetage sont fournis... La séance est encadrée par un éducateur sportif qualifié.</p><p><br /><img alt="Kayak" height="150" src="/sites/default/files/kayak_3_0.jpg" width="200" /></p><h2> </h2><h2>Séance de golf : 150 &euro;</h2><p><i>tarif par tranche de 10 stagiaires</i><br />La séance de 2h sur notre practice de golf. Séance de découverte de l&#39;activité. Apprentissage du swing et approche du green. Le matériel est fourni.   La séance est encadrée par un éducateur sportif qualifié.</p><p><br /><img alt="Golf" src="/sites/default/files/golf_0.jpg" /><br /> </p><h2>Séance de tir à l&#39;arc : 131 &euro;</h2><p><i>tarif par tranche de 10 stagiaires</i><br />La séance de 1h30 sur un pas de tir abrité. Arcs, cibles et protections sont fournis... La séance est encadrée par un éducateur sportif qualifié.<br /><img alt="Tir à l'arc" src="/sites/default/files/tir_arc_0.jpg" /></p><p>Chaque pratiquant souscrira une adhésion annuelle et individuelle à l&rsquo;association YCRouen76. Pour les séances à la carte, activités journée ou demie-journée sans hébergement : l&#39;adhésion est comprise dans le coût de la séance.<br /><br /><strong>HORAIRES</strong> : Pour chaque activité :</p><p>3 séances possibles par jour<strong> en haute saison</strong>, les séances débutent à <strong>9h45 à 13h45 ou 16h15</strong></p><p>2 séances possibles en moyenne et basse saison : matin et/ou après-midi, Nous sommes généralement en mesure de nous adapter à vos propres contraintes horaires</p>
+**Nos séances d'activités sont proposées du lundi au vendredi, en période estivale, elles nécessitent une réservation préalable. Vous pouvez nous contacter directement au 02.35.32.34.04 ou par mail à contact@ycr76.fr**
+
+## Séance de VTT : 156 €
+
+*à partir de 9 ans, tarif par tranche de 10 stagiaires*
+La séance de 2h : le VTT, le casque sont fournis... La séance est encadrée par un éducateur sportif qualifié.
+
+Agrément "Savoir Rouler A Vélo"
+
+![VTT en foret](/sites/default/files/vtt_foret.jpg)
+
+## Séance de voile : 160 €
+
+*Test d'aisance aquatique (à minima) exigé pour chacun des stagiaires, tarif par tranche de 10 stagiaires*
+La séance de 2h : le bateau, le gilet de sauvetage sont fournis... La séance est encadrée par un éducateur sportif ou moniteur qualifié.
+
+![Goelette](/sites/default/files/goelette_2_0.jpg)
+
+## Séance d'escalade : 150 €
+
+*tarif par tranche de 10 stagiaires*
+La séance de 2h sur une structure artificielle. Les cordes, les mousquetons, le baudrier sont fournis... La séance est encadrée par un éducateur sportif qualifié.
+
+Nous sommes en mesure de nous déplacer avec notre mur d'escalade SAE et de vous proposer une séance à domicile (journée ou demi-journée) Tarifs et disponibilités : nous consulter !
+
+![](https://www.ycr76.fr/sites/default/files/styles/thumbnail/public/1696006357850.jpg?itok=dxIN4ICj)
+
+##
+
+## Séance de kayak : 160 €
+
+*Test d'aisance aquatique (à minima) exigé pour chacun des stagiaires, tarif par tranche de 10 stagiaires*
+La séance de 2h : le bateau, le gilet de sauvetage sont fournis... La séance est encadrée par un éducateur sportif qualifié.
+
+![Kayak](/sites/default/files/kayak_3_0.jpg)
+
+##
+
+## Séance de golf : 150 €
+
+*tarif par tranche de 10 stagiaires*
+La séance de 2h sur notre practice de golf. Séance de découverte de l'activité. Apprentissage du swing et approche du green. Le matériel est fourni. La séance est encadrée par un éducateur sportif qualifié.
+
+![Golf](/sites/default/files/golf_0.jpg)
+
+## Séance de tir à l'arc : 131 €
+
+*tarif par tranche de 10 stagiaires*
+La séance de 1h30 sur un pas de tir abrité. Arcs, cibles et protections sont fournis... La séance est encadrée par un éducateur sportif qualifié.
+![Tir à l'arc](/sites/default/files/tir_arc_0.jpg)
+
+Chaque pratiquant souscrira une adhésion annuelle et individuelle à l’association YCRouen76. Pour les séances à la carte, activités journée ou demie-journée sans hébergement : l'adhésion est comprise dans le coût de la séance.
+
+**HORAIRES** : Pour chaque activité :
+
+3 séances possibles par jour **en haute saison**, les séances débutent à **9h45 à 13h45 ou 16h15**
+
+2 séances possibles en moyenne et basse saison : matin et/ou après-midi, Nous sommes généralement en mesure de nous adapter à vos propres contraintes horaires

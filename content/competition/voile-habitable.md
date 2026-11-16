@@ -6,5 +6,21 @@ aliases:
   - /cich
   - /voile-habitable
 ---
+**Entraînements en First 7.5 : Dès 15 ans, découvrez la voile sportive !**
+Rejoignez-nous pour des entraînements à bord des First 7.5, des bateaux de la catégorie "sport boat" offrant sensations fortes et plaisir de la navigation. En équipage de 4 à 5 personnes, vivez une expérience dynamique sur l'eau, sans risque de vous mouiller (sauf météo capricieuse !).
+Les sessions se déroulent sur le lac d’Anneville Ambourville, au plan d’eau du CVAS, selon le planning des activités habitable. Ne manquez pas l'occasion de naviguer et de vous perfectionner !
 
-<p style="margin:0cm 0cm 8pt"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:&quot;Aptos&quot;,sans-serif"><b>Entraînements en First 7.5 : Dès 15 ans, découvrez la voile sportive !</b><br />Rejoignez-nous pour des entraînements à bord des First 7.5, des bateaux de la catégorie &quot;sport boat&quot; offrant sensations fortes et plaisir de la navigation. En équipage de 4 à 5 personnes, vivez une expérience dynamique sur l&#39;eau, sans risque de vous mouiller (sauf météo capricieuse !).<br />Les sessions se déroulent sur le lac d&rsquo;Anneville Ambourville, au plan d&rsquo;eau du CVAS, selon le planning des activités habitable. Ne manquez pas l&#39;occasion de naviguer et de vous perfectionner !</span></span></span></p><p style="margin:0cm 0cm 8pt"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:&quot;Aptos&quot;,sans-serif"><b>Horaires :</b></span></span></span></p><ul><li style="margin:0cm 0cm 8pt"><span style="font-size:11pt"><span style="tab-stops:list 36.0pt"><span style="line-height:107%"><span style="font-family:&quot;Aptos&quot;,sans-serif"><b>Départ possible du club :</b> Rendez-vous à 12h</span></span></span></span></li><li style="margin:0cm 0cm 8pt"><span style="font-size:11pt"><span style="tab-stops:list 36.0pt"><span style="line-height:107%"><span style="font-family:&quot;Aptos&quot;,sans-serif"><b>Rendez-vous sur place :</b> 13h (sous réserve du fonctionnement du Bac de Duclair)</span></span></span></span></li><li style="margin:0cm 0cm 8pt"><span style="font-size:11pt"><span style="tab-stops:list 36.0pt"><span style="line-height:107%"><span style="font-family:&quot;Aptos&quot;,sans-serif"><b>Fin de navigation :</b> 17h - 17h30</span></span></span></span></li><li style="margin:0cm 0cm 8pt"><span style="font-size:11pt"><span style="tab-stops:list 36.0pt"><span style="line-height:107%"><span style="font-family:&quot;Aptos&quot;,sans-serif"><b>Retour au club :</b> 18h - 18h30</span></span></span></span></li></ul><p style="margin:0cm 0cm 8pt">[view:programme_new=page_2]</p><p style="margin:0cm 0cm 8pt"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:&quot;Aptos&quot;,sans-serif"><a href="https://www.helloasso.com/associations/ycr76-yacht-club-rouen-76/evenements/entrainement-first-class-7-5">Inscription en ligne </a>à l&#39;avance obligatoire. Les entraînements sont maintenus dès 4 inscrits.</span></span></span></p><p style="margin:0cm 0cm 8pt"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:&quot;Aptos&quot;,sans-serif">Licence et Adhésion nécessaires.</span></span></span></p><p>Pour aller plus loin, vous pouvez participer aux <a href="https://www.ycr76.fr/cich">régates du CICH</a>.</p>
+**Horaires :**
+
+- **Départ possible du club :** Rendez-vous à 12h
+- **Rendez-vous sur place :** 13h (sous réserve du fonctionnement du Bac de Duclair)
+- **Fin de navigation :** 17h - 17h30
+- **Retour au club :** 18h - 18h30
+
+[view:programme\_new=page\_2]
+
+[Inscription en ligne](https://www.helloasso.com/associations/ycr76-yacht-club-rouen-76/evenements/entrainement-first-class-7-5) à l'avance obligatoire. Les entraînements sont maintenus dès 4 inscrits.
+
+Licence et Adhésion nécessaires.
+
+Pour aller plus loin, vous pouvez participer aux [régates du CICH](https://www.ycr76.fr/cich).
