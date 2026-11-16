@@ -65,39 +65,39 @@ collections:
         label: Rubrique Agenda (présentation)
         name: agenda-index
         fields: *pageFields
-      - file: content/lactivite-deriveur.md
+      - file: content/le-club/lactivite-deriveur.md
         label: L'activité dériveur
         name: lactivite-deriveur
         fields: *pageFields
-      - file: content/organigramme.md
+      - file: content/le-club/organigramme.md
         label: Organigramme
         name: organigramme
         fields: *pageFields
-      - file: content/tarifs.md
+      - file: content/le-club/tarifs.md
         label: Tarifs (le club)
         name: tarifs
         fields: *pageFields
-      - file: content/base-documentaire.md
+      - file: content/le-club/base-documentaire.md
         label: Base documentaire
         name: base-documentaire
         fields: *pageFields
-      - file: content/don-club.md
+      - file: content/le-club/don-club.md
         label: Don au club
         name: don-club
         fields: *pageFields
-      - file: content/licence-ffvoile-adhesion-ligne.md
+      - file: content/le-club/licence-ffvoile-adhesion-ligne.md
         label: Licence FFVoile - adhésion en ligne
         name: licence-ffvoile
         fields: *pageFields
-      - file: content/resultats.md
+      - file: content/competition/resultats.md
         label: Résultats des dernières régates
         name: resultats
         fields: *pageFields
-      - file: content/programme.md
+      - file: content/competition/programme.md
         label: Programme des régates
         name: programme
         fields: *pageFields
-      - file: content/activite-multi-sports.md
+      - file: content/activites/activite-multi-sports.md
         label: Activité multi-sports
         name: activite-multi-sports
         fields: *pageFields

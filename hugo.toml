@@ -67,25 +67,25 @@ weight = 11
 [[menus.main]]
 name = "L'activité dériveur"
 parent = "Le club"
-pageRef = "/lactivite-deriveur"
+pageRef = "/le-club/lactivite-deriveur"
 weight = 12
 
 [[menus.main]]
 name = "Organigramme"
 parent = "Le club"
-pageRef = "/organigramme"
+pageRef = "/le-club/organigramme"
 weight = 13
 
 [[menus.main]]
 name = "Tarifs"
 parent = "Le club"
-pageRef = "/tarifs"
+pageRef = "/le-club/tarifs"
 weight = 14
 
 [[menus.main]]
 name = "Base documentaire"
 parent = "Le club"
-pageRef = "/base-documentaire"
+pageRef = "/le-club/base-documentaire"
 weight = 15
 
 [[menus.main]]
@@ -103,13 +103,13 @@ weight = 17
 [[menus.main]]
 name = "Don au club"
 parent = "Le club"
-pageRef = "/don-club"
+pageRef = "/le-club/don-club"
 weight = 18
 
 [[menus.main]]
 name = "Licence FFVoile — adhésion en ligne"
 parent = "Le club"
-pageRef = "/licence-ffvoile-adhesion-ligne"
+pageRef = "/le-club/licence-ffvoile-adhesion-ligne"
 weight = 19
 
 # — Stages —
@@ -217,13 +217,13 @@ weight = 50
 [[menus.main]]
 name = "Agenda des régates"
 parent = "Compétition"
-pageRef = "/programme"
+pageRef = "/competition/programme"
 weight = 51
 
 [[menus.main]]
 name = "Résultats des dernières régates"
 parent = "Compétition"
-pageRef = "/resultats"
+pageRef = "/competition/resultats"
 weight = 52
 
 [[menus.main]]
