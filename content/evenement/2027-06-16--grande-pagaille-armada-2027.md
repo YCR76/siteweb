@@ -1,6 +1,6 @@
 ---
 title: "Grande Pagaille Armada 2027"
-categorie: "Sortie club"
+categorie: "Animation"
 classes:
   - Club
 startDate: 2027-06-16

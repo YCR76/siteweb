@@ -1,6 +1,6 @@
 ---
 title: "Sortie VTT ados / adultes"
-categorie: "Autre"
+categorie: "Animation"
 classes:
   - ILCA/Laser
 startDate: 2027-01-16

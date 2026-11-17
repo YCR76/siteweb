@@ -6,7 +6,7 @@ classes:
   - Europe
   - 420/29er
   - RS Feva
-  - Opti
+  - Optimist
 startDate: 2027-04-04
 allDay: true
 ---

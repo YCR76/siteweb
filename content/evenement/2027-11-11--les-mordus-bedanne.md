@@ -1,6 +1,6 @@
 ---
 title: "Les Mordus Bédanne"
-categorie: "Sortie club"
+categorie: "Régate"
 classes:
   - Club
 startDate: 2027-11-11

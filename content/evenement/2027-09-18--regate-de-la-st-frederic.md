@@ -6,7 +6,7 @@ classes:
   - 420/29er
   - O'pen Skiff
   - RS Feva
-  - Opti
+  - Optimist
 startDate: 2027-09-18
 allDay: true
 ---

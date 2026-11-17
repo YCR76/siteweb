@@ -1,6 +1,6 @@
 {{ define "main" }}
-{{ $labels := slice "ILCA/Laser" "Europe" "420/29er" "O'pen Skiff" "RS Feva" "Opti" "Habitable" }}
-{{ $cls := dict "ILCA/Laser" "cl-ilca" "Europe" "cl-europe" "420/29er" "cl-420" "O'pen Skiff" "cl-skiff" "RS Feva" "cl-feva" "Opti" "cl-opti" "Habitable" "cl-habitable" "Club" "cl-club" }}
+{{ $labels := slice "ILCA/Laser" "Europe" "420/29er" "O'pen Skiff" "RS Feva" "Optimist" "Habitable" }}
+{{ $cls := dict "ILCA/Laser" "cl-ilca" "Europe" "cl-europe" "420/29er" "cl-420" "O'pen Skiff" "cl-skiff" "RS Feva" "cl-feva" "Optimist" "cl-opti" "Habitable" "cl-habitable" "Club" "cl-club" }}
 {{ $jours := slice "dim" "lun" "mar" "mer" "jeu" "ven" "sam" }}
 {{ $mois := slice "janvier" "février" "mars" "avril" "mai" "juin" "juillet" "août" "septembre" "octobre" "novembre" "décembre" }}
 {{ $events := where site.RegularPages "Type" "evenement" }}

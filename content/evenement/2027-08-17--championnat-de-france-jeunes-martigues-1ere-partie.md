@@ -4,7 +4,7 @@ categorie: "Régate"
 classes:
   - ILCA/Laser
   - 420/29er
-  - Opti
+  - Optimist
 startDate: 2027-08-17
 allDay: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Noël du club"
-categorie: "Sortie club"
+categorie: "Animation"
 classes:
   - Club
 startDate: 2026-12-12

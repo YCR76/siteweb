@@ -1,8 +1,8 @@
 ---
 title: "PARADE DES OPTIMISTS"
-categorie: "Sortie club"
+categorie: "Animation"
 classes:
-  - Opti
+  - Optimist
 startDate: 2027-06-19
 allDay: true
 ---

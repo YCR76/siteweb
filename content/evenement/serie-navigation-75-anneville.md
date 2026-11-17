@@ -1,8 +1,8 @@
 ---
 title: "Navigation 7,5 Anneville"
-categorie: "Autre"
+categorie: "Animation"
 classes:
-  - Opti
+  - Optimist
   - Habitable
 startDate: 2026-11-29
 allDay: true

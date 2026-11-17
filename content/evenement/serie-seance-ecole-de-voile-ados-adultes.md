@@ -1,6 +1,6 @@
 ---
 title: "Séance École de Voile Ados / Adultes"
-categorie: "Autre"
+categorie: "Animation"
 classes:
   - ILCA/Laser
   - Europe

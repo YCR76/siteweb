@@ -1,6 +1,6 @@
 ---
 title: "L'Ultime XIII"
-categorie: "Sortie club"
+categorie: "Régate"
 classes:
   - ILCA/Laser
 startDate: 2027-11-27

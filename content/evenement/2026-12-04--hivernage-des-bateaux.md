@@ -1,6 +1,6 @@
 ---
 title: "Hivernage des bateaux"
-categorie: "Sortie club"
+categorie: "Animation"
 classes:
   - Club
 startDate: 2026-12-05

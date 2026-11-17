@@ -1,6 +1,6 @@
 ---
 title: "Animation sportive groupe jeunes"
-categorie: "Autre"
+categorie: "Animation"
 classes:
   - O'pen Skiff
 startDate: 2027-01-13

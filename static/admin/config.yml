@@ -115,7 +115,7 @@ collections:
       - label: Catégorie
         name: categorie
         widget: select
-        options: [Régate, Sortie club, Stage, Indisponibilité, Autre]
+        options: [Régate, Stage, Animation]
         default: Régate
       - label: Date de début
         name: startDate
@@ -132,7 +132,7 @@ collections:
         widget: select
         multiple: true
         required: false
-        options: [ILCA/Laser, Europe, 420/29er, O'pen Skiff, RS Feva, Opti, Habitable, Club]
+        options: [ILCA/Laser, Europe, 420/29er, O'pen Skiff, RS Feva, Optimist, Habitable, Club]
       - label: Date de fin (optionnelle)
         name: endDate
         widget: datetime

@@ -1,6 +1,6 @@
 ---
 title: "Le Noël du YCRouen76"
-categorie: "Autre"
+categorie: "Animation"
 classes:
   - ILCA/Laser
 startDate: 2027-12-11

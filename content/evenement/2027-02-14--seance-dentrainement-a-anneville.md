@@ -1,6 +1,6 @@
 ---
 title: "Séance d'entrainement à Anneville"
-categorie: "Autre"
+categorie: "Animation"
 classes:
   - ILCA/Laser
   - Europe

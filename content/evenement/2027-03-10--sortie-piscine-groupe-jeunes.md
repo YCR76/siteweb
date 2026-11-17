@@ -1,6 +1,6 @@
 ---
 title: "Sortie piscine groupe jeunes"
-categorie: "Autre"
+categorie: "Animation"
 classes:
   - O'pen Skiff
 startDate: 2027-03-10
