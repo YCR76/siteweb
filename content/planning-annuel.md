@@ -1,6 +1,7 @@
 ---
 title: "Planning annuel des événements"
 layout: planning
+noSidebar: true
 aliases:
   - /planning-annuel
 ---

@@ -15,13 +15,15 @@
 </head>
 <body>
   {{ partial "header.html" . }}
-  <div class="page-shell">
+  <div class="page-shell{{ if .Params.noSidebar }} full-width{{ end }}">
     <main id="contenu" class="main-col">
       {{ block "main" . }}{{ end }}
     </main>
+    {{ if not .Params.noSidebar }}
     <aside class="sidebar" aria-label="Informations latérales">
       {{ partial "sidebar.html" . }}
     </aside>
+    {{ end }}
   </div>
   {{ partial "footer.html" . }}
   {{- /* Widget Netlify Identity sur les pages publiques : traite les liens
