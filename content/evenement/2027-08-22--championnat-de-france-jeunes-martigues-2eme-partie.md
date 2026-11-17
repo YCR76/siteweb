@@ -1,0 +1,9 @@
+---
+title: "Championnat de France Jeunes Martigues 2ème partie"
+categorie: "Régate"
+classes:
+  - O'pen Skiff
+  - RS Feva
+startDate: 2027-08-22
+allDay: true
+---

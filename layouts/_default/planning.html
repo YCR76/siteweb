@@ -44,9 +44,14 @@
                       {{ $evStart := time .Params.startDate }}
                       {{ $evEnd := .Params.endDate | default .Params.startDate | time }}
                       {{ $evClasses := .Params.classes | default (slice "Club") }}
+                      {{ $evDates := .Params.dates }}
                       {{ if and (not ($day.Before $evStart)) (not ($day.After $evEnd)) }}
                         {{ if or (in $evClasses $lab) (in $evClasses "Club") }}
-                          {{ if eq $day $evStart }}
+                          {{ if $evDates }}
+                            {{ if in $evDates ($day.Format "2006-01-02") }}
+                              <a class="evt" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                            {{ end }}
+                          {{ else if eq $day $evStart }}
                             <a class="evt" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
                           {{ else }}
                             <span class="evt-cont" title="{{ .Title }}"></span>

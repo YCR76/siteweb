@@ -1,0 +1,11 @@
+---
+title: "CICD Hénouville"
+categorie: "Régate"
+classes:
+  - ILCA/Laser
+  - Europe
+  - 420/29er
+  - RS Feva
+startDate: 2027-05-23
+allDay: true
+---

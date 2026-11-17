@@ -5,10 +5,17 @@
   {{ if eq .Type "evenement" }}
   {{- $start := .Date }}
   {{- with .Params.startDate }}{{ $start = time . }}{{ end }}
+  {{- if isset .Params "dates" }}
+  <p class="event-date">
+    <strong>Séances :</strong>
+    {{- range $i, $d := .Params.dates }}{{ if $i }},{{ end }} {{ (time $d) | time.Format ":date_long" }}{{ end }}
+  </p>
+  {{- else }}
   <p class="event-date">
     <strong>Dates :</strong>
     {{ $start | time.Format ":date_long" }}{{ with .Params.endDate }} — {{ (time .) | time.Format ":date_long" }}{{ end }}
   </p>
+  {{- end }}
   {{ end }}
 </article>
 {{ end }}

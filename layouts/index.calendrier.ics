@@ -10,6 +10,19 @@ X-WR-TIMEZONE:Europe/Paris
 {{- with .Params.startDate }}{{ $start = time . }}{{ end }}
 {{- $end := "" }}
 {{- with .Params.endDate }}{{ $end = (time .) }}{{ end }}
+{{- if isset .Params "dates" }}
+{{- range .Params.dates }}
+BEGIN:VEVENT
+UID:{{ printf "ycr76-%s-%s@www.ycr76.fr" $.File.UniqueID . }}
+SUMMARY:{{ $.Title | replaceRE "[;\\\\]" "_" }}
+DTSTAMP:{{ now.UTC.Format "20060102T150405Z" }}
+DTSTART;VALUE=DATE:{{ (time .).Format "20060102" }}
+LOCATION:{{ with $.Params.location }}{{ . }}{{ else }}Base de Plein Air d'Hénouville\, 1444 chaussée Bertrand\, 76840 Hénouville{{ end }}
+DESCRIPTION:{{ $.Params.summary | default (delimit (split $.Plain (printf "\n")) " ") | truncate 300 | plainify | replaceRE "[;\\\\]" "_" | replaceRE "[\r\n]+" " " }}
+URL:https://www.ycr76.fr{{ $.RelPermalink }}
+END:VEVENT
+{{- end }}
+{{- else }}
 BEGIN:VEVENT
 UID:{{ printf "ycr76-%s@www.ycr76.fr" .File.UniqueID }}
 SUMMARY:{{ .Title | replaceRE "[;\\\\]" "_" }}
@@ -27,5 +40,6 @@ LOCATION:{{ with .Params.location }}{{ . }}{{ else }}Base de Plein Air d'Hénouv
 DESCRIPTION:{{ .Params.summary | default (delimit (split .Plain (printf "\n")) " ") | truncate 300 | plainify | replaceRE "[;\\\\]" "_" | replaceRE "[\r\n]+" " " }}
 URL:https://www.ycr76.fr{{ .RelPermalink }}
 END:VEVENT
+{{- end }}
 {{- end }}
 END:VCALENDAR

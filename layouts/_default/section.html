@@ -24,7 +24,11 @@
     <ul class="event-list">
       {{- range $upcoming }}
       <li>
-        <span class="event-when">{{ .Params.startDate | default .Date | dateFormat "02/01/2006" }}{{ with .Params.endDate }} → {{ dateFormat "02/01/2006" . }}{{ end }}</span>
+        {{- if isset .Params "dates" }}
+        <span class="event-when">{{ index .Params.dates 0 | dateFormat "02/01/2006" }}{{ $n := sub (len .Params.dates) 1 }}{{ if gt $n 0 }} +{{ $n }}{{ if gt $n 1 }} séances{{ else }} séance{{ end }}{{ end }}</span>
+        {{- else }}
+        <span class="event-when">{{ .Params.startDate | default .Date | dateFormat "02/01/2006" }}{{ with .Params.endDate }}{{ if ne . (string $.Params.startDate) }} → {{ dateFormat "02/01/2006" . }}{{ end }}{{ end }}</span>
+        {{- end }}
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       </li>
       {{- end }}
@@ -38,7 +42,11 @@
     <ul class="event-list">
       {{- range $past }}
       <li>
-        <span class="event-when">{{ .Params.startDate | default .Date | dateFormat "02/01/2006" }}{{ with .Params.endDate }} → {{ dateFormat "02/01/2006" . }}{{ end }}</span>
+        {{- if isset .Params "dates" }}
+        <span class="event-when">{{ index .Params.dates 0 | dateFormat "02/01/2006" }}{{ $n := sub (len .Params.dates) 1 }}{{ if gt $n 0 }} +{{ $n }}{{ if gt $n 1 }} séances{{ else }} séance{{ end }}{{ end }}</span>
+        {{- else }}
+        <span class="event-when">{{ .Params.startDate | default .Date | dateFormat "02/01/2006" }}{{ with .Params.endDate }}{{ if ne . (string $.Params.startDate) }} → {{ dateFormat "02/01/2006" . }}{{ end }}{{ end }}</span>
+        {{- end }}
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       </li>
       {{- end }}
