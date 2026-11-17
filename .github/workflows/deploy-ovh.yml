@@ -1,0 +1,47 @@
+# Déploiement du site statique vers l'hébergement web OVH.
+# Déclenché à chaque push sur main (et manuellement).
+# Secrets à créer dans GitHub : Settings > Secrets and variables > Actions > New repository secret
+#   OVH_FTP_HOST     : ex. ftp.cluster0XX.ovh.net (ou sftp:host:port)
+#   OVH_FTP_USER     : identifiant FTP OVH (ex. abcdef-ghijkl)
+#   OVH_FTP_PASSWORD : mot de passe FTP OVH
+#   OVH_FTP_DIR      : dossier cible, ex. www (répertoire racine du site)
+# NB : SFTP nécessite un accès SSH (offres OVH récentes, à activer depuis
+# l'espace client). Si l'offre est FTP-only, remplacer l'étape d'envoi par :
+#   uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+#   with: server: ${{ secrets.OVH_FTP_HOST }} (sans sftp:), username/password/...
+name: Deploy OVH
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+        with:
+          submodules: false
+
+      - name: Installer Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.169.0"
+          extended: true
+
+      - name: Construire le site
+        run: hugo --gc --minify --cleanDestinationDir
+
+      - name: Envoyer via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          server: ${{ secrets.OVH_FTP_HOST }}
+          username: ${{ secrets.OVH_FTP_USER }}
+          password: ${{ secrets.OVH_FTP_PASSWORD }}
+          port: 22
+          local_path: "./public/*"
+          remote_path: ${{ secrets.OVH_FTP_DIR }}
+          sftp_only: true
+          delete_remote_files: true

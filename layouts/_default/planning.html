@@ -1,0 +1,73 @@
+{{ define "main" }}
+{{ $labels := slice "ILCA/Laser" "Europe" "420/29er" "O'pen Skiff" "RS Feva" "Opti" "Habitable" "Club" }}
+{{ $cls := dict "ILCA/Laser" "cl-ilca" "Europe" "cl-europe" "420/29er" "cl-420" "O'pen Skiff" "cl-skiff" "RS Feva" "cl-feva" "Opti" "cl-opti" "Habitable" "cl-habitable" "Club" "cl-club" }}
+{{ $jours := slice "dim" "lun" "mar" "mer" "jeu" "ven" "sam" }}
+{{ $mois := slice "janvier" "février" "mars" "avril" "mai" "juin" "juillet" "août" "septembre" "octobre" "novembre" "décembre" }}
+{{ $events := where site.RegularPages "Type" "evenement" }}
+
+<div class="page planning-page">
+  <h1>Planning annuel des événements</h1>
+  {{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
+
+  <nav class="planning-nav">
+    {{ $m0 := now }}
+    {{ range $i := seq 0 11 }}
+      {{ $mo := $m0.AddDate 0 $i 0 }}
+      <a href="#pl-{{ $mo.Format "2006-01" }}">{{ index $mois (sub (int $mo.Month) 1) }} {{ $mo.Format "2006" }}</a>
+    {{ end }}
+  </nav>
+
+  {{ $m0 := now }}
+  {{ range $i := seq 0 11 }}
+    {{ $month := $m0.AddDate 0 $i 0 }}
+    {{ $first := time (printf "%s-01" ($month.Format "2006-01")) }}
+    {{ $last := $first.AddDate 0 1 -1 }}
+    {{ $ndays := $last.Day }}
+    <section class="planning-month" id="pl-{{ $month.Format "2006-01" }}">
+      <h2>{{ index $mois (sub (int $month.Month) 1) }} {{ $month.Format "2006" }}</h2>
+      <div class="planning-scroll">
+        <table class="planning-table">
+          <thead>
+            <tr>
+              <th class="pl-day"></th>
+              {{ range $labels }}<th class="{{ index $cls . }}">{{ . }}</th>{{ end }}
+            </tr>
+          </thead>
+          <tbody>
+            {{ range $d := seq $ndays }}
+              {{ $day := $first.AddDate 0 0 (sub $d 1) }}
+              <tr>
+                <th class="pl-day">{{ $d }}<span class="pl-dow">{{ index $jours (int $day.Weekday) }}</span></th>
+                {{ range $lab := $labels }}
+                  <td class="{{ index $cls $lab }}">
+                    {{ range $events }}
+                      {{ $evStart := time .Params.startDate }}
+                      {{ $evEnd := .Params.endDate | default .Params.startDate | time }}
+                      {{ $evClasses := .Params.classes | default (slice "Club") }}
+                      {{ if and (not ($day.Before $evStart)) (not ($day.After $evEnd)) }}
+                        {{ if in $evClasses $lab }}
+                          {{ if eq $day $evStart }}
+                            <a class="evt" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                          {{ else }}
+                            <span class="evt-cont" title="{{ .Title }}"></span>
+                          {{ end }}
+                        {{ end }}
+                      {{ end }}
+                    {{ end }}
+                  </td>
+                {{ end }}
+              </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  {{ end }}
+
+  <p class="planning-legend">
+    {{ range $lab := $labels }}
+      <span class="legend-item {{ index $cls $lab }}">{{ $lab }}</span>
+    {{ end }}
+  </p>
+</div>
+{{ end }}

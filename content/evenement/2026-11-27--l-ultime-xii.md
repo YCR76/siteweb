@@ -1,6 +1,8 @@
 ---
 title: "L'ultime XII"
 categorie: "Régate"
+classes:
+  - Club
 startDate: 2026-11-27
 allDay: true
 endDate: 2026-11-28

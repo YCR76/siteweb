@@ -127,6 +127,12 @@ collections:
         name: allDay
         widget: boolean
         default: true
+      - label: Classes de bateaux concernées
+        name: classes
+        widget: select
+        multiple: true
+        required: false
+        options: [ILCA/Laser, Europe, 420/29er, O'pen Skiff, RS Feva, Opti, Habitable, Club]
       - label: Date de fin (optionnelle)
         name: endDate
         widget: datetime

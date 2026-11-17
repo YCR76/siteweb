@@ -95,16 +95,22 @@ url = "/calendrier/"
 weight = 17
 
 [[menus.main]]
+name = "Planning annuel"
+parent = "Le club"
+pageRef = "/planning-annuel"
+weight = 18
+
+[[menus.main]]
 name = "Don au club"
 parent = "Le club"
 pageRef = "/le-club/don-club"
-weight = 18
+weight = 19
 
 [[menus.main]]
 name = "Licence FFVoile — adhésion en ligne"
 parent = "Le club"
 pageRef = "/le-club/licence-ffvoile-adhesion-ligne"
-weight = 19
+weight = 20
 
 # — Stages —
 [[menus.main]]
