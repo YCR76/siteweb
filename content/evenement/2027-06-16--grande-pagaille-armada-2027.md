@@ -3,7 +3,7 @@ title: "Grande Pagaille Armada 2027"
 categorie: "Sortie club"
 classes:
   - Club
-startDate: 2027-06-15
+startDate: 2027-06-16
 allDay: true
 endDate: 2027-06-16
 aliases:

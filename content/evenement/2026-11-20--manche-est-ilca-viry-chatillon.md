@@ -3,7 +3,7 @@ title: "Manche-Est ILCA Viry-Chatillon"
 categorie: "Régate"
 classes:
   - ILCA/Laser
-startDate: 2026-11-20
+startDate: 2026-11-21
 allDay: true
 endDate: 2026-11-22
 aliases:

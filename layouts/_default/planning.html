@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $labels := slice "ILCA/Laser" "Europe" "420/29er" "O'pen Skiff" "RS Feva" "Opti" "Habitable" "Club" }}
+{{ $labels := slice "ILCA/Laser" "Europe" "420/29er" "O'pen Skiff" "RS Feva" "Opti" "Habitable" }}
 {{ $cls := dict "ILCA/Laser" "cl-ilca" "Europe" "cl-europe" "420/29er" "cl-420" "O'pen Skiff" "cl-skiff" "RS Feva" "cl-feva" "Opti" "cl-opti" "Habitable" "cl-habitable" "Club" "cl-club" }}
 {{ $jours := slice "dim" "lun" "mar" "mer" "jeu" "ven" "sam" }}
 {{ $mois := slice "janvier" "février" "mars" "avril" "mai" "juin" "juillet" "août" "septembre" "octobre" "novembre" "décembre" }}
@@ -45,7 +45,7 @@
                       {{ $evEnd := .Params.endDate | default .Params.startDate | time }}
                       {{ $evClasses := .Params.classes | default (slice "Club") }}
                       {{ if and (not ($day.Before $evStart)) (not ($day.After $evEnd)) }}
-                        {{ if in $evClasses $lab }}
+                        {{ if or (in $evClasses $lab) (in $evClasses "Club") }}
                           {{ if eq $day $evStart }}
                             <a class="evt" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
                           {{ else }}
