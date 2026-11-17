@@ -8,6 +8,14 @@
   HUGO_VERSION = "0.169.0"
   HUGO_ENABLEGITINFO = "false"
 
+# Proxy NAS Synology Photos : rend l'API même-origin pour la galerie dynamique
+# (sinon le navigateur bloque les appels vers nas.ycr76.fr:5001 par CORS).
+[[redirects]]
+  from = "/nasapi/*"
+  to = "https://nas.ycr76.fr:5001/webapi/:splat"
+  status = 200
+  force = true
+
 # Page d'administration du CMS : pas de cache (mise à jour immédiate)
 [[headers]]
   for = "/admin/*"

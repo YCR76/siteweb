@@ -89,6 +89,12 @@ pageRef = "/galerie"
 weight = 16
 
 [[menus.main]]
+name = "Archives photo"
+parent = "Galerie"
+pageRef = "/photos"
+weight = 17
+
+[[menus.main]]
 name = "Agenda"
 parent = "Le club"
 url = "/calendrier/"

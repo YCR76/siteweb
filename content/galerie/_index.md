@@ -1,6 +1,6 @@
 ---
-summary: "Photos des dernières activités du Yacht Club Rouen 76."
-aliases:
-  - /galerie
-title: "Galerie"
+title: "Galerie photo"
+noSidebar: true
+layout: photos
+summary: "photos du club depuis 1989."
 ---

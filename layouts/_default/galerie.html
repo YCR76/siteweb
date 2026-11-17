@@ -1,0 +1,220 @@
+{{ define "main" }}
+<div class="page gal-page">
+  <h1>Archives photo</h1>
+  <div class="gal-intro">
+    <p>Photos du club classées par année et par sortie. Pour télécharger une photo en
+    pleine résolution, ouvrez-la puis utilisez le bouton de la visionneuse.</p>
+  </div>
+  <div id="gal-nav" class="gal-nav" hidden></div>
+  <div id="gal-body" class="gal-body"></div>
+  <p id="gal-status" class="gal-status" hidden></p>
+</div>
+<div id="gal-lightbox" class="gal-lightbox" hidden>
+  <button class="gal-lb-close" aria-label="Fermer">&times;</button>
+  <button class="gal-lb-prev" aria-label="Précédente">&#8592;</button>
+  <img src="" alt="">
+  <button class="gal-lb-next" aria-label="Suivante">&#8594;</button>
+  <p class="gal-lb-cap" hidden></p>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var API = 'synology.php';
+  var NASPROXY = 'http://proxy.ycr76.fr/';
+  var NAS = 'https://nas.ycr76.fr:5001/';
+  var ROOT = 26; // /PHOTOS CLASSEES PAR ANNEES
+
+  var nav = document.getElementById('gal-nav');
+  var body = document.getElementById('gal-body');
+  var status = document.getElementById('gal-status');
+  var lb = document.getElementById('gal-lightbox');
+  var lbImg = lb.querySelector('img');
+  var lbCap = lb.querySelector('.gal-lb-cap');
+  var cache = {};
+  var items = [];
+
+  function api(name, version, method, params) {
+    var url = NASPROXY + API + '?api=' + name + '&version=' + version + '&method=' + method;
+    for (var k in params) url += '&' + k + '=' + encodeURIComponent(params[k]);
+    return fetch(url).then(function (r) { return r.json(); }).then(function (d) {
+      if (!d.success) throw new Error(JSON.stringify(d.error));
+      return d.data;
+    });
+  }
+  function paged(name, version, method, params) {
+    var out = [];
+    function step(offset) {
+      params.offset = offset; params.limit = 500;
+      return api(name, version, method, params).then(function (d) {
+        var lst = d.list || [];
+        out = out.concat(lst);
+        if (lst.length < 500) return out;
+        return step(offset + 500);
+      });
+    }
+    return step(0);
+  }
+  function thumbUrl(id, ck, size) {
+    return NAS + '/webapi/entry.cgi?api=SYNO.FotoTeam.Thumbnail&version=2&method=get'
+      + '&id=' + id + '&type=unit&size=' + size + '&cache_key=' + encodeURIComponent(ck);
+  }
+  function show(text) {
+    status.hidden = !text; status.textContent = text || '';
+  }
+  function getYears() {
+    if (cache.years) return Promise.resolve(cache.years);
+    return paged('SYNO.FotoTeam.Browse.Folder', 1, 'list', { id: ROOT })
+      .then(function (f) {
+        cache.years = f.map(function (x) {
+          var m = x.name.match(/(\d{4})/);
+          return m ? { id: x.id, year: m[1] } : null;
+        }).filter(Boolean).sort(function (a, b) { return b.year - a.year; });
+        return cache.years;
+      });
+  }
+  function getAlbums(yearId) {
+    if (cache['albums' + yearId]) return Promise.resolve(cache['albums' + yearId]);
+    return paged('SYNO.FotoTeam.Browse.Folder', 1, 'list', { id: yearId })
+      .then(function (f) {
+        var albums = f.map(function (x) {
+          return { id: x.id, name: x.name.split('/').pop(), items: null };
+        }).sort(function (a, b) { return a.name.localeCompare(b.name, 'fr'); });
+        cache['albums' + yearId] = albums;
+        return albums;
+      });
+  }
+  function getItems(albumId) {
+    if (cache['items' + albumId]) return Promise.resolve(cache['items' + albumId]);
+    return paged('SYNO.FotoTeam.Browse.Item', 7, 'list',
+      { folder_id: albumId, additional: '["thumbnail","resolution"]' })
+      .then(function (l) {
+        var list = l.map(function (it) {
+          var t = it.additional && it.additional.thumbnail || {};
+          var r = it.additional && it.additional.resolution || {};
+          return {
+            id: it.id, ck: t.cache_key,
+            sm: t.sm === 'ready' || t.m === 'ready',
+            xl: t.xl === 'ready',
+            w: r.width, h: r.height,
+            video: it.type === 'video'
+          };
+        }).filter(function (it) { return it.ck && it.sm; })
+          .sort(function (a, b) { return a.id - b.id; });
+        cache['items' + albumId] = list;
+        return list;
+      });
+  }
+
+  function setNav(current) {
+    getYears().then(function (years) {
+      nav.hidden = false;
+      nav.innerHTML = years.map(function (y) {
+        return '<a href="#/annee/' + y.id + '" class="gal-chip' +
+          (current === y.id ? ' is-current' : '') + '">' + y.year + '</a>';
+      }).join('') + '<a href="#/" class="gal-chip">Toutes</a>';
+    });
+  }
+
+  function viewHome() {
+    setNav(null);
+    show('Chargement des années…');
+    return getYears().then(function (years) {
+      return Promise.all(years.map(function (y) {
+        return getAlbums(y.id).then(function (albums) {
+          return Promise.all(albums.slice(0, 3).map(function (a) {
+            return getItems(a.id).then(function (l) { return l[0]; });
+          })).then(function (covers) { return { year: y, albums: albums, cover: covers[0] }; });
+        });
+      }));
+    }).then(function (rows) {
+      show('');
+      body.innerHTML = '<div class="gal-year-cards">' + rows.map(function (r) {
+        var img = r.cover ? '<img loading="lazy" src="' + thumbUrl(r.cover.id, r.cover.ck, 'sm') + '" alt="">' : '';
+        var n = r.albums.length;
+        return '<a class="gal-card" href="#/annee/' + r.year.id + '">' + img +
+          '<span class="gal-card-t">' + r.year.year + '</span>' +
+          '<span class="gal-card-s">' + n + ' album' + (n > 1 ? 's' : '') + '</span></a>';
+      }).join('') + '</div>';
+    });
+  }
+
+  function viewYear(yearId) {
+    setNav(yearId);
+    show('Chargement des albums…');
+    return getAlbums(yearId).then(function (albums) {
+      return Promise.all(albums.map(function (a) {
+        return getItems(a.id).then(function (l) { a.items = l; });
+      })).then(function () { return albums; });
+    }).then(function (albums) {
+      show('');
+      body.innerHTML = '<div class="gal-album-cards">' + albums.map(function (a) {
+        if (!a.items.length) return '';
+        var c = a.items[0];
+        return '<a class="gal-card" href="#/album/' + a.id + '">' +
+          '<img loading="lazy" src="' + thumbUrl(c.id, c.ck, 'sm') + '" alt="">' +
+          '<span class="gal-card-t">' + a.name + '</span>' +
+          '<span class="gal-card-s">' + a.items.length + ' photo' + (a.items.length > 1 ? 's' : '') + '</span></a>';
+      }).join('') + '</div>';
+    });
+  }
+
+  function viewAlbum(albumId) {
+    setNav(null);
+    show('Chargement des photos…');
+    return getItems(albumId).then(function (list) {
+      items = list;
+      show('');
+      body.innerHTML = '<div class="gal-grid">' + list.map(function (it, i) {
+        return '<button class="gal-thumb" data-i="' + i + '">' +
+          '<img loading="lazy" src="' + thumbUrl(it.id, it.ck, 'sm') + '" alt=""' +
+          (it.w && it.h ? ' style="aspect-ratio:' + it.w + '/' + it.h + '"' : '') + '>' +
+          (it.video ? '<span class="gal-play">&#9654;</span>' : '') + '</button>';
+      }).join('') + '</div>';
+      body.querySelectorAll('.gal-thumb').forEach(function (btn) {
+        btn.addEventListener('click', function () { openLb(parseInt(btn.dataset.i, 10)); });
+      });
+    });
+  }
+
+  function openLb(i) {
+    var it = items[i];
+    if (!it) return;
+    lbImg.src = thumbUrl(it.id, it.ck, it.xl ? 'xl' : 'sm');
+    lbCap.hidden = !it.video;
+    if (it.video) lbCap.textContent = 'Vidéo — ouvrez l\'album dans Synology Photos pour la lire';
+    lb.hidden = false;
+    lb.dataset.i = i;
+  }
+  function moveLb(step) {
+    var i = (parseInt(lb.dataset.i || 0, 10) + step + items.length) % items.length;
+    openLb(i);
+  }
+  lb.querySelector('.gal-lb-close').addEventListener('click', function () { lb.hidden = true; });
+  lb.querySelector('.gal-lb-prev').addEventListener('click', function () { moveLb(-1); });
+  lb.querySelector('.gal-lb-next').addEventListener('click', function () { moveLb(1); });
+  lb.addEventListener('click', function (e) { if (e.target === lb) lb.hidden = true; });
+  document.addEventListener('keydown', function (e) {
+    if (lb.hidden) return;
+    if (e.key === 'Escape') lb.hidden = true;
+    if (e.key === 'ArrowLeft') moveLb(-1);
+    if (e.key === 'ArrowRight') moveLb(1);
+  });
+
+  function route() {
+    var h = location.hash;
+    lb.hidden = true;
+    var m;
+    if ((m = h.match(/^#\/album\/(\d+)/))) return viewAlbum(m[1]).catch(err);
+    if ((m = h.match(/^#\/annee\/(\d+)/))) return viewYear(m[1]).catch(err);
+    return viewHome().catch(err);
+  }
+  function err(e) {
+    show('Erreur de chargement depuis la photothèque du NAS : ' + e.message +
+      '. Réessayez plus tard.');
+  }
+  window.addEventListener('hashchange', route);
+  route();
+})();
+</script>
+{{ end }}
