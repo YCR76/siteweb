@@ -99,7 +99,7 @@ def front_matter(values):
     return '\n'.join(lines) + '\n'
 
 
-def build_values(row, categorie):
+def build_values(row, categorie, ref):
     start = as_date(row.get('Date début'))
     end = as_date(row.get('Date fin'))
     dec = text(row.get('Déplacement (O/N)')).upper()
@@ -111,7 +111,11 @@ def build_values(row, categorie):
     if categorie == 'Régate':
         values.append(('grade', text(row.get('Grade'))))
     if categorie == 'Stage':
-        values.append(('lieu', text(row.get('Lieu'))))
+        slug = ref.split('--', 1)[1] if '--' in ref else slugify(text(row.get('Titre')))
+        values += [
+            ('url', f'/stages/{slug}/'),
+            ('lieu', text(row.get('Lieu'))),
+        ]
     values += [
         ('classes', classes(row.get('Classes'))),
         ('startDate', start),
@@ -182,7 +186,7 @@ def main():
                 continue
 
             body = text(row.get('Description'))
-            fm = front_matter(build_values(row, categorie))
+            fm = front_matter(build_values(row, categorie, ref))
             content = fm + (f'\n{body}\n' if body else '')
             plan.append((ref, content, sheet_name, i, title, start))
             seen_paths.add(ref)

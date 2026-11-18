@@ -1,6 +1,7 @@
 ---
 title: "stage de ligue Le Havre"
 categorie: "Stage"
+url: "/stages/stage-de-ligue-le-havre/"
 classes:
   - RS Feva
   - Optimist

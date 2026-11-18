@@ -1,6 +1,7 @@
 ---
 title: "Stage de ligue Cherbourg"
 categorie: "Stage"
+url: "/stages/stage-de-ligue-cherbourg/"
 classes:
   - ILCA/Laser
   - 420/29er

@@ -233,18 +233,6 @@ pageRef = "/competition/resultats"
 weight = 52
 
 [[menus.main]]
-name = "Pré-inscription aux régates"
-parent = "Compétition"
-pageRef = "/competition/pre-inscription-regate"
-weight = 53
-
-[[menus.main]]
-name = "Les classes"
-parent = "Compétition"
-pageRef = "/competition/les-classes"
-weight = 54
-
-[[menus.main]]
 name = "Les clubs"
 parent = "Compétition"
 pageRef = "/competition/les-clubs"

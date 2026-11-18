@@ -1,1 +1,0 @@
-Drupal.locale = { 'pluralFormula': function ($n) { return Number(($n!=1)); }, 'strings': {"":{"Using defaults":"Utilisation par d\u00e9faut"}} };
