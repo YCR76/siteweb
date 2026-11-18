@@ -9,6 +9,23 @@
   <h1>Planning annuel des événements</h1>
   {{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
 
+  <p class="planning-legend top">
+    <span class="legend-group">
+      <span class="legend-heading">Régates :</span>
+      <span class="legend-item gr-5c">5C</span>
+      <span class="legend-item gr-5b">5B</span>
+      <span class="legend-item gr-5a">5A</span>
+      <span class="legend-item gr-4">4</span>
+      <span class="legend-item gr-3">3</span>
+      <span class="legend-item gr-2">2</span>
+    </span>
+    <span class="legend-group">
+      <span class="legend-heading">Hors régate :</span>
+      <span class="legend-item cat-animation">Animation</span>
+      <span class="legend-item cat-stage">Stage</span>
+    </span>
+  </p>
+
   <nav class="planning-nav">
     {{ $m0 := now }}
     {{ range $i := seq 0 11 }}

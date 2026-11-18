@@ -295,6 +295,11 @@ a:hover { color: var(--bleu-marine); }
 .evt:hover { text-decoration: underline; }
 
 .planning-legend { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.5rem; }
+.planning-legend.top { margin: .75rem 0 1.25rem; gap: 1.25rem; }
+.planning-legend .legend-group { display: inline-flex; flex-wrap: wrap; align-items: center; gap: .35rem; }
+.planning-legend .legend-heading { font-size: .85rem; font-weight: 600; }
+.legend-item.cat-animation { background: #8e1c4f; }
+.legend-item.cat-stage { background: #7a8b7a; }
 .legend-item { color: #fff; padding: .15rem .6rem; border-radius: 999px; font-size: .8rem; }
 .legend-item.cl-ilca { background: #0b3a5d; }
 .legend-item.cl-europe { background: #1a6ea8; }
@@ -360,7 +365,7 @@ a:hover { color: var(--bleu-marine); }
 .gr-5b { background: #90ee90; color: #112233; }
 .gr-5a { background: #ffd400; color: #112233; }
 .gr-4  { background: #b57edc; color: #fff; }
-.gr-3  { background: #0b3a5d; color: #fff; }
+.gr-3  { background: #080b9e; color: #fff; }
 .gr-2  { background: #1a1a1a; color: #fff; }
 
 /* liste du calendrier */
@@ -374,17 +379,17 @@ a:hover { color: var(--bleu-marine); }
 .planning-table td .evt.gr-5b { background: #90ee90; color: #112233; }
 .planning-table td .evt.gr-5a { background: #ffd400; color: #112233; }
 .planning-table td .evt.gr-4  { background: #b57edc; color: #fff; }
-.planning-table td .evt.gr-3  { background: #0b3a5d; color: #fff; }
+.planning-table td .evt.gr-3  { background: #080b9e; color: #fff; }
 .planning-table td .evt.gr-2  { background: #1a1a1a; color: #fff; }
 .planning-table td .evt-cont.gr-5c { color: #87ceeb; }
 .planning-table td .evt-cont.gr-5b { color: #90ee90; }
 .planning-table td .evt-cont.gr-5a { color: #ffd400; }
 .planning-table td .evt-cont.gr-4  { color: #b57edc; }
-.planning-table td .evt-cont.gr-3  { color: #0b3a5d; }
+.planning-table td .evt-cont.gr-3  { color: #080b9e; }
 .planning-table td .evt-cont.gr-2  { color: #1a1a1a; }
 
 /* couleurs par catégorie (hors régates) : pourpre = Animation, vert gris = Stage */
-.planning-table td .evt.cat-animation { background: #8e1c4f; color: #fff; }
-.planning-table td .evt.cat-stage     { background: #7a8b7a; color: #fff; }
-.planning-table td .evt-cont.cat-animation { color: #8e1c4f; }
-.planning-table td .evt-cont.cat-stage     { color: #7a8b7a; }
+.planning-table td .evt.cat-animation { background: #b87392; color: #fff; }
+.planning-table td .evt.cat-stage     { background: #a0b5a0; color: #fff; }
+.planning-table td .evt-cont.cat-animation { color: #b87392; }
+.planning-table td .evt-cont.cat-stage     { color: #a0b5a0; }
