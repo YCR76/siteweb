@@ -10,6 +10,12 @@
     "2":  ["#1a1a1a", "#fff"]
   };
 
+  /* Catégorie (hors régates) -> [fond, texte] */
+  var CAT = {
+    "Animation": ["#8e1c4f", "#fff"],
+    "Stage": ["#7a8b7a", "#fff"]
+  };
+
   function ready(fn) {
     if (document.readyState !== "loading") fn();
     else document.addEventListener("DOMContentLoaded", fn);
@@ -28,6 +34,10 @@
         ev.backgroundColor = GRADE[e.gr][0];
         ev.textColor = GRADE[e.gr][1];
         ev.borderColor = GRADE[e.gr][0];
+      } else if (e.cat && CAT[e.cat]) {
+        ev.backgroundColor = CAT[e.cat][0];
+        ev.textColor = CAT[e.cat][1];
+        ev.borderColor = CAT[e.cat][0];
       }
       return ev;
     });

@@ -1,6 +1,7 @@
 ---
 title: "Chpt de ligue n°2 Ouistreham"
 categorie: "Régate"
+grade: "5A"
 classes:
   - ILCA/Laser
   - Europe

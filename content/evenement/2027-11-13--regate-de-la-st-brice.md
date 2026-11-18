@@ -1,6 +1,7 @@
 ---
 title: "Régate de la St Brice"
 categorie: "Régate"
+grade: "5C"
 classes:
   - Europe
   - 420/29er

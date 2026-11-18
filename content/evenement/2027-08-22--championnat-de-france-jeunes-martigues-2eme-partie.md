@@ -1,6 +1,7 @@
 ---
 title: "Championnat de France Jeunes Martigues 2ème partie"
 categorie: "Régate"
+grade: "3"
 classes:
   - O'pen Skiff
   - RS Feva

@@ -1,6 +1,7 @@
 ---
 title: "Manche-Est n°4 Gravelines"
 categorie: "Régate"
+grade: "4"
 classes:
   - ILCA/Laser
 startDate: 2027-04-10

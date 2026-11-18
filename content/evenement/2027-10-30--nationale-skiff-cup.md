@@ -1,6 +1,7 @@
 ---
 title: "Nationale Skiff Cup"
 categorie: "Régate"
+grade: "4"
 classes:
   - 420/29er
   - RS Feva

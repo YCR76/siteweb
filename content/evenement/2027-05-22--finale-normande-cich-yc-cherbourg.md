@@ -1,6 +1,7 @@
 ---
 title: "Finale Normande CICH YC Cherbourg"
 categorie: "Régate"
+grade: "5B"
 classes:
   - Habitable
 startDate: 2027-05-22

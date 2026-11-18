@@ -1,6 +1,7 @@
 ---
 title: "Finale Chpt de ligue Le Havre"
 categorie: "Régate"
+grade: "5A"
 classes:
   - ILCA/Laser
   - Europe

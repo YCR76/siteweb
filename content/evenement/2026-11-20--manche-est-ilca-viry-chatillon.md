@@ -1,6 +1,7 @@
 ---
 title: "Manche-Est ILCA Viry-Chatillon"
 categorie: "Régate"
+grade: "5C"
 classes:
   - ILCA/Laser
 startDate: 2026-11-21

@@ -16,7 +16,7 @@
     {{ $start | time.Format ":date_long" }}{{ with .Params.endDate }} — {{ (time .) | time.Format ":date_long" }}{{ end }}
   </p>
   {{- end }}
-  {{ with .Params.grade }}<p class="event-date"><strong>Grade :</strong> <span class="grade-chip gr-{{ . }}">{{ . }}</span></p>{{ end }}
+  {{ with .Params.grade }}<p class="event-date"><strong>Grade :</strong> <span class="grade-chip gr-{{ lower . }}">{{ . }}</span></p>{{ end }}
   {{ with .Params.clubOrganisateur }}<p class="event-date"><strong>Club organisateur :</strong> {{ . }}</p>{{ end }}
   {{ if or .Params.deplacementClub .Params.hebergementClub }}<p class="event-date">
     {{ if .Params.deplacementClub }}🚚 Déplacement club{{ end }}{{ if and .Params.deplacementClub .Params.hebergementClub }} · {{ end }}{{ if .Params.hebergementClub }}🏨 Hébergement club{{ end }}

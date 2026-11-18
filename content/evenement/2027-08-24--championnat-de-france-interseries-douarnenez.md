@@ -1,6 +1,7 @@
 ---
 title: "Championnat de France Interséries Douarnenez"
 categorie: "Régate"
+grade: "3"
 classes:
   - ILCA/Laser
   - Europe

@@ -49,7 +49,12 @@
                         {{ if or (in $evClasses $lab) (in $evClasses "Club") }}
                       {{ $gr := "" }}
                       {{ if isset .Params "grade" }}{{ $gr = .Params.grade }}{{ end }}
-                      {{ $evClass := printf "evt%s" (cond (ne $gr "") (printf " gr-%s" $gr) "") }}
+                      {{ $catCls := "" }}
+                      {{ if not $gr }}
+                        {{ if eq .Params.categorie "Stage" }}{{ $catCls = " cat-stage" }}
+                        {{ else if eq .Params.categorie "Animation" }}{{ $catCls = " cat-animation" }}{{ end }}
+                      {{ end }}
+                      {{ $evClass := printf "evt%s%s" (cond (ne $gr "") (printf " gr-%s" (lower $gr)) "") $catCls }}
                       {{ if $evDates }}
                         {{ if in $evDates ($day.Format "2006-01-02") }}
                           <a class="{{ $evClass }}" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
@@ -57,7 +62,7 @@
                       {{ else if eq $day $evStart }}
                         <a class="{{ $evClass }}" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
                       {{ else }}
-                        <span class="evt-cont" title="{{ .Title }}"></span>
+                        <span class="evt-cont{{ if $gr }} gr-{{ lower $gr }}{{ end }}{{ $catCls }}" title="{{ .Title }}"></span>
                       {{ end }}
                         {{ end }}
                       {{ end }}

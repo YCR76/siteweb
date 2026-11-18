@@ -1,6 +1,7 @@
 ---
 title: "CICD Hénouville"
 categorie: "Régate"
+grade: "5B"
 classes:
   - ILCA/Laser
   - Europe

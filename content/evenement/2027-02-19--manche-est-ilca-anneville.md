@@ -1,6 +1,7 @@
 ---
 title: "Manche-Est ILCA Anneville"
 categorie: "Régate"
+grade: "4"
 classes:
   - ILCA/Laser
 startDate: 2027-02-20

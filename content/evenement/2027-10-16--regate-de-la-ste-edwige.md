@@ -1,6 +1,7 @@
 ---
 title: "Régate de la Ste Edwige"
 categorie: "Régate"
+grade: "5C"
 classes:
   - ILCA/Laser
   - Europe

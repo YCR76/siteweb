@@ -376,3 +376,15 @@ a:hover { color: var(--bleu-marine); }
 .planning-table td .evt.gr-4  { background: #b57edc; color: #fff; }
 .planning-table td .evt.gr-3  { background: #0b3a5d; color: #fff; }
 .planning-table td .evt.gr-2  { background: #1a1a1a; color: #fff; }
+.planning-table td .evt-cont.gr-5c { color: #87ceeb; }
+.planning-table td .evt-cont.gr-5b { color: #90ee90; }
+.planning-table td .evt-cont.gr-5a { color: #ffd400; }
+.planning-table td .evt-cont.gr-4  { color: #b57edc; }
+.planning-table td .evt-cont.gr-3  { color: #0b3a5d; }
+.planning-table td .evt-cont.gr-2  { color: #1a1a1a; }
+
+/* couleurs par catégorie (hors régates) : pourpre = Animation, vert gris = Stage */
+.planning-table td .evt.cat-animation { background: #8e1c4f; color: #fff; }
+.planning-table td .evt.cat-stage     { background: #7a8b7a; color: #fff; }
+.planning-table td .evt-cont.cat-animation { color: #8e1c4f; }
+.planning-table td .evt-cont.cat-stage     { color: #7a8b7a; }

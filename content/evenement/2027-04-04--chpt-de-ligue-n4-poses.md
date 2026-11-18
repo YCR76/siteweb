@@ -1,6 +1,7 @@
 ---
 title: "Chpt de ligue n°4 Poses"
 categorie: "Régate"
+grade: "5A"
 classes:
   - ILCA/Laser
   - Europe

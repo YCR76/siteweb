@@ -1,6 +1,7 @@
 ---
 title: "L'ultime XII"
 categorie: "Régate"
+grade: "5C"
 classes:
   - ILCA/Laser
   - Europe

@@ -2,7 +2,7 @@
 {{- if isset .Params "grade" }}{{ $gr = .Params.grade }}{{ end }}
 {{- if or ($gr) (.Params.clubOrganisateur) (.Params.deplacementClub) (.Params.hebergementClub) }}
 <span class="event-meta">
-  {{- with $gr }}<span class="grade-chip gr-{{ . }}" title="Grade FFV">{{ . }}</span>{{ end }}
+  {{- with $gr }}<span class="grade-chip gr-{{ lower . }}" title="Grade FFV">{{ . }}</span>{{ end }}
   {{- with .Params.clubOrganisateur }}<span class="ev-org" title="Club organisateur">{{ . }}</span>{{ end }}
   {{- if .Params.deplacementClub }}<span class="ev-flag" title="Déplacement club">🚚</span>{{ end }}
   {{- if .Params.hebergementClub }}<span class="ev-flag" title="Hébergement club">🏨</span>{{ end }}

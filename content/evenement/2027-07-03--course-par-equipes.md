@@ -1,6 +1,7 @@
 ---
 title: "Course par équipes"
 categorie: "Régate"
+grade: "5B"
 classes:
   - ILCA/Laser
   - Europe
