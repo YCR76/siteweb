@@ -1,0 +1,18 @@
+---
+title: "Championnat de ligue n°3 Poses"
+categorie: "Régate"
+grade: "5A"
+classes:
+  - "ILCA/Laser"
+  - "Europe"
+  - "420/29er"
+  - "O'pen Skiff"
+  - "RS Feva"
+  - "Optimist"
+startDate: 2024-03-23
+allDay: true
+clubOrganisateur: "CDV de l'Eure"
+deplacementClub: false
+hebergementClub: false
+coId: "125993"
+---
