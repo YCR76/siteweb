@@ -13,7 +13,9 @@ De plus, cette journée permettra de booster la motivation de vos équipes et d�
 
 Vous pourrez également profiter de ce moment pour définir de nouveaux objectifs communs ou pour communiquer sur des changements organisationnels au sein de l’entreprise, dans une ambiance plus conviviale et propice à l’échange.
 
-Cet accueil est proposé par notre équipe à partir 5 personnes et pour un coût de **125€** /Personne.![](/fichiers/img_0236.jpg)
+Cet accueil est proposé par notre équipe à partir 5 personnes et pour un coût de **125€** /Personne.
+
+![](/images/base_principale.jpg)
 
 ## Comment se passe une journée de cohésion d'entreprise chez nous ?
 
@@ -25,16 +27,14 @@ Le second temps fort sera axé sur la cohésion d'équipe, à travers une ou plu
 
 Pour clôturer cette journée enrichissante, nous vous proposerons de partager une collation conviviale.
 
-##
-
 ## Exemple de planification pour une Journée
 
 Il est bien sûr possible de l'adapter à vos attentes pour faire de cet évènement une journée mémorable pour vos collaborateurs ou autres.
 
-8h30-9h ▶ Votre accueil café
-9h-12h ▶ Réunion de travail (présentation produit, bilan annuel, ...)
-12h-14h ▶ Votre déjeuner-traiteur
-14h-17h ▶ Activité sportive au choix par groupe de 5 à 10 personnes (Voile, Kayak, VTT, Tir à l'arc, Practice de Golf, Escalade, Course d'orientation).
-17h-... ▶ Echange convivial avec collation
+- 8h30-9h ▶ Votre accueil café
+- 9h-12h ▶ Réunion de travail (présentation produit, bilan annuel, ...)
+- 12h-14h ▶ Votre déjeuner-traiteur
+- 14h-17h ▶ Activité sportive au choix par groupe de 5 à 10 personnes (Voile, Kayak, VTT, Tir à l'arc, Practice de Golf, Escalade, Course d'orientation).
+- 17h-... ▶ Echange convivial avec collation
 
 En option, vous avez la possibilité de réserver le club pour la soirée afin de profiter pleinement de cette journée.

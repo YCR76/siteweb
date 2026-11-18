@@ -11,33 +11,58 @@ aliases:
 
 ### *Notre équipe d'encadrement s'implique avec vous sur des projets tels que :*
 
-|  |  |
-| --- | --- |
-| - Découverte et pratique des sports de pleine nature - Vie en collectivité - cohésion - Respect de l'environnement - développement durable - Autonomie - Insertion | Base principale |
+- Découverte et pratique des sports de pleine nature
+- Vie en collectivité
+- cohésion
+- Respect de l'environnement
+- développement durable
+- Autonomie
+- Insertion
+
+![](/images/base_principale2.jpg)
 
 ### L’hébergement
 
-|  |  |
-| --- | --- |
-| L'accueil des scolaires en séjour pleine nature, se fait sur notre "Base Principale". La salle lieu de vie, permet au groupe de se réunir et de se restaurer, la cheminée centrale confère au lieu un coté rustique et convivial. Les stagiaires ont en marge des activités encadrées la responsabilité de tâche collectives à effectuer durant le séjour (entretien courant des locaux - vaisselle - préparation des repas...) | Bungalows |
+L'accueil des scolaires en séjour pleine nature, se fait sur notre "Base Principale". La salle lieu de vie, permet au groupe de se réunir et de se restaurer, la cheminée centrale confère au lieu un coté rustique et convivial. Les stagiaires ont en marge des activités encadrées la responsabilité de tâche collectives à effectuer durant le séjour (entretien courant des locaux - vaisselle - préparation des repas...).
+
+![](/images/bungalows.jpg)
 
 #### Option ménage possible:
 
-|  |  |
-| --- | --- |
-| L’association peut faire appel à du personnel salarié pour les tâches ménagères. Un forfait ménage de fin de séjour est possible pour chaque locaux :   - Base principale, bungalows et sanitaires : 130 €. - Base principale : 95 €. - Base St Georges - Base Sud : 95 €. | Base principale |
+L’association peut faire appel à du personnel salarié pour les tâches ménagères. Un forfait ménage de fin de séjour est possible pour chaque locaux :
+- Base principale, bungalows et sanitaires : 130 €.
+- Base principale : 95 €.
+- Base St Georges
+- Base Sud : 95 €.
+
+![](/images/base_principale_3.jpg)
 
 ### Les activités encadrées
 
-|  |  |
-| --- | --- |
-| En collaboration avec l’équipe pédagogique de la base, vous programmerez les activités en séances, avec 8 à 12 élèves par cadre enseignant.  Une activité est possible pour chaque demi-journée, avec au choix :   - Voile (catamarans, dériveurs, caravelles ou goélette) - Canoë-kayak - Golf (practice) - Escalade (surface artificielle) - Tir à l'arc (pas de tir couvert) - Course d'orientation - V.T.T. - Randonnée & Marche-nordique   Ces activités sont soumises à des normes de pratique et d’encadrement, n’hésitez pas à prendre contact avec nous pour la préparation de celle-ci. | Activités encadrées |
+En collaboration avec l’équipe pédagogique de la base, vous programmerez les activités en séances, avec 8 à 12 élèves par cadre enseignant.  Une activité est possible pour chaque demi-journée, avec au choix :
+- Voile (catamarans, dériveurs, caravelles ou goélette)
+- Canoë-kayak
+- Golf (practice)
+- Escalade (surface artificielle)
+- Tir à l'arc (pas de tir couvert)
+- Course d'orientation
+- V.T.T.
+- Randonnée & Marche-nordique
+Ces activités sont soumises à des normes de pratique et d’encadrement, n’hésitez pas à prendre contact avec nous pour la préparation de celle-ci.
+
+![](/images/activites_encadrees.jpg)
 
 ### Les activités annexes
 
-|  |  |
-| --- | --- |
-| A votre disposition sur le site   - 1 court de tennis - 2 tables de tennis de table - terrain de beach-Volley - Pétanque - Jeu d’échec géant - Badminton | Echecs |
+A votre disposition sur le site
+- 1 court de tennis
+- 2 tables de tennis de table
+- terrain de beach-Volley
+- Pétanque
+- Jeu d’échec géant
+- Badminton
+
+![](/images/echecs.jpg)
 
 ### A proximité
 
@@ -46,7 +71,7 @@ aliases:
 
 #### Equipement individuel à la charge de l’élève
 
-### [Une fiche de l'équipement individuel est disponible en cliquant ici](/sites/default/files/fiche-d-equipement.doc)
+### [Une fiche de l'équipement individuel est disponible en cliquant ici](/fichiers/fiche-d-equipement.pdf)
 
 ### Horaires
 
@@ -57,9 +82,7 @@ Le personnel de la base est à votre disposition du lundi au vendredi de 9h à 1
 *La responsabilité globale du stage appartient au chef d’établissement. Un enseignant, désigné par celui-ci comme responsable du stage, assurera le bon déroulement du séjour, en collaboration avec ses collègues, du directeur et du personnel de la base.
 L’établissement s’engage par l’intermédiaire de son encadrement, à faire respecter le règlement intérieur, et les consignes qui seront données aux stagiaires lors de leur accueil sur le site.*
 
-|  |  |
-| --- | --- |
-| Kayak |  |
+![](/images/kayak_5.jpg) ![](/images/panneaux.jpg)
 
 ### Détails d'organisation
 

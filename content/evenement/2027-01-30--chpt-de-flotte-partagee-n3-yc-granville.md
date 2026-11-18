@@ -5,4 +5,6 @@ classes:
   - Habitable
 startDate: 2027-01-30
 allDay: true
+clubOrganisateur: "YC Granville"
+deplacementClub: true
 ---

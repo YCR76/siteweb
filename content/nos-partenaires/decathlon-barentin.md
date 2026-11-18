@@ -1,7 +1,7 @@
 ---
 title: "Decathlon Barentin"
 siteInternet: "https://www.decathlon.fr"
-logo: /sites/default/files/decathlon.png
+logo: /images/logo/decathlon.jpg
 aliases:
   - /decathlon-barentin
 ---

@@ -8,6 +8,5 @@ allDay: true
 endDate: 2027-02-22
 aliases:
   - /manche-ilca-anneville
+deplacementClub: false
 ---
-
-

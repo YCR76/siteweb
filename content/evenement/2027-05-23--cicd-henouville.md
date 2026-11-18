@@ -8,4 +8,6 @@ classes:
   - RS Feva
 startDate: 2027-05-23
 allDay: true
+clubOrganisateur: "YCRouen76"
+deplacementClub: false
 ---

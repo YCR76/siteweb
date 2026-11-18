@@ -10,8 +10,8 @@ aliases:
 
 |  |  |
 | --- | --- |
-| [Stage voile Apr](https://www.ycr76.fr/stage-voile)ès-midi | [Stage multisports Jou](https://www.ycr76.fr/stage-multisports)rnée |
-| [[[{"type":"media","view\_mode":"media\_large","fid":"4013","attributes":{"alt":"","class":"media-image","height":"211","typeof":"foaf:Image","width":"480"}}]]](https://www.ycr76.fr/stage-voile) | [[[{"type":"media","view\_mode":"media\_large","fid":"3940","attributes":{"alt":"","class":"media-image","height":"210","typeof":"foaf:Image","width":"480"}}]]](https://www.ycr76.fr/stage-multisports) |
+| [Stage voile Après-midi](/stage-voile) | [Stage multisports Journée](/stage-multisports) |
+| [[[{"type":"media","view\_mode":"media\_large","fid":"4013","attributes":{"alt":"","class":"media-image","height":"211","typeof":"foaf:Image","width":"480"}}]]](/stage-voile) | [[[{"type":"media","view\_mode":"media\_large","fid":"3940","attributes":{"alt":"","class":"media-image","height":"210","typeof":"foaf:Image","width":"480"}}]]](/stage-multisports) |
 
 N'hésitez pas à [réserver vos stages en ligne](https://www.helloasso.com/associations/ycr76-yacht-club-rouen-76/evenements/stage).
 

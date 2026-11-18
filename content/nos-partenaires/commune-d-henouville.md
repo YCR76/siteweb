@@ -1,7 +1,7 @@
 ---
 title: "Commune d'Hénouville"
 siteInternet: "http://www.henouville.net/"
-logo: /sites/default/files/logo_henouville.jpg
+logo: /images/logo/henouville.jpg
 aliases:
   - /commune-dhenouville
 ---

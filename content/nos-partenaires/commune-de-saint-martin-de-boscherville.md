@@ -1,7 +1,7 @@
 ---
 title: "Commune de Saint Martin de Boscherville"
 siteInternet: "https://boscherville.fr/"
-logo: /sites/default/files/logo_smb.jpg
+logo: /images/logo/saint_martin_de_boscherville.jpg
 aliases:
   - /commune-saint-martin-boscherville
 ---

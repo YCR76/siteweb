@@ -1,7 +1,7 @@
 ---
 title: "Commune de La vaupalière"
 siteInternet: "https://www.la-vaupaliere.fr/"
-logo: /sites/default/files/la_vaupaliere.png
+logo: /images/logo/la_vaupaliere.jpg
 aliases:
   - /commune-vaupaliere
 ---

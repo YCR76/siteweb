@@ -9,4 +9,5 @@ classes:
   - Optimist
 startDate: 2027-04-03
 allDay: true
+deplacementClub: true
 ---

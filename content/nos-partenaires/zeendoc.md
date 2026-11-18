@@ -1,7 +1,7 @@
 ---
 title: "Zeendoc"
 siteInternet: "https://www.zeendoc.com/"
-logo: /sites/default/files/logo_zeendoc.png
+logo: /images/logo/zeendoc.jpg
 aliases:
   - /zeendoc
 ---

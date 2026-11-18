@@ -1,6 +1,6 @@
 ---
 title: "Voile Pratique"
-logo: /sites/default/files/solitaire.png
+logo: /images/logo/voile_pratique.jpg
 aliases:
   - /voile-pratique
 ---

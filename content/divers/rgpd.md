@@ -12,7 +12,7 @@ Le responsable du traitement des données personnelles est le YCRouen76, associa
 
 Pour toute question relative à la protection des données personnelles, vous pouvez nous contacter à l'adresse suivante :
 
-**Formulaire en ligne :** [contact](https://www.ycr76.fr/contactez-nous)
+**Formulaire en ligne :** [contact](/contactez-nous)
 **Adresse postale :** 1444 chaussée Bertrand
 Base de plein air d'Hénouville
 76840 HENOUVILLE

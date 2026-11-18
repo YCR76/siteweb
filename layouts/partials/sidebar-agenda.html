@@ -8,14 +8,19 @@
   {{- $events := where (site.RegularPages) "Type" "evenement" }}
   {{- $data := slice }}
   {{- range $e := $events }}
+    {{- $gr := "" }}
+    {{- with $e.Params.grade }}{{ $gr = . }}{{ end }}
     {{- $start := $e.Date }}
     {{- with $e.Params.startDate }}{{ $start = time . }}{{ end }}
     {{- if isset $e.Params "dates" }}
       {{- range $e.Params.dates }}
-      {{- $data = $data | append (dict "title" $e.Title "start" ((time .).Format "2006-01-02T15:04:05") "allDay" ($e.Params.allDay) "url" $e.RelPermalink) }}
+      {{- $item := dict "title" $e.Title "start" ((time .).Format "2006-01-02T15:04:05") "allDay" ($e.Params.allDay) "url" $e.RelPermalink }}
+      {{- if $gr }}{{ $item = merge $item (dict "gr" $gr) }}{{ end }}
+      {{- $data = $data | append $item }}
       {{- end }}
     {{- else }}
     {{- $item := dict "title" $e.Title "start" ($start.Format "2006-01-02T15:04:05") "allDay" ($e.Params.allDay) "url" $e.RelPermalink }}
+    {{- if $gr }}{{ $item = merge $item (dict "gr" $gr) }}{{ end }}
     {{- with $e.Params.endDate }}{{ $item = merge $item (dict "end" ((time .).Format "2006-01-02T15:04:05")) }}{{ end }}
     {{- $data = $data | append $item }}
     {{- end }}

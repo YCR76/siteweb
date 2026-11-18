@@ -1,7 +1,7 @@
 ---
 title: "Electricité Giorgetti"
-siteInternet: "http://promotion-optimist.fr/"
-logo: /sites/default/files/150px-optimist_black.svg_.png
+siteInternet: "https://giorgetti.over-blog.com/"
+logo: /images/logo/electricite_giorgetti.jpg
 aliases:
   - /electricite-giorgetti
 ---

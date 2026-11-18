@@ -9,9 +9,9 @@ aliases:
 
 ### Adhésion Adulte au YCRouen76 (licence Club FFVoile 2026 comprise) : 77 € **et/ou renouvellement d'une licence Voile.**
 
-**![](/fichiers/img-20191203-wa0001_0.jpg)**
+**![](/images/licence.jpg)**
 
-Dans le cas d'adhérents mineurs, l'adhésion sera nécessairement faite par courrier ([bordereau d'adhésion](https://www.ycr76.fr/bordereau-2026) + chèque à l'ordre du YCRouen76 + attestation de natation) avec la signature du représentant légal. **Adhésion Jeune au YCRouen76** (licence Club FFVoile comprise) : 38 **€**
+Dans le cas d'adhérents mineurs, l'adhésion sera nécessairement faite par courrier ([bordereau d'adhésion](/fichiers/bordereau-d-adhésion.pdf) + chèque à l'ordre du YCRouen76 + attestation de natation) avec la signature du représentant légal. **Adhésion Jeune au YCRouen76** (licence Club FFVoile comprise) : 38 **€**
 
 En souscrivant l'adhésion seule au YCRouen76, vous adhérez à notre association et vous profitez de la délivrance d'une Licence Club Fédération Française de Voile 2026.
 
@@ -35,7 +35,7 @@ version numérique : (généralement dans la journée sur une période ouvrable 
 
 La version papier : est désormais une option payante avec une participation de 3 € pour les frais d'impression et envoi par voie postale.
 
-L'adhésion seule au YCRouen76 n'ouvre droit à aucune prestation au sein du club. Vous pourrez néanmoins régler vos cotisations par la suite pour toutes prestations complémentaires si vous le souhaitez. Conformément à nos statuts associatifs, seuls les membres actifs ([adhésion + cotisation](notice_explicative_des_adhesions-cotisations)) de plus de 16 ans, bénéficient de droits de vote en A.G.
+L'adhésion seule au YCRouen76 n'ouvre droit à aucune prestation au sein du club. Vous pourrez néanmoins régler vos cotisations par la suite pour toutes prestations complémentaires si vous le souhaitez. Conformément à nos statuts associatifs, seuls les membres actifs ([adhésion + cotisation](/fichiers/notice_explicative_des_adhesions-cotisations.pdf)) de plus de 16 ans, bénéficient de droits de vote en A.G.
 
 Règlement possible :
-![CB](/fichiers/cb.png) ![Mastercard](/fichiers/mastercard.png) ![Visa](/fichiers/visa.png)
+![CB](/images/cb.jpg) ![Mastercard](/images/mastercard.jpg) ![Visa](/images/visa.jpg)

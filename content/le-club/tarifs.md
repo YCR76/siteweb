@@ -14,9 +14,9 @@ aliases:
 | Cotisation membre actif individuelle | 240.00 € |
 | Cotisation membres actifs famille | 560.00 € |
 |  | |
-| [**Télécharger le bordereau d'adhésion**](/bordereau-dadhesion) *(format .PDF)* | |
+| [**Télécharger le bordereau d'adhésion**](/fichiers/bordereau-d-adhésion.pdf) *(format .PDF)* | |
 
-Il est aussi possible de faire un don au club => <https://www.ycr76.fr/don-club>
+Il est aussi possible de faire un [don au club](/don-club)
 
 |  |  |
 | --- | --- |

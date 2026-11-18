@@ -1,7 +1,7 @@
 ---
 title: "Ville de Rouen"
 siteInternet: "https://rouen.fr"
-logo: /sites/default/files/ville-rouen.png
+logo: /images/logo/ville-rouen.jpg
 aliases:
   - /ville-rouen
 ---

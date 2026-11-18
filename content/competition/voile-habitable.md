@@ -23,4 +23,4 @@ Les sessions se déroulent sur le lac d’Anneville Ambourville, au plan d’eau
 
 Licence et Adhésion nécessaires.
 
-Pour aller plus loin, vous pouvez participer aux [régates du CICH](https://www.ycr76.fr/cich).
+Pour aller plus loin, vous pouvez participer aux [régates du CICH](/cich).

@@ -9,4 +9,5 @@ classes:
   - RS Feva
 startDate: 2027-02-06
 allDay: true
+deplacementClub: false
 ---

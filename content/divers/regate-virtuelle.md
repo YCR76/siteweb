@@ -4,7 +4,7 @@ date: 2012-03-22 21:50:00
 aliases:
   - /regate-virtuelle
 ---
-![](/sites/default/files/logoVR.png)
+![](/images/logo/virtualregatta.jpg)
 
 [Rejoindre Hénouville Team](https://www.virtualregatta.com/groupe.php?id_groupe=744)
 

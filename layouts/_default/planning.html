@@ -47,15 +47,18 @@
                       {{ $evDates := .Params.dates }}
                       {{ if and (not ($day.Before $evStart)) (not ($day.After $evEnd)) }}
                         {{ if or (in $evClasses $lab) (in $evClasses "Club") }}
-                          {{ if $evDates }}
-                            {{ if in $evDates ($day.Format "2006-01-02") }}
-                              <a class="evt" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
-                            {{ end }}
-                          {{ else if eq $day $evStart }}
-                            <a class="evt" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
-                          {{ else }}
-                            <span class="evt-cont" title="{{ .Title }}"></span>
-                          {{ end }}
+                      {{ $gr := "" }}
+                      {{ if isset .Params "grade" }}{{ $gr = .Params.grade }}{{ end }}
+                      {{ $evClass := printf "evt%s" (cond (ne $gr "") (printf " gr-%s" $gr) "") }}
+                      {{ if $evDates }}
+                        {{ if in $evDates ($day.Format "2006-01-02") }}
+                          <a class="{{ $evClass }}" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                        {{ end }}
+                      {{ else if eq $day $evStart }}
+                        <a class="{{ $evClass }}" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                      {{ else }}
+                        <span class="evt-cont" title="{{ .Title }}"></span>
+                      {{ end }}
                         {{ end }}
                       {{ end }}
                     {{ end }}

@@ -5,4 +5,6 @@ classes:
   - Habitable
 startDate: 2027-02-06
 allDay: true
+clubOrganisateur: "CVSAE"
+deplacementClub: true
 ---

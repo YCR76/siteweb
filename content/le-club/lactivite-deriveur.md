@@ -14,13 +14,11 @@ aliases:
 
 ##### pour la longueur... consultez vos manuels scolaires !
 
-![](/sites/default/files/depart_normandies_cup_2_v2.png)
-
-![](/sites/default/files/ffv_quadri_degrade.jpg)
+![](/images/depart_normandies_cup.jpg)
 
 ## L'école de voile
 
-Fonctionne le samedi après-midi pour les ados et adultes... le mercredi après-midi\*, c'est priorité au 6 - 12 ans, la structure est labellisée "Ecole Française de Voile et Voile Loisir". Elle permet à tous d’apprendre, et de pratiquer la voile sur dériveur. Le club de voile est régi par toute une équipe de bénévoles, ![Label ecole Francaise de voile](/sites/default/files/ffv_label_efv_quadri.jpg)et de permanents professionnels, qui se relayent pour l’encadrement et l’accueil de ses adhérents. Depuis 2024, notre club s'est doté de matériel permettant l'itinérance de notre école de voile, nous pouvons maintenant proposer nos prestations sur de nouveaux plans d'eau !
+Fonctionne le samedi après-midi pour les ados et adultes... le mercredi après-midi\*, c'est priorité au 6 - 12 ans, la structure est labellisée "Ecole Française de Voile et Voile Loisir". Elle permet à tous d’apprendre, et de pratiquer la voile sur dériveur. Le club de voile est régi par toute une équipe de bénévoles, et de permanents professionnels, qui se relayent pour l’encadrement et l’accueil de ses adhérents. Depuis 2024, notre club s'est doté de matériel permettant l'itinérance de notre école de voile, nous pouvons maintenant proposer nos prestations sur de nouveaux plans d'eau !
 
 \* Le créneau du mercredi est uniquement réservé aux jeunes (du primaire au collège)
 
@@ -33,6 +31,7 @@ Au fil des années, nos régatiers ont obtenus un certains nombres de titres ou 
 
 ##### saison 2025 : Champion de France !!! Magnifique titre qu'Ethan nous décroche en OpenSkiff sur le championnat de France Minimes.
 
+- 2025 : Encore une progression ! Le Club se hisse à la 8ème place des clubs français au Championnat de France des clubs en dériveurs. Une belle récompense pour nos coureurs, nos entraîneurs et tous ceux qui font vivre la compétition au club !
 - 2024 à nouveau 10ème club Français sur le championnat de France des clubs en dériveurs... Nous avions des champions... il faudra dorénavant également compter sur nos championnes !
 - 2023 16e club français... Nos équipes de compétitions accroissent toujours et encore leurs effectifs. 20 coureurs sélectionnés aux championnats de France Jeunes
 - 2022 çà y est !! Dans le top 10 des clubs Français en dériveurs.. Et en bonus, les titres de champions de Normandie en 420, en OpenSkiff, en ILCA7, en ILCA6 filles et ILCA4 garçons .
@@ -93,8 +92,19 @@ Depuis 2002, le YCRouen76 cumule 12 titres au **Championnat Inter Club Dériveur
 
 ### Les flottes de dériveurs utilisés
 
-- Laser/ILCA (standard, radial et 4.7) - Topper - Optimist - O'penSkiff - Europe - 420 - 29er - Funboat - Tribord 5S - et tout recemment, le RS Feva
+- Laser/ILCA (standard, radial et 4.7)
+- Topper
+- Optimist
+- O'penSkiff
+- Europe
+- 420
+- 29er
+- Funboat
+- Tribord 5S
+- RS Feva
+- Laser Vago
+- Goelette Mercator
 
-![Label ecole Francaise de voile](/sites/default/files/label_club_loisirs.jpg)
+![FFVoile](/images/logo/ffv.jpg) ![Label ecole Francaise de voile](/images/logo/ffv_label_efv.jpg) ![Label club loisir](/images/logo/ffv_label_club_loisirs.jpg)
 
-[**Télécharger le bordereau d'adhésion**](/bordereau-dadhesion) *(format .PDF)*
+[**Télécharger le bordereau d'adhésion**](/fichiers/bordereau-d-adhesion.pdf) *(format .PDF)*

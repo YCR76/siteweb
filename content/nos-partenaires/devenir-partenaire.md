@@ -33,4 +33,4 @@ Vous souhaitez devenir partenaire du club.
 
 Nous avons mis à votre disposition [un formulaire](/fichiers/formulaire_don-mecenat.pdf).
 
-[N'hésitez pas à nous contacter](https://www.ycr76.fr/contactez-nous)
+[N'hésitez pas à nous contacter](/contactez-nous)

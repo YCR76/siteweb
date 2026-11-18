@@ -8,6 +8,5 @@ allDay: true
 endDate: 2026-11-22
 aliases:
   - /manche-ilca-viry-chatillon
+deplacementClub: true
 ---
-
-

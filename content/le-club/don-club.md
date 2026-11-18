@@ -12,4 +12,4 @@ Chaque don, quelque soit son montant, sera une aide précieuse pour nous aider �
 [Rendez-vous sur HelloAsso](https://www.helloasso.com/associations/ycr76-yacht-club-rouen-76/formulaires/1)
 
 Sachez qu'il est également possible de nous accompagner par des dons de matériel.
-Dans ce cas n'hésitez pas à [nous contacter via ce formulaire](https://www.ycr76.fr/contactez-nous).
+Dans ce cas n'hésitez pas à [nous contacter via ce formulaire](/contactez-nous).

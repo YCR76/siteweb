@@ -7,7 +7,7 @@ aliases:
 ---
 # **Tarifs 2027**
 
-**Nos séances d'activités sont proposées du lundi au vendredi, en période estivale, elles nécessitent une réservation préalable. Vous pouvez nous contacter directement au 02.35.32.34.04 ou par mail à contact@ycr76.fr**
+**Nos séances d'activités sont proposées du lundi au vendredi, en période estivale, elles nécessitent une réservation préalable. [N'hésitez pas à nous contacter](/contactez-nous)**
 
 ## Séance de VTT : 156 €
 
@@ -16,14 +16,14 @@ La séance de 2h : le VTT, le casque sont fournis... La séance est encadrée pa
 
 Agrément "Savoir Rouler A Vélo"
 
-![VTT en foret](/sites/default/files/vtt_foret.jpg)
+![VTT en foret](/images/vtt_foret.jpg)
 
 ## Séance de voile : 160 €
 
 *Test d'aisance aquatique (à minima) exigé pour chacun des stagiaires, tarif par tranche de 10 stagiaires*
 La séance de 2h : le bateau, le gilet de sauvetage sont fournis... La séance est encadrée par un éducateur sportif ou moniteur qualifié.
 
-![Goelette](/sites/default/files/goelette_2_0.jpg)
+![Goelette](/images/goelette.jpg)
 
 ## Séance d'escalade : 150 €
 
@@ -32,31 +32,28 @@ La séance de 2h sur une structure artificielle. Les cordes, les mousquetons, le
 
 Nous sommes en mesure de nous déplacer avec notre mur d'escalade SAE et de vous proposer une séance à domicile (journée ou demi-journée) Tarifs et disponibilités : nous consulter !
 
-![](/fichiers/1696006357850.jpg)
-
-##
+![Escalade](/images/escalade.jpg)
 
 ## Séance de kayak : 160 €
 
 *Test d'aisance aquatique (à minima) exigé pour chacun des stagiaires, tarif par tranche de 10 stagiaires*
 La séance de 2h : le bateau, le gilet de sauvetage sont fournis... La séance est encadrée par un éducateur sportif qualifié.
 
-![Kayak](/sites/default/files/kayak_3_0.jpg)
-
-##
+![Kayak](/images/kayak.jpg)
 
 ## Séance de golf : 150 €
 
 *tarif par tranche de 10 stagiaires*
 La séance de 2h sur notre practice de golf. Séance de découverte de l'activité. Apprentissage du swing et approche du green. Le matériel est fourni. La séance est encadrée par un éducateur sportif qualifié.
 
-![Golf](/sites/default/files/golf_0.jpg)
+![Golf](/images/golf.jpg)
 
 ## Séance de tir à l'arc : 131 €
 
 *tarif par tranche de 10 stagiaires*
 La séance de 1h30 sur un pas de tir abrité. Arcs, cibles et protections sont fournis... La séance est encadrée par un éducateur sportif qualifié.
-![Tir à l'arc](/sites/default/files/tir_arc_0.jpg)
+
+![Tir à l'arc](/images/tir_arc.jpg)
 
 Chaque pratiquant souscrira une adhésion annuelle et individuelle à l’association YCRouen76. Pour les séances à la carte, activités journée ou demie-journée sans hébergement : l'adhésion est comprise dans le coût de la séance.
 

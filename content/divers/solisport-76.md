@@ -6,7 +6,7 @@ aliases:
 ---
 # SOLI'SPORTS 76
 
-## Accés au sport,pour tous
+## Accés au sport, pour tous
 
 Tarif preferentiel au profit des structures groupes concernant :
 

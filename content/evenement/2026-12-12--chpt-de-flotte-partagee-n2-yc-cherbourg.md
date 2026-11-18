@@ -5,4 +5,6 @@ classes:
   - Habitable
 startDate: 2026-12-12
 allDay: true
+clubOrganisateur: "YC Cherbourg"
+deplacementClub: true
 ---

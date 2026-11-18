@@ -5,7 +5,7 @@ aliases:
   - voile-adoadulte
   - /voile-adoadulte
 ---
-![](/sites/default/files/deriveurs.jpg)
+![](/images/deriveurs.jpg)
 
 ## La voile pour les ados et les adultes (à partir de 12 ans)
 
@@ -22,8 +22,8 @@ aliases:
 **Attention :** notre club est susceptible de limiter le nombre de nouveaux pratiquants.
 [Programme des activités disponible ici.](https://www.ycr76.fr/programme?field_section_tid_1=278)
 
-![](/sites/default/files/20160611_184614.jpg) ![](/sites/default/files/dscf0056.jpg)
+![](/images/deriveurs_3.jpg) ![](/images/deriveurs_2.jpg)
 
 La structure est labellisée « École Française de Voile et Voile Loisir » : apprendre et pratiquer la voile sur dériveur en toute sécurité.
 
-![](/sites/default/files/regate1.jpg) ![](/sites/default/files/seance_du_samedi.jpg)
+![](/images/regate.jpg) ![](/images/seance_du_samedi.jpg)

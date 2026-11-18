@@ -1,7 +1,7 @@
 ---
 title: "Conseil Départemental de Seine maritime"
 siteInternet: "https://www.seinemaritime.fr/"
-logo: /sites/default/files/logo_cd_76_quadri.png
+logo: /images/logo/seine_maritime.jpg
 aliases:
   - /conseil-departemental-seine-maritime
 ---

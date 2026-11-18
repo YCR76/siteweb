@@ -30,6 +30,7 @@
         <span class="event-when">{{ .Params.startDate | default .Date | dateFormat "02/01/2006" }}{{ with .Params.endDate }}{{ if ne . (string $.Params.startDate) }} → {{ dateFormat "02/01/2006" . }}{{ end }}{{ end }}</span>
         {{- end }}
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ partial "event-meta.html" . }}
       </li>
       {{- end }}
     </ul>
@@ -48,6 +49,7 @@
         <span class="event-when">{{ .Params.startDate | default .Date | dateFormat "02/01/2006" }}{{ with .Params.endDate }}{{ if ne . (string $.Params.startDate) }} → {{ dateFormat "02/01/2006" . }}{{ end }}{{ end }}</span>
         {{- end }}
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ partial "event-meta.html" . }}
       </li>
       {{- end }}
     </ul>

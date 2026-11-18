@@ -151,6 +151,25 @@ collections:
           format: YYYY-MM-DD
           date_format: DD/MM/YYYY
           time_format: false
+      - label: Grade (régate)
+        name: grade
+        widget: select
+        options: [5C, 5B, 5A, 4, 3, 2]
+        required: false
+      - label: Club organisateur (régate)
+        name: clubOrganisateur
+        widget: string
+        required: false
+      - label: Déplacement club (régate)
+        name: deplacementClub
+        widget: boolean
+        default: false
+        required: false
+      - label: Hébergement club (régate)
+        name: hebergementClub
+        widget: boolean
+        default: false
+        required: false
       - label: Résumé
         name: summary
         widget: string

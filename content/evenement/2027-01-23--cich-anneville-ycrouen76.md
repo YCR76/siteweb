@@ -5,4 +5,6 @@ classes:
   - Habitable
 startDate: 2027-01-23
 allDay: true
+clubOrganisateur: "YCRouen76"
+deplacementClub: false
 ---

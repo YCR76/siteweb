@@ -5,4 +5,5 @@ classes:
   - 420/29er
 startDate: 2027-08-07
 allDay: true
+deplacementClub: true
 ---

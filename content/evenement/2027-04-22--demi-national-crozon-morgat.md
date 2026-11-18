@@ -5,4 +5,5 @@ classes:
   - ILCA/Laser
 startDate: 2027-04-22
 allDay: true
+deplacementClub: true
 ---

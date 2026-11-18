@@ -5,4 +5,6 @@ classes:
   - Habitable
 startDate: 2027-05-22
 allDay: true
+clubOrganisateur: "YC Cherbourg"
+deplacementClub: true
 ---

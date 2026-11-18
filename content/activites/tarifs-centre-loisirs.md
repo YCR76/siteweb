@@ -10,8 +10,11 @@ aliases:
 ## Adhésion
 
 Chaque stagiaire accueilli doit nécessairement devenir adhérent de l’association YCRouen76 afin de profiter des prestations proposées (hébergement et/ou activités).
+
 **Adhésion individuelle et annuelle 2027 : 5,00 €**
+
 Les devis et conventions sont préparés selon un effectif théorique du nombre de stagiaires, la facturation est effectuée en fonction du nombre réel de stagiaires accueillis.
+
 La liste nominative avec adresse et date de naissance de chaque stagiaire devra être fournie lors de votre arrivée au sein de notre structure [\*](#star1).
 
 # Tarifs hébergement Vacances scolaires 2027

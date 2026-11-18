@@ -17,8 +17,8 @@ aliases:
 - **Bon à savoir :** prestation ouverte aux adhérents ASPTT et CVAS.
 
 **Attention :** notre club est susceptible de limiter le nombre de nouveaux pratiquants.
-[Programme des activités disponible ici.](https://www.ycr76.fr/programme)
+[Programme des activités disponible ici.](/programme)
 
-![](/sites/default/files/regate1.jpg) ![](/sites/default/files/seance_du_samedi.jpg)
+![](/images/regate.jpg) ![](/images/seance_du_samedi.jpg)
 
 La structure est labellisée « École Française de Voile et Voile Loisir » : apprendre et pratiquer la voile en toute sécurité.

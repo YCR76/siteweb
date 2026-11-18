@@ -10,7 +10,8 @@ aliases:
 
 Nos stages multi-sports sont ouverts aux jeunes à partir de 10 ans (avec certificat de natation valide). Les éducateurs sportifs proposent la pratique d'une activité de pleine nature différente sur chacune des matinées (Tir à l'arc, Practice de golf, escalade, VTT, nautisme et orientation). L'après-midi, une activité voile est prévue.
 
-![](/fichiers/img_0665.jpg)![](/fichiers/img_1166.jpg)![](/fichiers/img_5719.jpg)
+![](/images/goelette2.jpg) ![](/images/kayak2.jpg) ![](/images/velo.jpg)
+
 N'hésitez pas à réserver vos stages [en ligne](https://www.helloasso.com/associations/ycr76-yacht-club-rouen-76/evenements/stage) ou à nous contacter si vous ne trouver pas de stages aux dates qui vous intéressent car d'autres stages sont succeptibles d'être ouverts. Vous pouvez aussi vous inscrire à notre [newsletter dédiée aux stages](https://dbccd031.sibforms.com/serve/MUIFAI9LZvfXCrPnFk1bMo5SiqhKxXUfeCqQaWLTPr0hTQtfpf-FZs1149r4Tp03BAy7j5xw5ohsQ5vChvWwlRglpNsUVTtkk5Ta58jlI7f1h_GSJKPGVIJR38eqD2WiVv43FEY1lyQ0Fxteux8Z2mSA0FQcTZaLBdfrKcRXVxhjDJXEmhYYGW09Dk0csnT81JqRle8ZuLuo1Y4Slg==).
 
 ### Tarifs :
@@ -23,7 +24,7 @@ S'ajoute le coût du stage :
 
 - Stage multisport à la journée (9h - 17h30 - repas compris ) **270 €**
 
-![](/fichiers/tir_a_larc.png)![](/fichiers/golf_1.jpg)![](/fichiers/mur_escalade.jpg)
+![](/images/tir_a_larc.jpg) ![](/images/golf.jpg) ![](/images/mur_escalade.jpg)
 
 ### **Dates**
 
@@ -44,7 +45,7 @@ D'autres stages (perfectionnement) seront organisés durant les vacances de Tous
 
 ### Détails techniques :
 
-- **SAVOIR NAGER** - Fournir un certificat de natation au 1er jour du stage, ou à minima le [test d'aisance aquatique](/fichiers/test_aisance_aquatique_2.pdf) rempli par un professionnel habilité
+- **SAVOIR NAGER** - Fournir un certificat de natation au 1er jour du stage, ou à minima le [test d'aisance aquatique](/fichiers/test_aisance_aquatique.pdf) rempli par un professionnel habilité
 - **QUESTIONNAIRE DE SANTE** - [Questionnaire](https://www.ffvoile.fr/ffv/web/services/medical/documents/Questionnaire_Sante_FFVoile_mineur.pdf) à remplir (ou fournir un certificat médical de non-contre-indication à la pratique des sports nautiques ou si réponse positive à l'une des questions posées du questionnaire)
 - **FICHE D'AUTORISATION LEGALE** - [Formulaire](/fichiers/autorisations_legales.pdf) à remplir
 - L’ensemble du matériel sportif est fourni par la structure, (VTT, casques, gilets de sauvetage…) le casque perso est néanmoins le bienvenu pour le VTT
@@ -53,6 +54,6 @@ D'autres stages (perfectionnement) seront organisés durant les vacances de Tous
 
 ### N’hésitez pas à nous contacter pour tous renseignements supplémentaires.
 
-![](/fichiers/3_openbic.jpg) ![](/fichiers/image_opti_henouville.jpeg)
+![](/images/openskiff.jpg) ![](/images/optimist2.jpg)
 
-Pour une activité annuelle, vous aurez toutes les informations sur la [page dédiée à la voile jeune](https://www.ycr76.fr/voile-jeune).
+Pour une activité annuelle, vous aurez toutes les informations sur la [page dédiée à la voile jeune](/voile-jeune).

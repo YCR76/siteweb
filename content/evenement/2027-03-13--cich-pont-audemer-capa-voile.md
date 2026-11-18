@@ -5,4 +5,6 @@ classes:
   - Habitable
 startDate: 2027-03-13
 allDay: true
+clubOrganisateur: "CAPA Voile"
+deplacementClub: true
 ---

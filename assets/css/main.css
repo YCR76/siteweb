@@ -352,3 +352,27 @@ a:hover { color: var(--bleu-marine); }
 .gal-lb-close:hover, .gal-lb-prev:hover, .gal-lb-next:hover { background: rgba(255,255,255,.3); }
 .gal-lb-cap { position: absolute; bottom: 1.2rem; left: 0; right: 0; text-align: center;
   color: #fff; font-size: .9rem; }
+
+/* ---------------- Grades FFV ---------------- */
+.grade-chip { display: inline-block; padding: .05rem .5rem; border-radius: 999px;
+  font-size: .8rem; font-weight: 600; line-height: 1.5; vertical-align: middle; }
+.gr-5c { background: #87ceeb; color: #112233; }
+.gr-5b { background: #90ee90; color: #112233; }
+.gr-5a { background: #ffd400; color: #112233; }
+.gr-4  { background: #b57edc; color: #fff; }
+.gr-3  { background: #0b3a5d; color: #fff; }
+.gr-2  { background: #1a1a1a; color: #fff; }
+
+/* liste du calendrier */
+.event-meta { display: inline-flex; flex-wrap: wrap; align-items: center;
+  gap: .35rem; margin-left: .4rem; vertical-align: middle; }
+.ev-org { font-size: .85rem; color: #556; }
+.ev-flag { font-size: 1rem; cursor: help; }
+
+/* planning : le grade prime sur la couleur de colonne */
+.planning-table td .evt.gr-5c { background: #87ceeb; color: #112233; }
+.planning-table td .evt.gr-5b { background: #90ee90; color: #112233; }
+.planning-table td .evt.gr-5a { background: #ffd400; color: #112233; }
+.planning-table td .evt.gr-4  { background: #b57edc; color: #fff; }
+.planning-table td .evt.gr-3  { background: #0b3a5d; color: #fff; }
+.planning-table td .evt.gr-2  { background: #1a1a1a; color: #fff; }

@@ -13,6 +13,5 @@ allDay: true
 endDate: 2026-11-28
 aliases:
   - /lultime-xii-0
+deplacementClub: true
 ---
-
-

@@ -1,7 +1,7 @@
 ---
 title: "Commune de Canteleu"
 siteInternet: "https://www.ville-canteleu.fr/"
-logo: /sites/default/files/canteleu2.jpg
+logo: /images/logo/canteleu.jpg
 aliases:
   - /commune-canteleu
 ---

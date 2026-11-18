@@ -93,4 +93,4 @@ Vous êtes une **école, une commune, une structure jeunesse ou une collectivit�
 
 Contactez le **Yacht Club Rouen 76** pour construire ensemble une prestation adaptée à vos besoins.
 
-[**Demandez-nous un devis ou échangez avec notre équipe pour préparer votre projet.**](https://www.ycr76.fr/contactez-nous)
+[**Demandez-nous un devis ou échangez avec notre équipe pour préparer votre projet.**](/contactez-nous)
