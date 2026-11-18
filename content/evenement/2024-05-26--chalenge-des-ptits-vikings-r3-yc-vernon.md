@@ -6,7 +6,7 @@ classes:
   - "Optimist"
 startDate: 2024-05-26
 allDay: true
-clubOrganisateur: "Y.C.Vernon"
+clubOrganisateur: "YC Vernon"
 deplacementClub: false
 hebergementClub: false
 coId: "128300"

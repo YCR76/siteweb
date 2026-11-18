@@ -6,7 +6,7 @@ classes:
   - "Optimist"
 startDate: 2022-04-03
 allDay: true
-clubOrganisateur: "C.N.Cote d'Albatre"
+clubOrganisateur: "CN Cote d'Albatre"
 deplacementClub: false
 hebergementClub: false
 coId: "115552"

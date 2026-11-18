@@ -7,7 +7,7 @@ classes:
 startDate: 2023-09-23
 allDay: true
 endDate: 2023-09-24
-clubOrganisateur: "C.N.Hardelot"
+clubOrganisateur: "CN Hardelot"
 deplacementClub: false
 hebergementClub: false
 coId: "123011"

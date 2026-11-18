@@ -7,7 +7,7 @@ classes:
 startDate: 2022-05-07
 allDay: true
 endDate: 2022-05-08
-clubOrganisateur: "C.N.Aubois"
+clubOrganisateur: "CN Aubois"
 deplacementClub: false
 hebergementClub: false
 coId: "113209"

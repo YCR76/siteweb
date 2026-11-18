@@ -7,7 +7,7 @@ classes:
 startDate: 2023-09-23
 allDay: true
 endDate: 2023-09-24
-clubOrganisateur: "Club Nautique Valeriquais"
+clubOrganisateur: "CN Valeriquais"
 deplacementClub: false
 hebergementClub: false
 ---

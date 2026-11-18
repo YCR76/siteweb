@@ -7,7 +7,7 @@ classes:
 startDate: 2024-10-30
 allDay: true
 endDate: 2024-11-02
-clubOrganisateur: "C.O.Y.C.Hyerois"
+clubOrganisateur: "COYC Hyerois"
 deplacementClub: false
 hebergementClub: false
 coId: "124772"

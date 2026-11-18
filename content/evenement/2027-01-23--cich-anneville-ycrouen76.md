@@ -3,9 +3,10 @@ title: "CICH Anneville YCRouen76"
 categorie: "Régate"
 grade: "5B"
 classes:
-  - Habitable
+  - "Habitable"
 startDate: 2027-01-23
 allDay: true
-clubOrganisateur: "YCRouen76"
+clubOrganisateur: "YCRouen 76"
 deplacementClub: false
+hebergementClub: false
 ---

@@ -7,7 +7,7 @@ classes:
 startDate: 2019-03-30
 allDay: true
 endDate: 2019-03-31
-clubOrganisateur: "C.N.Carantec"
+clubOrganisateur: "CN Carantec"
 deplacementClub: false
 hebergementClub: false
 coId: "96941"

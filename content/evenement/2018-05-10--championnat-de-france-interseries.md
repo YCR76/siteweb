@@ -12,7 +12,7 @@ classes:
 startDate: 2018-05-10
 allDay: true
 endDate: 2018-05-13
-clubOrganisateur: "C.N.Biscarrosse Olympique"
+clubOrganisateur: "CN Biscarrosse Olympique"
 deplacementClub: false
 hebergementClub: false
 coId: "94490"

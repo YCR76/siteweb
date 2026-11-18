@@ -9,7 +9,7 @@ classes:
 startDate: 2022-07-09
 allDay: true
 endDate: 2022-07-15
-clubOrganisateur: "C.V.Bordeaux"
+clubOrganisateur: "CV Bordeaux"
 deplacementClub: false
 hebergementClub: false
 coId: "112653"

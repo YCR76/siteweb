@@ -156,6 +156,17 @@ a:hover { color: var(--bleu-marine); }
 
 .child-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-top: 1.2rem; }
 
+.aide-navigation { margin: 1.2rem 0 1.6rem; border-top: 4px solid var(--bleu-clair); }
+.aide-navigation [hidden] { display: none !important; }
+.aide-navigation__cta { font-size: 1.05rem; padding: .7rem 1.1rem; }
+.aide-navigation__panneau { margin-top: 1.1rem; }
+.aide-navigation__question { margin: 0 0 .8rem; color: var(--bleu-marine); font-size: 1.15rem; }
+.aide-navigation__question:focus { outline: 3px solid var(--bleu-clair); outline-offset: 3px; }
+.aide-navigation__reponses { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: .6rem; }
+.aide-navigation__reponses .btn { text-align: center; }
+.aide-navigation__etape + .aide-navigation__etape { margin-top: 1rem; }
+.aide-navigation__recommencer { margin-top: 1rem; }
+
 .partners-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.4rem; text-align: center; }
 .partner-card { justify-self: center; width: 100%; display: flex; flex-direction: column; align-items: center; }
 .partner-card img { max-height: 90px; max-width: 100%; object-fit: contain; margin-bottom: .7rem; }
@@ -387,6 +398,7 @@ a:hover { color: var(--bleu-marine); }
   gap: .35rem; margin-left: .4rem; vertical-align: middle; }
 .ev-org { font-size: .85rem; color: #556; }
 .ev-flag { font-size: 1rem; cursor: help; }
+.event-emoji { margin-right: .3rem; white-space: nowrap; cursor: help; }
 
 /* planning : le grade prime sur la couleur de colonne */
 .planning-table td .evt.gr-5c { background: #87ceeb; color: #112233; }

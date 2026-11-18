@@ -1,20 +1,22 @@
-# Déploiement du site statique vers l'hébergement web OVH.
+# Déploiement du site statique vers l'hébergement OVH (staging dev.ycr76.fr).
 # Déclenché à chaque push sur main (et manuellement).
-# Secrets à créer dans GitHub : Settings > Secrets and variables > Actions > New repository secret
-#   OVH_FTP_HOST     : ex. ftp.cluster0XX.ovh.net (ou sftp:host:port)
-#   OVH_FTP_USER     : identifiant FTP OVH (ex. abcdef-ghijkl)
-#   OVH_FTP_PASSWORD : mot de passe FTP OVH
-#   OVH_FTP_DIR      : dossier cible, ex. www (répertoire racine du site)
-# NB : SFTP nécessite un accès SSH (offres OVH récentes, à activer depuis
-# l'espace client). Si l'offre est FTP-only, remplacer l'étape d'envoi par :
-#   uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-#   with: server: ${{ secrets.OVH_FTP_HOST }} (sans sftp:), username/password/...
+# Secrets GitHub à créer : Settings > Secrets and variables > Actions > New repository secret
+#   OVH_FTP_PASSWORD : mot de passe SFTP (jamais dans le dépôt)
+# Le formulaire de contact reste servi par Netlify ; seul le site statique est envoyé ici.
 name: Deploy OVH
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
+  repository_dispatch:
+    types: [planning-updated]
+  schedule:
+    - cron: '0 * * * *'
+
+concurrency:
+  group: ovh-deploy
+  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -31,17 +33,26 @@ jobs:
           hugo-version: "0.169.0"
           extended: true
 
+      - name: Installer les dépendances Python
+        run: python -m pip install --upgrade pip openpyxl
+
+      - name: Télécharger le classeur du planning
+        run: curl -fsSL "https://docs.google.com/spreadsheets/d/e/2PACX-1vQH1aDY8iQ9UVSqe3RblNTxDIYnixm5DnjEsAPwv76PfVC48kyOYTkXrLJbgQiUHxRpVN0UKoLETkw6/pub?output=xlsx&t=${{ github.run_id }}" -o planning.xlsx
+
+      - name: Importer les événements
+        run: python -X utf8 tools/import_xlsx.py planning.xlsx --write
+
       - name: Construire le site
         run: hugo --gc --minify --cleanDestinationDir
 
       - name: Envoyer via SFTP
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          server: ${{ secrets.OVH_FTP_HOST }}
-          username: ${{ secrets.OVH_FTP_USER }}
+          server: ftp.cluster110.hosting.ovh.net
+          username: ycrjvlgq
           password: ${{ secrets.OVH_FTP_PASSWORD }}
           port: 22
           local_path: "./public/*"
-          remote_path: ${{ secrets.OVH_FTP_DIR }}
+          remote_path: /home/ycrjvlgq/dev
           sftp_only: true
           delete_remote_files: true

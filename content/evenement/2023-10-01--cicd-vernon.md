@@ -11,7 +11,7 @@ classes:
   - "Optimist"
 startDate: 2023-10-01
 allDay: true
-clubOrganisateur: "Y.C.Vernon"
+clubOrganisateur: "YC Vernon"
 deplacementClub: false
 hebergementClub: false
 coId: "120842"

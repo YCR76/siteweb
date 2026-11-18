@@ -12,7 +12,7 @@ classes:
 startDate: 2021-11-13
 allDay: true
 endDate: 2021-11-14
-clubOrganisateur: "C.V.S.A.E."
+clubOrganisateur: "CV St Aubin Les Elbeuf"
 deplacementClub: false
 hebergementClub: false
 coId: "115697"

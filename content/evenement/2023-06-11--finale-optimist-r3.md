@@ -6,7 +6,7 @@ classes:
   - "Optimist"
 startDate: 2023-06-11
 allDay: true
-clubOrganisateur: "C.V.S.A.E."
+clubOrganisateur: "CV St Aubin Les Elbeuf"
 deplacementClub: false
 hebergementClub: false
 coId: "120226"

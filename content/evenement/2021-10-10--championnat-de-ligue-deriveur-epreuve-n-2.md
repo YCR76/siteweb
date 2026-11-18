@@ -11,7 +11,7 @@ classes:
   - "Optimist"
 startDate: 2021-10-10
 allDay: true
-clubOrganisateur: "Le Havre SNPH"
+clubOrganisateur: "SNP Havres"
 deplacementClub: false
 hebergementClub: false
 coId: "112316"

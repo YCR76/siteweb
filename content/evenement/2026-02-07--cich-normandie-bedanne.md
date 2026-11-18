@@ -7,7 +7,7 @@ classes:
 startDate: 2026-02-07
 allDay: true
 endDate: 2026-02-08
-clubOrganisateur: "C.V.S.A.E."
+clubOrganisateur: "CV St Aubin Les Elbeuf"
 deplacementClub: false
 hebergementClub: false
 coId: "140584"

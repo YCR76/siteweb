@@ -6,7 +6,7 @@ classes:
   - "Optimist"
 startDate: 2026-06-14
 allDay: true
-clubOrganisateur: "SNPH"
+clubOrganisateur: "SNP Havres"
 deplacementClub: false
 hebergementClub: false
 ---

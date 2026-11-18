@@ -3,9 +3,10 @@ title: "CICH Pont Audemer CAPA Voile"
 categorie: "Régate"
 grade: "5B"
 classes:
-  - Habitable
+  - "Habitable"
 startDate: 2027-03-13
 allDay: true
-clubOrganisateur: "CAPA Voile"
+clubOrganisateur: "Capa voile"
 deplacementClub: true
+hebergementClub: false
 ---

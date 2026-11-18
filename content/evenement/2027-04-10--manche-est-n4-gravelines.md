@@ -3,8 +3,10 @@ title: "Manche-Est n°4 Gravelines"
 categorie: "Régate"
 grade: "4"
 classes:
-  - ILCA/Laser
+  - "ILCA/Laser"
 startDate: 2027-04-10
 allDay: true
 deplacementClub: true
+clubOrganisateur: "GGVLS"
+hebergementClub: false
 ---

@@ -6,7 +6,7 @@ classes:
   - "O'pen Skiff"
 startDate: 2025-04-27
 allDay: true
-clubOrganisateur: "Y.C.Rouen 76"
+clubOrganisateur: "YC Rouen 76"
 deplacementClub: false
 hebergementClub: false
 ---

@@ -11,7 +11,7 @@ classes:
   - "Optimist"
 startDate: 2020-10-10
 allDay: true
-clubOrganisateur: "C.R.N.Granville"
+clubOrganisateur: "CRN Granville"
 deplacementClub: false
 hebergementClub: false
 coId: "105084"

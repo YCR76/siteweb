@@ -1,0 +1,33 @@
+{{- $donnees := hugo.Data.aide_navigation -}}
+{{- $id := .Get "id" | default "aide-navigation" -}}
+{{- $depart := $donnees.question_depart -}}
+{{- $questions := sort $donnees.questions "ordre" -}}
+
+<section class="aide-navigation page" id="{{ $id }}" data-aide-navigation data-depart="{{ $depart }}">
+  <button type="button" class="btn aide-navigation__cta" aria-expanded="false" aria-controls="{{ $id }}-panneau">
+    {{ $donnees.titre }}
+  </button>
+
+  <div class="aide-navigation__panneau" id="{{ $id }}-panneau">
+    <p class="sr-only" data-aide-navigation-statut aria-live="polite"></p>
+
+    {{- range $questions }}
+    <div class="aide-navigation__etape" data-etape="{{ .id }}">
+      <h2 class="aide-navigation__question">{{ .question }}</h2>
+      <div class="aide-navigation__reponses">
+        {{- range .reponses }}
+        {{- if .next }}
+        <button type="button" class="btn btn-outline" data-suivant="{{ .next }}">{{ .label }}</button>
+        {{- else }}
+        <a class="btn" href="{{ .cible }}">{{ .label }}</a>
+        {{- end }}
+        {{- end }}
+      </div>
+    </div>
+    {{- end }}
+
+    <a class="btn btn-outline aide-navigation__recommencer" href="{{ .Page.RelPermalink }}">Recommencer</a>
+  </div>
+</section>
+
+<script src="{{ (resources.Get "js/aide_navigation.js" | minify | fingerprint).RelPermalink }}" defer></script>

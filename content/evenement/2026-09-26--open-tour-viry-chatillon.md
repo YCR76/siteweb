@@ -7,7 +7,7 @@ classes:
 startDate: 2026-09-26
 allDay: true
 endDate: 2026-09-27
-clubOrganisateur: "C.N.Viry Chatillon Voile"
+clubOrganisateur: "CN Viry Chatillon Voile"
 deplacementClub: false
 hebergementClub: false
 coId: "141665"

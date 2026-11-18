@@ -1,0 +1,90 @@
+titre: "Vous cherchez quelque chose ? Nous allons vous aider à le trouver."
+question_depart: qui
+questions:
+  qui:
+    id: qui
+    ordre: 1
+    question: "Qui êtes-vous ?"
+    reponses:
+      - label: Curieux
+        next: curieux
+      - label: Particulier
+        next: particulier
+      - label: Professionnel
+        next: professionnel
+
+  curieux:
+    id: curieux
+    ordre: 2
+    question: "Vous aimeriez faire ?"
+    reponses:
+      - label: "Aucune idée"
+        cible: "/le-club/lactivite-deriveur/"
+      - label: "Soutenir le club"
+        cible: "/le-club/don-club/"
+      - label: "Suivre l'actualité du club"
+        cible: "/l-actualite/"
+
+  particulier:
+    id: particulier
+    ordre: 3
+    question: "Vous aimeriez faire ?"
+    reponses:
+      - label: Habitable
+        cible: "/voile-loisir/voile-habitable/"
+      - label: Dériveur
+        next: deriveur
+      - label: Stage
+        next: stage
+
+  deriveur:
+    id: deriveur
+    ordre: 4
+    question: "Vous cherchez pour ?"
+    reponses:
+      - label: Jeune
+        cible: "/voile-loisir/voile-jeune/"
+      - label: Ado
+        cible: "/voile-loisir/voile-adoadulte/"
+      - label: Adulte
+        cible: "/voile-loisir/voile-adoadulte/"
+      - label: Sénior
+        cible: "/voile-loisir/voile-seniors/"
+      - label: "La compétition"
+        cible: "/competition/"
+
+  stage:
+    id: stage
+    ordre: 5
+    question: "Quel type de stage ?"
+    reponses:
+      - label: Voile
+        cible: "/stages/stage-voile/"
+      - label: Multi-sport
+        cible: "/stages/stage-multisports/"
+      - label: "Les deux"
+        cible: "/stages/"
+
+  professionnel:
+    id: professionnel
+    ordre: 6
+    question: "Vous cherchez pour ?"
+    reponses:
+      - label: "Une école"
+        next: ecole
+      - label: "Un centre de loisir"
+        cible: "/activites/tarifs-centre-loisirs/"
+      - label: "Une entreprise"
+        cible: "/activites/journee-dentreprise/"
+      - label: "Un groupe"
+        cible: "/activites/seances-carte/"
+
+  ecole:
+    id: ecole
+    ordre: 7
+    question: "Quel type d'activité ?"
+    reponses:
+      - label: Séjour
+        cible: "/activites/scolaires/"
+      - label: "Savoir rouler à vélo"
+        cible: "/activites/savoir-rouler-velo/"

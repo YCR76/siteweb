@@ -7,7 +7,7 @@ classes:
 startDate: 2022-07-14
 allDay: true
 endDate: 2022-07-17
-clubOrganisateur: "S N Léman Français"
+clubOrganisateur: "SN Léman Français"
 deplacementClub: false
 hebergementClub: false
 coId: "115074"

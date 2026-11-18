@@ -7,7 +7,7 @@ classes:
 startDate: 2025-11-15
 allDay: true
 endDate: 2025-11-16
-clubOrganisateur: "Y.C.Rouen 76"
+clubOrganisateur: "YC Rouen 76"
 deplacementClub: false
 hebergementClub: false
 coId: "132418"

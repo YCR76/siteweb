@@ -7,7 +7,7 @@ classes:
 startDate: 2023-03-25
 allDay: true
 endDate: 2023-03-26
-clubOrganisateur: "C.N.Wimereux"
+clubOrganisateur: "CN Wimereux"
 deplacementClub: false
 hebergementClub: false
 coId: "120109"

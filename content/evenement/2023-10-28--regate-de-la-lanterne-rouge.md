@@ -11,7 +11,7 @@ classes:
   - "Optimist"
 startDate: 2023-10-28
 allDay: true
-clubOrganisateur: "C.N.Cote d'Albatre"
+clubOrganisateur: "CN Cote d'Albatre"
 deplacementClub: false
 hebergementClub: false
 coId: "123441"

@@ -6,7 +6,7 @@ classes:
   - "Optimist"
 startDate: 2024-04-14
 allDay: true
-clubOrganisateur: "Le Havre SNPH"
+clubOrganisateur: "SNP Havres"
 deplacementClub: false
 hebergementClub: false
 ---

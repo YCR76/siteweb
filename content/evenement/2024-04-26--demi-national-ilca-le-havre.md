@@ -7,7 +7,7 @@ classes:
 startDate: 2024-04-26
 allDay: true
 endDate: 2024-04-28
-clubOrganisateur: "Le Havre SRH"
+clubOrganisateur: "SR Havres"
 deplacementClub: false
 hebergementClub: false
 coId: "123722"

@@ -11,7 +11,7 @@ classes:
   - "Optimist"
 startDate: 2022-11-19
 allDay: true
-clubOrganisateur: "Y.C.Rouen 76"
+clubOrganisateur: "YC Rouen 76"
 deplacementClub: false
 hebergementClub: false
 coId: "117799"

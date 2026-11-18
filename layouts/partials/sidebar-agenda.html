@@ -18,12 +18,16 @@
       {{- $item := dict "title" $e.Title "start" ((time .).Format "2006-01-02T15:04:05") "allDay" ($e.Params.allDay) "url" $e.RelPermalink }}
       {{- if $gr }}{{ $item = merge $item (dict "gr" $gr) }}{{ end }}
       {{- with $cat }}{{ $item = merge $item (dict "cat" .) }}{{ end }}
+      {{- if $e.Params.deplacementClub }}{{ $item = merge $item (dict "deplacementClub" true) }}{{ end }}
+      {{- if $e.Params.hebergementClub }}{{ $item = merge $item (dict "hebergementClub" true) }}{{ end }}
       {{- $data = $data | append $item }}
       {{- end }}
     {{- else }}
     {{- $item := dict "title" $e.Title "start" ($start.Format "2006-01-02T15:04:05") "allDay" ($e.Params.allDay) "url" $e.RelPermalink }}
     {{- if $gr }}{{ $item = merge $item (dict "gr" $gr) }}{{ end }}
       {{- with $cat }}{{ $item = merge $item (dict "cat" .) }}{{ end }}
+      {{- if $e.Params.deplacementClub }}{{ $item = merge $item (dict "deplacementClub" true) }}{{ end }}
+      {{- if $e.Params.hebergementClub }}{{ $item = merge $item (dict "hebergementClub" true) }}{{ end }}
     {{- with $e.Params.endDate }}{{ $item = merge $item (dict "end" ((time .).Format "2006-01-02T15:04:05")) }}{{ end }}
     {{- $data = $data | append $item }}
     {{- end }}

@@ -7,7 +7,7 @@ classes:
 startDate: 2023-04-29
 allDay: true
 endDate: 2023-05-01
-clubOrganisateur: "S.N.Sablais"
+clubOrganisateur: "SN Sablais"
 deplacementClub: false
 hebergementClub: false
 coId: "118988"

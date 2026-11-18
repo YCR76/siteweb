@@ -7,7 +7,7 @@ classes:
 startDate: 2025-03-15
 allDay: true
 endDate: 2025-03-16
-clubOrganisateur: "A.Voile de l'Ailette"
+clubOrganisateur: "A Voile de l'Ailette"
 deplacementClub: false
 hebergementClub: false
 coId: "129151"

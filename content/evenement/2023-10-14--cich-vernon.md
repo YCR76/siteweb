@@ -7,7 +7,7 @@ classes:
 startDate: 2023-10-14
 allDay: true
 endDate: 2023-10-15
-clubOrganisateur: "Y.C.Vernon"
+clubOrganisateur: "YC Vernon"
 deplacementClub: false
 hebergementClub: false
 coId: "120843"

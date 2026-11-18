@@ -7,7 +7,7 @@ classes:
 startDate: 2021-10-28
 allDay: true
 endDate: 2021-11-01
-clubOrganisateur: "C.V.Bordeaux"
+clubOrganisateur: "CV Bordeaux"
 deplacementClub: false
 hebergementClub: false
 coId: "109070"

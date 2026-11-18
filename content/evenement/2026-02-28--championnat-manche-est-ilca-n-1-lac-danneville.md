@@ -7,7 +7,7 @@ classes:
 startDate: 2026-02-28
 allDay: true
 endDate: 2026-03-01
-clubOrganisateur: "Y.C.Rouen 76"
+clubOrganisateur: "YC Rouen 76"
 deplacementClub: false
 hebergementClub: false
 coId: "138796"

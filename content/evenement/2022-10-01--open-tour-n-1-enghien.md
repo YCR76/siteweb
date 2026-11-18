@@ -7,7 +7,7 @@ classes:
 startDate: 2022-10-01
 allDay: true
 endDate: 2022-10-02
-clubOrganisateur: "S.N.Enghien"
+clubOrganisateur: "SN Enghien"
 deplacementClub: false
 hebergementClub: false
 coId: "117211"

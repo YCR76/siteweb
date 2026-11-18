@@ -11,7 +11,7 @@ classes:
   - "Optimist"
 startDate: 2022-06-12
 allDay: true
-clubOrganisateur: "Le Havre SRH"
+clubOrganisateur: "SR Havres"
 deplacementClub: false
 hebergementClub: false
 coId: "115373"

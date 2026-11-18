@@ -7,7 +7,7 @@ classes:
 startDate: 2024-03-30
 allDay: true
 endDate: 2024-04-01
-clubOrganisateur: "C.N.Castelnaudary"
+clubOrganisateur: "CN Castelnaudary"
 deplacementClub: false
 hebergementClub: false
 coId: "124656"

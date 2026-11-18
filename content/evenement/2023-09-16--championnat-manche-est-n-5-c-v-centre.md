@@ -7,7 +7,7 @@ classes:
 startDate: 2023-09-16
 allDay: true
 endDate: 2023-09-17
-clubOrganisateur: "C.V.Centre"
+clubOrganisateur: "CV Centre"
 deplacementClub: false
 hebergementClub: false
 coId: "119337"

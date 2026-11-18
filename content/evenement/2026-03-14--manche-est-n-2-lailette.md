@@ -7,7 +7,7 @@ classes:
 startDate: 2026-03-14
 allDay: true
 endDate: 2026-03-15
-clubOrganisateur: "A.Voile de l'Ailette"
+clubOrganisateur: "A Voile de l'Ailette"
 deplacementClub: false
 hebergementClub: false
 coId: "137522"

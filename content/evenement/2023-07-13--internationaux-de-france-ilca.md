@@ -7,7 +7,7 @@ classes:
 startDate: 2023-07-13
 allDay: true
 endDate: 2023-07-16
-clubOrganisateur: "C.N.Lorient"
+clubOrganisateur: "CN Lorient"
 deplacementClub: false
 hebergementClub: false
 coId: "119868"

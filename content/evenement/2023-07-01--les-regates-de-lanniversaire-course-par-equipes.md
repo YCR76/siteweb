@@ -6,7 +6,7 @@ classes:
   - "Course par équipe"
 startDate: 2023-07-01
 allDay: true
-clubOrganisateur: "Y.C.Rouen 76"
+clubOrganisateur: "YC Rouen 76"
 deplacementClub: false
 hebergementClub: false
 coId: "121101"

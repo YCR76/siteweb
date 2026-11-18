@@ -7,7 +7,7 @@ classes:
 startDate: 2024-03-09
 allDay: true
 endDate: 2024-03-10
-clubOrganisateur: "A.Voile de l'Ailette"
+clubOrganisateur: "A Voile de l'Ailette"
 deplacementClub: false
 hebergementClub: false
 ---

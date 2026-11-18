@@ -7,7 +7,7 @@ classes:
 startDate: 2026-05-23
 allDay: true
 endDate: 2026-05-24
-clubOrganisateur: "Y.C.Vernon"
+clubOrganisateur: "YC Vernon"
 deplacementClub: false
 hebergementClub: false
 coId: "295894"

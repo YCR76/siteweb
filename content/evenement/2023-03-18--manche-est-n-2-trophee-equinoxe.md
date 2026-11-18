@@ -7,7 +7,7 @@ classes:
 startDate: 2023-03-18
 allDay: true
 endDate: 2023-03-19
-clubOrganisateur: "C.V.St Quentin"
+clubOrganisateur: "CV St Quentin"
 deplacementClub: false
 hebergementClub: false
 coId: "119659"

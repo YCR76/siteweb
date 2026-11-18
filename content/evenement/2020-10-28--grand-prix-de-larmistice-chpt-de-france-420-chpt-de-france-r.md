@@ -8,7 +8,7 @@ classes:
 startDate: 2020-10-28
 allDay: true
 endDate: 2020-10-31
-clubOrganisateur: "C.V.Bordeaux"
+clubOrganisateur: "CV Bordeaux"
 deplacementClub: false
 hebergementClub: false
 ---

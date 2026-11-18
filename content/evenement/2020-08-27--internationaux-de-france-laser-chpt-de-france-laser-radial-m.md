@@ -7,7 +7,7 @@ classes:
 startDate: 2020-08-27
 allDay: true
 endDate: 2020-08-30
-clubOrganisateur: "C.V.Hourtin Médoc"
+clubOrganisateur: "CV Hourtin Médoc"
 deplacementClub: false
 hebergementClub: false
 coId: "102013"

@@ -7,7 +7,7 @@ classes:
 startDate: 2026-01-31
 allDay: true
 endDate: 2026-02-01
-clubOrganisateur: "Y C CHERBOURG"
+clubOrganisateur: "YC Cherbourg"
 deplacementClub: false
 hebergementClub: false
 ---

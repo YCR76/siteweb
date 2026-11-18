@@ -11,7 +11,7 @@ classes:
   - "Optimist"
 startDate: 2026-10-04
 allDay: true
-clubOrganisateur: "C.R.N.Granville"
+clubOrganisateur: "CRN Granville"
 deplacementClub: false
 hebergementClub: false
 ---

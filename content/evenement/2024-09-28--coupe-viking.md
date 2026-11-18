@@ -12,7 +12,7 @@ classes:
 startDate: 2024-09-28
 allDay: true
 endDate: 2024-09-29
-clubOrganisateur: "SNPH"
+clubOrganisateur: "SNP Havres"
 deplacementClub: false
 hebergementClub: false
 coId: "124815"

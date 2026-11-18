@@ -11,7 +11,7 @@ classes:
   - "Optimist"
 startDate: 2020-01-19
 allDay: true
-clubOrganisateur: "Y.C.Rouen 76"
+clubOrganisateur: "YC Rouen 76"
 deplacementClub: false
 hebergementClub: false
 coId: "105337"

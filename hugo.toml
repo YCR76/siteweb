@@ -233,12 +233,6 @@ pageRef = "/competition/resultats"
 weight = 52
 
 [[menus.main]]
-name = "Les clubs"
-parent = "Compétition"
-pageRef = "/competition/les-clubs"
-weight = 55
-
-[[menus.main]]
 name = "Voile habitable"
 parent = "Voile loisir"
 pageRef = "/voile-loisir/voile-habitable"

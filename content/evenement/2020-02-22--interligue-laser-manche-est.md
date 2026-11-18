@@ -7,7 +7,7 @@ classes:
 startDate: 2020-02-22
 allDay: true
 endDate: 2020-02-23
-clubOrganisateur: "Le Havre SNPH"
+clubOrganisateur: "SNP Havres"
 deplacementClub: false
 hebergementClub: false
 coId: "102767"

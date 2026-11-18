@@ -12,7 +12,7 @@ classes:
 startDate: 2024-11-01
 allDay: true
 endDate: 2024-11-03
-clubOrganisateur: "C.V.Bordeaux"
+clubOrganisateur: "CV Bordeaux"
 deplacementClub: false
 hebergementClub: false
 coId: "124561"

@@ -11,7 +11,7 @@ classes:
   - "Optimist"
 startDate: 2021-10-23
 allDay: true
-clubOrganisateur: "Y.C.Rouen 76"
+clubOrganisateur: "YC Rouen 76"
 deplacementClub: false
 hebergementClub: false
 ---

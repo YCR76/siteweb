@@ -7,7 +7,7 @@ classes:
 startDate: 2025-10-31
 allDay: true
 endDate: 2025-11-02
-clubOrganisateur: "C.V.Bordeaux"
+clubOrganisateur: "CV Bordeaux"
 deplacementClub: false
 hebergementClub: false
 coId: "129827"

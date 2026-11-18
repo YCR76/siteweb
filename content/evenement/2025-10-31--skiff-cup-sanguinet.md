@@ -8,7 +8,7 @@ classes:
 startDate: 2025-10-31
 allDay: true
 endDate: 2025-11-02
-clubOrganisateur: "C.V.Sanguinet"
+clubOrganisateur: "CV Sanguinet"
 deplacementClub: false
 hebergementClub: false
 coId: "130409"

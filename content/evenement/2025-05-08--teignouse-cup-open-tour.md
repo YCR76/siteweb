@@ -12,7 +12,7 @@ classes:
 startDate: 2025-05-08
 allDay: true
 endDate: 2025-05-11
-clubOrganisateur: "A.S.N Quiberon"
+clubOrganisateur: "ASN Quiberon"
 deplacementClub: false
 hebergementClub: false
 coId: "129484"

@@ -7,7 +7,7 @@ classes:
 startDate: 2025-06-07
 allDay: true
 endDate: 2025-06-09
-clubOrganisateur: "Le Havre SRH"
+clubOrganisateur: "SR Havres"
 deplacementClub: false
 hebergementClub: false
 ---

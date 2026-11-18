@@ -7,7 +7,7 @@ classes:
 startDate: 2023-09-23
 allDay: true
 endDate: 2023-09-24
-clubOrganisateur: "Le Havre SNPH"
+clubOrganisateur: "SNP Havres"
 deplacementClub: false
 hebergementClub: false
 coId: "118006"

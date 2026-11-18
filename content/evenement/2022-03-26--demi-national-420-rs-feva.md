@@ -8,7 +8,7 @@ classes:
 startDate: 2022-03-26
 allDay: true
 endDate: 2022-03-27
-clubOrganisateur: "Le Havre SNPH"
+clubOrganisateur: "SNP Havres"
 deplacementClub: false
 hebergementClub: false
 coId: "113696"

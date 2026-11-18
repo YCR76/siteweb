@@ -7,7 +7,7 @@ classes:
 startDate: 2025-10-11
 allDay: true
 endDate: 2025-10-12
-clubOrganisateur: "Y.C.Vernon"
+clubOrganisateur: "YC Vernon"
 deplacementClub: false
 hebergementClub: false
 ---

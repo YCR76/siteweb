@@ -8,7 +8,7 @@ classes:
 startDate: 2022-05-20
 allDay: true
 endDate: 2022-05-22
-clubOrganisateur: "C.N.Plouguerneau"
+clubOrganisateur: "CN Plouguerneau"
 deplacementClub: false
 hebergementClub: false
 coId: "113567"

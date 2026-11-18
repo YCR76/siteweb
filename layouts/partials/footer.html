@@ -19,4 +19,4 @@
   </div>
   <p class="footer-legal">Association loi du 1<sup>er</sup> juillet 1901 — {{ site.Copyright }}</p>
 </footer>
-<script src="{{ (resources.Get "js/calendar.js" | minify).RelPermalink }}" defer></script>
+<script src="{{ (resources.Get "js/calendar.js" | minify | fingerprint).RelPermalink }}" defer></script>

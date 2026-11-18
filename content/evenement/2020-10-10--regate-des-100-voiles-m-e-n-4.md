@@ -7,7 +7,7 @@ classes:
 startDate: 2020-10-10
 allDay: true
 endDate: 2020-10-11
-clubOrganisateur: "C.N.Hardelot"
+clubOrganisateur: "CN Hardelot"
 deplacementClub: false
 hebergementClub: false
 coId: "104211"

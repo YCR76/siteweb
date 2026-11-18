@@ -7,7 +7,7 @@ classes:
 startDate: 2023-10-28
 allDay: true
 endDate: 2023-10-31
-clubOrganisateur: "C.V.Hourtin Médoc"
+clubOrganisateur: "CV Hourtin Médoc"
 deplacementClub: false
 hebergementClub: false
 coId: "118432"

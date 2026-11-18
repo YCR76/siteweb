@@ -7,7 +7,7 @@ classes:
 startDate: 2021-09-18
 allDay: true
 endDate: 2021-09-19
-clubOrganisateur: "Le Havre SNPH"
+clubOrganisateur: "SNP Havres"
 deplacementClub: false
 hebergementClub: false
 coId: "109262"

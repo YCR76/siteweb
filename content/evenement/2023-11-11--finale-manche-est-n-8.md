@@ -7,7 +7,7 @@ classes:
 startDate: 2023-11-11
 allDay: true
 endDate: 2023-11-12
-clubOrganisateur: "C.N.Viry Chatillon Voile"
+clubOrganisateur: "CN Viry Chatillon Voile"
 deplacementClub: false
 hebergementClub: false
 coId: "118207"

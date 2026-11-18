@@ -7,7 +7,7 @@ classes:
 startDate: 2024-05-04
 allDay: true
 endDate: 2024-05-05
-clubOrganisateur: "Y.C.Rouen 76"
+clubOrganisateur: "YC Rouen 76"
 deplacementClub: false
 hebergementClub: false
 ---

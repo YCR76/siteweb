@@ -7,7 +7,7 @@ classes:
 startDate: 2022-10-28
 allDay: true
 endDate: 2022-11-01
-clubOrganisateur: "C.N. Canet Perpignan"
+clubOrganisateur: "CN Canet Perpignan"
 deplacementClub: false
 hebergementClub: false
 coId: "115864"

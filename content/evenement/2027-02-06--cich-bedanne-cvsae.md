@@ -3,9 +3,10 @@ title: "CICH Bedanne CVSAE"
 categorie: "Régate"
 grade: "5B"
 classes:
-  - Habitable
+  - "Habitable"
 startDate: 2027-02-06
 allDay: true
-clubOrganisateur: "CVSAE"
+clubOrganisateur: "CV St Aubin Les Elbeuf"
 deplacementClub: true
+hebergementClub: false
 ---

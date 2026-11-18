@@ -6,7 +6,7 @@ classes:
   - "Optimist"
 startDate: 2023-05-14
 allDay: true
-clubOrganisateur: "Le Havre SNPH"
+clubOrganisateur: "SNP Havres"
 deplacementClub: false
 hebergementClub: false
 coId: "119871"

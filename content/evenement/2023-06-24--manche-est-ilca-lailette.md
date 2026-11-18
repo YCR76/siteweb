@@ -7,7 +7,7 @@ classes:
 startDate: 2023-06-24
 allDay: true
 endDate: 2023-06-25
-clubOrganisateur: "A.Voile de l'Ailette"
+clubOrganisateur: "A Voile de l'Ailette"
 deplacementClub: false
 hebergementClub: false
 coId: "118537"

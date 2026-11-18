@@ -7,7 +7,7 @@ classes:
 startDate: 2022-11-12
 allDay: true
 endDate: 2022-11-13
-clubOrganisateur: "Y.C.Rouen 76"
+clubOrganisateur: "YC Rouen 76"
 deplacementClub: false
 hebergementClub: false
 coId: "116202"

@@ -12,7 +12,7 @@ classes:
 startDate: 2023-05-06
 allDay: true
 endDate: 2023-05-08
-clubOrganisateur: "A.S.N Quiberon"
+clubOrganisateur: "ASN Quiberon"
 deplacementClub: false
 hebergementClub: false
 coId: "119402"

@@ -11,7 +11,7 @@ classes:
   - "Optimist"
 startDate: 2021-09-26
 allDay: true
-clubOrganisateur: "C.V.Anneville S/S"
+clubOrganisateur: "CV Anneville S/S"
 deplacementClub: false
 hebergementClub: false
 coId: "112434"

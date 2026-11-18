@@ -7,7 +7,7 @@ classes:
 startDate: 2026-04-11
 allDay: true
 endDate: 2026-04-12
-clubOrganisateur: "Y C CHERBOURG"
+clubOrganisateur: "YC Cherbourg"
 deplacementClub: false
 hebergementClub: false
 ---

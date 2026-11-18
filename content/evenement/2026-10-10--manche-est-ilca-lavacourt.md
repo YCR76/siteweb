@@ -7,7 +7,7 @@ classes:
 startDate: 2026-10-10
 allDay: true
 endDate: 2026-10-11
-clubOrganisateur: "C.V.Moisson Lavacourt"
+clubOrganisateur: "CV Moisson Lavacourt"
 deplacementClub: false
 hebergementClub: false
 ---

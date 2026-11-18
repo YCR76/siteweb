@@ -11,7 +11,7 @@ classes:
   - "Optimist"
 startDate: 2021-03-13
 allDay: true
-clubOrganisateur: "Base de voile de Poses"
+clubOrganisateur: "CDV de l'Eure"
 deplacementClub: false
 hebergementClub: false
 ---

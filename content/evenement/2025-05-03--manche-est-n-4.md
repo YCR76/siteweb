@@ -7,7 +7,7 @@ classes:
 startDate: 2025-05-03
 allDay: true
 endDate: 2025-05-04
-clubOrganisateur: "C.V.S.A.E."
+clubOrganisateur: "CV St Aubin Les Elbeuf"
 deplacementClub: false
 hebergementClub: false
 coId: "129070"
