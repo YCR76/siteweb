@@ -12,6 +12,7 @@ from pathlib import Path
 
 import yaml
 from openpyxl import Workbook
+from openpyxl.comments import Comment
 from openpyxl.styles import Alignment, Font, PatternFill, Border, Side
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
@@ -20,11 +21,8 @@ SITE = Path(__file__).resolve().parents[1]
 CONTENT = SITE / 'content' / 'evenement'
 DEFAULT_OUT = SITE.parent / 'planning-evenements.xlsx'
 
-GRADE_FILL = {
-    '5C': '87CEEB', '5B': '90EE90', '5A': 'FFD400',
-    '4': 'B57EDC', '3': '0B3A5D', '2': '1A1A1A',
-}
-GRADE_TEXT = {'4': 'FFFFFF', '3': 'FFFFFF', '2': 'FFFFFF'}
+REF_HINT = ("Laisser VIDE pour un nouvel événement ; ne pas modifier "
+            "sur une ligne existante (identifiant technique).")
 
 # Valeurs deja connues (a completer dans le Google Sheet par la suite)
 SEED_CO_ID = {
@@ -100,6 +98,7 @@ def main():
             ws.column_dimensions[get_column_letter(i)].width = width
         ws.freeze_panes = 'A2'
         ws.row_dimensions[1].height = 30
+        ws['A1'].comment = Comment(REF_HINT, 'YCR76', width=260, height=90)
         return ws
 
     def finish(ws, ncols, nrows):
@@ -113,8 +112,8 @@ def main():
     # ---------------- Regates ----------------
     cols = ['Réf. site', 'Date début', 'Date fin', 'Titre', 'Grade',
             'Classes', 'Club organisateur', 'Déplacement (O/N)', 'Hébergement (O/N)',
-            'CO_ID', 'URL inscription', 'URL infos', 'Lien résultats (auto)', 'Description']
-    widths = [34, 13, 13, 46, 8, 34, 20, 15, 16, 12, 52, 40, 14, 40]
+            'CO_ID', 'URL inscription', 'URL infos', 'Description']
+    widths = [34, 13, 13, 46, 8, 34, 20, 15, 16, 12, 52, 40, 40]
     ws = sheet('Régates', cols, widths)
     for r, e in enumerate(regates, 2):
         ws.cell(row=r, column=1, value=e['_ref'])
@@ -129,16 +128,10 @@ def main():
         ws.cell(row=r, column=10, value=str(e.get('coId') or SEED_CO_ID.get(e['_ref'], '')))
         ws.cell(row=r, column=11, value=e.get('urlInscription') or SEED_URL_INSCRIPTION.get(e['_ref'], ''))
         ws.cell(row=r, column=12, value=e.get('urlInfos') or '')
-        ws.cell(row=r, column=13, value=f'=IF($J{r}="","",HYPERLINK("https://regates.ffvoile.fr/competitions/"&$J{r},"Résultats"))')
-        ws.cell(row=r, column=14, value=description(e))
+        ws.cell(row=r, column=13, value=description(e))
         for col in (2, 3):
             ws.cell(row=r, column=col).number_format = date_fmt
-        g = ws.cell(row=r, column=5)
-        if g.value in GRADE_FILL:
-            g.fill = PatternFill('solid', fgColor=GRADE_FILL[g.value])
-            if g.value in GRADE_TEXT:
-                g.font = Font(color=GRADE_TEXT[g.value], bold=True)
-            g.alignment = Alignment(horizontal='center')
+        ws.cell(row=r, column=5).alignment = Alignment(horizontal='center')
         ws.cell(row=r, column=10).number_format = '@'
     finish(ws, len(cols), len(regates))
     last = len(regates) + 1
@@ -153,21 +146,36 @@ def main():
     dv_grade.add(f'E2:E{max(last, 2)}')
     dv_on.add(f'H2:I{max(last, 2)}')
 
-    # ---------------- Stages / Animations ----------------
-    for name, evs in (('Stages', stages), ('Animations', anims)):
-        cols = ['Réf. site', 'Date début', 'Date fin', 'Titre', 'Classes', 'Description']
-        widths = [34, 13, 13, 52, 34, 44]
-        ws = sheet(name, cols, widths)
-        for r, e in enumerate(evs, 2):
-            ws.cell(row=r, column=1, value=e['_ref'])
-            ws.cell(row=r, column=2, value=as_date(e.get('startDate')))
-            ws.cell(row=r, column=3, value=as_date(e.get('endDate')))
-            ws.cell(row=r, column=4, value=e.get('title'))
-            ws.cell(row=r, column=5, value=classes(e))
-            ws.cell(row=r, column=6, value=description(e))
-            for col in (2, 3):
-                ws.cell(row=r, column=col).number_format = date_fmt
-        finish(ws, len(cols), len(evs))
+    # ---------------- Stages ----------------
+    cols = ['Réf. site', 'Date début', 'Date fin', 'Titre', 'Lieu', 'Classes', 'Description']
+    widths = [34, 13, 13, 52, 26, 34, 44]
+    ws = sheet('Stages', cols, widths)
+    for r, e in enumerate(stages, 2):
+        ws.cell(row=r, column=1, value=e['_ref'])
+        ws.cell(row=r, column=2, value=as_date(e.get('startDate')))
+        ws.cell(row=r, column=3, value=as_date(e.get('endDate')))
+        ws.cell(row=r, column=4, value=e.get('title'))
+        ws.cell(row=r, column=5, value=e.get('lieu') or '')
+        ws.cell(row=r, column=6, value=classes(e))
+        ws.cell(row=r, column=7, value=description(e))
+        for col in (2, 3):
+            ws.cell(row=r, column=col).number_format = date_fmt
+    finish(ws, len(cols), len(stages))
+
+    # ---------------- Animations ----------------
+    cols = ['Réf. site', 'Date début', 'Date fin', 'Titre', 'Classes', 'Description']
+    widths = [34, 13, 13, 52, 34, 44]
+    ws = sheet('Animations', cols, widths)
+    for r, e in enumerate(anims, 2):
+        ws.cell(row=r, column=1, value=e['_ref'])
+        ws.cell(row=r, column=2, value=as_date(e.get('startDate')))
+        ws.cell(row=r, column=3, value=as_date(e.get('endDate')))
+        ws.cell(row=r, column=4, value=e.get('title'))
+        ws.cell(row=r, column=5, value=classes(e))
+        ws.cell(row=r, column=6, value=description(e))
+        for col in (2, 3):
+            ws.cell(row=r, column=col).number_format = date_fmt
+    finish(ws, len(cols), len(anims))
 
     # ---------------- Seances (series) ----------------
     cols = ['Réf. série', 'Titre', 'Date', 'Classes', 'Description']
@@ -196,12 +204,14 @@ def main():
         'Classes : séparer par des virgules (ex. : ILCA/Laser, Europe).',
         'Déplacement / Hébergement : O (oui) ou N (non).',
         '',
-        'CO_ID : identifiant FFVoile de la compétition. Il génère automatiquement le lien',
-        '   https://regates.ffvoile.fr/competitions/<CO_ID>/  (colonne « Lien résultats »).',
+        'CO_ID : identifiant FFVoile de la compétition. Le site crée automatiquement le lien',
+        '   https://regates.ffvoile.fr/competitions/<CO_ID>/  sur la page de la régate.',
         'URL inscription : lien Inscrivoile de la régate (ex. https://inscrivoile.fr/inscrits.php?id_regate=…).',
         'URL infos : lien libre (site du club organisateur, avis de course, etc.).',
+        'Lieu : utilisé pour les stages (visible sur la page de l’événement).',
         '',
-        'Réf. site : NE PAS MODIFIER. Identifiant technique utilisé par la synchronisation du site.',
+        'Réf. site : laisser VIDE pour un nouvel événement. Ne pas modifier sur une ligne',
+        '   existante (identifiant technique utilisé par la synchronisation du site).',
         'Une ligne = un événement (une date par ligne dans l’onglet Séances).',
         'Les ajouts, modifications et suppressions sont publiés automatiquement chaque matin.',
         '',

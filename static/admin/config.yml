@@ -170,6 +170,11 @@ collections:
         widget: boolean
         default: false
         required: false
+      - label: Lieu
+        name: lieu
+        widget: string
+        required: false
+        hint: Ville ou plan d'eau (utile pour les stages)
       - label: CO_ID FFVoile (régate)
         name: coId
         widget: string
