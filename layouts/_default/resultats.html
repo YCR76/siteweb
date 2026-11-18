@@ -1,0 +1,50 @@
+{{ define "main" }}
+<article class="page">
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="page-body">{{ . }}</div>{{ end }}
+
+  {{- $now := now }}
+  {{- $past := slice }}
+  {{- range where site.RegularPages "Type" "evenement" }}
+    {{- if eq .Params.categorie "Régate" }}
+      {{- $d := .Date }}
+      {{- with .Params.startDate }}{{ $d = time . }}{{ end }}
+      {{- with .Params.endDate }}{{ $d = time . }}{{ end }}
+      {{- if $d.Before $now }}{{ $past = $past | append . }}{{ end }}
+    {{- end }}
+  {{- end }}
+  {{- $past = sort $past "Params.startDate" "desc" }}
+
+  {{ if $past }}
+  <table class="resultats-table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Régate</th>
+        <th>Grade</th>
+        <th>Club organisateur</th>
+        <th>Liens</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{- range $past }}
+      {{- $sd := .Params.startDate }}
+      <tr>
+        <td class="res-date">{{ $sd | default .Date | dateFormat "02/01/2006" }}{{ with .Params.endDate }}{{ if ne . (string $sd) }} – {{ dateFormat "02/01/2006" . }}{{ end }}{{ end }}</td>
+        <td class="res-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+        <td>{{ with .Params.grade }}<span class="grade-chip gr-{{ lower . }}">{{ . }}</span>{{ end }}</td>
+        <td>{{ with .Params.clubOrganisateur }}{{ . }}{{ end }}</td>
+        <td class="res-links">
+          {{ with .Params.coId }}<a href="https://regates.ffvoile.fr/competitions/{{ . }}/" target="_blank" rel="noopener">Résultats</a>{{ end }}
+          {{ with .Params.urlInfos }}<a href="{{ . }}" target="_blank" rel="noopener">Infos</a>{{ end }}
+          {{ if and (not .Params.coId) (not .Params.urlInfos) }}<span class="res-none">—</span>{{ end }}
+        </td>
+      </tr>
+      {{- end }}
+    </tbody>
+  </table>
+  {{ else }}
+  <p>Aucune régate passée pour le moment.</p>
+  {{ end }}
+</article>
+{{ end }}

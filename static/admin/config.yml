@@ -170,6 +170,21 @@ collections:
         widget: boolean
         default: false
         required: false
+      - label: CO_ID FFVoile (régate)
+        name: coId
+        widget: string
+        required: false
+        hint: Identifiant de la compétition sur regates.ffvoile.fr (ex. 1003175)
+      - label: URL d'inscription (régate)
+        name: urlInscription
+        widget: string
+        required: false
+        hint: Lien Inscrivoile (ex. https://inscrivoile.fr/inscrits.php?id_regate=...)
+      - label: URL d'informations (régate)
+        name: urlInfos
+        widget: string
+        required: false
+        hint: Lien libre (site du club organisateur, avis de course...)
       - label: Résumé
         name: summary
         widget: string

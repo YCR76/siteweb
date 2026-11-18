@@ -21,6 +21,13 @@
   {{ if or .Params.deplacementClub .Params.hebergementClub }}<p class="event-date">
     {{ if .Params.deplacementClub }}🚚 Déplacement club{{ end }}{{ if and .Params.deplacementClub .Params.hebergementClub }} · {{ end }}{{ if .Params.hebergementClub }}🏨 Hébergement club{{ end }}
   </p>{{ end }}
+  {{ if or .Params.coId .Params.urlInscription .Params.urlInfos }}
+  <p class="event-actions">
+    {{ with .Params.coId }}<a class="btn" href="https://regates.ffvoile.fr/competitions/{{ . }}/" target="_blank" rel="noopener">Résultats FFVoile</a>{{ end }}
+    {{ with .Params.urlInscription }}<a class="btn" href="{{ . }}" target="_blank" rel="noopener">S'inscrire</a>{{ end }}
+    {{ with .Params.urlInfos }}<a class="btn btn-outline" href="{{ . }}" target="_blank" rel="noopener">Plus d'informations</a>{{ end }}
+  </p>
+  {{ end }}
   {{ end }}
 </article>
 {{ end }}

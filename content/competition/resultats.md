@@ -3,4 +3,5 @@ summary: "Résultats sportifs des régates disputées par les équipages du YCR7
 aliases:
   - /resultats
 title: "Résultats des dernières régates"
+layout: resultats
 ---

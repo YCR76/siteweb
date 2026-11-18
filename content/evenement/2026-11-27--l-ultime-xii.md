@@ -1,7 +1,7 @@
 ---
 title: "L'ultime XII"
 categorie: "Régate"
-grade: "5C"
+grade: "5B"
 classes:
   - ILCA/Laser
   - Europe
@@ -15,4 +15,5 @@ endDate: 2026-11-28
 aliases:
   - /lultime-xii-0
 deplacementClub: true
+urlInscription: "https://inscrivoile.fr/inscrits.php?id_regate=303530"
 ---

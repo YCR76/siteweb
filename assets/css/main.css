@@ -173,6 +173,21 @@ a:hover { color: var(--bleu-marine); }
   border: none; cursor: pointer; font-size: .95rem;
 }
 .btn:hover { background: var(--bleu-marine); }
+.btn-outline { background: #fff; color: var(--bleu) !important; border: 1px solid var(--bleu); }
+.btn-outline:hover { background: var(--bleu); color: #fff !important; }
+.event-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1rem 0 .5rem; }
+
+/* ---------------- Resultats des regates ---------------- */
+.resultats-table { width: 100%; border-collapse: collapse; margin-top: 1rem; background: #fff; }
+.resultats-table th, .resultats-table td { padding: .5rem .65rem; border-bottom: 1px solid var(--bord); text-align: left; }
+.resultats-table th { background: var(--bleu-marine); color: #fff; font-size: .9rem; }
+.resultats-table .res-date { white-space: nowrap; color: var(--bleu); font-weight: 600; }
+.resultats-table .res-links { white-space: nowrap; }
+.resultats-table .res-links a { margin-right: .75rem; }
+.res-none { color: #9aa4ad; }
+@media (max-width: 640px) {
+  .resultats-table th:nth-child(4), .resultats-table td:nth-child(4) { display: none; }
+}
 
 /* ---------------- Agenda ---------------- */
 .agenda-complet { margin-top: 1rem; background: #fff; }
@@ -259,7 +274,6 @@ a:hover { color: var(--bleu-marine); }
 .cl-feva     { background: #b95f89; }
 .cl-opti     { background: #f2b134; }
 .cl-habitable{ background: #2a7f62; }
-.cl-club     { background: #9db4c0; }
 .planning-table thead th.cl-ilca     { background: #0b3a5d; }
 .planning-table thead th.cl-europe   { background: #1a6ea8; }
 .planning-table thead th.cl-420      { background: #3fa0d8; }
@@ -267,7 +281,6 @@ a:hover { color: var(--bleu-marine); }
 .planning-table thead th.cl-feva     { background: #b95f89; }
 .planning-table thead th.cl-opti     { background: #f2b134; }
 .planning-table thead th.cl-habitable{ background: #2a7f62; }
-.planning-table thead th.cl-club     { background: #6f93a8; }
 
 .evt, .evt-cont {
   display: block; border-radius: 4px; color: #fff; text-decoration: none;
@@ -281,7 +294,6 @@ a:hover { color: var(--bleu-marine); }
 .planning-table td.cl-feva .evt     { background: #b95f89; }
 .planning-table td.cl-opti .evt     { background: #f2b134; }
 .planning-table td.cl-habitable .evt{ background: #2a7f62; }
-.planning-table td.cl-club .evt     { background: #6f93a8; }
 .evt-cont { background: currentColor; max-width: none; }
 .evt-cont { padding: 0; height: 1.35em; }
 .planning-table td.cl-ilca .evt-cont     { color: #0b3a5d; }
@@ -291,15 +303,14 @@ a:hover { color: var(--bleu-marine); }
 .planning-table td.cl-feva .evt-cont     { color: #b95f89; }
 .planning-table td.cl-opti .evt-cont     { color: #f2b134; }
 .planning-table td.cl-habitable .evt-cont{ color: #2a7f62; }
-.planning-table td.cl-club .evt-cont     { color: #6f93a8; }
 .evt:hover { text-decoration: underline; }
 
 .planning-legend { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.5rem; }
 .planning-legend.top { margin: .75rem 0 1.25rem; gap: 1.25rem; }
 .planning-legend .legend-group { display: inline-flex; flex-wrap: wrap; align-items: center; gap: .35rem; }
 .planning-legend .legend-heading { font-size: .85rem; font-weight: 600; }
-.legend-item.cat-animation { background: #8e1c4f; }
-.legend-item.cat-stage { background: #7a8b7a; }
+.legend-item.cat-animation { background: #b87392; }
+.legend-item.cat-stage { background: #a0b5a0; }
 .legend-item { color: #fff; padding: .15rem .6rem; border-radius: 999px; font-size: .8rem; }
 .legend-item.cl-ilca { background: #0b3a5d; }
 .legend-item.cl-europe { background: #1a6ea8; }
@@ -308,7 +319,6 @@ a:hover { color: var(--bleu-marine); }
 .legend-item.cl-feva { background: #b95f89; }
 .legend-item.cl-opti { background: #f2b134; }
 .legend-item.cl-habitable { background: #2a7f62; }
-.legend-item.cl-club { background: #6f93a8; }
 
 /* ---------------- Galerie dynamique (Synology Photos) ---------------- */
 .gal-nav { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: 1rem; }
