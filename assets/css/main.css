@@ -262,6 +262,10 @@ a:hover { color: var(--bleu-marine); }
   font-size: .75rem; font-weight: 600; padding: 4px 3px;
 }
 .pl-day { width: 46px; text-align: right; font-weight: 600; color: var(--texte); background: var(--gris); white-space: nowrap; }
+.pl-day.pl-vac { background: #fde2e1; color: #a11212; }
+.pl-day.pl-ferie { background: #b3261e; color: #fff; }
+.legend-item.pl-vac { background: #fde2e1; color: #a11212; }
+.legend-item.pl-ferie { background: #b3261e; }
 .pl-dow { display: block; font-size: .68rem; color: #7a8b96; font-weight: 400; }
 .planning-table td { min-height: 2.2em; background: #fff; }
 .planning-table tr:nth-child(odd) td { background: #fbfcfd; }

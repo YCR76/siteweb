@@ -24,6 +24,11 @@
       <span class="legend-item cat-animation">Animation</span>
       <span class="legend-item cat-stage">Stage</span>
     </span>
+    <span class="legend-group">
+      <span class="legend-heading">Calendrier :</span>
+      <span class="legend-item pl-vac">Vacances zone B</span>
+      <span class="legend-item pl-ferie">Jour férié</span>
+    </span>
   </p>
 
   <nav class="planning-nav">
@@ -53,8 +58,20 @@
           <tbody>
             {{ range $d := seq $ndays }}
               {{ $day := $first.AddDate 0 0 (sub $d 1) }}
+              {{ $ferie := "" }}
+              {{ range hugo.Data.feries }}
+                {{ if eq ($day.Format "2006-01-02") ((time .date).Format "2006-01-02") }}{{ $ferie = .nom }}{{ end }}
+              {{ end }}
+              {{ $vac := "" }}
+              {{ range hugo.Data.vacances_zone_b }}
+                {{ if and (not ($day.Before (time .debut))) (not ($day.After (time .fin))) }}{{ $vac = .nom }}{{ end }}
+              {{ end }}
+              {{ $dayTitle := $ferie }}
+              {{ with $vac }}
+                {{ if $dayTitle }}{{ $dayTitle = printf "%s, %s" $dayTitle . }}{{ else }}{{ $dayTitle = printf "Vacances zone B, %s" . }}{{ end }}
+              {{ end }}
               <tr>
-                <th class="pl-day">{{ $d }}<span class="pl-dow">{{ index $jours (int $day.Weekday) }}</span></th>
+                <th class="pl-day{{ if $vac }} pl-vac{{ end }}{{ if $ferie }} pl-ferie{{ end }}"{{ with $dayTitle }} title="{{ . }}"{{ end }}>{{ $d }}<span class="pl-dow">{{ index $jours (int $day.Weekday) }}</span></th>
                 {{ range $lab := $labels }}
                   <td class="{{ index $cls $lab }}">
                     {{ range $events }}

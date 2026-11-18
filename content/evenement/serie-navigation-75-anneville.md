@@ -1,8 +1,6 @@
 ---
 title: "Navigation 7,5 Anneville"
 categorie: "Animation"
-classes:
-  - Habitable
 startDate: 2026-11-29
 allDay: true
 endDate: 2027-05-30

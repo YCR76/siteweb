@@ -1,10 +1,6 @@
 ---
 title: "Séance École de Voile Ados / Adultes"
 categorie: "Animation"
-classes:
-  - ILCA/Laser
-  - Europe
-  - 420/29er
 startDate: 2027-03-27
 allDay: true
 endDate: 2027-11-20

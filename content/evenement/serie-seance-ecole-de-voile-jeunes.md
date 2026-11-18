@@ -1,10 +1,6 @@
 ---
 title: "Séance École de Voile Jeunes"
 categorie: "Animation"
-classes:
-  - O'pen Skiff
-  - RS Feva
-  - Optimist
 startDate: 2026-11-18
 allDay: true
 endDate: 2027-11-24

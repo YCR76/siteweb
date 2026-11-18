@@ -1,8 +1,6 @@
 ---
 title: "GRANDE PARADE DE L'ARMADA ROUEN 2027"
 categorie: "Animation"
-classes:
-  - ILCA/Laser
 startDate: 2027-06-27
 allDay: true
 ---

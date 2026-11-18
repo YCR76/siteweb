@@ -163,16 +163,15 @@ def main():
     finish(ws, len(cols), len(stages))
 
     # ---------------- Animations ----------------
-    cols = ['Réf. site', 'Date début', 'Date fin', 'Titre', 'Classes', 'Description']
-    widths = [34, 13, 13, 52, 34, 44]
+    cols = ['Réf. site', 'Date début', 'Date fin', 'Titre', 'Description']
+    widths = [34, 13, 13, 52, 44]
     ws = sheet('Animations', cols, widths)
     for r, e in enumerate(anims, 2):
         ws.cell(row=r, column=1, value=e['_ref'])
         ws.cell(row=r, column=2, value=as_date(e.get('startDate')))
         ws.cell(row=r, column=3, value=as_date(e.get('endDate')))
         ws.cell(row=r, column=4, value=e.get('title'))
-        ws.cell(row=r, column=5, value=classes(e))
-        ws.cell(row=r, column=6, value=description(e))
+        ws.cell(row=r, column=5, value=description(e))
         for col in (2, 3):
             ws.cell(row=r, column=col).number_format = date_fmt
     finish(ws, len(cols), len(anims))

@@ -1,0 +1,27 @@
+- nom: Toussaint 2026
+  debut: "2026-10-17"
+  fin: "2026-11-01"
+- nom: Noël 2026
+  debut: "2026-12-19"
+  fin: "2027-01-03"
+- nom: Hiver 2027
+  debut: "2027-02-20"
+  fin: "2027-03-07"
+- nom: Printemps 2027
+  debut: "2027-04-17"
+  fin: "2027-05-02"
+- nom: Été 2027
+  debut: "2027-07-03"
+  fin: "2027-09-01"
+- nom: Toussaint 2027
+  debut: "2027-10-23"
+  fin: "2027-11-07"
+- nom: Noël 2027
+  debut: "2027-12-18"
+  fin: "2028-01-02"
+- nom: Hiver 2028
+  debut: "2028-02-05"
+  fin: "2028-02-20"
+- nom: Printemps 2028
+  debut: "2028-04-08"
+  fin: "2028-04-23"

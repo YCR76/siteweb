@@ -5,6 +5,7 @@ aliases:
   - voile-habitable
   - /cich
   - /voile-habitable
+  - /competition/voile-habitable
 ---
 **Entraînements en First 7.5 : Dès 15 ans, découvrez la voile sportive !**
 Rejoignez-nous pour des entraînements à bord des First 7.5, des bateaux de la catégorie "sport boat" offrant sensations fortes et plaisir de la navigation. En équipage de 4 à 5 personnes, vivez une expérience dynamique sur l'eau, sans risque de vous mouiller (sauf météo capricieuse !).

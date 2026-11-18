@@ -240,9 +240,9 @@ weight = 55
 
 [[menus.main]]
 name = "Voile habitable"
-parent = "Compétition"
-pageRef = "/competition/voile-habitable"
-weight = 56
+parent = "Voile loisir"
+pageRef = "/voile-loisir/voile-habitable"
+weight = 46
 
 # — Divers —
 [[menus.main]]
