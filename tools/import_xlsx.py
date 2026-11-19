@@ -189,6 +189,7 @@ def build_values(row, categorie, ref):
         values += [
             ('url', f'/stages/{slug}/'),
             ('lieu', text(row.get('Lieu'))),
+            ('typeStage', text(row.get('Type'))),
         ]
     values += [
         ('classes', classes(row.get('Classes'))),

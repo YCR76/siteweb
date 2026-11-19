@@ -175,6 +175,12 @@ collections:
         widget: string
         required: false
         hint: Ville ou plan d'eau (utile pour les stages)
+      - label: Type de stage
+        name: typeStage
+        widget: select
+        options: [Voile, Multi-sports]
+        required: false
+        hint: Utilisé pour filtrer les stages affichés
       - label: CO_ID FFVoile (régate)
         name: coId
         widget: string

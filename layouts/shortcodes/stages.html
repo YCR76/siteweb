@@ -1,0 +1,51 @@
+{{- $today := now.Format "2006-01-02" }}
+{{- $type := .Get "type" | default "" }}
+{{- if not $type }}{{ $type = .Get 0 | default "" }}{{ end }}
+{{- $wanted := lower (string $type) }}
+{{- $stages := where (site.RegularPages) "Type" "evenement" }}
+{{- $stages = where $stages "Params.categorie" "Stage" }}
+{{- $future := slice }}
+{{- range $e := $stages }}
+  {{- $start := $e.Date }}
+  {{- with $e.Params.startDate }}{{ $start = time . }}{{ end }}
+  {{- $end := $start }}
+  {{- with $e.Params.endDate }}{{ $end = time . }}{{ end }}
+  {{- $match := not $wanted }}
+  {{- with $e.Params.typeStage }}
+    {{- $stageType := lower (string .) }}
+    {{- if or (eq $stageType $wanted) (and (eq $wanted "multisports") (eq $stageType "multi-sports")) (and (eq $wanted "multi-sports") (eq $stageType "multisports")) }}
+      {{- $match = true }}
+    {{- end }}
+  {{- end }}
+  {{- if and $match (ge ($end.Format "2006-01-02") $today) }}
+    {{- $future = $future | append (dict "page" $e "start" $start "end" $end) }}
+  {{- end }}
+{{- end }}
+{{- $future = sort $future "start" "asc" }}
+<section class="stages-a-venir">
+  <h2>Prochains stages{{ with $type }} — {{ . }}{{ end }}</h2>
+  {{- if $future }}
+  <ul class="stages-list">
+    {{- range $item := $future }}
+      {{- $e := $item.page }}
+      {{- $url := $e.RelPermalink }}
+      {{- with $e.Params.url }}{{ $url = . | relLangURL }}{{ end }}
+    <li class="stage-item">
+      <a class="stage-item__title" href="{{ $url }}">{{ $e.Title }}</a>
+      <span class="stage-item__dates">
+        {{- if and $item.end (ne ($item.end.Format "2006-01-02") ($item.start.Format "2006-01-02")) }}
+          du {{ $item.start.Format "02/01/2006" }} au {{ $item.end.Format "02/01/2006" }}
+        {{- else }}
+          le {{ $item.start.Format "02/01/2006" }}
+        {{- end }}
+      </span>
+      {{- with $e.Params.typeStage }}<span class="stage-item__type">{{ . }}</span>{{ end }}
+      {{- with $e.Params.lieu }}<span class="stage-item__place">{{ . }}</span>{{ end }}
+      {{- with $e.Params.classes }}<span class="stage-item__classes">{{ delimit . ", " }}</span>{{ end }}
+    </li>
+    {{- end }}
+  </ul>
+  {{- else }}
+  <p>Aucun stage à venir pour le moment.</p>
+  {{- end }}
+</section>

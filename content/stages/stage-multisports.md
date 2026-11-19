@@ -28,7 +28,7 @@ S'ajoute le coût du stage :
 
 ### **Dates**
 
-[view:programme\_new=stage=372]
+{{< stages type="Multi-sports" >}}
 
 Le stage organisé à Anneville-Ambourville. Un transfert est organisé depuis le club.
 

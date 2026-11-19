@@ -9,4 +9,5 @@ startDate: 2027-04-20
 allDay: true
 endDate: 2027-04-24
 lieu: "Le Havre"
+typeStage: "Voile"
 ---

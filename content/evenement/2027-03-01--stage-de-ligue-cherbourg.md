@@ -11,4 +11,5 @@ startDate: 2027-03-01
 allDay: true
 endDate: 2027-03-05
 lieu: "Cherbourg"
+typeStage: "Voile"
 ---

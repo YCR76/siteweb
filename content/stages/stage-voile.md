@@ -28,7 +28,7 @@ S'ajoute le coût du stage :
 
 ### **Dates**
 
-[view:programme\_new=stage=295]
+{{< stages type="Voile" >}}
 
 Le stage organisé à Anneville-Ambourville. Un transfert est organisé depuis le club.
 
