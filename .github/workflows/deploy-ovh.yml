@@ -2,7 +2,7 @@
 # Déclenché à chaque push sur main (et manuellement).
 # Secrets GitHub à créer : Settings > Secrets and variables > Actions > New repository secret
 #   OVH_FTP_PASSWORD : mot de passe FTP (jamais dans le dépôt)
-# Le formulaire de contact reste servi par Netlify ; seul le site statique est envoyé ici.
+# Le formulaire de contact et l'administration sont désormais servis par OVH.
 name: Deploy OVH
 
 on:

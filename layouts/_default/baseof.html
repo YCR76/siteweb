@@ -26,20 +26,5 @@
     {{ end }}
   </div>
   {{ partial "footer.html" . }}
-  {{- /* Widget Netlify Identity sur les pages publiques : traite les liens
-        d'invitation (#invite_token) et de récupération de mot de passe
-        (#recover_token) qui pointent vers la racine du site (plan gratuit
-        Netlify : gabarits d'e-mails non personnalisables). Inoffensif pour
-        les visiteurs : rien ne s'affiche sans jeton. */ -}}
-  {{ if ne .RelPermalink "/admin/" }}
-  <script src="/vendor/netlify-identity-widget.js"></script>
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.init({
-        APIUrl: 'https://loquacious-mochi-773bfa.netlify.app/.netlify/identity'
-      });
-    }
-  </script>
-  {{ end }}
 </body>
 </html>

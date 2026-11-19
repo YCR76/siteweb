@@ -230,11 +230,11 @@ a:hover { color: var(--bleu-marine); }
 .news-date { color: #63798a; font-size: .85rem; margin: .15rem 0; }
 
 /* ---------------- Formulaire ---------------- */
-.netlify-form label { display: block; margin: .8rem 0 .2rem; font-weight: 600; }
-.netlify-form input, .netlify-form textarea, .netlify-form select {
+.contact-form label { display: block; margin: .8rem 0 .2rem; font-weight: 600; }
+.contact-form input, .contact-form textarea, .contact-form select {
   width: 100%; padding: .5rem .65rem; border: 1px solid var(--bord); border-radius: 6px; font: inherit;
 }
-.netlify-form button { margin-top: 1rem; }
+.contact-form button { margin-top: 1rem; }
 
 /* ---------------- Pied de page ---------------- */
 .site-footer {

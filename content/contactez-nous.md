@@ -12,8 +12,8 @@ Coordonnées
 > #### du lundi au vendredi de 17h15 à 18h30, sinon...laissez-nous un message... ou choisissez l'échange par mail : contact@ycr76.fr
 > ####
 
-<form name="contact" method="POST" action="https://loquacious-mochi-773bfa.netlify.app/merci-contact.html" data-netlify="true" class="netlify-form">
-  <input type="hidden" name="form-name" value="contact">
+<form name="contact" method="POST" action="/contact.php" class="contact-form">
+  <p class="sr-only"><label>Ne pas remplir si vous êtes humain : <input name="bot-champ"></label></p>
   <label for="f-civilite">Civilité</label>
   <select id="f-civilite" name="civilite" required><option value="M.">M.</option><option value="Mme">Mme</option><option value="Mlle">Mlle</option></select>
   <label for="f-objet">Objet</label>

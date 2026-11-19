@@ -1,6 +1,5 @@
-{{- $action := .Get "action" | default "https://loquacious-mochi-773bfa.netlify.app/merci-contact.html" }}
-<form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-champ" action="{{ $action }}" class="netlify-form">
-  <input type="hidden" name="form-name" value="contact">
+{{- $action := .Get "action" | default "/contact.php" }}
+<form name="contact" method="POST" action="{{ $action }}" class="contact-form">
   <p class="sr-only"><label>Ne pas remplir si vous êtes humain : <input name="bot-champ"></label></p>
   <label for="cf-nom">Nom *</label>
   <input id="cf-nom" type="text" name="nom" required>
