@@ -6,10 +6,16 @@
   <meta name="robots" content="noindex">
   <title>Passerelle YCR76</title>
   <script src="/config.js"></script>
+  <script>
+    window.YCR_TOKEN_RECU = /(?:[#&?])(?:invite_token|recovery_token|confirmation_token)=/.test(
+      (window.location.hash || '') + (window.location.search || '')
+    );
+  </script>
 </head>
 <body>
   <h1>Passerelle YCR76</h1>
   <p>Cette page gère les formulaires et la connexion au gestionnaire de contenu.</p>
+  <p>Si la redirection ne se fait pas, <a id="lien-admin" href="https://dev.ycr76.fr/admin/">ouvrir le gestionnaire</a>.</p>
 
   <form name="contact" data-netlify="true" data-netlify-honeypot="bot-champ" hidden>
     <input type="hidden" name="form-name" value="contact">
@@ -29,25 +35,40 @@
     <input type="hidden" name="pays">
   </form>
 
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script src="/netlify-identity-widget.js"></script>
   <script>
     (function () {
-      var cible = window.YCR_SITE_CIBLE || 'https://dev.ycr76.fr/';
-      var hash = window.location.hash || '';
-      var hasToken = /[#&](?:invite_token|recovery_token|confirmation_token)=/.test(hash);
+      var cible = (window.YCR_SITE_CIBLE || 'https://dev.ycr76.fr/').replace(/\/?$/, '/');
+      var admin = cible + 'admin/';
+      var hasToken = window.YCR_TOKEN_RECU === true;
+      var lien = document.getElementById('lien-admin');
 
-      function versAdmin() {
-        window.location.replace(cible.replace(/\/?$/, '/') + 'admin/');
+      if (lien) {
+        lien.href = admin;
       }
 
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.init();
-        window.netlifyIdentity.on('login', versAdmin);
-        window.netlifyIdentity.on('init', function (user) {
-          if (user && hasToken) {
+      function versAdmin() {
+        window.location.replace(admin);
+      }
+
+      if (!window.netlifyIdentity) {
+        return;
+      }
+
+      window.netlifyIdentity.init();
+      window.netlifyIdentity.on('login', versAdmin);
+      window.netlifyIdentity.on('init', function (user) {
+        if (user && hasToken) {
+          versAdmin();
+        }
+      });
+
+      if (hasToken) {
+        setTimeout(function () {
+          if (window.netlifyIdentity.currentUser()) {
             versAdmin();
           }
-        });
+        }, 1500);
       }
     }());
   </script>
