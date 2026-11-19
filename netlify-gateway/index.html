@@ -16,6 +16,7 @@
   <h1>Passerelle YCR76</h1>
   <p>Cette page gère les formulaires et la connexion au gestionnaire de contenu.</p>
   <p>Si la redirection ne se fait pas, <a id="lien-admin" href="https://dev.ycr76.fr/admin/">ouvrir le gestionnaire</a>.</p>
+  <p><a href="#" id="lien-deconnexion">Se déconnecter avant d'utiliser un nouveau lien</a>.</p>
 
   <form name="contact" data-netlify="true" data-netlify-honeypot="bot-champ" hidden>
     <input type="hidden" name="form-name" value="contact">
@@ -55,20 +56,19 @@
         return;
       }
 
+      var deconnexion = document.getElementById('lien-deconnexion');
+      if (deconnexion) {
+        deconnexion.addEventListener('click', function (evenement) {
+          evenement.preventDefault();
+          window.netlifyIdentity.logout();
+        });
+      }
+
       window.netlifyIdentity.init();
       window.netlifyIdentity.on('login', versAdmin);
-      window.netlifyIdentity.on('init', function (user) {
-        if (user && hasToken) {
-          versAdmin();
-        }
-      });
 
-      if (hasToken) {
-        setTimeout(function () {
-          if (window.netlifyIdentity.currentUser()) {
-            versAdmin();
-          }
-        }, 1500);
+      if (!hasToken && window.netlifyIdentity.currentUser()) {
+        versAdmin();
       }
     }());
   </script>
