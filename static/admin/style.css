@@ -38,6 +38,20 @@ a {
   display: inline;
 }
 
+button.petit {
+  margin-left: .5rem;
+  padding: .2rem .5rem;
+  font-size: .8rem;
+}
+
+button.danger {
+  background: #a4261d;
+}
+
+button.danger:hover {
+  background: #7d1c15;
+}
+
 button,
 .lien {
   font: inherit;

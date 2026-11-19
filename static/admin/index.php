@@ -1,6 +1,7 @@
 <?php
 
 require_once __DIR__ . '/github.php';
+require_once __DIR__ . '/accounts.php';
 
 $secure = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || (($_SERVER['HTTP_X_FORWARDED_PROTO'] ?? '') === 'https');
 session_set_cookie_params([
@@ -30,6 +31,16 @@ function redirection(string $url): void
 {
     header('Location: ' . $url);
     exit;
+}
+
+function est_connecte(): bool
+{
+    return isset($_SESSION['admin']);
+}
+
+function est_superadmin(): bool
+{
+    return est_connecte() && ($_SESSION['role'] ?? '') === 'superadmin';
 }
 
 function slugify(string $texte): string
@@ -148,29 +159,83 @@ $config = ycr_admin_config();
 $action = $_GET['action'] ?? 'liste';
 $erreur = '';
 $notice = '';
+$lienInvitation = '';
+$jetonSetup = $_POST['token'] ?? $_GET['token'] ?? '';
 
 if (isset($_GET['ok'])) {
     $notice = 'Modification enregistrée. Le déploiement OVH suit automatiquement.';
+}
+if (isset($_GET['setup']) && $_GET['setup'] === 'ok') {
+    $notice = 'Mot de passe initialisé. Vous pouvez maintenant vous connecter.';
 }
 
 if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST' && isset($_POST['do'])) {
     if (!csrf_ok()) {
         $erreur = 'Jeton de sécurité invalide.';
     } elseif ($_POST['do'] === 'login') {
-        $email = strtolower(trim($_POST['email'] ?? ''));
-        $motDePasse = $_POST['password'] ?? '';
-        $attendu = strtolower(trim($config['admin_email']));
-        if (hash_equals($attendu, $email) && password_verify($motDePasse, $config['admin_password_hash'])) {
+        $identite = ycr_verifier_identifiants($_POST['email'] ?? '', $_POST['password'] ?? '');
+        if ($identite) {
             session_regenerate_id(true);
-            $_SESSION['admin'] = $email;
+            $_SESSION['admin'] = $identite['email'];
+            $_SESSION['role'] = $identite['role'];
             redirection('/admin/');
         }
         $erreur = 'Identifiants incorrects.';
-    } elseif (!isset($_SESSION['admin'])) {
+    } elseif ($_POST['do'] === 'setup') {
+        try {
+            if (!ycr_invitation_valide((string) $_POST['token'])) {
+                $erreur = 'Lien d’initialisation invalide ou expiré.';
+            } elseif (ycr_initialiser_mot_de_passe((string) $_POST['token'], (string) $_POST['password'])) {
+                redirection('/admin/?setup=ok');
+            } else {
+                $erreur = 'Lien d’initialisation invalide ou expiré.';
+            }
+        } catch (Throwable $e) {
+            $erreur = $e->getMessage();
+        }
+    } elseif (!est_connecte()) {
         $erreur = 'Session expirée.';
     } elseif ($_POST['do'] === 'logout') {
         session_destroy();
         redirection('/admin/');
+    } elseif ($_POST['do'] === 'invite') {
+        if (!est_superadmin()) {
+            $erreur = 'Action réservée au superadministrateur.';
+        } else {
+            try {
+                $invitation = ycr_creer_invitation((string) $_POST['email']);
+                $envoye = ycr_envoyer_invitation($invitation['email'], $invitation['token']);
+                $lienInvitation = ycr_lien_invitation($invitation['token']);
+                $notice = $envoye
+                    ? 'Compte créé et e-mail envoyé.'
+                    : 'Compte créé, mais l’e-mail n’a pas pu être envoyé. Transmettez le lien ci-dessous.';
+            } catch (Throwable $e) {
+                $erreur = $e->getMessage();
+            }
+        }
+    } elseif ($_POST['do'] === 'resend') {
+        if (!est_superadmin()) {
+            $erreur = 'Action réservée au superadministrateur.';
+        } else {
+            try {
+                $invitation = ycr_renvoyer_invitation((string) $_POST['email']);
+                $envoye = ycr_envoyer_invitation($invitation['email'], $invitation['token']);
+                $lienInvitation = ycr_lien_invitation($invitation['token']);
+                $notice = $envoye
+                    ? 'Nouveau lien envoyé.'
+                    : 'Nouveau lien généré, mais l’e-mail n’a pas pu être envoyé. Transmettez le lien ci-dessous.';
+            } catch (Throwable $e) {
+                $erreur = $e->getMessage();
+            }
+        }
+    } elseif ($_POST['do'] === 'delete') {
+        if (!est_superadmin()) {
+            $erreur = 'Action réservée au superadministrateur.';
+        } elseif (!ycr_supprimer_compte((string) $_POST['email'])) {
+            $erreur = 'Compte introuvable.';
+        } else {
+            $notice = 'Compte supprimé.';
+        }
     } elseif ($_POST['do'] === 'save') {
         $chemin = $_POST['file'] ?? '';
         if (!chemin_autorise($chemin)) {
@@ -231,8 +296,27 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST' && isset($_POST['do'])) {
   <?php if ($notice !== ''): ?>
     <p class="message ok"><?= h($notice) ?></p>
   <?php endif; ?>
+  <?php if ($lienInvitation !== ''): ?>
+    <p class="message ok">Lien à transmettre : <a href="<?= h($lienInvitation) ?>"><?= h($lienInvitation) ?></a></p>
+  <?php endif; ?>
 
-  <?php if (!isset($_SESSION['admin'])): ?>
+  <?php if (!est_connecte() && $action === 'setup'): ?>
+    <?php if (!ycr_invitation_valide((string) $jetonSetup)): ?>
+      <p class="message erreur">Ce lien d’initialisation est invalide ou expiré.</p>
+      <p><a href="/admin/">← Retour à la connexion</a></p>
+    <?php else: ?>
+      <h2>Initialisation du mot de passe</h2>
+      <form method="post" class="bloc">
+        <input type="hidden" name="csrf" value="<?= h($_SESSION['csrf']) ?>">
+        <input type="hidden" name="do" value="setup">
+        <input type="hidden" name="token" value="<?= h($jetonSetup) ?>">
+        <label>Nouveau mot de passe (8 caractères minimum)
+          <input type="password" name="password" required minlength="8" autocomplete="new-password">
+        </label>
+        <button type="submit">Définir le mot de passe</button>
+      </form>
+    <?php endif; ?>
+  <?php elseif (!est_connecte()): ?>
     <form method="post" class="bloc">
       <input type="hidden" name="csrf" value="<?= h($_SESSION['csrf']) ?>">
       <input type="hidden" name="do" value="login">
@@ -247,6 +331,7 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST' && isset($_POST['do'])) {
   <?php else: ?>
     <p class="barre">
       <a href="/">← Retour au site</a>
+      <?php if (est_superadmin()): ?><a href="/admin/?action=comptes">Comptes admins</a><?php endif; ?>
       <form method="post" class="inline">
         <input type="hidden" name="csrf" value="<?= h($_SESSION['csrf']) ?>">
         <input type="hidden" name="do" value="logout">
@@ -254,7 +339,58 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST' && isset($_POST['do'])) {
       </form>
     </p>
 
-    <?php if ($action === 'edit'): ?>
+    <?php if ($action === 'comptes' && !est_superadmin()): ?>
+      <p class="message erreur">Action réservée au superadministrateur.</p>
+    <?php elseif ($action === 'comptes'): ?>
+      <h2>Comptes administrateurs</h2>
+      <section class="bloc">
+        <h3>Superadministrateur</h3>
+        <p><?= h(ycr_superadmin()['email']) ?></p>
+      </section>
+
+      <section class="bloc">
+        <h3>Autres comptes</h3>
+        <?php $comptes = ycr_comptes_lire()['comptes']; ?>
+        <?php if (!$comptes): ?>
+          <p class="vide">Aucun autre compte.</p>
+        <?php else: ?>
+          <ul class="fichiers">
+            <?php foreach ($comptes as $compte): ?>
+              <li>
+                <?= h($compte['email']) ?>
+                <small><?= empty($compte['password_hash']) ? 'en attente d’initialisation' : 'actif' ?></small>
+                <form method="post" class="inline">
+                  <input type="hidden" name="csrf" value="<?= h($_SESSION['csrf']) ?>">
+                  <input type="hidden" name="do" value="resend">
+                  <input type="hidden" name="email" value="<?= h($compte['email']) ?>">
+                  <button type="submit" class="petit">Renvoyer le lien</button>
+                </form>
+                <form method="post" class="inline">
+                  <input type="hidden" name="csrf" value="<?= h($_SESSION['csrf']) ?>">
+                  <input type="hidden" name="do" value="delete">
+                  <input type="hidden" name="email" value="<?= h($compte['email']) ?>">
+                  <button type="submit" class="petit danger" onclick="return confirm('Supprimer ce compte ?')">Supprimer</button>
+                </form>
+              </li>
+            <?php endforeach; ?>
+          </ul>
+        <?php endif; ?>
+      </section>
+
+      <section class="bloc">
+        <h3>Créer un compte</h3>
+        <form method="post">
+          <input type="hidden" name="csrf" value="<?= h($_SESSION['csrf']) ?>">
+          <input type="hidden" name="do" value="invite">
+          <label>Adresse e-mail
+            <input type="email" name="email" required>
+          </label>
+          <button type="submit">Créer et envoyer le lien</button>
+        </form>
+        <p class="vide">Le lien d’initialisation est valable 7 jours. Si l’e-mail ne part pas, le lien s’affiche ici pour transmission manuelle.</p>
+      </section>
+
+    <?php elseif ($action === 'edit'): ?>
       <?php
       $chemin = $_GET['file'] ?? '';
       try {
