@@ -118,6 +118,12 @@ parent = "Le club"
 pageRef = "/le-club/licence-ffvoile-adhesion-ligne"
 weight = 20
 
+[[menus.main]]
+name = "Liste sondages"
+parent = "Le club"
+pageRef = "/le-club/liste-sondages"
+weight = 21
+
 # — Stages —
 [[menus.main]]
 name = "Stages"

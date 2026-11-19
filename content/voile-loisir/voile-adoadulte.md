@@ -20,7 +20,7 @@ aliases:
 **Séance test gratuite le samedi 12 septembre !** Venez essayer avant de vous engager.
 
 **Attention :** notre club est susceptible de limiter le nombre de nouveaux pratiquants.
-[Programme des activités disponible ici.](https://www.ycr76.fr/programme?field_section_tid_1=278)
+[Programme des activités disponible ici.](/calendrier)
 
 ![](/images/deriveurs_3.jpg) ![](/images/deriveurs_2.jpg)
 

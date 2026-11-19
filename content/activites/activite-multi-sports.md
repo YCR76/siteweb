@@ -32,7 +32,7 @@ Afin de pouvoir participer aux activités nautiques proposés, il est nécessair
 
 **La première séance est gratuite.**
 
-[Programme des activitées disponible ici.](https://www.ycr76.fr/programme?field_section_tid_1=277)
+[Programme des activitées disponible ici.](/calendrier)
 
 **Tarifs:**
 

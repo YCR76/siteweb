@@ -13,7 +13,7 @@ On laisse passer l’hiver… avec quelques rendez-vous théorique ou d’activi
 Et on reprend à la mi-mars !
 
 Vous pourrez participer aux régates que le club organise mais aussi celles organisés par d'autres clubs.
-En effet, le club se déplace régulièrement sur des régates de différentes catégories de la régate départementale au championnat de France. Vous retrouverez une grande partie de ces régates sur [notre programme en ligne](https://www.ycr76.fr/programme?field_section_tid_1=279).
+En effet, le club se déplace régulièrement sur des régates de différentes catégories de la régate départementale au championnat de France. Vous retrouverez une grande partie de ces régates sur [notre programme en ligne](/calendrier).
 
 ![](/images/equipe.jpg) ![](/images/depart_normandies_cup_2depart_normandies_cup.jpg)
 

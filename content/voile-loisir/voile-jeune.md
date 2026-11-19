@@ -17,11 +17,11 @@ Votre enfant est en primaire et peut attester de sa capacité à savoir nager ? 
 **Séance test gratuite le mercredi 16 septembre !** Venez essayer avant de vous engager.
 
 **Inscrivez-vous vite :** places limitées à 30 stagiaires !
-[Programme des activités disponible ici.](https://www.ycr76.fr/programme?field_section_tid_1=277)
+[Programme des activités disponible ici.](/calendrier)
 
 ![](/images/optimist.jpg) ![](/images/funboat.jpg) ![](/images/open_bic_sur_la_seine.jpg)
 
-La structure est labellisée « École Française de Voile et Voile Loisir » : apprendre et pratiquer la voile en toute sécurité. La liste des séances est [en ligne sur notre site](https://www.ycr76.fr/programme?field_section_tid_1=All&field_activit__tid=43&field_grade_tid=All&term_node_tid_depth=All).
+La structure est labellisée « École Française de Voile et Voile Loisir » : apprendre et pratiquer la voile en toute sécurité. La liste des séances est [en ligne sur notre site](/calendrier).
 
 Nous proposons aussi occasionnellement des stages d'une semaine durant les vacances. [Plus de renseignements sur notre page stage](/stages).
 

@@ -186,6 +186,13 @@ a:hover { color: var(--bleu-marine); }
 .stage-item__dates, .stage-item__place, .stage-item__classes { display: block; font-size: .9rem; color: var(--texte); }
 .stage-item__type { display: inline-block; margin-top: .35rem; padding: .15rem .5rem; border-radius: 999px; background: var(--bleu-clair); color: #fff; font-size: .8rem; }
 
+.sondages { margin: 1.6rem 0; }
+.sondages h2 { margin: 0 0 .7rem; font-size: 1.35rem; color: var(--bleu-marine); }
+.sondages-list { list-style: none; padding: 0; margin: 0; display: grid; gap: .6rem; }
+.sondage-item { background: var(--gris); border: 1px solid var(--bord); border-left: 4px solid var(--bleu-clair); border-radius: var(--radius); padding: .7rem .9rem; }
+.sondage-item__title { font-weight: 600; }
+.sondage-item__date { display: block; font-size: .9rem; color: var(--texte); }
+
 .btn {
   display: inline-block; background: var(--bleu); color: #fff !important;
   padding: .45rem .9rem; border-radius: 6px; text-decoration: none;

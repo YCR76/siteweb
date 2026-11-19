@@ -20,14 +20,17 @@ from openpyxl import load_workbook
 
 SITE = Path(__file__).resolve().parents[1]
 CONTENT = SITE / 'content' / 'evenement'
+STAGES_CONTENT = SITE / 'content' / 'stages'
 DEFAULT_XLSX = SITE.parent / 'planning-evenements.xlsx'
 ALIASES_FILE = SITE / 'data' / 'evenements-alias.json'
+SURVEYS_FILE = SITE / 'data' / 'sondages.json'
 
 SHEETS = {
     'Régates': 'Régate',
     'Stages': 'Stage',
     'Animations': 'Animation',
 }
+SURVEY_SHEET = 'Sondage'
 TECHNICAL_KEYS = ('Réf. site', 'Réf. série')
 
 
@@ -74,6 +77,62 @@ def text(value):
     if value is None:
         return ''
     return str(value).strip()
+
+
+def build_surveys(wb):
+    if SURVEY_SHEET not in wb.sheetnames:
+        return None
+
+    ws = wb[SURVEY_SHEET]
+    head = [c.value for c in ws[1]]
+    surveys = []
+    invalid = 0
+    for i, raw in enumerate(ws.iter_rows(min_row=2, values_only=True), start=2):
+        if all(v in (None, '') for v in raw):
+            continue
+        row = dict(zip(head, raw))
+        title = text(row.get('Titre'))
+        url = text(row.get('URL'))
+        if not title or not url:
+            continue
+        try:
+            deadline = as_date(row.get('Date fin'))
+        except ValueError as exc:
+            print(f'  Sondage L{i} ignoree : {exc}')
+            invalid += 1
+            continue
+        surveys.append({
+            'titre': title,
+            'url': url,
+            'dateFin': deadline.isoformat() if deadline else None,
+        })
+
+    surveys.sort(key=lambda s: (s['dateFin'] is None, s['dateFin'] or ''))
+    return surveys, invalid
+
+
+def stage_title_counts(wb):
+    if 'Stages' not in wb.sheetnames:
+        return {}
+    ws = wb['Stages']
+    head = [c.value for c in ws[1]]
+    counts = {}
+    for raw in ws.iter_rows(min_row=2, values_only=True):
+        if all(v in (None, '') for v in raw):
+            continue
+        row = dict(zip(head, raw))
+        title = norm_title(text(row.get('Titre')))
+        if title:
+            counts[title] = counts.get(title, 0) + 1
+    return counts
+
+
+def reserved_stage_slugs():
+    return {
+        path.stem
+        for path in STAGES_CONTENT.glob('*.md')
+        if path.name != '_index.md'
+    }
 
 
 def render_value(value):
@@ -173,7 +232,7 @@ def load_aliases():
     return json.loads(ALIASES_FILE.read_text(encoding='utf-8'))
 
 
-def build_values(row, categorie, ref):
+def build_values(row, categorie, ref, stage_url=None):
     start = as_date(row.get('Date début'))
     end = as_date(row.get('Date fin'))
     dec = text(row.get('Déplacement (O/N)')).upper()
@@ -188,7 +247,7 @@ def build_values(row, categorie, ref):
     if categorie == 'Stage':
         slug = slugify(title) or ref
         values += [
-            ('url', f'/stages/{slug}/'),
+            ('url', stage_url or f'/stages/{slug}/'),
             ('lieu', text(row.get('Lieu'))),
             ('typeStage', text(row.get('Type'))),
         ]
@@ -229,6 +288,9 @@ def main():
 
     created = updated = invalid = 0
     plan = []
+    stage_counts = stage_title_counts(wb)
+    stage_reserved = reserved_stage_slugs()
+    used_stage_urls = set()
 
     for sheet_name, categorie in SHEETS.items():
         if sheet_name not in wb.sheetnames:
@@ -262,7 +324,22 @@ def main():
             if not stem:
                 stem = index.get(key)
 
-            values = build_values(row, categorie, ref)
+            stage_url = None
+            if categorie == 'Stage':
+                base_slug = slugify(title) or ref
+                dated = (
+                    base_slug in stage_reserved
+                    or stage_counts.get(norm_title(title), 0) > 1
+                )
+                slug = f'{base_slug}-{start.isoformat()}' if dated else base_slug
+                stage_url = f'/stages/{slug}/'
+                n = 2
+                while stage_url in used_stage_urls:
+                    stage_url = f'/stages/{slug}-{n}/'
+                    n += 1
+                used_stage_urls.add(stage_url)
+
+            values = build_values(row, categorie, ref, stage_url)
             body = text(row.get('Description'))
             if stem:
                 path = CONTENT / f'{stem}.md'
@@ -284,6 +361,15 @@ def main():
             plan.append((action, path.name, content, sheet_name, i, title, start))
 
     print(f'\nA creer : {created}   a mettre a jour : {updated}   invalides : {invalid}')
+
+    survey_result = build_surveys(wb)
+    surveys = None
+    if survey_result is None:
+        print(f'\nonglet absent : {SURVEY_SHEET} (sondages non modifies)')
+    else:
+        surveys, invalid_surveys = survey_result
+        print(f'\nSondages : {len(surveys)} lien(s), {invalid_surveys} invalide(s)')
+
     if not args.write:
         print('\nSimulation : aucun fichier ecrit (ajouter --write).')
         for action, name, _, _, _, title, start in plan[:15]:
@@ -295,6 +381,13 @@ def main():
     for _, name, content, _, _, _, _ in plan:
         (CONTENT / name).write_text(content, encoding='utf-8')
     print(f'\n{len(plan)} fichier(s) ecrit(s) dans {CONTENT}')
+
+    if surveys is not None:
+        SURVEYS_FILE.write_text(
+            json.dumps(surveys, ensure_ascii=False, indent=2) + '\n',
+            encoding='utf-8',
+        )
+        print(f'{len(surveys)} sondage(s) ecrit(s) dans {SURVEYS_FILE}')
 
 
 if __name__ == '__main__':

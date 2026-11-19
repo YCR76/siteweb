@@ -1,0 +1,30 @@
+{{- $today := now.Format "2006-01-02" }}
+{{- $dates := slice }}
+{{- $sansDate := slice }}
+{{- range $s := hugo.Data.sondages }}
+  {{- $date := "" }}{{ with $s.dateFin }}{{ $date = string . }}{{ end }}
+  {{- if and $date (lt $date $today) }}{{ continue }}{{ end }}
+  {{- if $date }}{{ $dates = $dates | append $s }}{{ else }}{{ $sansDate = $sansDate | append $s }}{{ end }}
+{{- end }}
+{{- $dates = sort $dates "dateFin" "asc" }}
+<section class="sondages">
+  <h2>Sondages en cours</h2>
+  {{- if or $dates $sansDate }}
+  <ul class="sondages-list">
+    {{- range $s := $dates }}
+    <li class="sondage-item">
+      <a class="sondage-item__title" href="{{ $s.url }}" target="_blank" rel="noopener">{{ $s.titre }}</a>
+      <span class="sondage-item__date">Date butoire : {{ (time $s.dateFin).Format "02/01/2006" }}</span>
+    </li>
+    {{- end }}
+    {{- range $s := $sansDate }}
+    <li class="sondage-item">
+      <a class="sondage-item__title" href="{{ $s.url }}" target="_blank" rel="noopener">{{ $s.titre }}</a>
+      <span class="sondage-item__date">Sans échéance</span>
+    </li>
+    {{- end }}
+  </ul>
+  {{- else }}
+  <p>Aucun sondage en cours.</p>
+  {{- end }}
+</section>
