@@ -8,5 +8,5 @@ startDate: 2027-05-15
 allDay: true
 deplacementClub: true
 clubOrganisateur: "CV Hourtin Médoc"
-hebergementClub: false
+hebergementClub: true
 ---

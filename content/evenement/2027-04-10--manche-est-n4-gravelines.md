@@ -8,5 +8,5 @@ startDate: 2027-04-10
 allDay: true
 deplacementClub: true
 clubOrganisateur: "GGVLS"
-hebergementClub: false
+hebergementClub: true
 ---

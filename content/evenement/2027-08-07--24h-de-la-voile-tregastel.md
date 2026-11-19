@@ -7,5 +7,5 @@ classes:
 startDate: 2027-08-07
 allDay: true
 deplacementClub: true
-hebergementClub: false
+hebergementClub: true
 ---

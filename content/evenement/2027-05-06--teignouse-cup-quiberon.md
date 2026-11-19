@@ -10,5 +10,5 @@ startDate: 2027-05-06
 allDay: true
 deplacementClub: true
 clubOrganisateur: "ASN Quiberon"
-hebergementClub: false
+hebergementClub: true
 ---

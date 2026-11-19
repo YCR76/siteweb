@@ -9,7 +9,7 @@ allDay: true
 endDate: 2027-02-22
 aliases:
   - /manche-ilca-anneville
-deplacementClub: false
+deplacementClub: true
 clubOrganisateur: "YC Rouen 76"
 hebergementClub: false
 ---

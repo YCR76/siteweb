@@ -12,4 +12,5 @@ aliases:
 deplacementClub: true
 hebergementClub: true
 clubOrganisateur: "CN Viry Chatillon Voile"
+coId: "138066"
 ---

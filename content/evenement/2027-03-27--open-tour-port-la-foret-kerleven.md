@@ -8,5 +8,5 @@ startDate: 2027-03-27
 allDay: true
 deplacementClub: true
 clubOrganisateur: "CN de kerleven"
-hebergementClub: false
+hebergementClub: true
 ---
