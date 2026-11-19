@@ -6,17 +6,11 @@
   <meta name="robots" content="noindex">
   <title>Passerelle YCR76</title>
   <script src="/config.js"></script>
-  <script>
-    window.YCR_TOKEN_RECU = /(?:[#&?])(?:invite_token|recovery_token|confirmation_token)=/.test(
-      (window.location.hash || '') + (window.location.search || '')
-    );
-  </script>
 </head>
 <body>
   <h1>Passerelle YCR76</h1>
   <p>Cette page gère les formulaires et la connexion au gestionnaire de contenu.</p>
-  <p>Si la redirection ne se fait pas, <a id="lien-admin" href="https://dev.ycr76.fr/admin/">ouvrir le gestionnaire</a>.</p>
-  <p><a href="#" id="lien-deconnexion">Se déconnecter avant d'utiliser un nouveau lien</a>.</p>
+  <p><a id="lien-admin" href="https://dev.ycr76.fr/admin/">Ouvrir le gestionnaire de contenu</a>.</p>
 
   <form name="contact" data-netlify="true" data-netlify-honeypot="bot-champ" hidden>
     <input type="hidden" name="form-name" value="contact">
@@ -36,39 +30,19 @@
     <input type="hidden" name="pays">
   </form>
 
-  <script src="/netlify-identity-widget.js"></script>
   <script>
     (function () {
       var cible = (window.YCR_SITE_CIBLE || 'https://dev.ycr76.fr/').replace(/\/?$/, '/');
       var admin = cible + 'admin/';
-      var hasToken = window.YCR_TOKEN_RECU === true;
       var lien = document.getElementById('lien-admin');
 
       if (lien) {
         lien.href = admin;
       }
 
-      function versAdmin() {
-        window.location.replace(admin);
-      }
-
-      if (!window.netlifyIdentity) {
-        return;
-      }
-
-      var deconnexion = document.getElementById('lien-deconnexion');
-      if (deconnexion) {
-        deconnexion.addEventListener('click', function (evenement) {
-          evenement.preventDefault();
-          window.netlifyIdentity.logout();
-        });
-      }
-
-      window.netlifyIdentity.init();
-      window.netlifyIdentity.on('login', versAdmin);
-
-      if (!hasToken && window.netlifyIdentity.currentUser()) {
-        versAdmin();
+      var jeton = window.location.hash ? window.location.hash.slice(1) : window.location.search.replace(/^\?/, '');
+      if (/(?:[#&?])(?:invite_token|recovery_token|confirmation_token)=/.test(jeton)) {
+        window.location.replace(admin + '?' + jeton);
       }
     }());
   </script>

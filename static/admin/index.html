@@ -11,6 +11,14 @@
   <!-- Decap CMS auto-hébergé : authentification par Netlify Identity (e-mail + mot de passe) -->
   <script src="/vendor/netlify-identity.js"></script>
   <script>
+    (function () {
+      var recherche = window.location.search || '';
+      if (/[?&](?:invite_token|recovery_token|confirmation_token)=/.test(recherche)) {
+        var jeton = recherche.replace(/^\?/, '');
+        window.history.replaceState(null, '', window.location.pathname + '#' + jeton);
+      }
+    }());
+
     function initNetlifyIdentity() {
       if (window.netlifyIdentity) {
         window.netlifyIdentity.init({
