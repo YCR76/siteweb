@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Passerelle YCR76</title>
+  <script src="/config.js"></script>
+</head>
+<body>
+  <h1>Passerelle YCR76</h1>
+  <p>Cette page gère les formulaires et la connexion au gestionnaire de contenu.</p>
+
+  <form name="contact" data-netlify="true" data-netlify-honeypot="bot-champ" hidden>
+    <input type="hidden" name="form-name" value="contact">
+    <input type="hidden" name="bot-champ">
+    <input type="hidden" name="nom">
+    <input type="hidden" name="prenom">
+    <input type="hidden" name="civilite">
+    <input type="hidden" name="email">
+    <input type="hidden" name="telephone">
+    <input type="hidden" name="sujet">
+    <input type="hidden" name="objet">
+    <input type="hidden" name="message">
+    <input type="hidden" name="etablissement">
+    <input type="hidden" name="adresse">
+    <input type="hidden" name="code_postal">
+    <input type="hidden" name="ville">
+    <input type="hidden" name="pays">
+  </form>
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    (function () {
+      var cible = window.YCR_SITE_CIBLE || 'https://dev.ycr76.fr/';
+      var hash = window.location.hash || '';
+      var hasToken = /[#&](?:invite_token|recovery_token|confirmation_token)=/.test(hash);
+
+      function versAdmin() {
+        window.location.replace(cible.replace(/\/?$/, '/') + 'admin/');
+      }
+
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.init();
+        window.netlifyIdentity.on('login', versAdmin);
+        window.netlifyIdentity.on('init', function (user) {
+          if (user && hasToken) {
+            versAdmin();
+          }
+        });
+      }
+    }());
+  </script>
+</body>
+</html>

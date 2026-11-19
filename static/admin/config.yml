@@ -1,14 +1,16 @@
-# Configuration du CMS (Sveltia) pour le site YCR76
+# Configuration du CMS (Decap) pour le site YCR76
 # Le directeur édite tout le contenu d'ici ; chaque publication crée un
-# commit GitHub, et Netlify reconstruit le site automatiquement.
-# Le dépôt GitHub sera complété lors de la mise en ligne (voir MODE D'EMPLOI).
-site_url: https://www.ycr76.fr
+# commit GitHub, puis le workflow GitHub Actions déploie le site sur OVH.
+# Netlify reste uniquement la passerelle Identity / Git Gateway et formulaires.
+site_url: https://dev.ycr76.fr
 logo_url: /images/logo.jpg
 
 backend:
   # git-gateway = connexion via Netlify Identity (invitation par e-mail du directeur)
   name: git-gateway
   branch: main
+  identity_url: https://loquacious-mochi-773bfa.netlify.app/.netlify/identity
+  gateway_url: https://loquacious-mochi-773bfa.netlify.app/.netlify/git
 
 media_folder: static/images/uploads
 public_path: /images/uploads

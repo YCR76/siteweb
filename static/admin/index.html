@@ -9,6 +9,21 @@
 </head>
 <body>
   <!-- Decap CMS auto-hébergé : authentification par Netlify Identity (e-mail + mot de passe) -->
+  <script src="/vendor/netlify-identity.js"></script>
+  <script>
+    function initNetlifyIdentity() {
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.init({
+          APIUrl: 'https://loquacious-mochi-773bfa.netlify.app/.netlify/identity'
+        });
+      }
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initNetlifyIdentity);
+    } else {
+      initNetlifyIdentity();
+    }
+  </script>
   <script src="decap-cms.js"></script>
 </body>
 </html>

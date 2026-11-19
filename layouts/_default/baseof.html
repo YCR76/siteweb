@@ -33,6 +33,13 @@
         les visiteurs : rien ne s'affiche sans jeton. */ -}}
   {{ if ne .RelPermalink "/admin/" }}
   <script src="/vendor/netlify-identity-widget.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.init({
+        APIUrl: 'https://loquacious-mochi-773bfa.netlify.app/.netlify/identity'
+      });
+    }
+  </script>
   {{ end }}
 </body>
 </html>
