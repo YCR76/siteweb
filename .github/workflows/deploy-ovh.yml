@@ -1,7 +1,7 @@
 # Déploiement du site statique vers l'hébergement OVH (staging dev.ycr76.fr).
 # Déclenché à chaque push sur main (et manuellement).
 # Secrets GitHub à créer : Settings > Secrets and variables > Actions > New repository secret
-#   OVH_FTP_PASSWORD : mot de passe SFTP (jamais dans le dépôt)
+#   OVH_FTP_PASSWORD : mot de passe FTP (jamais dans le dépôt)
 # Le formulaire de contact reste servi par Netlify ; seul le site statique est envoyé ici.
 name: Deploy OVH
 
@@ -48,11 +48,12 @@ jobs:
       - name: Synchroniser via SFTP (incrémental)
         uses: matteodf/lftp-upload@v1.1.0
         with:
-          host: "sftp://${{ secrets.OVH_FTP_HOST }}:22"
-          username: ${{ secrets.OVH_FTP_USER }}
+          host: ftp.cluster110.hosting.ovh.net
+          username: ycrjvlgq
           password: ${{ secrets.OVH_FTP_PASSWORD }}
           localDir: "./public"
-          remoteDir: ${{ secrets.OVH_FTP_DIR }}
+          remoteDir: /home/ycrjvlgq/dev
+          forceSsl: "false"
           pConn: "10"
           timeout: "120"
           retries: "5"
