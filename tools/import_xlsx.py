@@ -143,8 +143,8 @@ def parse_fm(lines):
     return order, data
 
 
-def update_doc(path, values):
-    fm_lines, body, delimiter = split_doc(path.read_text(encoding='utf-8'))
+def update_doc(path, values, body):
+    fm_lines, old_body, delimiter = split_doc(path.read_text(encoding='utf-8'))
     order, data = parse_fm(fm_lines)
     keys = [key for key, _ in values]
     fresh = {key: value for key, value in values if value not in (None, '', [])}
@@ -163,7 +163,8 @@ def update_doc(path, values):
     for key in keys:
         if key not in order and key in fresh:
             out.extend(render_lines(key, fresh[key]))
-    return '---\n' + '\n'.join(out) + '\n' + delimiter.lstrip('\n') + body
+    new_body = f'\n{body}\n' if body else old_body
+    return '---\n' + '\n'.join(out) + '\n' + delimiter.lstrip('\n') + new_body
 
 
 def load_aliases():
@@ -262,9 +263,10 @@ def main():
                 stem = index.get(key)
 
             values = build_values(row, categorie, ref)
+            body = text(row.get('Description'))
             if stem:
                 path = CONTENT / f'{stem}.md'
-                content = update_doc(path, values)
+                content = update_doc(path, values, body)
                 action = 'MAJ'
                 updated += 1
             else:
@@ -274,7 +276,6 @@ def main():
                     ref = f'{base}-{n}'
                     n += 1
                 path = CONTENT / f'{ref}.md'
-                body = text(row.get('Description'))
                 content = front_matter(values) + (f'\n{body}\n' if body else '')
                 action = 'NEW'
                 created += 1
