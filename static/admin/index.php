@@ -4,13 +4,17 @@ require_once __DIR__ . '/github.php';
 require_once __DIR__ . '/accounts.php';
 
 $secure = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || (($_SERVER['HTTP_X_FORWARDED_PROTO'] ?? '') === 'https');
-session_set_cookie_params([
-    'lifetime' => 0,
-    'path' => '/',
-    'httponly' => true,
-    'samesite' => 'Lax',
-    'secure' => $secure,
-]);
+if (PHP_VERSION_ID >= 70300) {
+    session_set_cookie_params([
+        'lifetime' => 0,
+        'path' => '/',
+        'httponly' => true,
+        'samesite' => 'Lax',
+        'secure' => $secure,
+    ]);
+} else {
+    session_set_cookie_params(0, '/', '', $secure, true);
+}
 session_start();
 
 if (empty($_SESSION['csrf'])) {
@@ -27,7 +31,7 @@ function csrf_ok(): bool
     return isset($_POST['csrf']) && hash_equals($_SESSION['csrf'], $_POST['csrf']);
 }
 
-function redirection(string $url): void
+function redirection(string $url)
 {
     header('Location: ' . $url);
     exit;
@@ -58,37 +62,192 @@ function slugify(string $texte): string
     return trim((string) $texte, '-');
 }
 
-function pages_fixes(): array
+function upload_types(): array
 {
     return [
-        'Page d’accueil' => 'content/_index.md',
-        'Rubrique Actualité' => 'content/actualites/_index.md',
-        'Rubrique Agenda' => 'content/evenement/_index.md',
-        'Contactez-nous' => 'content/contactez-nous.md',
-        'L’activité dériveur' => 'content/le-club/lactivite-deriveur.md',
-        'Organigramme' => 'content/le-club/organigramme.md',
-        'Tarifs' => 'content/le-club/tarifs.md',
-        'Don au club' => 'content/le-club/don-club.md',
-        'Licence FFVoile' => 'content/le-club/licence-ffvoile-adhesion-ligne.md',
-        'Résultats des régates' => 'content/competition/resultats.md',
-        'Programme des régates' => 'content/competition/programme.md',
-        'Activité multi-sports' => 'content/activites/activite-multi-sports.md',
-        'Politique de confidentialité' => 'content/politique-confidentialite.md',
+        'image' => [
+            'label' => 'Image',
+            'dossier' => 'static/images',
+            'extensions' => ['jpg', 'jpeg', 'png', 'gif', 'webp'],
+            'mimes' => ['image/jpeg', 'image/png', 'image/gif', 'image/webp'],
+            'max' => 500 * 1024,
+            'taille' => '500 Ko',
+        ],
+        'logo' => [
+            'label' => 'Logo',
+            'dossier' => 'static/images/logo',
+            'extensions' => ['jpg', 'jpeg', 'png', 'gif', 'webp'],
+            'mimes' => ['image/jpeg', 'image/png', 'image/gif', 'image/webp'],
+            'max' => 500 * 1024,
+            'taille' => '500 Ko',
+        ],
+        'pdf' => [
+            'label' => 'PDF',
+            'dossier' => 'static/fichiers',
+            'extensions' => ['pdf'],
+            'mimes' => ['application/pdf', 'application/x-pdf'],
+            'max' => 5 * 1024 * 1024,
+            'taille' => '5 Mo',
+        ],
     ];
+}
+
+function url_publique_statique(string $chemin): string
+{
+    $relatif = str_starts_with($chemin, 'static/') ? substr($chemin, strlen('static/')) : $chemin;
+    return '/' . implode('/', array_map('rawurlencode', explode('/', $relatif)));
+}
+
+function type_mime_fichier(string $temporaire): string
+{
+    if (!function_exists('finfo_open')) {
+        return '';
+    }
+    $finfo = @finfo_open(FILEINFO_MIME_TYPE);
+    if ($finfo === false) {
+        return '';
+    }
+    $mime = @finfo_file($finfo, $temporaire);
+    finfo_close($finfo);
+    return is_string($mime) ? strtolower($mime) : '';
+}
+
+function enregistrer_upload(string $type, array $fichier, string $nomSouhaite, bool $remplacer): array
+{
+    $types = upload_types();
+    if (!isset($types[$type])) {
+        throw new RuntimeException('Type de fichier invalide.');
+    }
+    $regles = $types[$type];
+    if (!isset($fichier['error']) || is_array($fichier['error'])) {
+        throw new RuntimeException('Aucun fichier reçu.');
+    }
+    $code = (int) $fichier['error'];
+    if ($code === UPLOAD_ERR_NO_FILE) {
+        throw new RuntimeException('Choisissez un fichier.');
+    }
+    if ($code === UPLOAD_ERR_INI_SIZE || $code === UPLOAD_ERR_FORM_SIZE) {
+        throw new RuntimeException('Fichier trop volumineux pour le serveur.');
+    }
+    if ($code !== UPLOAD_ERR_OK) {
+        throw new RuntimeException('Échec du transfert du fichier.');
+    }
+    $temporaire = (string) $fichier['tmp_name'];
+    $taille = (int) $fichier['size'];
+    if ($temporaire === '' || !is_uploaded_file($temporaire)) {
+        throw new RuntimeException('Fichier temporaire introuvable.');
+    }
+    if ($taille <= 0) {
+        throw new RuntimeException('Fichier vide.');
+    }
+    if ($taille > $regles['max']) {
+        throw new RuntimeException('Taille maximum dépassée : ' . $regles['taille'] . '.');
+    }
+    $nomOriginal = (string) $fichier['name'];
+    $extension = strtolower(pathinfo($nomOriginal, PATHINFO_EXTENSION));
+    if (!in_array($extension, $regles['extensions'], true)) {
+        throw new RuntimeException('Extension non autorisée. Formats acceptés : ' . implode(', ', $regles['extensions']) . '.');
+    }
+    $mime = type_mime_fichier($temporaire);
+    if ($mime !== '' && !in_array($mime, $regles['mimes'], true)) {
+        throw new RuntimeException('Le type réel du fichier ne correspond pas à son extension.');
+    }
+    $base = slugify($nomSouhaite !== '' ? $nomSouhaite : pathinfo($nomOriginal, PATHINFO_FILENAME));
+    if ($base === '') {
+        $base = 'fichier';
+    }
+    $chemin = $regles['dossier'] . '/' . $base . '.' . $extension;
+    $existant = ycr_gh_file($chemin);
+    if ($existant && !$remplacer) {
+        throw new RuntimeException('Ce nom de fichier existe déjà. Cochez « Remplacer » pour l’écraser.');
+    }
+    $contenu = file_get_contents($temporaire);
+    if ($contenu === false || strlen($contenu) !== $taille) {
+        throw new RuntimeException('Lecture du fichier impossible.');
+    }
+    ycr_gh_save($chemin, $contenu, $existant['sha'] ?? '', 'Admin OVH : upload de ' . $chemin);
+    return ['chemin' => $chemin, 'url' => url_publique_statique($chemin)];
+}
+
+function pages_groupes(): array
+{
+    return [
+        'Général' => [
+            'Page d’accueil' => 'content/_index.md',
+            'Contactez-nous' => 'content/contactez-nous.md',
+            'Politique de confidentialité' => 'content/politique-confidentialite.md',
+        ],
+        'Le club' => [
+            'L’actualité (présentation)' => 'content/actualites/_index.md',
+            'L’activité dériveur' => 'content/le-club/lactivite-deriveur.md',
+            'Organigramme' => 'content/le-club/organigramme.md',
+            'Tarifs' => 'content/le-club/tarifs.md',
+            'Galerie' => 'content/galerie/_index.md',
+            'Agenda (présentation)' => 'content/evenement/_index.md',
+            'Planning annuel' => 'content/planning-annuel.md',
+            'Don au club' => 'content/le-club/don-club.md',
+            'Licence FFVoile — adhésion en ligne' => 'content/le-club/licence-ffvoile-adhesion-ligne.md',
+            'Liste sondages' => 'content/le-club/liste-sondages.md',
+        ],
+        'Stages' => [
+            'Stages' => 'content/stages/_index.md',
+            'Stage multisports' => 'content/stages/stage-multisports.md',
+            'Stage voile' => 'content/stages/stage-voile.md',
+        ],
+        'Base de plein air' => [
+            'Base de plein air' => 'content/activites/_index.md',
+            'L’hébergement' => 'content/activites/hebergement.md',
+            'Scolaires' => 'content/activites/scolaires.md',
+            'Tarifs centre de loisirs' => 'content/activites/tarifs-centre-loisirs.md',
+            'Séance à la carte' => 'content/activites/seances-carte.md',
+            'Journée d’entreprise' => 'content/activites/journee-dentreprise.md',
+            'Savoir rouler à vélo' => 'content/activites/savoir-rouler-velo.md',
+            'Activité multi-sports' => 'content/activites/activite-multi-sports.md',
+        ],
+        'Voile loisir' => [
+            'Voile loisir' => 'content/voile-loisir/_index.md',
+            'Voile adulte' => 'content/voile-loisir/voile-adoadulte.md',
+            'Voile jeune' => 'content/voile-loisir/voile-jeune.md',
+            'Balade à la voile' => 'content/voile-loisir/balade-voile.md',
+            'Programme' => 'content/voile-loisir/programme.md',
+            'Voile seniors' => 'content/voile-loisir/voile-seniors.md',
+            'Voile habitable' => 'content/voile-loisir/voile-habitable.md',
+        ],
+        'Compétition' => [
+            'Compétition' => 'content/competition/_index.md',
+            'Agenda des régates' => 'content/competition/programme.md',
+            'Résultats des dernières régates' => 'content/competition/resultats.md',
+            'Fiche coureur' => 'content/competition/fiche-coureur.md',
+            'Fiches techniques voile' => 'content/competition/fiches-techniques-voile.md',
+            'Jouer avec les règles de course' => 'content/competition/jouer-avec-les-regles-de-course-a-la-voile.md',
+            'Règles de course à la voile' => 'content/competition/regles-de-course-a-la-voile.md',
+            'Publications FFVoile' => 'content/competition/publications-ffv.md',
+            'Classement régional individuel' => 'content/competition/classement-regional-individuel.md',
+            'Calculateur de temps compensé' => 'content/competition/calculateur-de-temps-compense.md',
+        ],
+        'Partenaires' => [
+            'Partenaires' => 'content/nos-partenaires/_index.md',
+            'Devenir partenaire' => 'content/nos-partenaires/devenir-partenaire.md',
+        ],
+    ];
+}
+
+function pages_fixes(): array
+{
+    $pages = [];
+    foreach (pages_groupes() as $groupe) {
+        foreach ($groupe as $label => $chemin) {
+            $pages[$label] = $chemin;
+        }
+    }
+    return $pages;
 }
 
 function dossiers(): array
 {
     return [
         'Actualités' => 'content/actualites',
-        'Agenda' => 'content/evenement',
-        'Le club' => 'content/le-club',
-        'Stages' => 'content/stages',
-        'Base de plein air' => 'content/activites',
-        'Voile loisir' => 'content/voile-loisir',
-        'Compétition' => 'content/competition',
         'Partenaires' => 'content/nos-partenaires',
-        'Galerie' => 'content/galerie',
     ];
 }
 
@@ -160,6 +319,7 @@ $action = $_GET['action'] ?? 'liste';
 $erreur = '';
 $notice = '';
 $lienInvitation = '';
+$lienUpload = '';
 $jetonSetup = $_POST['token'] ?? $_GET['token'] ?? '';
 
 if (isset($_GET['ok'])) {
@@ -252,6 +412,19 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST' && isset($_POST['do'])) {
                 $erreur = $e->getMessage();
             }
         }
+    } elseif ($_POST['do'] === 'upload') {
+        try {
+            $resultat = enregistrer_upload(
+                (string) $_POST['type'],
+                $_FILES['fichier'] ?? [],
+                trim((string) $_POST['nom']),
+                !empty($_POST['remplacer'])
+            );
+            $notice = 'Fichier envoyé. Il sera en ligne après le déploiement.';
+            $lienUpload = $resultat['url'];
+        } catch (Throwable $e) {
+            $erreur = $e->getMessage();
+        }
     } elseif ($_POST['do'] === 'create') {
         $dossier = $_POST['dir'] ?? '';
         $slug = slugify($_POST['slug'] ?? '');
@@ -285,6 +458,7 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST' && isset($_POST['do'])) {
   <meta name="robots" content="noindex">
   <title>Administration YCR76</title>
   <link rel="stylesheet" href="style.css">
+  <script src="marked.min.js"></script>
 </head>
 <body>
 <main>
@@ -298,6 +472,9 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST' && isset($_POST['do'])) {
   <?php endif; ?>
   <?php if ($lienInvitation !== ''): ?>
     <p class="message ok">Lien à transmettre : <a href="<?= h($lienInvitation) ?>"><?= h($lienInvitation) ?></a></p>
+  <?php endif; ?>
+  <?php if ($lienUpload !== ''): ?>
+    <p class="message ok">Fichier : <a href="<?= h($lienUpload) ?>"><?= h($lienUpload) ?></a></p>
   <?php endif; ?>
 
   <?php if (!est_connecte() && $action === 'setup'): ?>
@@ -331,6 +508,7 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST' && isset($_POST['do'])) {
   <?php else: ?>
     <p class="barre">
       <a href="/">← Retour au site</a>
+      <a href="#uploads">Uploads</a>
       <?php if (est_superadmin()): ?><a href="/admin/?action=comptes">Comptes admins</a><?php endif; ?>
       <form method="post" class="inline">
         <input type="hidden" name="csrf" value="<?= h($_SESSION['csrf']) ?>">
@@ -341,7 +519,9 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST' && isset($_POST['do'])) {
 
     <?php if ($action === 'comptes' && !est_superadmin()): ?>
       <p class="message erreur">Action réservée au superadministrateur.</p>
+      <p><a href="/admin/">← Retour à l’administration</a></p>
     <?php elseif ($action === 'comptes'): ?>
+      <p><a href="/admin/">← Retour à l’administration</a></p>
       <h2>Comptes administrateurs</h2>
       <section class="bloc">
         <h3>Superadministrateur</h3>
@@ -424,9 +604,11 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST' && isset($_POST['do'])) {
           <label>Résumé
             <input type="text" name="summary" value="<?= h($resume) ?>">
           </label>
-          <label>Contenu (Markdown)
-            <textarea name="body" rows="24"><?= h($corps) ?></textarea>
+          <label>Contenu (Markdown) <a class="petit" href="https://commonmark.org/help/" target="_blank" rel="noopener">doc Markdown</a>
+            <textarea name="body" rows="24" data-preview="apercu-edit"><?= h($corps) ?></textarea>
           </label>
+          <h3>Aperçu (non enregistré)</h3>
+          <div id="apercu-edit" class="apercu"></div>
           <button type="submit">Enregistrer</button>
         </form>
       <?php endif; ?>
@@ -455,20 +637,27 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST' && isset($_POST['do'])) {
           <label>Résumé
             <input type="text" name="summary">
           </label>
-          <label>Contenu (Markdown)
-            <textarea name="body" rows="18"></textarea>
+          <label>Contenu (Markdown) <a class="petit" href="https://commonmark.org/help/" target="_blank" rel="noopener">doc Markdown</a>
+            <textarea name="body" rows="18" data-preview="apercu-new"></textarea>
           </label>
+          <h3>Aperçu (non enregistré)</h3>
+          <div id="apercu-new" class="apercu"></div>
           <button type="submit">Créer la page</button>
         </form>
       <?php endif; ?>
 
     <?php else: ?>
-      <h2>Pages principales</h2>
-      <ul class="fichiers">
-        <?php foreach (pages_fixes() as $label => $chemin): ?>
-          <li><a href="/admin/?action=edit&file=<?= rawurlencode($chemin) ?>"><?= h($label) ?></a> <small><?= h($chemin) ?></small></li>
-        <?php endforeach; ?>
-      </ul>
+      <h2>Pages</h2>
+      <?php foreach (pages_groupes() as $titreGroupe => $pages): ?>
+        <section class="bloc">
+          <h3><?= h($titreGroupe) ?></h3>
+          <ul class="fichiers">
+            <?php foreach ($pages as $label => $chemin): ?>
+              <li><a href="/admin/?action=edit&file=<?= rawurlencode($chemin) ?>"><?= h($label) ?></a> <small><?= h($chemin) ?></small></li>
+            <?php endforeach; ?>
+          </ul>
+        </section>
+      <?php endforeach; ?>
 
       <h2>Rubriques</h2>
       <?php foreach (dossiers() as $label => $dossier): ?>
@@ -481,8 +670,16 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST' && isset($_POST['do'])) {
                   echo '<p class="vide">Aucune page.</p>';
               } else {
                   echo '<ul class="fichiers">';
+                  $affiches = 0;
                   foreach ($fichiers as $chemin) {
+                      if (basename($chemin) === '_index.md') {
+                          continue;
+                      }
+                      $affiches++;
                       echo '<li><a href="/admin/?action=edit&file=' . rawurlencode($chemin) . '">' . h(basename($chemin, '.md')) . '</a></li>';
+                  }
+                  if ($affiches === 0) {
+                      echo '<li class="vide">Aucune page.</li>';
                   }
                   echo '</ul>';
               }
@@ -492,8 +689,94 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST' && isset($_POST['do'])) {
           ?>
         </section>
       <?php endforeach; ?>
+
+      <h2 id="uploads">Fichiers</h2>
+      <section class="bloc">
+        <h3>Envoyer un fichier</h3>
+        <form method="post" enctype="multipart/form-data">
+          <input type="hidden" name="csrf" value="<?= h($_SESSION['csrf']) ?>">
+          <input type="hidden" name="do" value="upload">
+          <input type="hidden" name="MAX_FILE_SIZE" value="<?= 5 * 1024 * 1024 ?>">
+          <label>Type de fichier
+            <select name="type">
+              <?php foreach (upload_types() as $cle => $regles): ?>
+                <option value="<?= h($cle) ?>"><?= h($regles['label']) ?> — <?= h($regles['taille']) ?> max</option>
+              <?php endforeach; ?>
+            </select>
+          </label>
+          <label>Nom du fichier (facultatif)
+            <input type="text" name="nom" placeholder="mon-image">
+          </label>
+          <label>Fichier
+            <input type="file" name="fichier" required>
+          </label>
+          <label class="case">
+            <input type="checkbox" name="remplacer" value="1"> Remplacer si le nom existe déjà
+          </label>
+          <button type="submit">Envoyer le fichier</button>
+        </form>
+        <p class="petit">Images et logos : 500 Ko maximum. PDF : 5 Mo maximum. Le fichier sera en ligne après le déploiement.</p>
+      </section>
+
+      <section class="bloc">
+        <h3>Derniers fichiers envoyés</h3>
+        <?php foreach (upload_types() as $regles): ?>
+          <?php
+          try {
+              $fichiers = ycr_gh_media_list($regles['dossier'], $regles['extensions']);
+          } catch (Throwable $e) {
+              $fichiers = [];
+          }
+          ?>
+          <h4><?= h($regles['label']) ?></h4>
+          <?php if (!$fichiers): ?>
+            <p class="vide">Aucun fichier.</p>
+          <?php else: ?>
+            <ul class="fichiers">
+              <?php foreach (array_slice($fichiers, 0, 20) as $chemin): ?>
+                <li>
+                  <a href="<?= h(url_publique_statique($chemin)) ?>"><?= h(basename($chemin)) ?></a>
+                  <small><?= h(url_publique_statique($chemin)) ?></small>
+                </li>
+              <?php endforeach; ?>
+            </ul>
+          <?php endif; ?>
+        <?php endforeach; ?>
+      </section>
     <?php endif; ?>
   <?php endif; ?>
 </main>
+<script>
+  (function () {
+    if (!window.marked) {
+      return;
+    }
+    marked.setOptions({ gfm: true, breaks: true });
+    var zones = document.querySelectorAll('textarea[data-preview]');
+    Array.prototype.forEach.call(zones, function (zone) {
+      var cible = document.getElementById(zone.getAttribute('data-preview'));
+      if (!cible) {
+        return;
+      }
+      function rendu() {
+        cible.innerHTML = marked.parse(zone.value);
+      }
+      zone.addEventListener('input', rendu);
+      rendu();
+    });
+  }());
+  (function () {
+    var type = document.querySelector('select[name="type"]');
+    var fichier = document.querySelector('input[type="file"][name="fichier"]');
+    if (!type || !fichier) {
+      return;
+    }
+    function majAccept() {
+      fichier.accept = type.value === 'pdf' ? '.pdf,application/pdf' : '.jpg,.jpeg,.png,.gif,.webp,image/*';
+    }
+    type.addEventListener('change', majAccept);
+    majAccept();
+  }());
+</script>
 </body>
 </html>

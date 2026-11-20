@@ -19,7 +19,7 @@ main {
   box-shadow: 0 2px 10px rgb(0 0 0 / 8%);
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   line-height: 1.2;
 }
 
@@ -85,6 +85,8 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="password"],
+input[type="file"],
+select,
 textarea {
   display: block;
   width: 100%;
@@ -98,6 +100,25 @@ textarea {
 
 textarea {
   resize: vertical;
+}
+
+.apercu {
+  min-height: 8rem;
+  max-height: 24rem;
+  overflow: auto;
+  padding: 1rem;
+  border: 1px solid #dfe5ec;
+  border-radius: .25rem;
+  background: #fbfcfd;
+}
+
+.apercu img {
+  max-width: 100%;
+  height: auto;
+}
+
+.apercu :first-child {
+  margin-top: 0;
 }
 
 .fichiers {
@@ -118,6 +139,17 @@ textarea {
 .petit {
   font-size: .85rem;
   font-weight: normal;
+}
+
+label.case {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-weight: normal;
+}
+
+label.case input {
+  margin: 0;
 }
 
 .vide {

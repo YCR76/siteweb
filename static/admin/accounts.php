@@ -28,7 +28,7 @@ function ycr_comptes_lire(): array
     return $donnees;
 }
 
-function ycr_comptes_ecrire(array $donnees): void
+function ycr_comptes_ecrire(array $donnees)
 {
     $chemin = ycr_comptes_chemin();
     $tmp = $chemin . '.tmp';
@@ -66,7 +66,7 @@ function ycr_email_utilise(string $email): bool
     return false;
 }
 
-function ycr_verifier_identifiants(string $email, string $motDePasse): ?array
+function ycr_verifier_identifiants(string $email, string $motDePasse)
 {
     $email = strtolower(trim($email));
     $super = ycr_superadmin();

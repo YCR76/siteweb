@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ . '/compat.php';
+
 function ycr_admin_config_path(): string
 {
     $chemin = getenv('YCR_ADMIN_CONFIG');
@@ -37,7 +39,7 @@ function ycr_gh_url(string $path, string $method): string
     return $url;
 }
 
-function ycr_gh_request(string $method, string $path, ?array $payload = null): array
+function ycr_gh_request(string $method, string $path, $payload = null): array
 {
     $config = ycr_admin_config();
     if (!function_exists('curl_init')) {
@@ -56,7 +58,7 @@ function ycr_gh_request(string $method, string $path, ?array $payload = null): a
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_CUSTOMREQUEST => $method,
         CURLOPT_HTTPHEADER => $entetes,
-        CURLOPT_TIMEOUT => 30,
+        CURLOPT_TIMEOUT => 60,
     ]);
 
     if ($payload !== null) {
@@ -126,5 +128,22 @@ function ycr_gh_list(string $path): array
         }
     }
     sort($fichiers, SORT_STRING);
+    return $fichiers;
+}
+
+function ycr_gh_media_list(string $path, array $extensions): array
+{
+    $donnees = ycr_gh_request('GET', $path);
+    $fichiers = [];
+    foreach ($donnees as $entree) {
+        if (!isset($entree['name'], $entree['path'], $entree['type']) || $entree['type'] !== 'file') {
+            continue;
+        }
+        $extension = strtolower(pathinfo($entree['name'], PATHINFO_EXTENSION));
+        if (in_array($extension, $extensions, true)) {
+            $fichiers[] = $entree['path'];
+        }
+    }
+    rsort($fichiers, SORT_STRING);
     return $fichiers;
 }
