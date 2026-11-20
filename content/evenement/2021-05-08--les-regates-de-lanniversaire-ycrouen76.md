@@ -1,5 +1,5 @@
 ---
-title: "Les régates de l'anniversaire YCRouen76"
+title: "Les régates de l'anniversaire YCRouen 76"
 categorie: "Régate"
 grade: "5B"
 classes:

@@ -2,7 +2,7 @@
 title: "Stage voile"
 categorie: "Stage"
 url: "/stages/stage-voile-2027-04-26/"
-lieu: "YCRouen76"
+lieu: "YCRouen 76"
 typeStage: "Voile"
 classes:
   - "ILCA/Laser"

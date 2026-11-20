@@ -1,5 +1,5 @@
 ---
-title: "60 ans du YCRouen76 - Course par Equipe"
+title: "60 ans du YCRouen 76 - Course par Equipe"
 categorie: "Régate"
 grade: "5B"
 classes:

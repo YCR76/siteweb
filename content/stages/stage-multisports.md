@@ -5,55 +5,63 @@ aliases:
   - stage-sports-nature
   - stage-multisports
   - /stage-multisports
+description: "Stage multi-sports pour les jeunes à partir de 10 ans : VTT, escalade, tir à l'arc, golf, kayak et voile pendant les vacances."
 ---
-### Stage multisports (Tir à l’arc, VTT, escalade, practice de golf, orientation, kayak, voile…)
 
-Nos stages multi-sports sont ouverts aux jeunes à partir de 10 ans (avec certificat de natation valide). Les éducateurs sportifs proposent la pratique d'une activité de pleine nature différente sur chacune des matinées (Tir à l'arc, Practice de golf, escalade, VTT, nautisme et orientation). L'après-midi, une activité voile est prévue.
+## Stage multi-sports : une activité différente chaque jour
 
-![](/images/goelette2.jpg) ![](/images/kayak2.jpg) ![](/images/velo.jpg)
+Nos stages multi-sports sont ouverts aux jeunes à partir de 10 ans, avec un certificat de natation valide. Les éducateurs sportifs proposent une activité de pleine nature différente chaque matinée : tir à l'arc, practice de golf, escalade, VTT, nautisme et orientation. L'après-midi est consacré à la voile.
 
-N'hésitez pas à réserver vos stages [en ligne](https://www.helloasso.com/associations/ycr76-yacht-club-rouen-76/evenements/stage) ou à nous contacter si vous ne trouver pas de stages aux dates qui vous intéressent car d'autres stages sont succeptibles d'être ouverts. Vous pouvez aussi vous inscrire à notre [newsletter dédiée aux stages](https://dbccd031.sibforms.com/serve/MUIFAI9LZvfXCrPnFk1bMo5SiqhKxXUfeCqQaWLTPr0hTQtfpf-FZs1149r4Tp03BAy7j5xw5ohsQ5vChvWwlRglpNsUVTtkk5Ta58jlI7f1h_GSJKPGVIJR38eqD2WiVv43FEY1lyQ0Fxteux8Z2mSA0FQcTZaLBdfrKcRXVxhjDJXEmhYYGW09Dk0csnT81JqRle8ZuLuo1Y4Slg==).
+![Goélette](/images/goelette2.jpg)
+![Kayak](/images/kayak2.jpg)
+![VTT](/images/velo.jpg)
 
-### Tarifs :
+## En bref
 
-**Chaque stagiaire devra souscrire à une adhésion annuelle à l'association**. L'adhésion (une seule par année civile !) s'élève à **38 €** pour les jeunes, elle comprend une licence à la FFVoile.
+- **Public** : jeunes à partir de 10 ans, sachant nager.
+- **Journée** : de 9 h à 17 h 30, repas du midi compris.
+- **Lieu** : Anneville-Ambourville, avec un transfert organisé depuis le club.
+- **Tarifs** : adhésion {{< tarif >}}38 €{{< /tarif >}}, puis stage à la journée {{< tarif ref="stage-multisports" />}}.
 
-Le choix d'un passeport Voile est également possible pour les jeunes ne participant qu'aux seuls stages. Le Passeport Voile (avec adhésion) à **19,50 €** comprend également l'assurance individuelle de la FFVoile.
-
-S'ajoute le coût du stage :
-
-- Stage multisport à la journée (9h - 17h30 - repas compris ) **270 €**
-
-![](/images/tir_a_larc.jpg) ![](/images/golf.jpg) ![](/images/mur_escalade.jpg)
-
-### **Dates**
+## Dates
 
 {{< stages type="Multi-sports" >}}
 
-Le stage organisé à Anneville-Ambourville. Un transfert est organisé depuis le club.
+Le stage est organisé à Anneville-Ambourville. Un transfert est assuré depuis le club. D'autres stages de perfectionnement sont organisés durant les vacances de Toussaint et de février : [contactez-nous](/contactez-nous/) pour plus de renseignements.
 
-D'autres stages (perfectionnement) seront organisés durant les vacances de Toussaint et février. Contactez-nous pour plus de renseignements.
+## Programme
 
-### Programme :
+- Accueil des stagiaires le matin entre 9 h et **9 h 30**.
+- Une activité sportive terrestre de pleine nature encadrée chaque matinée : tir à l'arc, VTT, escalade, practice de golf, course d'orientation.
+- Repas du midi avec l'équipe des moniteurs, compris dans la prestation.
+- Une activité voile l'après-midi. En l'absence de vent, une activité de canoë-kayak peut être proposée.
+- Fin des activités à **17 h 30**, avec un petit goûter.
+- Récupération possible des stagiaires par les familles jusqu'à 18 h.
 
-- Nous accueillons nos stagiaires le matin entre 9h et **9h30**, à l'issu de la journée de stage, une permanence du personnel est active jusqu'à 18h.
-- Une activité sportive terrestre de pleine nature encadrée sur chacune des matinées (tir à l’arc, VTT, escalade, practice de golf, course d'orientation)
-- Repas du midi avec l'équipe des moniteurs. Le repas est compris dans la prestation.
-- Une activité voile l'après-midis (possibilité de canoë-kayak en l’absence de vent).
-- Fin des activités pour **17h30**, petit goûter
-- Récupération possible des stagiaires par leur famille jusqu’à 18h.
+## Tarifs et inscription
 
-### Détails techniques :
+Chaque stagiaire doit souscrire une adhésion annuelle à l'association. L'adhésion, une seule par année civile, s'élève à {{< tarif >}}38 €{{< /tarif >}} pour les jeunes et comprend une licence FFVoile.
 
-- **SAVOIR NAGER** - Fournir un certificat de natation au 1er jour du stage, ou à minima le [test d'aisance aquatique](/fichiers/test_aisance_aquatique.pdf) rempli par un professionnel habilité
-- **QUESTIONNAIRE DE SANTE** - [Questionnaire](https://www.ffvoile.fr/ffv/web/services/medical/documents/Questionnaire_Sante_FFVoile_mineur.pdf) à remplir (ou fournir un certificat médical de non-contre-indication à la pratique des sports nautiques ou si réponse positive à l'une des questions posées du questionnaire)
-- **FICHE D'AUTORISATION LEGALE** - [Formulaire](/fichiers/autorisations_legales.pdf) à remplir
-- L’ensemble du matériel sportif est fourni par la structure, (VTT, casques, gilets de sauvetage…) le casque perso est néanmoins le bienvenu pour le VTT
-- Les stagiaires apportent leurs équipement personnels pour l’ensemble des activités prévues durant le stage ainsi que le nécessaire pour prendre une douche sur place après l’activité sportive. La douche ne peut être prise qu'exceptionnellement, un protocole sanitaire spécifique est adapté
-- Pensez à vous équiper de tenues adaptées à la météo du jour (y compris les protections solaires)... Un coupe-vent de type K-Way est nécessaire... Le port d'une combinaison isothermique (shorty) est idéal, nous avons éventuellement quelques unités à prêter les jours les plus frais !
+Le Passeport Voile est également possible pour les jeunes qui ne participent qu'aux stages. Avec l'adhésion, il coûte {{< tarif >}}19,50 €{{< /tarif >}} et comprend l'assurance individuelle de la FFVoile.
 
-### N’hésitez pas à nous contacter pour tous renseignements supplémentaires.
+S'ajoute le coût du stage :
 
-![](/images/openskiff.jpg) ![](/images/optimist2.jpg)
+- **Stage multi-sports à la journée** (9 h – 17 h 30, repas compris) : {{< tarif ref="stage-multisports" />}}
 
-Pour une activité annuelle, vous aurez toutes les informations sur la [page dédiée à la voile jeune](/voile-jeune).
+[**Réserver en ligne**](https://www.helloasso.com/associations/ycr76-yacht-club-rouen-76/evenements/stage)
+
+## Documents à fournir
+
+- **Savoir nager** : certificat de natation au premier jour du stage, ou à minima le [test d'aisance aquatique](/fichiers/test_aisance_aquatique.pdf) rempli par un professionnel habilité.
+- **Questionnaire de santé** : [questionnaire FFVoile mineur](https://www.ffvoile.fr/ffv/web/services/medical/documents/Questionnaire_Sante_FFVoile_mineur.pdf), ou certificat médical de non-contre-indication à la pratique des sports nautiques en cas de réponse positive.
+- **Autorisation légale** : [formulaire](/fichiers/autorisations_legales.pdf) à remplir.
+
+## À prévoir
+
+L'ensemble du matériel sportif est fourni par la structure : VTT, casques, gilets de sauvetage… Le casque personnel est néanmoins bienvenu pour le VTT.
+
+Les stagiaires apportent leurs équipements personnels pour les activités et le nécessaire pour prendre une douche sur place. Prévoyez des tenues adaptées à la météo, des protections solaires et un coupe-vent de type K-Way. Une combinaison isotherme (shorty) est idéale ; quelques unités peuvent être prêtées les jours les plus frais.
+
+Pour une activité annuelle, retrouvez toutes les informations sur la [page Voile jeune](/voile-loisir/voile-jeune/) ou la [page Multi-sports](/activites/activite-multi-sports/).
+
+[**Nous contacter**](/contactez-nous/)

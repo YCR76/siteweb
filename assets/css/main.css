@@ -434,3 +434,8 @@ a:hover { color: var(--bleu-marine); }
 .planning-table td .evt.cat-stage     { background: #a0b5a0; color: #fff; }
 .planning-table td .evt-cont.cat-animation { color: #b87392; }
 .planning-table td .evt-cont.cat-stage     { color: #a0b5a0; }
+
+.tarif { border-bottom: 1px dotted currentColor; cursor: help; }
+
+.contact-consent { display: flex; align-items: flex-start; gap: .5rem; font-weight: 400; }
+.contact-consent input { width: auto; margin-top: .35rem; }

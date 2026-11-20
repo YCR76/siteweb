@@ -5,6 +5,10 @@ resources/
 # Import Drupal (staging)
 content-import/
 
+# Python
+__pycache__/
+*.py[cod]
+
 # Divers
 .hugo_build.lock
 .DS_Store

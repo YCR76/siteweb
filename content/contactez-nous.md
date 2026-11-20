@@ -2,41 +2,86 @@
 title: "Contactez-nous"
 aliases:
   - /contactez-nous
+description: "Contact du YCRouen 76 : coordonnées, horaires du secrétariat et formulaire de contact."
 ---
-Coordonnées
 
-#### Y.C.Rouen 76 1444 chaussée Bertrand Base de plein air d'Hénouville 76840 HENOUVILLE Tél. : 02 35 32 34 04
+## Nos coordonnées
 
-> #### Hors saison, vous pouvez nous contacter du mardi au vendredi de 9h30 à 12h30...
-> #### En saison, vos appels téléphonique au secrétariat du club ont le plus de chance d'aboutir :
-> #### du lundi au vendredi de 17h15 à 18h30, sinon...laissez-nous un message... ou choisissez l'échange par mail : contact@ycr76.fr
-> ####
+**YCRouen 76**
+1444 chaussée Bertrand
+Base de plein air d'Hénouville
+76840 Hénouville
+
+- Téléphone : [02 35 32 34 04](tel:+33235323404)
+- E-mail : [contact@ycr76.fr](mailto:contact@ycr76.fr)
+
+## Horaires du secrétariat
+
+- **Hors saison** : du mardi au vendredi, de 9 h 30 à 12 h 30.
+- **En saison** : du lundi au vendredi, de 17 h 15 à 18 h 30.
+
+En dehors de ces horaires, laissez-nous un message ou écrivez-nous par e-mail : nous vous répondrons dès que possible.
+
+## Nous écrire
+
+Les champs marqués d'un astérisque sont obligatoires. Votre message est transmis au secrétariat du club.
 
 <form name="contact" method="POST" action="/contact.php" class="contact-form">
-  <p class="sr-only"><label>Ne pas remplir si vous êtes humain : <input name="bot-champ"></label></p>
+  <p class="sr-only"><label>Ne pas remplir si vous êtes humain : <input name="bot-champ" tabindex="-1" autocomplete="off"></label></p>
+
   <label for="f-civilite">Civilité</label>
-  <select id="f-civilite" name="civilite" required><option value="M.">M.</option><option value="Mme">Mme</option><option value="Mlle">Mlle</option></select>
-  <label for="f-objet">Objet</label>
+  <select id="f-civilite" name="civilite">
+    <option value="">Non précisé</option>
+    <option value="M.">M.</option>
+    <option value="Mme">Mme</option>
+  </select>
+
+  <label for="f-prenom">Prénom *</label>
+  <input id="f-prenom" type="text" name="prenom" autocomplete="given-name" required>
+
+  <label for="f-nom">Nom *</label>
+  <input id="f-nom" type="text" name="nom" autocomplete="family-name" required>
+
+  <label for="f-email">E-mail *</label>
+  <input id="f-email" type="email" name="email" autocomplete="email" required>
+
+  <label for="f-telephone">Téléphone *</label>
+  <input id="f-telephone" type="tel" name="telephone" autocomplete="tel" required>
+
+  <label for="f-objet">Objet *</label>
   <input id="f-objet" type="text" name="objet" required>
-  <label for="f-nom">Nom</label>
-  <input id="f-nom" type="text" name="nom" required>
-  <label for="f-message">Message</label>
-  <textarea id="f-message" name="message" rows="5" required></textarea>
-  <label for="f-prenom">Prénom</label>
-  <input id="f-prenom" type="text" name="prenom" required>
-  <label for="f-email">Email</label>
-  <input id="f-email" type="email" name="email" required>
-  <label for="f-telephone">Téléphone</label>
-  <input id="f-telephone" type="text" name="telephone" required>
-  <label for="f-etablissement">Etablissement</label>
-  <input id="f-etablissement" type="text" name="etablissement">
+
+  <label for="f-message">Message *</label>
+  <textarea id="f-message" name="message" rows="7" required></textarea>
+
+  <label for="f-etablissement">Établissement ou structure</label>
+  <input id="f-etablissement" type="text" name="etablissement" autocomplete="organization">
+
   <label for="f-adresse">Adresse</label>
-  <textarea id="f-adresse" name="adresse" rows="5"></textarea>
+  <textarea id="f-adresse" name="adresse" rows="3" autocomplete="street-address"></textarea>
+
   <label for="f-code_postal">Code postal</label>
-  <input id="f-code_postal" type="text" name="code_postal">
+  <input id="f-code_postal" type="text" name="code_postal" autocomplete="postal-code">
+
   <label for="f-ville">Ville</label>
-  <input id="f-ville" type="text" name="ville">
+  <input id="f-ville" type="text" name="ville" autocomplete="address-level2">
+
   <label for="f-pays">Pays</label>
-  <select id="f-pays" name="pays"><option value="Afghanistan">Afghanistan</option><option value="Afrique du Sud">Afrique du Sud</option><option value="Albanie">Albanie</option><option value="Algérie">Algérie</option><option value="Allemagne">Allemagne</option><option value="Andorre">Andorre</option><option value="Angola">Angola</option><option value="Anguilla">Anguilla</option><option value="Antarctique">Antarctique</option><option value="Antigua et Barbuda">Antigua et Barbuda</option><option value="Antilles néerlandaises">Antilles néerlandaises</option><option value="Arabie Saoudite">Arabie Saoudite</option><option value="Argentine">Argentine</option><option value="Arménie">Arménie</option><option value="Aruba">Aruba</option><option value="Australie">Australie</option><option value="Autriche">Autriche</option><option value="Azerbaïdjan">Azerbaïdjan</option><option value="Bahamas">Bahamas</option><option value="Bahreïn">Bahreïn</option><option value="Bangladesh">Bangladesh</option><option value="Barbade">Barbade</option><option value="Belgique">Belgique</option><option value="Belize">Belize</option><option value="Bermudes">Bermudes</option><option value="Bhoutan">Bhoutan</option><option value="Birmanie">Birmanie</option><option value="Biélorussie">Biélorussie</option><option value="Bolivie">Bolivie</option><option value="Bosnie-Herzégovine">Bosnie-Herzégovine</option><option value="Botswana">Botswana</option><option value="Brunei">Brunei</option><option value="Brésil">Brésil</option><option value="Bulgarie">Bulgarie</option><option value="Burkina Faso">Burkina Faso</option><option value="Burundi">Burundi</option><option value="Bénin">Bénin</option><option value="Cambodge">Cambodge</option><option value="Cameroun">Cameroun</option><option value="Canada">Canada</option><option value="Cap-Vert">Cap-Vert</option><option value="Chili">Chili</option><option value="Chine">Chine</option><option value="Chypre">Chypre</option><option value="Colombie">Colombie</option><option value="Comores">Comores</option><option value="Congo (Brazzaville)">Congo (Brazzaville)</option><option value="Congo (Kinshasa)">Congo (Kinshasa)</option><option value="Corée du Nord">Corée du Nord</option><option value="Corée du Sud">Corée du Sud</option><option value="Costa Rica">Costa Rica</option><option value="Croatie">Croatie</option><option value="Cuba">Cuba</option><option value="Curaçao">Curaçao</option><option value="Côte d'Ivoire">Côte d'Ivoire</option><option value="Danemark">Danemark</option><option value="Djibouti">Djibouti</option><option value="Dominique">Dominique</option><option value="Espagne">Espagne</option><option value="Estonie">Estonie</option><option value="Fiji">Fiji</option><option value="Finlande">Finlande</option><option value="France">France</option><option value="Gabon">Gabon</option><option value="Gambie">Gambie</option><option value="Ghana">Ghana</option><option value="Gibraltar">Gibraltar</option><option value="Grenade">Grenade</option><option value="Groenland">Groenland</option><option value="Grèce">Grèce</option><option value="Guadeloupe">Guadeloupe</option><option value="Guam">Guam</option><option value="Guatemala">Guatemala</option><option value="Guernesey">Guernesey</option><option value="Guinée">Guinée</option><option value="Guinée-Bissau">Guinée-Bissau</option><option value="Guinée équatoriale">Guinée équatoriale</option><option value="Guyana">Guyana</option><option value="Guyane française">Guyane française</option><option value="Géorgie">Géorgie</option><option value="Géorgie du Sud et les Îles Sandwich du Sud">Géorgie du Sud et les Îles Sandwich du Sud</option><option value="Haïti">Haïti</option><option value="Honduras">Honduras</option><option value="Hong Kong R.A.S., Chine">Hong Kong R.A.S., Chine</option><option value="Hongrie">Hongrie</option><option value="Ile de Man">Ile de Man</option><option value="Inde">Inde</option><option value="Indonésie">Indonésie</option><option value="Irak">Irak</option><option value="Iran">Iran</option><option value="Irlande">Irlande</option><option value="Islande">Islande</option><option value="Israël">Israël</option><option value="Italie">Italie</option><option value="Jamaïque">Jamaïque</option><option value="Japon">Japon</option><option value="Jersey">Jersey</option><option value="Jordanie">Jordanie</option><option value="Kazakhstan">Kazakhstan</option><option value="Kenya">Kenya</option><option value="Kirghizistan">Kirghizistan</option><option value="Kiribati">Kiribati</option><option value="Koweït">Koweït</option><option value="Laos">Laos</option><option value="Le Nauru">Le Nauru</option><option value="Lesotho">Lesotho</option><option value="Lettonie">Lettonie</option><option value="Liban">Liban</option><option value="Libye">Libye</option><option value="Libéria">Libéria</option><option value="Liechtenstein">Liechtenstein</option><option value="Lituanie">Lituanie</option><option value="Luxembourg">Luxembourg</option><option value="Macao R.A.S., Chine">Macao R.A.S., Chine</option><option value="Macédoine">Macédoine</option><option value="Madagascar">Madagascar</option><option value="Malaisie">Malaisie</option><option value="Malawi">Malawi</option><option value="Maldives">Maldives</option><option value="Mali">Mali</option><option value="Malte">Malte</option><option value="Maroc">Maroc</option><option value="Martinique">Martinique</option><option value="Maurice">Maurice</option><option value="Mauritanie">Mauritanie</option><option value="Mayotte">Mayotte</option><option value="Mexique">Mexique</option><option value="Micronésie">Micronésie</option><option value="Moldavie">Moldavie</option><option value="Monaco">Monaco</option><option value="Mongolie">Mongolie</option><option value="Montserrat">Montserrat</option><option value="Monténégro">Monténégro</option><option value="Mozambique">Mozambique</option><option value="Namibie">Namibie</option><option value="Nicaragua">Nicaragua</option><option value="Niger">Niger</option><option value="Nigéria">Nigéria</option><option value="Niue">Niue</option><option value="Norvège">Norvège</option><option value="Nouvelle-Calédonie">Nouvelle-Calédonie</option><option value="Nouvelle-Zélande">Nouvelle-Zélande</option><option value="Népal">Népal</option><option value="Oman">Oman</option><option value="Ouganda">Ouganda</option><option value="Ouzbékistan">Ouzbékistan</option><option value="Pakistan">Pakistan</option><option value="Palaos">Palaos</option><option value="Panama">Panama</option><option value="Papouasie-Nouvelle-Guinée">Papouasie-Nouvelle-Guinée</option><option value="Paraguay">Paraguay</option><option value="Pays-Bas">Pays-Bas</option><option value="Philippines">Philippines</option><option value="Pitcairn">Pitcairn</option><option value="Pologne">Pologne</option><option value="Polynésie française">Polynésie française</option><option value="Porto Rico">Porto Rico</option><option value="Portugal">Portugal</option><option value="Pérou">Pérou</option><option value="Qatar">Qatar</option><option value="Roumanie">Roumanie</option><option value="Royaume-Uni">Royaume-Uni</option><option value="Russie">Russie</option><option value="Rwanda">Rwanda</option><option value="République centrafricaine">République centrafricaine</option><option value="République dominicaine">République dominicaine</option><option value="République tchèque">République tchèque</option><option value="Réunion">Réunion</option><option value="Sahara occidental">Sahara occidental</option><option value="Saint-Marin">Saint-Marin</option><option value="Saint-Martin (partie française)">Saint-Martin (partie française)</option><option value="Saint-Pierre-et-Miquelon">Saint-Pierre-et-Miquelon</option><option value="Saint Barthélemy">Saint Barthélemy</option><option value="Sainte-Hélène">Sainte-Hélène</option><option value="Sainte-Lucie">Sainte-Lucie</option><option value="Saint Kitts et Nevis">Saint Kitts et Nevis</option><option value="Saint Vincent et les Grenadines">Saint Vincent et les Grenadines</option><option value="Salvador">Salvador</option><option value="Samoa">Samoa</option><option value="Samoa américaines">Samoa américaines</option><option value="Sao Tomé-et-Principe">Sao Tomé-et-Principe</option><option value="Serbie">Serbie</option><option value="Seychelles">Seychelles</option><option value="Sierra Leone">Sierra Leone</option><option value="Singapour">Singapour</option><option value="Slovaquie">Slovaquie</option><option value="Slovénie">Slovénie</option><option value="Somalie">Somalie</option><option value="Soudan">Soudan</option><option value="Sri Lanka">Sri Lanka</option><option value="Suisse">Suisse</option><option value="Suriname">Suriname</option><option value="Suède">Suède</option><option value="Svalbard et Île Jan Mayen">Svalbard et Île Jan Mayen</option><option value="Swaziland">Swaziland</option><option value="Syrie">Syrie</option><option value="Sénégal">Sénégal</option><option value="Tadjikistan">Tadjikistan</option><option value="Tanzanie">Tanzanie</option><option value="Taïwan">Taïwan</option><option value="Tchad">Tchad</option><option value="Terres australes françaises">Terres australes françaises</option><option value="Territoire britannique de l'océan Indien">Territoire britannique de l'océan Indien</option><option value="Territoire palestinien">Territoire palestinien</option><option value="Thaïlande">Thaïlande</option><option value="Timor-Oriental">Timor-Oriental</option><option value="Togo">Togo</option><option value="Tokelau">Tokelau</option><option value="Tongien">Tongien</option><option value="Trinidad et Tobago">Trinidad et Tobago</option><option value="Tunisie">Tunisie</option><option value="Turkménistan">Turkménistan</option><option value="Turquie">Turquie</option><option value="Tuvalu">Tuvalu</option><option value="Ukraine">Ukraine</option><option value="Uruguay">Uruguay</option><option value="Vanuatu">Vanuatu</option><option value="Venezuela">Venezuela</option><option value="Vietnam">Vietnam</option><option value="Wallis et Futuna">Wallis et Futuna</option><option value="Yémen">Yémen</option><option value="Zambie">Zambie</option><option value="Zimbabwe">Zimbabwe</option><option value="Égypte">Égypte</option><option value="Émirats arabes unis">Émirats arabes unis</option><option value="Équateur">Équateur</option><option value="Érythrée">Érythrée</option><option value="État de la Cité du Vatican">État de la Cité du Vatican</option><option value="États-Unis">États-Unis</option><option value="Éthiopie">Éthiopie</option><option value="Île Bouvet">Île Bouvet</option><option value="Île Christmas">Île Christmas</option><option value="Île Norfolk">Île Norfolk</option><option value="Îles Aland">Îles Aland</option><option value="Îles Caïmans">Îles Caïmans</option><option value="Îles Cocos (Keeling)">Îles Cocos (Keeling)</option><option value="Îles Cook">Îles Cook</option><option value="Îles Féroé">Îles Féroé</option><option value="Îles Heard et MacDonald">Îles Heard et MacDonald</option><option value="Îles Malouines">Îles Malouines</option><option value="Îles Mariannes du Nord">Îles Mariannes du Nord</option><option value="Îles Marshall">Îles Marshall</option><option value="Îles mineures éloignées des états-unis">Îles mineures éloignées des états-unis</option><option value="Îles Salomon">Îles Salomon</option><option value="Îles Turks et Caïques">Îles Turks et Caïques</option><option value="Îles Vierges américaines">Îles Vierges américaines</option><option value="Îles Vierges britanniques">Îles Vierges britanniques</option></select>
+  <input id="f-pays" type="text" name="pays" value="France" autocomplete="country-name">
+
+  <label class="contact-consent">
+    <input type="checkbox" name="consentement" value="oui" required>
+    J'accepte que mes données soient utilisées pour traiter ma demande, conformément à la
+    <a href="/politique-confidentialite/">politique de confidentialité</a>.
+  </label>
+
   <button type="submit" class="btn">Envoyer</button>
 </form>
+
+## Venir au club
+
+Le club se situe à Hénouville, sur la base de plein air, en bord de Seine.
+
+[Ouvrir l'itinéraire dans Google Maps](https://maps.app.goo.gl/V3aC6XrKS28ZxQCRA) — 1444 chaussée Bertrand, 76840 Hénouville.
+
+Pour préparer votre venue, consultez [la page de la base de plein air](/activites/) ou [le calendrier des activités](/calendrier/).

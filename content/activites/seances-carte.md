@@ -4,61 +4,75 @@ date: 2012-03-23 12:39:00
 aliases:
   - seances-carte
   - /seances-carte
+description: "Séances d'activités à la carte à Hénouville : VTT, voile, escalade, kayak, golf, tir à l'arc et orientation."
 ---
-# **Tarifs 2027**
 
-**Nos séances d'activités sont proposées du lundi au vendredi, en période estivale, elles nécessitent une réservation préalable. [N'hésitez pas à nous contacter](/contactez-nous)**
+# Séances à la carte 2027
 
-## Séance de VTT : 156 €
+Nos séances d'activités sont proposées du lundi au vendredi, en période estivale, et nécessitent une réservation préalable. [Contactez-nous](/contactez-nous/) pour vérifier les disponibilités.
 
-*à partir de 9 ans, tarif par tranche de 10 stagiaires*
-La séance de 2h : le VTT, le casque sont fournis... La séance est encadrée par un éducateur sportif qualifié.
+Les tarifs sont indiqués par tranche de 10 stagiaires. Chaque pratiquant souscrit une adhésion annuelle et individuelle à l'association ; pour les séances à la carte, journées ou demi-journées sans hébergement, l'adhésion est comprise dans le coût de la séance.
 
-Agrément "Savoir Rouler A Vélo"
+## VTT — {{< tarif ref="seance-vtt-2h" />}}
 
-![VTT en foret](/images/vtt_foret.jpg)
+*À partir de 9 ans, tarif par tranche de 10 stagiaires.*
 
-## Séance de voile : 160 €
+Séance de 2 h. Le VTT et le casque sont fournis. Encadrement par un éducateur sportif qualifié. Agrément « Savoir Rouler à Vélo ».
 
-*Test d'aisance aquatique (à minima) exigé pour chacun des stagiaires, tarif par tranche de 10 stagiaires*
-La séance de 2h : le bateau, le gilet de sauvetage sont fournis... La séance est encadrée par un éducateur sportif ou moniteur qualifié.
+![VTT en forêt](/images/vtt_foret.jpg)
 
-![Goelette](/images/goelette.jpg)
+## Voile — {{< tarif ref="seance-nautique-2h" />}}
 
-## Séance d'escalade : 150 €
+*Test d'aisance aquatique exigé pour chaque stagiaire, tarif par tranche de 10 stagiaires.*
 
-*tarif par tranche de 10 stagiaires*
-La séance de 2h sur une structure artificielle. Les cordes, les mousquetons, le baudrier sont fournis... La séance est encadrée par un éducateur sportif qualifié.
+Séance de 2 h. Le bateau et le gilet de sauvetage sont fournis. Encadrement par un éducateur sportif ou un moniteur qualifié.
 
-Nous sommes en mesure de nous déplacer avec notre mur d'escalade SAE et de vous proposer une séance à domicile (journée ou demi-journée) Tarifs et disponibilités : nous consulter !
+![Goélette sur la Seine](/images/goelette.jpg)
+
+## Escalade — {{< tarif ref="seance-escalade-golf-beach-volley-2h" />}}
+
+*Tarif par tranche de 10 stagiaires.*
+
+Séance de 2 h sur une structure artificielle. Cordes, mousquetons et baudriers sont fournis. Encadrement par un éducateur sportif qualifié.
+
+Nous pouvons également déplacer notre mur d'escalade et proposer une séance dans votre établissement, en journée ou en demi-journée. Tarifs et disponibilités sur demande.
 
 ![Escalade](/images/escalade.jpg)
 
-## Séance de kayak : 160 €
+## Kayak — {{< tarif ref="seance-nautique-2h" />}}
 
-*Test d'aisance aquatique (à minima) exigé pour chacun des stagiaires, tarif par tranche de 10 stagiaires*
-La séance de 2h : le bateau, le gilet de sauvetage sont fournis... La séance est encadrée par un éducateur sportif qualifié.
+*Test d'aisance aquatique exigé pour chaque stagiaire, tarif par tranche de 10 stagiaires.*
+
+Séance de 2 h. Le bateau et le gilet de sauvetage sont fournis. Encadrement par un éducateur sportif qualifié.
 
 ![Kayak](/images/kayak.jpg)
 
-## Séance de golf : 150 €
+## Golf — {{< tarif ref="seance-escalade-golf-beach-volley-2h" />}}
 
-*tarif par tranche de 10 stagiaires*
-La séance de 2h sur notre practice de golf. Séance de découverte de l'activité. Apprentissage du swing et approche du green. Le matériel est fourni. La séance est encadrée par un éducateur sportif qualifié.
+*Tarif par tranche de 10 stagiaires.*
 
-![Golf](/images/golf.jpg)
+Séance de 2 h sur notre practice. Découverte de l'activité, apprentissage du swing et approche du green. Le matériel est fourni. Encadrement par un éducateur sportif qualifié.
 
-## Séance de tir à l'arc : 131 €
+![Practice de golf](/images/golf.jpg)
 
-*tarif par tranche de 10 stagiaires*
-La séance de 1h30 sur un pas de tir abrité. Arcs, cibles et protections sont fournis... La séance est encadrée par un éducateur sportif qualifié.
+## Tir à l'arc — {{< tarif ref="seance-tir-a-larc-1h30" />}}
+
+*Tarif par tranche de 10 stagiaires.*
+
+Séance de 1 h 30 sur un pas de tir abrité. Arcs, cibles et protections sont fournis. Encadrement par un éducateur sportif qualifié.
 
 ![Tir à l'arc](/images/tir_arc.jpg)
 
-Chaque pratiquant souscrira une adhésion annuelle et individuelle à l’association YCRouen76. Pour les séances à la carte, activités journée ou demie-journée sans hébergement : l'adhésion est comprise dans le coût de la séance.
+## Course d'orientation — {{< tarif ref="jeu-orientation-fin-de-sejour" />}}
 
-**HORAIRES** : Pour chaque activité :
+*Tarif par stagiaire.*
 
-3 séances possibles par jour **en haute saison**, les séances débutent à **9h45 à 13h45 ou 16h15**
+Jeu d'orientation sur le site d'Hénouville : lecture de carte, repérage et recherche de balises, seul ou en équipe. Parcours adapté à l'âge et au niveau du groupe, encadré par un éducateur sportif qualifié. Cartes et balises sont fournies.
 
-2 séances possibles en moyenne et basse saison : matin et/ou après-midi, Nous sommes généralement en mesure de nous adapter à vos propres contraintes horaires
+## Horaires
+
+En haute saison, trois séances sont possibles par jour : elles débutent à **9h45**, **13h45** ou **16h15**.
+
+En moyenne et basse saison, deux séances sont généralement possibles, le matin et/ou l'après-midi. Nous nous adaptons le plus souvent à vos contraintes horaires.
+
+[**Réserver une séance**](/contactez-nous/)

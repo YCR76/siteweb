@@ -1,5 +1,5 @@
 ---
-summary: "Calendrier des régates et événements du Yacht Club Rouen 76."
+summary: "Calendrier des régates et événements du YCRouen 76."
 aliases:
   - /calendrier
 url: "/calendrier/"

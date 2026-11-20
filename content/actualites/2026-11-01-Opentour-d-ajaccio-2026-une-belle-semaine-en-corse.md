@@ -1,44 +1,40 @@
 ---
 date: "2026-11-01"
-title: "Open tour d’Ajaccio 2026 : une belle semaine en Corse !"
+title: "Open tour d'Ajaccio 2026 : une belle semaine en Corse"
+summary: "Huit coureurs du YCRouen 76 ont participé à l'Open tour d'Ajaccio, avec deux victoires féminines et de belles places au général."
 ---
-# **⛵ OPEN TOUR D’AJACCIO 2026 : UNE BELLE SEMAINE EN CORSE ! 🇫🇷☀️**
 
-Après un premier retour sur leur arrivée en Corse, voici le bilan de cette belle semaine pour nos 8 coureurs du YCRouen76 !
+Après un premier retour sur leur arrivée en Corse, voici le bilan de cette belle semaine pour nos huit coureurs du YCRouen 76.
 
-Du 24 au 31 octobre, notre équipe a profité du magnifique plan d'eau d'Ajaccio, face à la citadelle, pour une semaine mêlant entraînements, régates et découverte de la Corse. 🌊
+Du 24 au 31 octobre, notre équipe a profité du magnifique plan d'eau d'Ajaccio, face à la citadelle, pour une semaine mêlant entraînements, régates et découverte de la Corse.
 
-Au programme : régate de mise en jambes, entraînements avec des clubs corses, parisiens et nordistes, travail des manœuvres, des départs et des sensations, avant trois jours de compétition avec notamment un raid.
+Au programme : une régate de mise en jambes, des entraînements avec des clubs corses, parisiens et nordistes, du travail sur les manœuvres et les départs, puis trois jours de compétition, avec notamment un raid.
 
-Des conditions parfois compliquées avec un vent faible et très oscillant, qui ont demandé adaptation et concentration à nos jeunes navigateurs.
+Des conditions parfois compliquées, avec un vent faible et très oscillant, qui ont demandé adaptation et concentration à nos jeunes navigateurs.
 
-🏆 **LES RÉSULTATS DE L'OPEN TOUR :**
+## Les résultats de l'Open tour
 
-🔹 **U12**
+**U12**
 
-- 🥇 Charlie : 1re féminine (4e au général)
-- 11e Camille
-- 13e Briac
+- Charlie : 1re féminine (4e au général)
+- Camille : 11e
+- Briac : 13e
 
-🔹 **U15**
+**U15**
 
-- 🥇 Gabrielle : 1re féminine (7e au général)
-- 20e Zoé
-- 21e Cléo
+- Gabrielle : 1re féminine (7e au général)
+- Zoé : 20e
+- Cléo : 21e
 
-🔹 **U18**
+**U18**
 
-- 🥈 Maëlle : 2e U17
-- 6e Noa
+- Maëlle : 2e U17
+- Noa : 6e
 
-👏 Deux victoires féminines pour Charlie et Gabrielle, une superbe 2e place U17 pour Maëlle, et de belles performances pour l'ensemble du groupe !
+Deux victoires féminines pour Charlie et Gabrielle, une superbe 2e place U17 pour Maëlle et de belles performances pour l'ensemble du groupe.
 
-Au-delà des résultats, cette semaine aura permis à chacun de progresser, de travailler ses points faibles et de gagner en expérience. Une belle aventure sportive et humaine !
+Au-delà des résultats, cette semaine a permis à chacun de progresser, de travailler ses points faibles et de gagner en expérience. Une belle aventure sportive et humaine.
 
-🙏 Un grand merci à Thomas pour le coaching, ainsi qu'à Mélodie, Émilie, Nicolas, Guillaume et Sarah pour l'accompagnement, la logistique, les repas et leur soutien tout au long du séjour.
+Un grand merci à Thomas pour le coaching, ainsi qu'à Mélodie, Émilie, Nicolas, Guillaume et Sarah pour l'accompagnement, la logistique, les repas et leur soutien tout au long du séjour.
 
-Bravo à nos 8 coureurs pour leur engagement et leur état d'esprit !
-
-**Le YCRouen76 a porté haut ses couleurs en Corse !** 💙⛵
-
-\#YCRouen76 #OpenSkiff #OpenTourAjaccio #Voile
+Bravo à nos huit coureurs pour leur engagement et leur état d'esprit.

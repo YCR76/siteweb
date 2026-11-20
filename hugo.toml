@@ -1,8 +1,8 @@
 baseURL = "https://www.ycr76.fr/"
-title = "Yacht Club Rouen 76"
+title = "YCRouen 76"
 locale = "fr-FR"
 defaultContentLanguage = "fr"
-copyright = "© Yacht Club Rouen 76 — Association loi du 1er juillet 1901"
+copyright = "© YCRouen 76 — Association loi du 1er juillet 1901"
 enableGitInfo = false
 enableRobotsTXT = true
 disableHugoGeneratorInject = true
@@ -36,9 +36,9 @@ actualites = "/l-actualite/:filename/"
 evenement = "/calendrier/:filename/"
 
 [params]
-description = "Yacht Club Rouen 76 — école de voile, compétition dériveur, base de plein air de Hénouville (Seine-Maritime)"
+description = "YCRouen 76 — école de voile, compétition dériveur, base de plein air de Hénouville (Seine-Maritime)"
 # Coordonnées pied de page
-clubName = "Yacht Club Rouen 76"
+clubName = "YCRouen 76"
 clubAddress = "1444 chaussée Bertrand — Base de Plein Air d'Hénouville — 76840 Hénouville"
 clubPhone = "+33235323404"
 clubPhoneLabel = "02 35 32 34 04"
@@ -237,6 +237,12 @@ name = "Résultats des dernières régates"
 parent = "Compétition"
 pageRef = "/competition/resultats"
 weight = 52
+
+[[menus.main]]
+name = "Ressources et liens utiles"
+parent = "Compétition"
+pageRef = "/competition/ressources"
+weight = 53
 
 [[menus.main]]
 name = "Voile habitable"

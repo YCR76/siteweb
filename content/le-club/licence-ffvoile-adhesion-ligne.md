@@ -4,38 +4,55 @@ date: 2019-12-02 16:30:00
 aliases:
   - licence-ffvoile-adhesion-ligne
   - /licence-ffvoile-adhesion-ligne
+description: "Adhérer au YCRouen 76 et obtenir sa licence FFVoile : démarches, tarifs et certificats médicaux."
 ---
-# Adhésion en ligne disponible pour les adhérents majeurs
 
-### Adhésion Adulte au YCRouen76 (licence Club FFVoile 2026 comprise) : 77 € **et/ou renouvellement d'une licence Voile.**
+![Licence FFVoile](/images/licence.jpg)
 
-**![](/images/licence.jpg)**
+## Adhérer au club et prendre sa licence
 
-Dans le cas d'adhérents mineurs, l'adhésion sera nécessairement faite par courrier ([bordereau d'adhésion](/fichiers/bordereau-d-adhésion.pdf) + chèque à l'ordre du YCRouen76 + attestation de natation) avec la signature du représentant légal. **Adhésion Jeune au YCRouen76** (licence Club FFVoile comprise) : 38 **€**
+L'adhésion au YCRouen 76 comprend une licence Club FFVoile. Cette licence est nécessaire pour pratiquer au sein du club et pour participer aux régates.
 
-En souscrivant l'adhésion seule au YCRouen76, vous adhérez à notre association et vous profitez de la délivrance d'une Licence Club Fédération Française de Voile 2026.
+### Adulte
 
-**ATTENTION** : Suite à l'évolution de la prise de licence FFVoile depuis le 1er janvier 2017, plusieurs types de licence sont déclinées, en fonction de votre présentation ou non d'un certificat médical lors de votre demande initiale :
+Adhésion annuelle au YCRouen 76 : {{< tarif ref="adhesion-individuelle" />}}. La licence Club FFVoile adulte est de {{< tarif ref="licence-annuelle-adulte" />}}. L'adhésion en ligne est disponible pour les adhérents majeurs.
 
-|  |  |
+### Jeune
+
+Adhésion annuelle au YCRouen 76 : {{< tarif ref="adhesion-individuelle" />}}. La licence Club FFVoile jeune est de {{< tarif ref="licence-annuelle-jeune" />}}. Pour un adhérent mineur, l'adhésion se fait par courrier, avec le [bordereau d'adhésion](/fichiers/bordereau-d-adhésion.pdf), un chèque à l'ordre du YCRouen 76 et une attestation de natation signée par le représentant légal.
+
+L'adhésion ouvre la vie de l'association. La licence FFVoile, tarifée séparément, est nécessaire pour pratiquer et participer aux régates. Elle ne donne pas accès aux séances : celles-ci sont couvertes par la cotisation, réglée séparément. Les membres actifs de plus de 16 ans disposent d'un droit de vote en assemblée générale, conformément aux statuts. Le détail figure dans la [notice explicative des adhésions et cotisations](/fichiers/notice_explicative_des_adhesions-cotisations.pdf).
+
+## Choisir le bon type de licence
+
+Depuis 2017, la FFVoile propose plusieurs niveaux de licence selon votre pratique et les justificatifs fournis.
+
+| Situation | Licence délivrée |
 | --- | --- |
-| **Sans certificat** | Licence Club **Adhésion** |
-| **Avec certificat médical d'aptitude à la voile hors compétition**  ou un adhérent majeur qui pratique seulement la voile à titre de loisir ou dans le cadre d’épreuves de grade 5 (en tant que compétiteur ou arbitre) sans certificat médical | Licence Club **Pratiquant** |
-| **Avec certificat médical d'aptitude à la voile en compétition** (obligatoire pour les mineurs et pour tous les pratiquants de compétitions de niveau grade 4 et supérieurs) | Licence Club **Compétition** |
+| Sans certificat médical | Licence Club **Adhésion** |
+| Avec un certificat médical d'aptitude à la voile hors compétition, ou pour un majeur qui pratique uniquement en loisir ou en épreuve de grade 5 sans certificat | Licence Club **Pratiquant** |
+| Avec un certificat médical d'aptitude à la voile en compétition (obligatoire pour les mineurs et pour les grades 4 et supérieurs) | Licence Club **Compétition** |
 
-Cette information étant imprimée sur la licence, nous recommandons vivement aux adhérents pratiquant la compétition de nous communiquer ce certificat à la commande de votre licence. A défaut, une licence Club Adhésion sera imprimée et vous serez donc dans l'obligation de présenter un certificat médical associé à votre licence, lors de chaque inscription aux régates.
-[Modèle de certificat médical FFVoile à imprimer](http://www.ffvoile.fr/ffv/web/services/medical/documents/Certificat_Medical.pdf)
+Cette information figure sur la licence. Nous recommandons aux adhérents qui pratiquent la compétition de transmettre leur certificat au moment de la commande. À défaut, une licence Club Adhésion est imprimée et un certificat médical doit être présenté à chaque inscription en régate.
 
-Dans le cas où vous avez déjà transmis un certificat médical à la FFVoile dans les 3 dernières années, directement ou par l'intémédiaire de votre club, il vous est proposé de retourner juste un questionnaire validé, daté et signé pour 2026.
-[Modèle de questionnaire FFVoile Adulte](https://www.ffvoile.fr/ffv/web/services/medical/documents/Questionnaire_Sante_FFVoile.pdf) ou [Modèle de questionnaire FFVoile Mineur](https://www.ffvoile.fr/ffv/web/services/medical/documents/Questionnaire_Sante_FFVoile_mineur.pdf)
+- [Modèle de certificat médical FFVoile](https://www.ffvoile.fr/ffv/web/services/medical/documents/Certificat_Medical.pdf)
+- [Questionnaire santé FFVoile adulte](https://www.ffvoile.fr/ffv/web/services/medical/documents/Questionnaire_Sante_FFVoile.pdf)
+- [Questionnaire santé FFVoile mineur](https://www.ffvoile.fr/ffv/web/services/medical/documents/Questionnaire_Sante_FFVoile_mineur.pdf)
 
-**Réception du titre fédéral**
+Si vous avez transmis un certificat médical à la FFVoile au cours des trois dernières années, directement ou par l'intermédiaire du club, un questionnaire daté et signé suffit pour la saison en cours.
 
-version numérique : (généralement dans la journée sur une période ouvrable de notre secrétariat) A l'issue de la saisie de vos données par notre secrétariat, vous recevez automatiquement par mail une confirmation de licence de la FFVoile, ce mail vous permet d'accéder en ligne à votre "espace licencié". De cet espace, vous pouvez télécharger votre licence FFVoile, éventuellement l'imprimer ou la stocker sur un smartphone comme justificatif. L'ensemble des clubs de notre réseau FFVoile sont équipés de logiciels de régate qui sont en mesure de connaitre vos données de licenciés au jour le jour (y compris avec la mise à jour d'un certifixcat médical)
+## Réception de la licence
 
-La version papier : est désormais une option payante avec une participation de 3 € pour les frais d'impression et envoi par voie postale.
+La version numérique est généralement disponible dans la journée pendant les jours ouvrables. Après la saisie de vos données par le secrétariat, la FFVoile vous envoie un e-mail de confirmation qui donne accès à votre espace licencié. Vous pouvez y télécharger votre licence, l'imprimer ou la conserver sur votre téléphone.
 
-L'adhésion seule au YCRouen76 n'ouvre droit à aucune prestation au sein du club. Vous pourrez néanmoins régler vos cotisations par la suite pour toutes prestations complémentaires si vous le souhaitez. Conformément à nos statuts associatifs, seuls les membres actifs ([adhésion + cotisation](/fichiers/notice_explicative_des_adhesions-cotisations.pdf)) de plus de 16 ans, bénéficient de droits de vote en A.G.
+La version papier est une option payante : {{< tarif >}}3 €{{< /tarif >}} pour l'impression et l'envoi postal.
 
-Règlement possible :
-![CB](/images/cb.jpg) ![Mastercard](/images/mastercard.jpg) ![Visa](/images/visa.jpg)
+## Règlement
+
+Le règlement s'effectue par carte bancaire, chèque ou espèces au secrétariat.
+
+![Carte bancaire](/images/cb.jpg)
+![Mastercard](/images/mastercard.jpg)
+![Visa](/images/visa.jpg)
+
+Pour toute question, [contactez le secrétariat](/contactez-nous/).

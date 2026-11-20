@@ -30,7 +30,7 @@ SHEETS = {
     'Stages': 'Stage',
     'Animations': 'Animation',
 }
-SURVEY_SHEET = 'Sondage'
+SURVEY_SHEET = 'Sondages'
 TECHNICAL_KEYS = ('Réf. site', 'Réf. série')
 
 

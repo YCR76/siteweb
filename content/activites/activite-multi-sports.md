@@ -4,40 +4,46 @@ date: 2025-08-18 10:22:00
 aliases:
   - activite-multi-sports
   - /activite-multi-sports
+description: "Activité multi-sports hebdomadaire à Hénouville : VTT, escalade, tir à l'arc, kayak, voile, randonnée et plus encore."
 ---
-Nous proposons une activité hebomadaire de septembre à juin (hors vacances scolaires).
 
-Pour les 7 – 12 ans, de 9h30 à 11h30 le mercredi matin.
-Pour les adultes, le mardi de 15h à 17h30.
+## Un rendez-vous hebdomadaire de septembre à juin
 
-![](/images/goelette.jpg) ![](/images/kayak.jpg) ![](/images/velo.jpg)
+Nous proposons une activité multi-sports hebdomadaire de septembre à juin, hors vacances scolaires.
 
-Notre association propose de s'initier et de pratiquer différents sports dans une structure affiliée "Fédération Française sportspourtous". Elle permet d’apprendre et de pratiquer :
+- **Jeunes de 7 à 12 ans** : le mercredi matin, de 9 h 30 à 11 h 30.
+- **Adultes** : le mardi, de 15 h à 17 h 30.
 
-- VTT,
-- Escalade,
-- Tir à l'arc,
-- Kayak,
-- Voile,
-- Randonnée,
-- Marche nordique,
-- Course d'orientation,
-- Paddle,
-- Beach-Volley,
-- Practice de golf
+![Goélette](/images/goelette.jpg)
+![Kayak](/images/kayak.jpg)
+![Vélo](/images/velo.jpg)
 
-Afin de pouvoir participer aux activités nautiques proposés, il est nécessaire de savoir nager et donc, se munir d'un certificat de natation ou test d'aisance aquatique.
+Notre association propose de s'initier et de pratiquer différents sports dans une structure affiliée à la Fédération Française Sports pour Tous :
 
-![](/images/tir_a_larc.jpg) ![](/images/golf.jpg) ![](/images/mur_escalade.jpg)
+- VTT ;
+- escalade ;
+- tir à l'arc ;
+- kayak ;
+- voile ;
+- randonnée ;
+- marche nordique ;
+- course d'orientation ;
+- paddle ;
+- beach-volley ;
+- practice de golf.
 
-**La première séance est gratuite.**
+Pour participer aux activités nautiques, il est nécessaire de savoir nager et de fournir un certificat de natation ou un test d'aisance aquatique.
 
-[Programme des activitées disponible ici.](/calendrier)
+![Tir à l'arc](/images/tir_a_larc.jpg)
+![Golf](/images/golf.jpg)
+![Mur d'escalade](/images/mur_escalade.jpg)
 
-**Tarifs:**
+## En bref
 
-Adhésion jeune 36 € et cotisation de 210 €.
+- **Première séance gratuite.**
+- **Programme des activités** : [consulter le calendrier](/calendrier/).
+- **Tarifs** : adhésion jeune {{< tarif >}}36 €{{< /tarif >}} et cotisation de {{< tarif >}}210 €{{< /tarif >}} ; adhésion adulte {{< tarif >}}74 €{{< /tarif >}} et cotisation de {{< tarif >}}210 €{{< /tarif >}}.
 
-Adhésion adultes 74 € et cotisation de 210 €.
+Nous proposons aussi occasionnellement des stages d'une semaine durant les vacances. [Plus de renseignements sur notre page Stages](/stages/).
 
-Nous proposons aussi occasionnellement des stages d'une semaine durant les vacances. [Plus de renseignement sur notre page stage](/stages).
+[**Essayer une séance**](/contactez-nous/)

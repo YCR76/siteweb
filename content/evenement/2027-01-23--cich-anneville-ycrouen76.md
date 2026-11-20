@@ -1,5 +1,5 @@
 ---
-title: "CICH Anneville YCRouen76"
+title: "CICH Anneville YCRouen 76"
 categorie: "Régate"
 grade: "5B"
 classes:

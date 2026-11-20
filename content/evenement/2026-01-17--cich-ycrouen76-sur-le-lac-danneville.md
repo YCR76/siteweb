@@ -1,5 +1,5 @@
 ---
-title: "CICH YCRouen76 sur le lac d'Anneville"
+title: "CICH YCRouen 76 sur le lac d'Anneville"
 categorie: "Régate"
 grade: "5B"
 classes:

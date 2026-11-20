@@ -4,37 +4,49 @@ date: 2020-09-14 21:37:00
 aliases:
   - journee-dentreprise
   - /journee-dentreprise
+description: "Organisez une journée de cohésion d'entreprise à la base de plein air d'Hénouville : réunion, activités sportives et moment convivial."
 ---
-Nous vous invitons à participer à une ou plusieurs journées de "cohésion d'entreprise".
 
-Ces journées ont pour objectif principal de renforcer les liens entre vos collaborateurs. Elles leur offriront l'opportunité de mieux se connaître, de partager leurs compétences, et d’évoluer dans un cadre différent de celui de l’entreprise. Cela sera également l’occasion de renforcer leur sentiment d’appartenance et d’engagement envers votre société.
+## Une journée de cohésion au bord de la Seine
 
-De plus, cette journée permettra de booster la motivation de vos équipes et d’accroître leur implication.
+Nous vous invitons à organiser une ou plusieurs journées de cohésion d'entreprise à Hénouville.
 
-Vous pourrez également profiter de ce moment pour définir de nouveaux objectifs communs ou pour communiquer sur des changements organisationnels au sein de l’entreprise, dans une ambiance plus conviviale et propice à l’échange.
+Ces journées ont pour objectif de renforcer les liens entre vos collaborateurs, de leur permettre de mieux se connaître, de partager leurs compétences et d'évoluer dans un cadre différent de celui de l'entreprise. Elles favorisent également le sentiment d'appartenance et l'engagement envers votre société.
 
-Cet accueil est proposé par notre équipe à partir 5 personnes et pour un coût de **125€** /Personne.
+Elles peuvent aussi être l'occasion de définir de nouveaux objectifs communs ou de communiquer sur des changements organisationnels, dans une ambiance conviviale et propice à l'échange.
 
-![](/images/base_principale.jpg)
+## En bref
 
-## Comment se passe une journée de cohésion d'entreprise chez nous ?
+- **Public** : entreprises et équipes, à partir de 5 personnes.
+- **Tarif** : {{< tarif >}}125 € par personne{{< /tarif >}}.
+- **Lieu** : base de plein air d'Hénouville, en bord de Seine.
+- **Activités** : voile, kayak, VTT, tir à l'arc, golf, escalade, course d'orientation.
+- **Options** : réservation du club pour la soirée.
 
-**Cette journée sera structurée autour de deux temps forts :**
+![Base principale](/images/base_principale.jpg)
 
-Le premier sera dédié à un moment d’échange centré sur votre entreprise. Vous pourrez en profiter pour présenter de nouveaux produits ou services, assurer une formation, ou encore faire un point sur les résultats réalisés au cours de l’année.
+## Comment se déroule la journée ?
 
-Le second temps fort sera axé sur la cohésion d'équipe, à travers une ou plusieurs activités incentives. Une activité sportive, par exemple, permettra à vos collaborateurs de se surpasser ensemble et de renforcer l’esprit d’équipe.
+La journée s'articule autour de deux temps forts.
 
-Pour clôturer cette journée enrichissante, nous vous proposerons de partager une collation conviviale.
+Le premier est consacré à un moment d'échange centré sur votre entreprise : présentation de nouveaux produits ou services, formation, ou point sur les résultats de l'année.
 
-## Exemple de planification pour une Journée
+Le second est axé sur la cohésion d'équipe, à travers une ou plusieurs activités incentives. Une activité sportive permet par exemple à vos collaborateurs de se surpasser ensemble et de renforcer l'esprit d'équipe.
 
-Il est bien sûr possible de l'adapter à vos attentes pour faire de cet évènement une journée mémorable pour vos collaborateurs ou autres.
+Pour clôturer la journée, nous vous proposons de partager une collation conviviale.
 
-- 8h30-9h ▶ Votre accueil café
-- 9h-12h ▶ Réunion de travail (présentation produit, bilan annuel, ...)
-- 12h-14h ▶ Votre déjeuner-traiteur
-- 14h-17h ▶ Activité sportive au choix par groupe de 5 à 10 personnes (Voile, Kayak, VTT, Tir à l'arc, Practice de Golf, Escalade, Course d'orientation).
-- 17h-... ▶ Echange convivial avec collation
+## Exemple de déroulé
 
-En option, vous avez la possibilité de réserver le club pour la soirée afin de profiter pleinement de cette journée.
+Cette planification peut bien sûr être adaptée à vos attentes.
+
+- **8 h 30 – 9 h** : accueil café
+- **9 h – 12 h** : réunion de travail (présentation produit, bilan annuel…)
+- **12 h – 14 h** : déjeuner traiteur
+- **14 h – 17 h** : activité sportive au choix, par groupe de 5 à 10 personnes (voile, kayak, VTT, tir à l'arc, practice de golf, escalade, course d'orientation)
+- **17 h** : échange convivial avec collation
+
+En option, vous pouvez réserver le club pour la soirée afin de profiter pleinement de cette journée.
+
+## Organiser votre journée
+
+[**Demander une proposition**](/contactez-nous/) · [Découvrir les activités](/activites/)

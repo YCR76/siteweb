@@ -1,0 +1,132 @@
+adhesion-individuelle:
+  objet: Adhesion individuelle
+  montant: 5
+  affichage: 5 €
+cotisation-individuelle-voile:
+  objet: Cotisation individuelle voile
+  montant: 80
+  affichage: 80 €
+cotisation-familiale-voile:
+  objet: Cotisation familiale voile
+  montant: 200
+  affichage: 200 €
+licence-annuelle-adulte:
+  objet: Licence annuelle adulte
+  montant: 73
+  affichage: 73 €
+licence-annuelle-jeune:
+  objet: Licence annuelle jeune
+  montant: 33.5
+  affichage: 33,50 €
+licence-passeport:
+  objet: Licence passeport
+  montant: 15
+  affichage: 15 €
+stage-voile:
+  objet: Stage voile
+  montant: 150
+  affichage: 150 €
+stage-multisports:
+  objet: Stage multisports
+  montant: 270
+  affichage: 270 €
+prestation-annuelle-individuelle-ecole-de-voile-de-sport-et-ou-competition:
+  objet: Prestation annuelle individuelle ecole de voile de sport et ou competition
+  montant: 170
+  affichage: 170 €
+prestation-annuelle-familiale-ecole-de-voile-de-sport-et-ou-competition:
+  objet: Prestation annuelle familiale ecole de voile de sport et ou competition
+  montant: 425
+  affichage: 425 €
+prestation-forfait-semestriel-seances-senior:
+  objet: Prestation forfait semestriel seances senior
+  montant: 45
+  affichage: 45 €
+prestation-forfaitaire-participation-a-une-seance-habitable:
+  objet: Prestation forfaitaire participation a une seance habitable
+  montant: 5
+  affichage: 5 €
+base-principale-reunion-en-semaine-3h:
+  objet: Base principale reunion en semaine 3h
+  montant: 200
+  affichage: 200 €
+base-principale-24h-we-jf:
+  objet: Base principale 24h we jf
+  montant: 625
+  affichage: 625 €
+base-principale-journee-10h-18h:
+  objet: Base principale journee 10h 18h
+  montant: 405
+  affichage: 405 €
+base-st-georges:
+  objet: Base st georges
+  montant: 312.5
+  affichage: 312,50 €
+mise-a-dispo-dun-bungalow:
+  objet: Mise a dispo dun bungalow
+  montant: 40
+  affichage: 40 €
+nuitee-sous-tente:
+  objet: Nuitee sous tente
+  montant: 4.5
+  affichage: 4,50 €
+forfait-menage-salle-salle:
+  objet: Forfait menage salle salle
+  montant: 95
+  affichage: 95 €
+forfait-menage-salle-salle-bungalows-sanitaires:
+  objet: Forfait menage salle salle bungalows sanitaires
+  montant: 130
+  affichage: 130 €
+sejour-activites-hebergement-5-j:
+  objet: Sejour activites hebergement 5 j
+  montant: 166.6
+  affichage: 166,60 €
+sejour-activites-hebergement-4-j:
+  objet: Sejour activites hebergement 4 j
+  montant: 139.2
+  affichage: 139,20 €
+sejour-activites-hebergement-3-j:
+  objet: Sejour activites hebergement 3 j
+  montant: 107
+  affichage: 107 €
+sejour-activites-hebergement-2-j:
+  objet: Sejour activites hebergement 2 j
+  montant: 71.2
+  affichage: 71,20 €
+journee-activites-sans-hebergement-1j:
+  objet: Journee activites sans hebergement 1j
+  montant: 32.1
+  affichage: 32,10 €
+journee-sans-activites-avec-heberg-1j:
+  objet: Journee sans activites avec heberg 1j
+  montant: 23.3
+  affichage: 23,30 €
+accueil-sur-site-journee:
+  objet: Accueil sur site journee
+  montant: 7.2
+  affichage: 7,20 €
+transfert-en-bateau-a-moteur:
+  objet: Transfert en bateau a moteur
+  montant: 6
+  affichage: 6 €
+seance-nautique-2h:
+  objet: Seance nautique 2h
+  montant: 160
+  affichage: 160 €
+seance-vtt-2h:
+  objet: Seance vtt 2h
+  montant: 156
+  affichage: 156 €
+seance-escalade-golf-beach-volley-2h:
+  objet: Seance escalade golf beach volley 2h
+  montant: 150
+  affichage: 150 €
+seance-tir-a-larc-1h30:
+  objet: Seance tir a larc 1h30
+  montant: 131
+  affichage: 131 €
+jeu-orientation-fin-de-sejour:
+  objet: Jeu orientation fin de sejour
+  montant: 12.4
+  affichage: 12,40 €

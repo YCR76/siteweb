@@ -39,6 +39,9 @@ jobs:
       - name: Télécharger le classeur du planning
         run: curl -fsSL "https://docs.google.com/spreadsheets/d/e/2PACX-1vQH1aDY8iQ9UVSqe3RblNTxDIYnixm5DnjEsAPwv76PfVC48kyOYTkXrLJbgQiUHxRpVN0UKoLETkw6/pub?output=xlsx&t=${{ github.run_id }}" -o planning.xlsx
 
+      - name: Exporter les tarifs
+        run: python -X utf8 tools/export_tarifs.py planning.xlsx --write
+
       - name: Importer les événements
         run: python -X utf8 tools/import_xlsx.py planning.xlsx --write
 

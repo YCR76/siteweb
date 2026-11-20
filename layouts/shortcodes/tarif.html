@@ -1,0 +1,10 @@
+{{- $ref := .Get "ref" -}}
+{{- if not $ref -}}
+<span class="tarif" data-legacy="true" title="Tarif à vérifier chaque année">{{ .Inner }}</span>
+{{- else -}}
+{{- $tarif := index hugo.Data.tarifs $ref -}}
+{{- if not $tarif -}}
+  {{- errorf "Tarif inconnu : %q" $ref -}}
+{{- end -}}
+<span class="tarif" data-ref="{{ $ref }}" title="{{ $tarif.objet }}">{{ $tarif.affichage }}</span>
+{{- end -}}

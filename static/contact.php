@@ -28,6 +28,7 @@ $champs = [
     'Sujet' => 'sujet',
     'Objet' => 'objet',
     'Message' => 'message',
+    'Consentement RGPD' => 'consentement',
 ];
 
 $email = trim($_POST['email'] ?? '');
@@ -47,7 +48,7 @@ foreach ($champs as $libelle => $cle) {
 }
 
 $destinataire = $config['contact_email'] ?? 'contact@ycr76.fr';
-$sujet = 'Contact site YCR76 - ' . trim((string) ($_POST['objet'] ?? $_POST['sujet'] ?? 'Message'));
+$sujet = 'Contact site YCRouen 76 - ' . trim((string) ($_POST['objet'] ?? $_POST['sujet'] ?? 'Message'));
 $entetes = [
     'From: ' . $destinataire,
     'Reply-To: ' . $email,

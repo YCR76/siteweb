@@ -2,7 +2,7 @@
 title: "Stage multi-sports"
 categorie: "Stage"
 url: "/stages/stage-multi-sports-2027-04-19/"
-lieu: "YCRouen76"
+lieu: "YCRouen 76"
 typeStage: "Multi-sports"
 startDate: 2027-04-19
 allDay: true

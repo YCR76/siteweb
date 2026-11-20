@@ -1,5 +1,5 @@
 ---
-title: "60 ans du YCRouen76 - Coupe de l'anniversaire"
+title: "60 ans du YCRouen 76 - Coupe de l'anniversaire"
 categorie: "Régate"
 grade: "5B"
 classes:

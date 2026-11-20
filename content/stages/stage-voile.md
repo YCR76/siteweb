@@ -4,54 +4,62 @@ date: 2020-06-12 10:01:00
 aliases:
   - stage-voile
   - /stage-voile
+description: "Stage de voile pour les jeunes à partir de 6 ans : initiation et perfectionnement pendant les vacances scolaires."
 ---
-### Stage de Voile (Découverte, initiation et perfectionnement)
 
-Nos stages voile sont ouverts aux jeunes à partir de 6 ans (avec certificat de natation valide). Une activité voile est prévue (le support sera adapté à l'age de l'enfant).
+## Stage de voile : découverte, initiation et perfectionnement
 
-###
+Nos stages de voile sont ouverts aux jeunes à partir de 6 ans, avec un certificat de natation valide. Une activité voile est prévue à chaque séance et le support est adapté à l'âge de l'enfant.
 
-N'hésitez pas à réserver vos stages [en ligne](https://www.helloasso.com/associations/ycr76-yacht-club-rouen-76/evenements/stage) ou à nous contacter si vous ne trouver pas de stages aux dates qui vous intéressent car d'autres stages sont succeptibles d'être ouverts. Vous pouvez aussi vous inscrire à notre [newsletter dédiée aux stages](https://dbccd031.sibforms.com/serve/MUIFAI9LZvfXCrPnFk1bMo5SiqhKxXUfeCqQaWLTPr0hTQtfpf-FZs1149r4Tp03BAy7j5xw5ohsQ5vChvWwlRglpNsUVTtkk5Ta58jlI7f1h_GSJKPGVIJR38eqD2WiVv43FEY1lyQ0Fxteux8Z2mSA0FQcTZaLBdfrKcRXVxhjDJXEmhYYGW09Dk0csnT81JqRle8ZuLuo1Y4Slg==).
+## En bref
 
-### Tarifs :
+- **Public** : jeunes à partir de 6 ans, sachant nager.
+- **Durée** : 5 après-midis, ou 5 jours en internat pour le stage compétition.
+- **Horaires** : accueil en début d'après-midi, fin des activités à 17 h 30, départ possible jusqu'à 18 h.
+- **Lieu** : Anneville-Ambourville, avec un transfert organisé depuis le club.
+- **Tarifs** : adhésion {{< tarif >}}38 €{{< /tarif >}}, puis stage {{< tarif ref="stage-voile" />}} ou stage compétition en internat {{< tarif >}}350 €{{< /tarif >}}.
 
-**Chaque stagiaire devra souscrire à une adhésion annuelle à l'association**. L'adhésion (une seule par année civile !) s'élève à **38 €** pour les jeunes, elle comprend une licence à la FFVoile.
+![Dériveur Optimist](/images/optimist.jpg)
+![Open Skiff](/images/openskiff.jpg)
 
-Le choix d'un passeport Voile est desormais possible pour les jeunes ne participant qu'aux seuls stages. Le Passeport Voile (avec adhésion) à **19,50 €** comprend également l'assurance individuelle de la FFVoile.
-
-S'ajoute le coût du stage :
-
-- Stage uniquement sur les après-midis 5 jours **150 €**
-- Stage compétition voile, en internat (5 jours - transports, repas et nuitées compris) **350 €**
-
-###
-
-### **Dates**
+## Dates
 
 {{< stages type="Voile" >}}
 
-Le stage organisé à Anneville-Ambourville. Un transfert est organisé depuis le club.
+Le stage est organisé à Anneville-Ambourville. Un transfert est assuré depuis le club. D'autres stages de perfectionnement sont organisés durant les vacances de Toussaint et de février : [contactez-nous](/contactez-nous/) pour plus de renseignements.
 
-D'autres stages (perfectionnement) seront organisés durant les vacances de Toussaint et février. Contactez-nous pour plus de renseignements.
+## Programme
 
-### Programme :
+- Accueil des stagiaires en début d'après-midi, 30 minutes avant le début du stage.
+- Voile, initiation ou perfectionnement, tous les après-midis. En l'absence de vent, une activité de canoë-kayak peut être proposée.
+- Fin des activités à **17 h 30**, avec un petit goûter.
+- Récupération possible des stagiaires par les familles jusqu'à 18 h.
 
-- Nous accueillons nos stagiaires en début d'après-midi 30 minutes avant le début du stage, à l'issu de la séance, une permanence du personnel est active jusqu'à 18h.
-- Stage de voile – initiation ou perfectionnement - prévu tous les après-midis (possibilité de canoë-kayak en l’absence de vent)
-- Fin des activités pour **17h30**, petit goûter
-- Récupération possible des stagiaires par leur famille jusqu’à 18h.
+## Tarifs et inscription
 
-### Détails techniques et administratifs :
+Chaque stagiaire doit souscrire une adhésion annuelle à l'association. L'adhésion, une seule par année civile, s'élève à {{< tarif >}}38 €{{< /tarif >}} pour les jeunes et comprend une licence FFVoile.
 
-- **SAVOIR NAGER** - Fournir un certificat de natation au 1er jour du stage, ou à minima le [test d'aisance aquatique](/fichiers/test_aisance_aquatique.pdf) rempli par un professionnel habilité
-- **QUESTIONNAIRE DE SANTE** - [Questionnaire](https://www.ffvoile.fr/ffv/web/services/medical/documents/Questionnaire_Sante_FFVoile_mineur.pdf) à remplir (ou fournir un certificat médical de non-contre-indication à la pratique des sports nautiques ou si réponse positive à l'une des questions posées du questionnaire)
-- **FICHE D'AUTORISATION LEGALE** - [Formulaire](/fichiers/autorisations_legales.pdf) à remplir
-- L’ensemble du matériel sportif est fourni par la structure, ( gilets de sauvetage…)
-- Les stagiaires apportent leurs équipement personnels pour l’ensemble des activités prévues durant le stage ainsi que le nécessaire pour prendre une douche sur place après l’activité sportive.
-- Pensez à vous équiper de tenues adaptées à la météo du jour (y compris les protections solaires)... Un coupe-vent de type K-Way est nécessaire... Le port d'une combinaison isothermique (shorty) est idéal, nous avons éventuellement quelques unités à prêter les jours les plus frais !
+Le Passeport Voile est également possible pour les jeunes qui ne participent qu'aux stages. Avec l'adhésion, il coûte {{< tarif >}}19,50 €{{< /tarif >}} et comprend l'assurance individuelle de la FFVoile.
 
-### N’hésitez pas à nous contacter pour tous renseignements supplémentaires.
+S'ajoute le coût du stage :
 
-![](/images/openskiff.jpg) ![](/images/optimist.jpg)
+- **Stage sur les après-midis, 5 jours** : {{< tarif ref="stage-voile" />}}
+- **Stage compétition en internat, 5 jours** (transports, repas et nuitées compris) : {{< tarif >}}350 €{{< /tarif >}}
 
-Pour une activité annuelle, vous aurez toutes les informations sur la [page dédiée à la voile jeune](/voile-jeune).
+[**Réserver en ligne**](https://www.helloasso.com/associations/ycr76-yacht-club-rouen-76/evenements/stage)
+
+## Documents à fournir
+
+- **Savoir nager** : certificat de natation au premier jour du stage, ou à minima le [test d'aisance aquatique](/fichiers/test_aisance_aquatique.pdf) rempli par un professionnel habilité.
+- **Questionnaire de santé** : [questionnaire FFVoile mineur](https://www.ffvoile.fr/ffv/web/services/medical/documents/Questionnaire_Sante_FFVoile_mineur.pdf), ou certificat médical de non-contre-indication à la pratique des sports nautiques en cas de réponse positive.
+- **Autorisation légale** : [formulaire](/fichiers/autorisations_legales.pdf) à remplir.
+
+## À prévoir
+
+L'ensemble du matériel sportif est fourni par la structure, y compris les gilets de sauvetage. Les stagiaires apportent leurs équipements personnels pour les activités et le nécessaire pour prendre une douche sur place.
+
+Prévoyez des tenues adaptées à la météo, des protections solaires et un coupe-vent de type K-Way. Une combinaison isotherme (shorty) est idéale ; quelques unités peuvent être prêtées les jours les plus frais.
+
+Pour une activité annuelle, retrouvez toutes les informations sur la [page Voile jeune](/voile-loisir/voile-jeune/).
+
+[**Nous contacter**](/contactez-nous/)

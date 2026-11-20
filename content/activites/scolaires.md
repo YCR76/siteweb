@@ -4,124 +4,139 @@ date: 2012-03-23 14:50:00
 aliases:
   - scolaires
   - /scolaires
+description: "Séjours scolaires de pleine nature à Hénouville : voile, kayak, VTT, escalade, hébergement et restauration."
 ---
-## D'une à 5 journées par séjour …
 
-## avec ou sans nuitée en bungalows.
+## Des séjours de pleine nature pour les classes
 
-### *Notre équipe d'encadrement s'implique avec vous sur des projets tels que :*
+De une à cinq journées par séjour, avec ou sans nuitée en bungalows, la base de plein air d'Hénouville accueille les classes dans un cadre adapté aux projets pédagogiques.
 
-- Découverte et pratique des sports de pleine nature
-- Vie en collectivité
-- cohésion
-- Respect de l'environnement
-- développement durable
-- Autonomie
-- Insertion
+Notre équipe d'encadrement s'implique avec vous sur des projets tels que :
 
-![](/images/base_principale2.jpg)
+- la découverte et la pratique des sports de pleine nature ;
+- la vie en collectivité et la cohésion de groupe ;
+- le respect de l'environnement et le développement durable ;
+- l'autonomie et l'insertion.
 
-### L’hébergement
+![Base principale](/images/base_principale2.jpg)
 
-L'accueil des scolaires en séjour pleine nature, se fait sur notre "Base Principale". La salle lieu de vie, permet au groupe de se réunir et de se restaurer, la cheminée centrale confère au lieu un coté rustique et convivial. Les stagiaires ont en marge des activités encadrées la responsabilité de tâche collectives à effectuer durant le séjour (entretien courant des locaux - vaisselle - préparation des repas...).
+## En bref
 
-![](/images/bungalows.jpg)
+- **Public** : classes de la primaire au collège, à partir de 15 élèves pour la tarification groupe.
+- **Durée** : de 1 à 5 journées, avec ou sans hébergement.
+- **Activités** : voile, canoë-kayak, golf, escalade, tir à l'arc, course d'orientation, VTT, randonnée et marche nordique.
+- **Encadrement** : 8 à 12 élèves par cadre enseignant.
+- **Hébergement** : base principale, en bungalows.
 
-#### Option ménage possible:
+## L'hébergement
 
-L’association peut faire appel à du personnel salarié pour les tâches ménagères. Un forfait ménage de fin de séjour est possible pour chaque locaux :
-- Base principale, bungalows et sanitaires : 130 €.
-- Base principale : 95 €.
-- Base St Georges
-- Base Sud : 95 €.
+L'accueil des scolaires en séjour pleine nature se fait sur notre base principale. La salle de vie permet au groupe de se réunir et de se restaurer ; la cheminée centrale donne au lieu un aspect rustique et convivial.
 
-![](/images/base_principale_3.jpg)
+En marge des activités encadrées, les stagiaires ont la responsabilité de tâches collectives durant le séjour : entretien courant des locaux, vaisselle, préparation des repas.
 
-### Les activités encadrées
+![Bungalows](/images/bungalows.jpg)
 
-En collaboration avec l’équipe pédagogique de la base, vous programmerez les activités en séances, avec 8 à 12 élèves par cadre enseignant.  Une activité est possible pour chaque demi-journée, avec au choix :
-- Voile (catamarans, dériveurs, caravelles ou goélette)
-- Canoë-kayak
-- Golf (practice)
-- Escalade (surface artificielle)
-- Tir à l'arc (pas de tir couvert)
-- Course d'orientation
-- V.T.T.
-- Randonnée & Marche-nordique
-Ces activités sont soumises à des normes de pratique et d’encadrement, n’hésitez pas à prendre contact avec nous pour la préparation de celle-ci.
+### Option ménage
 
-![](/images/activites_encadrees.jpg)
+L'association peut faire appel à du personnel salarié pour les tâches ménagères. Un forfait ménage de fin de séjour est possible pour chaque local :
 
-### Les activités annexes
+- Base principale, bungalows et sanitaires : {{< tarif ref="forfait-menage-salle-salle-bungalows-sanitaires" />}}
+- Base principale, salle et cuisine : {{< tarif ref="forfait-menage-salle-salle" />}}
+- Base Saint-Georges : nous consulter
+- Base Sud : {{< tarif ref="forfait-menage-salle-salle" />}}
 
-A votre disposition sur le site
+![Base principale, salle de vie](/images/base_principale_3.jpg)
+
+## Les activités encadrées
+
+En collaboration avec l'équipe pédagogique de la base, vous programmez les activités en séances, avec 8 à 12 élèves par cadre enseignant. Une activité est possible par demi-journée, au choix :
+
+- voile (catamarans, dériveurs, caravelles ou goélette) ;
+- canoë-kayak ;
+- golf (practice) ;
+- escalade (structure artificielle) ;
+- tir à l'arc (pas de tir couvert) ;
+- course d'orientation ;
+- VTT ;
+- randonnée et marche nordique.
+
+Ces activités sont soumises à des normes de pratique et d'encadrement. N'hésitez pas à nous contacter pour préparer leur organisation.
+
+![Activités encadrées](/images/activites_encadrees.jpg)
+
+## Les activités annexes
+
+À votre disposition sur le site :
+
 - 1 court de tennis
 - 2 tables de tennis de table
-- terrain de beach-Volley
-- Pétanque
-- Jeu d’échec géant
-- Badminton
+- un terrain de beach-volley
+- une pétanque
+- un jeu d'échecs géant
+- du badminton
 
-![](/images/echecs.jpg)
+![Jeu d'échecs géant](/images/echecs.jpg)
 
-### A proximité
+## À proximité
 
-- Tarif préférentiel pour le parcours acrobatique forestier de Saint Martin de Boscherville (prévoir une demi-journée)
-- Possibilité d’organisation de visite de l’abbatiale de St Martin de Boscherville
+- Tarif préférentiel pour le parcours acrobatique forestier de Saint-Martin-de-Boscherville (prévoir une demi-journée).
+- Possibilité d'organiser une visite de l'abbatiale de Saint-Martin-de-Boscherville.
 
-#### Equipement individuel à la charge de l’élève
+## Équipement individuel
 
-### [Une fiche de l'équipement individuel est disponible en cliquant ici](/fichiers/fiche-d-equipement.pdf)
+[**Télécharger la fiche de l'équipement individuel**](/fichiers/fiche-d-equipement.pdf) *(format PDF)*
 
-### Horaires
+## Horaires
 
-Le personnel de la base est à votre disposition du lundi au vendredi de 9h à 12h et de 14h à 18h. Toutefois, la grande souplesse de nos horaires facilite l’organisation générale de votre stage. N’hésitez pas à nous consulter.
+Le personnel de la base est à votre disposition du lundi au vendredi, de 9 h à 12 h et de 14 h à 18 h. La grande souplesse de nos horaires facilite l'organisation de votre séjour : n'hésitez pas à nous consulter.
 
-### Responsabilités
+## Responsabilités
 
-*La responsabilité globale du stage appartient au chef d’établissement. Un enseignant, désigné par celui-ci comme responsable du stage, assurera le bon déroulement du séjour, en collaboration avec ses collègues, du directeur et du personnel de la base.
-L’établissement s’engage par l’intermédiaire de son encadrement, à faire respecter le règlement intérieur, et les consignes qui seront données aux stagiaires lors de leur accueil sur le site.*
+La responsabilité globale du séjour appartient au chef d'établissement. Un enseignant, désigné par celui-ci comme responsable du séjour, assure le bon déroulement du stage en collaboration avec ses collègues, le directeur et le personnel de la base.
 
-![](/images/kayak_5.jpg) ![](/images/panneaux.jpg)
+L'établissement s'engage, par l'intermédiaire de son encadrement, à faire respecter le règlement intérieur et les consignes données aux stagiaires lors de leur accueil sur le site.
 
-### Détails d'organisation
+![Kayak sur la Seine](/images/kayak_5.jpg)
+![Panneaux du site](/images/panneaux.jpg)
 
-#### Transports
+## Transports
 
-Hénouville bénéficie du transport du réseau de la Métropole. Le transport des groupes issus de la Métropole sont pris en charge par la collectivité (gratuits)
+Hénouville bénéficie du réseau de transport de la Métropole. Le transport des groupes issus de la Métropole est pris en charge par la collectivité.
 
-Au départ de Rouen, dans les possibilités existantes qui s'offrent aux groupes pour rejoindre la Base de Plein Air d'Hénouville :
-La ligne régulière des cars réseau Astuce et NoMad est donc a privilégier. L’arrêt "Les sablons" ne se trouve qu’à un quart d'heure à pied de la base (1400m). Attention : utilisez la ligne 530 – pour **Hénouville-le-bas, arrêt Les Sablons**.
-Les groupes a très faible effectif peuvent aussi réserver et disposer du dispositif Fil'or qui dépose les usagers au plus proche de notre structure.
-L’arrivée à pied sur la base contribuera à l’esprit d’espace et de pleine nature du site.
+Depuis Rouen, la ligne régulière des cars du réseau Astuce et NoMad est à privilégier. L'arrêt « Les Sablons » se trouve à un quart d'heure à pied de la base (1 400 m). Utilisez la ligne 530 – **Hénouville-le-bas, arrêt Les Sablons**.
 
-#### Repas
+Les groupes à très faible effectif peuvent aussi réserver le dispositif Fil'or, qui dépose les usagers au plus près de la structure. L'arrivée à pied sur la base participe à l'esprit de pleine nature du site.
 
-Dans un souci de simplicité d’organisation des repas, un nombre conséquent d’établissements font appel à la restauration collective qui livre les repas sur site.
+## Repas
 
-- Newrest Restauration - Tél. : 02 35 59 20 10
-- La Normande Restauration - Tél. : 02 77 23 20 00
+Pour simplifier l'organisation, de nombreux établissements font appel à la restauration collective, qui livre les repas sur site :
 
-#### Adhésion, Tarifs
+- Newrest Restauration – tél. 02 35 59 20 10
+- La Normande Restauration – tél. 02 77 23 20 00
 
-Chaque stagiaire accueilli doit nécessairement devenir adhérent de l’association Y.C.Rouen 76 afin de profiter des prestations proposées (hébergement et/ou activités).
-Adhésion individuelle et annuelle **2027** : 5,0**0€**
+## Adhésion et tarifs
 
-**Les collèges publics de Seine-Maritime peuvent bénéficier d'une participation financière via le CRED76.** La gestion du dossier de demande est à charge du collège.
+Chaque stagiaire accueilli doit devenir adhérent de l'association YCRouen 76 pour profiter des prestations proposées (hébergement et/ou activités).
 
-**Notre tarification "groupes scolaires" est applicable à partir de 15 élèves minimum.** En deçà de cet effectif, la tarification est basée sur nos séances à la carte et forfaits associés.
+**Adhésion individuelle et annuelle 2027 : {{< tarif ref="adhesion-individuelle" />}}.**
+
+Les collèges publics de Seine-Maritime peuvent bénéficier d'une participation financière via le CRED76. La gestion du dossier de demande est à la charge du collège.
+
+**La tarification « groupes scolaires » s'applique à partir de 15 élèves minimum.** En deçà, la tarification est basée sur les séances à la carte et les forfaits associés.
 
 Le coût de la participation financière par élève, en complément de l'adhésion individuelle, est de :
 
-|  |  |
-| --- | --- |
 | Durée du séjour | Par élève |
-| 5 jours, 4 nuits | **166.60 €** |
-| 4 jours, 3 nuits | **139.20 €** |
-| 3 jours, 2 nuits | **107.00 €** |
-| 2 jours, 1 nuit | **71.20 €** |
-| journée activité sans nuitée | **32.10 €** |
+| --- | --- |
+| 5 jours, 4 nuits | {{< tarif ref="sejour-activites-hebergement-5-j" />}} |
+| 4 jours, 3 nuits | {{< tarif ref="sejour-activites-hebergement-4-j" />}} |
+| 3 jours, 2 nuits | {{< tarif ref="sejour-activites-hebergement-3-j" />}} |
+| 2 jours, 1 nuit | {{< tarif ref="sejour-activites-hebergement-2-j" />}} |
+| Journée activité sans nuitée | {{< tarif ref="journee-activites-sans-hebergement-1j" />}} |
+| 1 jour, 1 nuit | {{< tarif ref="journee-sans-activites-avec-heberg-1j" />}} |
 
-Ce coût journalier par élève comprend : l’hébergement et les frais relatifs aux activités de plein air effectuées et encadrées pour chaque demi-journée.
+Ce coût comprend l'hébergement et les frais relatifs aux activités de plein air encadrées pour chaque demi-journée.
 
-**Sont exclus : les repas et le transport,** qui restent à la charge de l’établissement, tant au niveau de leur mise en œuvre qu’au niveau de leur règlement.
+**Sont exclus : les repas et le transport**, qui restent à la charge de l'établissement, tant pour leur mise en œuvre que pour leur règlement.
+
+[**Préparer votre séjour**](/contactez-nous/)
