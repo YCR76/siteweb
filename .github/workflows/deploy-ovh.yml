@@ -55,7 +55,7 @@ jobs:
           username: ycrjvlgq
           password: ${{ secrets.OVH_FTP_PASSWORD }}
           localDir: "./public"
-          remoteDir: /home/ycrjvlgq/dev
+          remoteDir: ./dev
           forceSsl: "false"
           pConn: "10"
           timeout: "120"
